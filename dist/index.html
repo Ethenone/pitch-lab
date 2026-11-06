@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1617">
+  <meta name="description" content="手动管理球星资料，计算足球阵容的化学反应、首发评分和最终分数。">
+  <title>绿茵阵容实验室</title>
+  <link rel="stylesheet" href="./style.css?v=21">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">◆</span><span>绿茵<span class="brand-light">阵容实验室</span></span></div>
+      <div class="top-actions"><button class="text-button" id="exportBtn">导出资料</button><label class="text-button import-label">导入资料<input id="importFile" type="file" accept="application/json,.json" hidden></label></div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div><div class="eyebrow"><span class="live-dot"></span> SQUAD OPTIMIZER · 阵容规划</div><h1>让每一次选择，<br><em>都有最强连线。</em></h1><p>管理球员、设置组合，按首发评分和化学反应计算最终分数，寻找最佳 18 人名单。</p></div>
+        <div class="hero-art" aria-hidden="true"><div class="pitch-circle"></div><div class="pitch-line l1"></div><div class="pitch-line l2"></div><div class="pitch-dot d1"></div><div class="pitch-dot d2"></div><div class="pitch-dot d3"></div><div class="pitch-dot d4"></div><span class="hero-number">11<span>+7</span></span></div>
+      </section>
+
+      <section class="dashboard" aria-label="工作台">
+        <div class="tabs" role="tablist"><button class="tab active" data-view="normal" role="tab">普通模式</button><button class="tab" data-view="match" role="tab">比赛模式</button><button class="tab" data-view="players" role="tab">球员资料库</button><button class="tab" data-view="combos" role="tab">三人组合</button><button class="tab" data-view="analytics" role="tab">关联分析</button></div>
+        <div class="toolbar"><div class="toolbar-copy" id="viewDescription"></div><div class="toolbar-controls" id="viewControls"></div></div>
+        <div id="viewContent"></div>
+      </section>
+<section class="rules" id="rules"><div><span class="section-kicker">SCORING GUIDE</span><h2>化学反应规则</h2><p>按每支球队、每个国家分别计算最高已达到的档位，再叠加三人组合分数。同一球员可计入多个曾效力球队。各项加成合计超过 100 时，化学反应按 100 计算。</p></div><div class="rule-grid"><div class="rule-card"><b>同队 / 同国</b><span>首发 6–7 人</span><strong>+20</strong><span>首发 8–10 人</span><strong>+30</strong><span>首发 11 人</span><strong>+40</strong></div><div class="rule-card"><b>全员连线</b><span>首发 11 + 替补 ≥2</span><strong>+60</strong><span>首发 11 + 替补 ≥4</span><strong>+80</strong><span>首发 11 + 替补 7</span><strong>+100</strong></div><div class="rule-card"><b>三人组合</b><span>1 首发 + 2 替补</span><strong>+5</strong><span>2 首发 + 1 替补</span><strong>+10</strong><span>3 人首发</span><strong>+20</strong></div><div class="rating-rule"><h3>首发总评分对化学反应的加成</h3><p>最终分数 = 首发总评分 + 化学反应 × (1 + 对应档位加成)。相邻档位门槛交替增加 5、6 分；加成每两档提高一次增幅。990 分以下没有档位加成。</p><div id="ratingRuleList" class="rating-tier-list"></div><p>低于 990 分按 0% 计算；1061 分以上继续按同一档位规律计算。</p></div></div></section>
+    </main>
+    <footer>绿茵阵容实验室 <span>·</span> 默认资料随网站提供；您的修改仅保存在此浏览器，可随时导出备份</footer>
+  </div>
+  <dialog id="playerDialog"><form method="dialog" id="playerForm">
+    <div class="dialog-head"><div><span class="section-kicker">PLAYER PROFILE</span><h2 id="playerDialogTitle">添加球员</h2></div><button type="button" class="icon-btn" id="closePlayerDialog" aria-label="关闭">×</button></div>
+    <div class="form-grid">
+      <label class="field">姓名<input id="pName" required maxlength="60" placeholder="例如：球员姓名"></label>
+      <label class="field">评分<input id="pRating" required type="number" min="1" max="999" value="90"></label>
+      <label class="field full">国籍 <small>可选择已有国籍，也可输入新的</small><input id="pNation" required maxlength="60" list="nationSuggestions" placeholder="例如：阿根廷"><datalist id="nationSuggestions"></datalist></label>
+      <fieldset class="full"><legend>可踢位置 · 可多选</legend><div id="positionChoices" class="chip-choices"></div></fieldset>
+      <div class="field full"><span>曾效力球队 <small>可选择已有球队，也可输入新的</small></span><div class="team-picker"><div id="selectedTeams" class="team-chips"></div><div class="team-entry"><input id="pTeamEntry" list="teamSuggestions" placeholder="搜索或输入球队，回车添加" aria-label="搜索或输入球队"><button type="button" class="mini-btn" id="addTeamBtn">添加</button></div></div><datalist id="teamSuggestions"></datalist><small>可输入多个球队，用逗号或顿号分隔；保存时会自动加入当前输入。</small></div>
+    </div>
+    <p id="variantNotice" class="hint"></p>
+    <section class="player-combos" aria-label="该球员的化学反应">
+      <div class="player-combos-head"><div><strong>相关化学反应</strong><small>输入姓名后按姓名匹配已有组合</small></div><button type="button" class="mini-btn" id="addPlayerComboBtn">+ 添加组合</button></div>
+      <div id="relatedComboList" class="related-combo-list" aria-live="polite"></div>
+      <div id="playerComboEditor" class="player-combo-editor" hidden>
+        <label class="field">组合名称<input id="pcName" maxlength="60" placeholder="例如：传奇三叉戟"></label>
+        <div class="form-grid combo-fields"><label class="field">另一位球员<input id="pcMember1" list="playerComboNames" placeholder="可填未入库的球员"></label><label class="field">第三位球员<input id="pcMember2" list="playerComboNames" placeholder="可填未入库的球员"></label></div>
+        <datalist id="playerComboNames"></datalist>
+        <p class="hint">可连续添加多个组合；点击“保存球员”时一并保存。</p>
+        <div class="player-combo-actions"><button type="button" class="ghost-btn" id="cancelPlayerComboBtn">收起</button><button type="button" class="outline-btn" id="savePlayerComboBtn">保存组合</button></div>
+      </div>
+    </section>
+    <div class="dialog-actions"><button type="button" class="ghost-btn" id="cancelPlayer">取消</button><button class="primary-btn" type="submit">保存球员</button></div>
+  </form></dialog>
+  <dialog id="comboDialog"><form method="dialog" id="comboForm"><div class="dialog-head"><div><span class="section-kicker">CHEMISTRY LINK</span><h2 id="comboDialogTitle">添加三人组合</h2></div><button type="button" class="icon-btn" id="closeComboDialog" aria-label="关闭">×</button></div><label class="field">组合名称<input id="cName" required maxlength="60" placeholder="例如：传奇三叉戟"></label><div class="form-grid combo-fields"><label class="field">球员 1<input id="cMember0" required list="allPlayers" placeholder="按姓名匹配"></label><label class="field">球员 2<input id="cMember1" required list="allPlayers" placeholder="可先填未入库的球员"></label><label class="field full">球员 3<input id="cMember2" required list="allPlayers" placeholder="可先填未入库的球员"></label></div><datalist id="allPlayers"></datalist><p class="hint">组合按姓名匹配；球员尚未入库也可以先保存。</p><div class="dialog-actions"><button type="button" class="ghost-btn" id="cancelCombo">取消</button><button class="primary-btn" type="submit">保存组合</button></div></form></dialog>
+  <dialog id="algorithmDialog"><form method="dialog" id="algorithmForm"><div class="dialog-head"><div><span class="section-kicker">SEARCH SETTINGS</span><h2>算法与搜索参数</h2></div><button type="button" class="icon-btn" id="closeAlgorithmDialog" aria-label="关闭">×</button></div><div class="algorithm-fields"><label class="field">算法选择<select id="algorithmSelect"><option value="annealing">模拟退火</option><option id="guidedAlgorithmOption" value="guided">目标引导分层搜索（比赛模式）</option></select></label><p id="algorithmDescription" class="hint"></p><label class="field">搜索时长（秒）<input id="searchDuration" type="number" min="1" max="120" step="1" required><small>时间越长，通常能尝试更多阵容；默认 5 秒。</small></label><label class="field annealing-only">探索强度（倍）<input id="searchExploration" type="number" min="0.1" max="5" step="0.1" required><small>越高越容易暂时接受较差方案；默认 1 倍。</small></label><label class="field annealing-only">重新生成起点的间隔（次）<input id="searchRestart" type="number" min="0" max="100000" step="1" required><small>默认每 7000 次；设为 0 可关闭重新生成。</small></label><label class="field guided-only" hidden>最多考虑的球队／国家目标<input id="searchTargetLimit" type="number" min="1" max="64" step="1" required><small>只保留有机会达到至少 6 人档位的目标；默认最多 24 个。</small></label></div><p class="hint">普通模式继续使用模拟退火；比赛模式可选择两种算法。设置保存在此浏览器。</p><div class="dialog-actions"><button type="button" class="ghost-btn" id="cancelAlgorithm">取消</button><button class="primary-btn" type="submit">保存设置</button></div></form></dialog>
+  <dialog id="importDialog" aria-labelledby="importDialogTitle"><div class="dialog-head"><div><span class="section-kicker">DATA IMPORT</span><h2 id="importDialogTitle">导入球员资料</h2></div><button type="button" class="icon-btn" id="closeImportDialog" aria-label="关闭">×</button></div><p id="importSummary" class="hint"></p><p class="hint">合并：添加新球员、评分版本和三人组合，保留当前比赛位置。替换：使用上传文件中的全部资料和位置设置。</p><div class="dialog-actions"><button type="button" class="ghost-btn" id="cancelImport">取消</button><button type="button" class="outline-btn" id="replaceImportBtn">替换全部</button><button type="button" class="primary-btn" id="mergeImportBtn">合并导入</button></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="./default-data.js?v=1"></script><script src="./solver.js?v=8"></script><script src="./guided-solver.js?v=4"></script><script src="./match-fill.js?v=1"></script><script src="./data-merge.js?v=1"></script><script src="./analytics.js?v=3"></script><script src="./cluster.js?v=3"></script><script src="./analytics-view.js?v=8"></script><script src="./app.js?v=28"></script>
+</body>
+</html>
