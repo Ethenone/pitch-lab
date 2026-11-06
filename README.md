@@ -2,7 +2,7 @@
 
 [在线网页](https://ethenone.github.io/pitch-lab/) · [公开 GitHub 仓库](https://github.com/Ethenone/pitch-lab)
 
-双击 `启动网页.cmd`，或直接在浏览器打开 `dist/index.html`。网页无需安装依赖或联网；GitHub Pages 使用同一份 `dist` 静态文件。
+双击 `启动网页.cmd`，或直接在浏览器打开仓库根目录的 `index.html`；该入口会转到 `dist/index.html`。网页无需安装依赖或联网；GitHub Pages 将 `dist` 作为网站根目录发布。
 
 首次打开时，网站会载入 `dist/default-data.js` 中的默认球员、组合和比赛位置。此后玩家的添加、修改、删除和候选选择保存在各自浏览器的本地存储中，不会修改网站上的默认资料，也不会同步给其他玩家。换浏览器或清除浏览器数据前，请点击右上角“导出资料”保存 JSON。“导入资料”可选择合并球员与组合（保留当前比赛位置），或替换全部资料和位置设置。
 
