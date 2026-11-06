@@ -1,0 +1,46 @@
+{
+  "name": "pitch-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "绿茵阵容实验室：离线球员资料与阵容优化工具",
+  "author": "Pitch Lab",
+  "main": "desktop/main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "test": "node tests/run-tests.cjs",
+    "test:desktop": "electron tests/desktop-smoke.cjs",
+    "build:win": "electron-builder --win portable --x64"
+  },
+  "devDependencies": {
+    "electron": "45.2.3",
+    "electron-builder": "26.18.0",
+    "node": "22.23.4"
+  },
+  "build": {
+    "appId": "com.pitchlab.desktop",
+    "productName": "绿茵阵容实验室",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "desktop/**",
+      "dist/**",
+      "package.json"
+    ],
+    "asar": true,
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "signAndEditExecutable": false
+    },
+    "portable": {
+      "artifactName": "PitchLab-${version}-Windows-x64.exe"
+    }
+  }
+}
