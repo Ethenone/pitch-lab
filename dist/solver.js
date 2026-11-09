@@ -43,10 +43,16 @@
           map.set(raw,entry);
         }
       }
+      let bestTeam=null;
       for(const entry of map.values()){
         const value=tier(entry.start,entry.bench);
-        if(value){chemistry+=value;bonus.push({type:kind,label:entry.label,value,start:entry.start,bench:entry.bench,starterIds:entry.starterIds,benchIds:entry.benchIds});}
+        if(value){
+          const item={type:kind,label:entry.label,value,start:entry.start,bench:entry.bench,starterIds:entry.starterIds,benchIds:entry.benchIds};
+          if(kind==='team'){if(!bestTeam||value>bestTeam.value)bestTeam=item;}
+          else{chemistry+=value;bonus.push(item);}
+        }
       }
+      if(bestTeam){chemistry+=bestTeam.value;bonus.push(bestTeam);}
     }
     for(const combo of combos){
       const members=(combo.members||[]).map(norm);

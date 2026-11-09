@@ -29,7 +29,7 @@ assert.deepEqual(guided.buildTargets(groups, new Map(sixKeepers.map(p => [p.id, 
 const flexible = players.map((p, i) => ({
   ...p, rating: 86 + i % 12, positions: [...new Set(slots)],
   nationality: i < 12 ? '甲国' : '乙国',
-  teams: i % 3 === 0 ? ['甲队', '丙队'] : i < 10 ? ['甲队'] : ['乙队']
+  teams: i < 9 ? ['甲队', '丙队'] : i < 13 ? ['甲队'] : ['乙队']
 }));
 const combos = [{ name: '三人组', members: ['球员0', '球员1', '球员12'] }];
 const exact = guided.evaluateRoster(ids, slots, flexible, combos, 'final');

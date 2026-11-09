@@ -143,7 +143,7 @@
       for(const team of new Set((p.teams||[]).map(norm).filter(Boolean)))profiles.team.set(team,(profiles.team.get(team)||0)|(1<<index));
       const nation=norm(p.nationality);if(nation)profiles.nation.set(nation,(profiles.nation.get(nation)||0)|(1<<index));
     });
-    const groups=[...profiles.team.values(),...profiles.nation.values()].map(mask=>({mask,total:countBits(mask)}));
+    const groups=Object.entries(profiles).flatMap(([kind,profile])=>[...profile.values()].map(mask=>({kind,mask,total:countBits(mask)})));
     const nameIndex=new Map(roster.map((p,index)=>[norm(p.name),index]));
     const comboMasks=[];
     for(const combo of combos){
@@ -156,8 +156,9 @@
     for(let mask=(1<<11)-1;mask<limit;){
       let rating=0;
       for(let i=0;i<18;i++)if(mask&(1<<i))rating+=Number(roster[i].rating||0);
-      let chemistry=0;
-      for(const group of groups){const starters=countBits(group.mask&mask);chemistry+=base.tier(starters,group.total-starters);}
+      let chemistry=0,bestTeam=0;
+      for(const group of groups){const starters=countBits(group.mask&mask),value=base.tier(starters,group.total-starters);if(group.kind==='team')bestTeam=Math.max(bestTeam,value);else chemistry+=value;}
+      chemistry+=bestTeam;
       for(const bits of comboMasks){const starters=countBits(bits&mask);chemistry+=starters===3?20:starters===2?10:starters===1?5:0;}
       chemistry=base.capChemistry(chemistry);
       const percent=base.ratingBonusTier(rating).percent;

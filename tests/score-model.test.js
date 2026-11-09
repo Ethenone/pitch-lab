@@ -59,3 +59,17 @@ assert.deepEqual(mixedCombo.benchIds, ['11']);
 assert.equal(score(state, linkedPlayers, combos, 'chemistry').value, 100 * 100000 + 1050);
 assert.equal(score(state, linkedPlayers, combos, 'rating').value, 1050 * 100000 + 100);
 console.log('评分档位和最终分数验证通过');
+// Multiple club histories must not stack, even before the chemistry cap.
+const overlapping = players.map((p,i)=>({...p,nationality:`国${i}`,teams:i<6?['斑马','红黑']:i<15?['红黑']:[]}));
+const singleClub=score(state,overlapping,[],'final');
+assert.equal(singleClub.rawChemistry,80);
+assert.equal(singleClub.chemistry,80);
+assert.equal(singleClub.finalScore,1386);
+assert.deepEqual(singleClub.bonus.map(b=>[b.type,b.label,b.value]),[['team','红黑',80]]);
+const tied=players.map((p,i)=>({...p,nationality:`国${i}`,teams:i<6?['甲','乙']:[]}));
+assert.equal(score(state,tied,[],'final').rawChemistry,20);
+assert.equal(score(state,tied,[],'final').bonus.length,1);
+const withOtherBonuses=score(state,overlapping.map((p,i)=>({...p,nationality:i<6?'同国':p.nationality})),combos,'final');
+assert.equal(withOtherBonuses.rawChemistry,120);
+assert.equal(withOtherBonuses.chemistry,100);
+assert.deepEqual(withOtherBonuses.bonus.map(b=>b.type),['team','nation','combo']);
