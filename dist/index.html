@@ -7,6 +7,7 @@
   <meta name="description" content="手动管理球星资料，计算足球阵容的化学反应、首发评分和最终分数。">
   <title>绿茵阵容实验室</title>
   <link rel="stylesheet" href="./style.css?v=22">
+  <link rel="stylesheet" href="./ocr.css?v=1">
 </head>
 <body>
   <div class="app-shell">
@@ -58,5 +59,6 @@
   <dialog id="importDialog" aria-labelledby="importDialogTitle"><div class="dialog-head"><div><span class="section-kicker">DATA IMPORT</span><h2 id="importDialogTitle">导入球员资料</h2></div><button type="button" class="icon-btn" id="closeImportDialog" aria-label="关闭">×</button></div><p id="importSummary" class="hint"></p><p class="hint">合并：添加新球员、评分版本和三人组合，保留当前比赛位置。替换：使用上传文件中的全部资料和位置设置。</p><div class="dialog-actions"><button type="button" class="ghost-btn" id="cancelImport">取消</button><button type="button" class="outline-btn" id="replaceImportBtn">替换全部</button><button type="button" class="primary-btn" id="mergeImportBtn">合并导入</button></div></dialog>
   <div id="toast" role="status" aria-live="polite"></div>
   <script src="./default-data.js?v=1"></script><script src="./solver.js?v=8"></script><script src="./guided-solver.js?v=4"></script><script src="./match-fill.js?v=1"></script><script src="./data-merge.js?v=1"></script><script src="./analytics.js?v=3"></script><script src="./cluster.js?v=3"></script><script src="./analytics-view.js?v=8"></script><script src="./app.js?v=28"></script>
+  <script src="./ocr-core.js?v=1"></script><script src="./ocr-view.js?v=1"></script>
 </body>
 </html>

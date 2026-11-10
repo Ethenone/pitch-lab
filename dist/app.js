@@ -351,5 +351,15 @@ document.addEventListener('change',e=>{if(e.target.id==='teamMinShared'){analyti
     finally{e.target.value='';}
   });
   $('#importDialog').addEventListener('close',()=>{pendingImport=null;});
+  window.PitchApp={
+    snapshot:()=>JSON.parse(JSON.stringify(data)),
+    searchMatch:async()=>{if(running)throw Error('计算正在进行');setView('match');await calculate();},
+    importOCR:draft=>{
+      if(running)throw Error('请等待计算完成后再导入');
+      const merged=PitchOCR.mergeDraft(data,draft,PitchDataMerge.merge,uid);
+      const next=hydrate(merged.data);localStorage.setItem(key,JSON.stringify(next));data=next;result=null;setView('match');
+      toast(`已导入 ${draft.slots.length} 个位置，新增 ${merged.addedPlayers} 个评分版本`);return merged.addedPlayers;
+    }
+  };
   renderRatingRuleList();render();
 })();

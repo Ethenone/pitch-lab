@@ -1,6 +1,6 @@
 {
   "name": "pitch-lab",
-  "version": "1.0.0",
+  "version": "1.1.6",
   "private": true,
   "description": "绿茵阵容实验室：离线球员资料与阵容优化工具",
   "author": "Pitch Lab",
@@ -28,6 +28,7 @@
       "package.json"
     ],
     "asar": true,
+    "asarUnpack": ["desktop/automation/windows-helper.ps1"],
     "win": {
       "target": [
         {

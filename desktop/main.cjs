@@ -12,8 +12,9 @@ function createWindow() {
     title: '绿茵阵容实验室', width: 1440, height: 960,
     minWidth: 860, minHeight: 640, backgroundColor: '#0b191a',
     show: false,
-    webPreferences: { contextIsolation: true, nodeIntegration: false, sandbox: true }
+    webPreferences: { contextIsolation: true, nodeIntegration: false, sandbox: true, preload: path.join(__dirname,'preload.cjs') }
   });
+  require('./automation/service.cjs').setupAutomation(mainWindow);
   mainWindow.once('ready-to-show', () => mainWindow.show());
   mainWindow.webContents.on('will-navigate', event => event.preventDefault());
   mainWindow.webContents.setWindowOpenHandler(() => ({ action: 'deny' }));

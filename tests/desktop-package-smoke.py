@@ -7,8 +7,11 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright, Error
 
 root = Path(__file__).resolve().parents[1]
-exe = root / 'release' / 'PitchLab-1.0.0-Windows-x64.exe'
-process = subprocess.Popen([str(exe), '--remote-debugging-port=9227'])
+version = json.loads((root / 'package.json').read_text(encoding='utf-8'))['version']
+exe = root / 'release' / f'PitchLab-{version}-Windows-x64.exe'
+if not exe.exists():
+    exe = root / 'release' / f'v{version}' / exe.name
+process = subprocess.Popen([str(exe), '--remote-debugging-port=9227', '--disable-gpu'])
 try:
     for attempt in range(60):
         try:
@@ -27,6 +30,11 @@ try:
         assert page.evaluate('PitchDefaultData.players.length') == 579
         page.locator('[data-view="match"]').click()
         assert page.locator('#calculateBtn').is_visible()
+        page.locator('#ocrOpen').click()
+        assert '开发中' in page.locator('#ocrOpen').inner_text()
+        assert '功能不稳定' in page.locator('#ocrDevelopmentNotice').inner_text()
+        page.wait_for_function("document.querySelector('#ocrStatus').textContent.includes('OCR 可用')", timeout=45000)
+        assert page.locator('#ocrStart').is_visible()
         page.screenshot(path=str(root / 'release' / 'packaged-preview.png'))
         print('Portable exe passed: loaded desktop title, 579 player versions, match UI.')
         session = browser.new_browser_cdp_session()
