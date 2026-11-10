@@ -2,7 +2,7 @@
 
 [打开在线网页](https://ethenone.github.io/pitch-lab/)
 
-[下载 Windows 桌面版](https://github.com/Ethenone/pitch-lab/releases/download/v1.0.0/PitchLab-1.0.0-Windows-x64.exe) · [版本与使用说明](https://github.com/Ethenone/pitch-lab/releases/tag/v1.0.0)
+[下载 Windows 桌面版](https://github.com/Ethenone/pitch-lab/releases/download/v1.1.6/PitchLab-1.1.6-Windows-x64.exe) · [版本与使用说明](https://github.com/Ethenone/pitch-lab/releases/tag/v1.1.6)
 
 桌面版支持 Windows 64 位，免安装、可离线使用。网页和桌面版的资料独立保存，可通过“导出资料 / 导入资料”迁移。
 
