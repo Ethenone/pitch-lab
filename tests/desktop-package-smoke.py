@@ -27,7 +27,7 @@ try:
         page = browser.contexts[0].pages[0]
         page.wait_for_selector('[data-view="match"]')
         page.wait_for_function("document.title.includes('桌面版')")
-        assert page.evaluate('PitchDefaultData.players.length') == 579
+        assert page.evaluate('PitchDefaultData.players.length') == 791
         page.locator('[data-view="match"]').click()
         assert page.locator('#calculateBtn').is_visible()
         page.locator('#ocrOpen').click()
@@ -36,7 +36,7 @@ try:
         page.wait_for_function("document.querySelector('#ocrStatus').textContent.includes('OCR 可用')", timeout=45000)
         assert page.locator('#ocrStart').is_visible()
         page.screenshot(path=str(root / 'release' / 'packaged-preview.png'))
-        print('Portable exe passed: loaded desktop title, 579 player versions, match UI.')
+        print('Portable exe passed: loaded desktop title, 791 player versions, match UI.')
         session = browser.new_browser_cdp_session()
         try:
             session.send('Browser.close')

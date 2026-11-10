@@ -285,6 +285,14 @@ return `<div class="result-card"><div class="result-top"><div><h3>当前找到�
     if(e.target.id==='closeComboDialog'||e.target.id==='cancelCombo')$('#comboDialog').close();
     if(e.target.id==='closeAlgorithmDialog'||e.target.id==='cancelAlgorithm')$('#algorithmDialog').close();
     if(e.target.id==='closeImportDialog'||e.target.id==='cancelImport')$('#importDialog').close();
+    if(e.target.id==='updateDefaultsBtn'){
+      if(running){toast('请等待计算完成后再更新');return;}
+      pendingImport={players:window.PitchDefaultData.players,combos:window.PitchDefaultData.combos};
+      $('#replaceImportBtn').hidden=true;
+      $('#importSummary').textContent=`内置资料 ${window.PitchDefaultData.builtInRevision||''}：${pendingImport.players.length} 个评分版本、${pendingImport.combos.length} 个组合。`;
+      $('#importHelp').textContent='合并会添加缺少的球员版本、球队、位置和组合，保留现有球员评分、国家、比赛候选和搜索设置。已删除的内置条目可能重新加入。';
+      $('#importDialog').showModal();
+    }
     if(e.target.id==='replaceImportBtn'&&pendingImport){
       data=hydrate(pendingImport);save();result=null;$('#importDialog').close();render();toast('已替换为上传的资料');
     }
@@ -345,6 +353,8 @@ document.addEventListener('change',e=>{if(e.target.id==='teamMinShared'){analyti
       const parsed=JSON.parse(await file.text());
       if(!Array.isArray(parsed.players)||!Array.isArray(parsed.combos))throw Error('文件格式不正确');
       pendingImport=parsed;
+      $('#replaceImportBtn').hidden=false;
+      $('#importHelp').textContent='合并：添加新球员、评分版本和三人组合，保留当前比赛位置。替换：使用上传文件中的全部资料和位置设置。';
       $('#importSummary').textContent=`${file.name}：${parsed.players.length} 个评分版本、${parsed.combos.length} 个组合。`;
       $('#importDialog').showModal();
     }catch(err){pendingImport=null;toast(err.message||'导入失败');}

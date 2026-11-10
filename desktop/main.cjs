@@ -30,7 +30,7 @@ function createWindow() {
   });
   mainWindow.webContents.on('did-finish-load', () => {
     mainWindow.webContents.executeJavaScript(`
-      document.title = '绿茵阵容实验室 · 桌面版';
+      document.title = '绿茵阵容实验室 · 桌面版 v${app.getVersion()}';
       document.querySelector('.desktop-download')?.remove();
       document.querySelector('footer').textContent = '绿茵阵容实验室 · 桌面版 · 资料自动保存在本机，可随时导出备份';
       document.querySelectorAll('#algorithmDialog .hint').forEach(el => {

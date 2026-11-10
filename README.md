@@ -2,9 +2,11 @@
 
 [打开在线网页](https://ethenone.github.io/pitch-lab/)
 
-[下载 Windows 桌面版](https://github.com/Ethenone/pitch-lab/releases/download/v1.1.6/PitchLab-1.1.6-Windows-x64.exe) · [版本与使用说明](https://github.com/Ethenone/pitch-lab/releases/tag/v1.1.6)
+[下载 Windows 最新版](https://github.com/Ethenone/pitch-lab/releases/latest/download/PitchLab-Windows-x64.exe) · [版本与使用说明](https://github.com/Ethenone/pitch-lab/releases/latest)
 
 桌面版支持 Windows 64 位，免安装、可离线使用。网页和桌面版的资料独立保存，可通过“导出资料 / 导入资料”迁移。
+
+网页和软件内置资料更新于 **2026-11-10**：577 名球员、791 个评分版本、372 个三人组合。首次使用自动加载；已有用户点击顶部“更新内置资料”并选择“合并导入”，保留自己的修改、候选名单和搜索设置。
 
 桌面版中的 **OCR 自动采集功能开发中，功能不稳定**，识别及自动操作可能失败，请核对结果，按 Esc 可停止。手动管理球员、阵容计算与搜索可独立使用。
 
