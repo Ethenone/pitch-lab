@@ -6431,7 +6431,7 @@ window.PitchDefaultData = {
     {
       "id": "e517be5f-b7cd-4d5a-b0cd-784423e56f0a",
       "personId": "311048db-9c3a-4539-96b4-85e609654dfc",
-      "name": "P.费迪南德",
+      "name": "R.费迪南德",
       "rating": 97,
       "nationality": "英格兰",
       "positions": [
@@ -11580,6 +11580,2180 @@ window.PitchDefaultData = {
         "百合",
         "斑马"
       ]
+    },
+    {
+      "id": "09a1dc79-0253-416d-a5e9-5b7d671a5e2d",
+      "personId": "ba5b08b8-a01b-4f3f-8eef-637d9da05967",
+      "name": "T.亨利",
+      "rating": 97,
+      "nationality": "法国",
+      "positions": [
+        "ST",
+        "LW"
+      ],
+      "teams": [
+        "斑马",
+        "兵工厂",
+        "红蓝"
+      ]
+    },
+    {
+      "id": "1618c1c8-aa69-4b0a-a566-826658582606",
+      "personId": "62eebeb7-bfb2-45a0-9f61-b5e0a7ecf04f",
+      "name": "E.哲科",
+      "rating": 93,
+      "nationality": "波黑",
+      "positions": [
+        "ST"
+      ],
+      "teams": [
+        "蓝月亮",
+        "红狼",
+        "蓝黑"
+      ]
+    },
+    {
+      "id": "c46e276d-9172-437c-9dbd-30f388a39cd3",
+      "personId": "eb133751-b337-40f8-b73d-cd5edd5d8a13",
+      "name": "S.希门尼斯",
+      "rating": 91,
+      "nationality": "墨西哥",
+      "positions": [
+        "ST",
+        "CAM"
+      ],
+      "teams": [
+        "红黑"
+      ]
+    },
+    {
+      "id": "f41acfbd-4ecb-4a10-8994-3a422be308da",
+      "personId": "2cefbfa4-f5d2-4617-9983-c49d4a23d453",
+      "name": "阿德里亚诺",
+      "rating": 99,
+      "nationality": "巴西",
+      "positions": [
+        "ST"
+      ],
+      "teams": [
+        "红狼",
+        "蓝黑"
+      ]
+    },
+    {
+      "id": "be8197ad-fc33-4fb6-b87b-f3e42752b219",
+      "personId": "487d390d-b015-418a-90dd-6b5907bdf376",
+      "name": "O.吉鲁",
+      "rating": 93,
+      "nationality": "法国",
+      "positions": [
+        "ST"
+      ],
+      "teams": [
+        "蓝军",
+        "红黑",
+        "兵工厂"
+      ]
+    },
+    {
+      "id": "32e2ef22-22cd-4dbe-a4af-5e91cf35c5d7",
+      "personId": "f4a25c93-eceb-4a5d-86ce-d5454b0c07f2",
+      "name": "D.维尔贝克",
+      "rating": 93,
+      "nationality": "英格兰",
+      "positions": [
+        "ST"
+      ],
+      "teams": [
+        "蓝军",
+        "红魔",
+        "兵工厂"
+      ]
+    },
+    {
+      "id": "e37fadcb-ffff-4b9d-93d4-3885685ba23f",
+      "personId": "3f97703c-986d-4631-93df-8f7f3de2f32a",
+      "name": "N.菲尔克鲁格",
+      "rating": 94,
+      "nationality": "德国",
+      "positions": [
+        "ST"
+      ],
+      "teams": [
+        "红黑"
+      ]
+    },
+    {
+      "id": "f867537e-3004-430c-9e49-bf893f5acaeb",
+      "personId": "3ecc573e-99f8-4394-afd9-39df02efa885",
+      "name": "K.克瓦拉茨赫利亚",
+      "rating": 95,
+      "nationality": "格鲁吉亚",
+      "positions": [
+        "LW",
+        "LM"
+      ],
+      "teams": [
+        "巴黎"
+      ]
+    },
+    {
+      "id": "52bd1bdb-2aed-46d3-9d84-b9b243a1ddc8",
+      "personId": "50f3cb06-1e38-4be8-a483-1d87c69945a9",
+      "name": "A.加纳乔",
+      "rating": 94,
+      "nationality": "阿根廷",
+      "positions": [
+        "LW",
+        "LM",
+        "RM"
+      ],
+      "teams": [
+        "红魔",
+        "蓝军"
+      ]
+    },
+    {
+      "id": "a1a91e29-8aed-46fb-9df8-911746b97907",
+      "personId": "1d11da51-89c1-4cf2-8f6a-a2ab2d36bcca",
+      "name": "维尼修斯",
+      "rating": 98,
+      "nationality": "巴西",
+      "positions": [
+        "ST",
+        "LW"
+      ],
+      "teams": [
+        "银河"
+      ]
+    },
+    {
+      "id": "627e6a29-b97c-4762-ba31-e194c57612d4",
+      "personId": "7bb9b886-e521-45fe-ac02-a17a17b80020",
+      "name": "Y.迪奥曼德",
+      "rating": 95,
+      "nationality": "科特迪瓦",
+      "positions": [
+        "LW",
+        "RW",
+        "LM"
+      ],
+      "teams": [
+        "银河"
+      ]
+    },
+    {
+      "id": "51361a56-6f8a-43f6-827a-585bc0d051df",
+      "personId": "2ae81f4b-5489-4433-ae62-7cd044c30878",
+      "name": "F.托雷斯右边锋",
+      "rating": 96,
+      "nationality": "西班牙",
+      "positions": [
+        "ST",
+        "LW",
+        "RW"
+      ],
+      "teams": [
+        "巴黎",
+        "红蓝",
+        "蓝月亮"
+      ]
+    },
+    {
+      "id": "018b4fe5-c1c1-4543-aad1-1206b9eb45a3",
+      "personId": "9a4ebb84-6311-455f-89b0-ed4c69c80ea7",
+      "name": "J.威尔希尔",
+      "rating": 92,
+      "nationality": "英格兰",
+      "positions": [
+        "CM",
+        "CAM",
+        "CDM"
+      ],
+      "teams": [
+        "兵工厂"
+      ]
+    },
+    {
+      "id": "0fff9a38-b487-406a-a567-95d58fe4d30e",
+      "personId": "c522e014-430d-491f-b440-81f3859916eb",
+      "name": "H.埃利奥特",
+      "rating": 90,
+      "nationality": "英格兰",
+      "positions": [
+        "RW",
+        "CM",
+        "CAM"
+      ],
+      "teams": [
+        "红军"
+      ]
+    },
+    {
+      "id": "01febd8e-07d1-4a7b-8640-1b1ce51aad9c",
+      "personId": "ea33b7f9-80d5-4941-97fe-86ca95bd22ba",
+      "name": "R.奇克",
+      "rating": 96,
+      "nationality": "英格兰",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "teams": [
+        "红黑",
+        "蓝军"
+      ]
+    },
+    {
+      "id": "949abc5f-6518-4782-8650-135d88a14abf",
+      "personId": "4ab814c5-8255-47df-9832-f173342744ff",
+      "name": "P.福登",
+      "rating": 95,
+      "nationality": "英格兰",
+      "positions": [
+        "LW",
+        "RW",
+        "CAM"
+      ],
+      "teams": [
+        "蓝月亮"
+      ]
+    },
+    {
+      "id": "b7b32539-2a08-4ef1-a9eb-2847d6e4a5c9",
+      "personId": "d7b6110e-18a0-482e-b162-7408754d8a58",
+      "name": "C.帕尔默",
+      "rating": 94,
+      "nationality": "英格兰",
+      "positions": [
+        "ST",
+        "CAM"
+      ],
+      "teams": [
+        "蓝月亮",
+        "蓝军"
+      ]
+    },
+    {
+      "id": "2c56a613-dd3f-42ab-b9cf-c9cfffb9827d",
+      "personId": "dcdb0e90-d504-4fbc-a3ef-1804ac5f217f",
+      "name": "J.马塔",
+      "rating": 92,
+      "nationality": "西班牙",
+      "positions": [
+        "RM",
+        "CAM"
+      ],
+      "teams": [
+        "红魔",
+        "蓝军"
+      ]
+    },
+    {
+      "id": "03b5736f-9e8c-4f08-b514-9c0c4bfcab95",
+      "personId": "28d6d000-2a5d-423f-adc3-80305e06cbe6",
+      "name": "M.厄德高",
+      "rating": 94,
+      "nationality": "挪威",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "teams": [
+        "兵工厂",
+        "银河"
+      ]
+    },
+    {
+      "id": "650260d2-1cc1-49c9-9d8d-8562b3b65a03",
+      "personId": "633e67ee-4ca2-4789-8b12-890227a6e94f",
+      "name": "P.萨尔",
+      "rating": 94,
+      "nationality": "塞内加尔",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "teams": [
+        "斑马",
+        "百合"
+      ]
+    },
+    {
+      "id": "f331886b-4b30-447f-9dae-2097ca6e2d6b",
+      "personId": "f0de48b8-b3f9-4dd7-9a6f-2651e6a477a1",
+      "name": "T.赖恩德斯",
+      "rating": 92,
+      "nationality": "荷兰",
+      "positions": [
+        "CM",
+        "CAM",
+        "CDM"
+      ],
+      "teams": [
+        "红黑",
+        "蓝月亮"
+      ]
+    },
+    {
+      "id": "26eabac5-3197-4f58-86b2-807a7857a8ea",
+      "personId": "42334d18-ee66-4709-bfd8-d59534e83980",
+      "name": "I.科纳特",
+      "rating": 97,
+      "nationality": "法国",
+      "positions": [
+        "CB"
+      ],
+      "teams": [
+        "银河",
+        "红军"
+      ]
+    },
+    {
+      "id": "23065813-63ff-420c-b0ec-59a26a028d77",
+      "personId": "7226bad8-daef-446d-97d0-63a0df02078f",
+      "name": "L.科尔威尔",
+      "rating": 91,
+      "nationality": "英格兰",
+      "positions": [
+        "CB"
+      ],
+      "teams": [
+        "蓝军"
+      ]
+    },
+    {
+      "id": "aeb27ea5-0bf8-4f5a-a22e-b5cf9c703b87",
+      "personId": "d622b7ad-5f4c-4bb7-8cf9-e2d6188d2417",
+      "name": "J.博阿滕",
+      "rating": 98,
+      "nationality": "德国",
+      "positions": [
+        "CB"
+      ],
+      "teams": [
+        "蓝月亮",
+        "南部"
+      ]
+    },
+    {
+      "id": "10afe722-f737-4185-b2ad-8184a6d683e9",
+      "personId": "1b643c48-75c1-4b08-9a4a-aa70c51b0860",
+      "name": "A.拉波尔特",
+      "rating": 94,
+      "nationality": "西班牙",
+      "positions": [
+        "CB"
+      ],
+      "teams": [
+        "蓝月亮"
+      ]
+    },
+    {
+      "id": "e57cf678-1ec5-4861-80a5-879f29249ca0",
+      "personId": "344d1a56-ff40-4034-a781-24bcbb2be9f6",
+      "name": "M.范德芬",
+      "rating": 97,
+      "nationality": "荷兰",
+      "positions": [
+        "CB",
+        "LB"
+      ],
+      "teams": [
+        "百合"
+      ]
+    },
+    {
+      "id": "31e07ad5-e1a6-4011-bee1-9a7929fe2fd8",
+      "personId": "019e4f5e-929e-4015-949e-e543957ead1d",
+      "name": "H.洛里斯",
+      "rating": 98,
+      "nationality": "法国",
+      "positions": [
+        "GK"
+      ],
+      "teams": [
+        "百合"
+      ]
+    },
+    {
+      "id": "ce3e1d6d-60af-43d8-9f5b-6e5ee21bcb61",
+      "personId": "e5f53a1a-ca79-48bf-bf11-3c88c3c95610",
+      "name": "D.汉茨科",
+      "rating": 95,
+      "nationality": "斯洛伐克",
+      "positions": [
+        "CB",
+        "LB"
+      ],
+      "teams": [
+        "床单"
+      ]
+    },
+    {
+      "id": "039e83ed-888a-4920-b258-4f71ed122fe6",
+      "personId": "1288881e-54c2-4e8d-b588-2e15fbecf92d",
+      "name": "R.勒诺尔芒",
+      "rating": 96,
+      "nationality": "西班牙",
+      "positions": [
+        "CB"
+      ],
+      "teams": [
+        "床单"
+      ]
+    },
+    {
+      "id": "8d21e42d-9f29-4ffd-be3a-9cb7aed9f876",
+      "personId": "93cc51a6-ad02-46ac-9308-ce26bcd38a3e",
+      "name": "M.道曼",
+      "rating": 93,
+      "nationality": "英格兰",
+      "positions": [
+        "RW",
+        "CAM"
+      ],
+      "teams": [
+        "兵工厂"
+      ]
+    },
+    {
+      "id": "f476e69b-718a-45a4-8f18-b07510fed6e1",
+      "personId": "b54fe7a9-581a-42aa-a297-bd90794ba184",
+      "name": "P.内托",
+      "rating": 92,
+      "nationality": "葡萄牙",
+      "positions": [
+        "ST",
+        "LM",
+        "RM"
+      ],
+      "teams": [
+        "蓝军"
+      ]
+    },
+    {
+      "id": "5d3151f7-cc6c-4806-b33a-d4ef9a15b033",
+      "personId": "2610b374-a085-4257-ae71-9ace5743c32f",
+      "name": "W.埃梅里",
+      "rating": 95,
+      "nationality": "法国",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "teams": [
+        "巴黎"
+      ]
+    },
+    {
+      "id": "bc203bb9-318e-4742-8830-159e7caa8ff4",
+      "personId": "7ad1b856-345c-4c89-9755-e1a5acf53940",
+      "name": "F.德容",
+      "rating": 97,
+      "nationality": "荷兰",
+      "positions": [
+        "CM",
+        "RM",
+        "CDM"
+      ],
+      "teams": [
+        "红蓝"
+      ]
+    },
+    {
+      "id": "21605d28-07e8-4e7a-bb7a-03fd82ee3f5a",
+      "personId": "8ecb6de6-8be3-4188-b994-5be790c98640",
+      "name": "卜拉欣",
+      "rating": 91,
+      "nationality": "摩洛哥",
+      "positions": [
+        "LW",
+        "LM",
+        "CAM"
+      ],
+      "teams": [
+        "银河",
+        "蓝月亮",
+        "红黑"
+      ]
+    },
+    {
+      "id": "887be76b-cb62-4ee3-8292-54caca70ea45",
+      "personId": "e63b9cf8-4607-47d6-84cc-bdb08ac6b7dc",
+      "name": "E.费尔南德斯",
+      "rating": 97,
+      "nationality": "阿根廷",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "teams": [
+        "蓝月亮",
+        "蓝军"
+      ]
+    },
+    {
+      "id": "c696cba3-073d-46ba-9340-d1a412f89b92",
+      "personId": "11f6d80c-9ec7-44e1-9c67-5002b0f2afb4",
+      "name": "M.什克里尼亚尔",
+      "rating": 93,
+      "nationality": "斯洛伐克",
+      "positions": [
+        "CB"
+      ],
+      "teams": [
+        "巴黎",
+        "蓝黑"
+      ]
+    },
+    {
+      "id": "c4bd7110-a99e-46ff-8b16-b09d3fc6cc40",
+      "personId": "2635c11d-8209-43de-b42e-222731e786f7",
+      "name": "S.丘库埃泽",
+      "rating": 91,
+      "nationality": "尼日利亚",
+      "positions": [
+        "RW",
+        "RM"
+      ],
+      "teams": [
+        "红黑"
+      ]
+    },
+    {
+      "id": "072c5af5-577c-4c7f-a87f-0733ed37c37e",
+      "personId": "f933cd54-0656-43c3-949b-c033665ee5ef",
+      "name": "J.孔德",
+      "rating": 95,
+      "nationality": "法国",
+      "positions": [
+        "CB",
+        "RB"
+      ],
+      "teams": [
+        "红蓝"
+      ]
+    },
+    {
+      "id": "bd4c9c93-9272-4805-a500-18a410f47c32",
+      "personId": "16a86dda-ab58-4b8c-92c3-06569b8c5139",
+      "name": "Z.伊布拉希莫维奇",
+      "rating": 94,
+      "nationality": "瑞典",
+      "positions": [
+        "ST"
+      ],
+      "teams": [
+        "蓝黑",
+        "红黑",
+        "红蓝",
+        "巴黎",
+        "红魔",
+        "斑马"
+      ]
+    },
+    {
+      "id": "e831e290-250a-4cf1-9a4e-91aa521961b3",
+      "personId": "729a1bda-30db-40a2-a2fc-d9f0f26a3c1c",
+      "name": "R.范佩西",
+      "rating": 98,
+      "nationality": "荷兰",
+      "positions": [
+        "ST",
+        "CAM"
+      ],
+      "teams": [
+        "兵工厂",
+        "红魔"
+      ]
+    },
+    {
+      "id": "8e9f2a58-d6aa-4c6f-b76f-0548ded7db8d",
+      "personId": "382aa261-d961-496d-be44-b6b1295f0efd",
+      "name": "D.杜埃",
+      "rating": 97,
+      "nationality": "法国",
+      "positions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "teams": [
+        "巴黎"
+      ]
+    },
+    {
+      "id": "1cf872b7-d11b-4f3d-a681-5125f1c144fe",
+      "personId": "5d6e640c-b2de-4bf7-968a-3b9e9d258cca",
+      "name": "卡福",
+      "rating": 99,
+      "nationality": "巴西",
+      "positions": [
+        "RM",
+        "RB"
+      ],
+      "teams": [
+        "红黑",
+        "红狼"
+      ]
+    },
+    {
+      "id": "5e25452c-5acf-4561-ad8c-0a83dd94cba8",
+      "personId": "28271b5d-cdf0-49c1-a715-763e850afcf8",
+      "name": "R.德保罗",
+      "rating": 95,
+      "nationality": "阿根廷",
+      "positions": [
+        "CM",
+        "RM",
+        "CDM"
+      ],
+      "teams": [
+        "床单"
+      ]
+    },
+    {
+      "id": "cf4cd7dd-17e4-4e4d-be42-46559014eefd",
+      "personId": "763b65fd-22da-4f21-8e05-accf2d2b02ea",
+      "name": "卡瓦哈尔",
+      "rating": 91,
+      "nationality": "西班牙",
+      "positions": [
+        "RB"
+      ],
+      "teams": [
+        "银河"
+      ]
+    },
+    {
+      "id": "d8628649-a643-4f23-8bf2-58f203e8745f",
+      "personId": "0ae4aff5-9bb7-4afa-bfe0-de4bf09d2dc6",
+      "name": "J.齐尔克泽",
+      "rating": 91,
+      "nationality": "荷兰",
+      "positions": [
+        "ST",
+        "CAM"
+      ],
+      "teams": [
+        "南部",
+        "红魔"
+      ]
+    },
+    {
+      "id": "183c7120-4c88-4979-9e9f-67438821c63f",
+      "personId": "382ba60d-8f6a-4a80-ac66-cff421000891",
+      "name": "M.图拉姆",
+      "rating": 90,
+      "nationality": "法国",
+      "positions": [
+        "ST",
+        "LW",
+        "LM"
+      ],
+      "teams": [
+        "蓝黑"
+      ]
+    },
+    {
+      "id": "5adfff1f-cb79-4531-ad25-da29d7632b1e",
+      "personId": "5d59f8a7-7aae-4162-b5d0-37e9ec689000",
+      "name": "J.杜德克",
+      "rating": 98,
+      "nationality": "波兰",
+      "positions": [
+        "GK"
+      ],
+      "teams": [
+        "红军",
+        "银河"
+      ]
+    },
+    {
+      "id": "739a2802-be2a-42bd-a406-1258436ae152",
+      "personId": "b88193e6-8f2d-451b-bb22-195188fe62ef",
+      "name": "J.内维斯",
+      "rating": 97,
+      "nationality": "葡萄牙",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "teams": [
+        "巴黎"
+      ]
+    },
+    {
+      "id": "95972315-1f5e-4cc8-8e42-005ec3566b80",
+      "personId": "786a7afc-be5c-4b9b-aead-f54852be9c5f",
+      "name": "D.博格坎普",
+      "rating": 99,
+      "nationality": "荷兰",
+      "positions": [
+        "ST"
+      ],
+      "teams": [
+        "兵工厂",
+        "蓝黑"
+      ]
+    },
+    {
+      "id": "15a5f076-721a-4087-9d49-dd0a8a81efdf",
+      "personId": "b2af6396-443c-487c-bcbd-efa5bb50b3d4",
+      "name": "A.迪马利亚",
+      "rating": 98,
+      "nationality": "阿根廷",
+      "positions": [
+        "LW",
+        "RW",
+        "RM"
+      ],
+      "teams": [
+        "巴黎",
+        "斑马",
+        "银河",
+        "红魔"
+      ]
+    },
+    {
+      "id": "95669be1-2a13-4c99-8730-9dcb40727bf4",
+      "personId": "556415f7-b434-4777-a8d1-a70c4b7b24d4",
+      "name": "I.佩里西奇",
+      "rating": 94,
+      "nationality": "克罗地亚",
+      "positions": [
+        "LM",
+        "RM",
+        "CAM"
+      ],
+      "teams": [
+        "蓝黑",
+        "南部",
+        "百合"
+      ]
+    },
+    {
+      "id": "61aaad0c-c335-4b35-ae8f-bc78eab47f55",
+      "personId": "52bc6515-e1b7-4b65-9f56-b7f13ff6e8c1",
+      "name": "B.克里斯坦特",
+      "rating": 92,
+      "nationality": "意大利",
+      "positions": [
+        "CM",
+        "CDM",
+        "CB"
+      ],
+      "teams": [
+        "红黑",
+        "红狼"
+      ]
+    },
+    {
+      "id": "01a9e7f4-2859-4b38-af2b-e8897fa61345",
+      "personId": "a5cc567f-13f8-4e54-968e-86e7c6dd0874",
+      "name": "M.努内斯",
+      "rating": 95,
+      "nationality": "葡萄牙",
+      "positions": [
+        "CM",
+        "RM",
+        "RB"
+      ],
+      "teams": [
+        "蓝月亮"
+      ]
+    },
+    {
+      "id": "451970eb-419c-42b8-bf24-c65a3617c5ae",
+      "personId": "5a2b1733-a182-4616-b7fb-3ed50f43f218",
+      "name": "W.麦肯尼",
+      "rating": 94,
+      "nationality": "美国",
+      "positions": [
+        "CM",
+        "RM",
+        "CDM"
+      ],
+      "teams": [
+        "斑马"
+      ]
+    },
+    {
+      "id": "b8e0bdf1-35ad-46da-8c34-bfc120503c7d",
+      "personId": "72217dcd-69ae-482b-ac22-3b773e0b5a71",
+      "name": "R.格雷罗",
+      "rating": 90,
+      "nationality": "葡萄牙",
+      "positions": [
+        "CB",
+        "LB",
+        "RB"
+      ],
+      "teams": [
+        "南部"
+      ]
+    },
+    {
+      "id": "447a651f-0cdb-4976-be3b-f5a73fddae4e",
+      "personId": "760c3658-f29d-474e-a57b-76ce2ad6c66a",
+      "name": "V.孔帕尼",
+      "rating": 98,
+      "nationality": "比利时",
+      "positions": [
+        "CB"
+      ],
+      "teams": [
+        "蓝月亮"
+      ]
+    },
+    {
+      "id": "fa522997-24c8-4de1-b7a8-09e9757d80c6",
+      "personId": "a6928998-8f7a-4672-afc1-e568e61ffbd6",
+      "name": "J.戈麦斯",
+      "rating": 92,
+      "nationality": "英格兰",
+      "positions": [
+        "CB",
+        "LB",
+        "RB"
+      ],
+      "teams": [
+        "红军"
+      ]
+    },
+    {
+      "id": "bd56d424-d241-435a-b4b9-e8e57bb5a7da",
+      "personId": "35127fba-035f-47a9-85fd-b18c9387cf91",
+      "name": "A.内斯塔",
+      "rating": 99,
+      "nationality": "意大利",
+      "positions": [
+        "CB"
+      ],
+      "teams": [
+        "红黑"
+      ]
+    },
+    {
+      "id": "a0b95f77-5d81-43e4-aa68-74296006b886",
+      "personId": "8bcc4d89-b663-4e0e-8204-5ac1b15fa9ce",
+      "name": "S.博埃",
+      "rating": 94,
+      "nationality": "法国",
+      "positions": [
+        "RM",
+        "LB",
+        "RB"
+      ],
+      "teams": [
+        "南部"
+      ]
+    },
+    {
+      "id": "0ec6722e-b158-4f57-a7cc-015bd440790e",
+      "personId": "15f85e5e-5868-4cbb-a297-b133c6cd51e0",
+      "name": "P.费雷拉",
+      "rating": 98,
+      "nationality": "葡萄牙",
+      "positions": [
+        "LB",
+        "RB"
+      ],
+      "teams": [
+        "蓝军"
+      ]
+    },
+    {
+      "id": "a2ba5bca-71c9-4f8b-9683-7f8dd91d86fc",
+      "personId": "00a48ce4-e185-4715-b876-daae7aadd867",
+      "name": "J.奥布拉克",
+      "rating": 97,
+      "nationality": "斯洛文尼亚",
+      "positions": [
+        "GK"
+      ],
+      "teams": [
+        "床单"
+      ]
+    },
+    {
+      "id": "b384d142-404a-4408-bd7f-33a19be0a702",
+      "personId": "d1990959-045d-44f2-ba7a-019c53c01d18",
+      "name": "F.凯西",
+      "rating": 92,
+      "nationality": "科特迪瓦",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "teams": [
+        "红黑",
+        "红蓝"
+      ]
+    },
+    {
+      "id": "ed695057-e95a-4d85-b8ed-f70effb69919",
+      "personId": "3befb084-7e79-47f7-9c97-b3bb6719171c",
+      "name": "萨维尼奥",
+      "rating": 91,
+      "nationality": "巴西",
+      "positions": [
+        "LW",
+        "RW"
+      ],
+      "teams": [
+        "百合",
+        "蓝月亮"
+      ]
+    },
+    {
+      "id": "13114edc-8138-4ba6-b2d6-1829394951ca",
+      "personId": "e1ebc581-9281-45ee-8c45-54b0a6342cb4",
+      "name": "J.卡多索",
+      "rating": 95,
+      "nationality": "美国",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "teams": [
+        "床单"
+      ]
+    },
+    {
+      "id": "df4beea4-5164-4b02-b920-d0feaedddeaa",
+      "personId": "999374f0-8538-4908-841e-240faf9c686a",
+      "name": "M.梅里诺",
+      "rating": 94,
+      "nationality": "西班牙",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "teams": [
+        "兵工厂"
+      ]
+    },
+    {
+      "id": "8a1c914e-77fc-48d9-aac0-c5038a147175",
+      "personId": "f7bb74d8-a55b-4449-b397-cc9b696f2f25",
+      "name": "P.多古",
+      "rating": 95,
+      "nationality": "丹麦",
+      "positions": [
+        "LM",
+        "LB"
+      ],
+      "teams": [
+        "红魔"
+      ]
+    },
+    {
+      "id": "2bf52587-29de-4214-a582-8684fdb094f8",
+      "personId": "b812a648-3ad5-4a06-8a3d-655aca9c2c1b",
+      "name": "罗德里",
+      "rating": 98,
+      "nationality": "西班牙",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "teams": [
+        "床单",
+        "蓝月亮",
+        "红蓝"
+      ]
+    },
+    {
+      "id": "b1611498-664c-460c-9729-8e6eae650ded",
+      "personId": "ef0a463c-0024-4cea-b5d2-9f464a56c05b",
+      "name": "R.莫拉",
+      "rating": 93,
+      "nationality": "葡萄牙",
+      "positions": [
+        "LW",
+        "CM",
+        "CAM"
+      ],
+      "teams": [
+        "红狼"
+      ]
+    },
+    {
+      "id": "8615bc1a-b86e-4817-af43-ef772b3bc102",
+      "personId": "7caf1a06-8bdc-431c-a949-2a18ace7a8d9",
+      "name": "J.麦迪逊",
+      "rating": 94,
+      "nationality": "英格兰",
+      "positions": [
+        "RM",
+        "CAM"
+      ],
+      "teams": [
+        "百合"
+      ]
+    },
+    {
+      "id": "3dafefab-0b79-40d5-b12f-7d8c307e1b27",
+      "personId": "788d2adf-8519-4f13-97f1-5a0945a598c3",
+      "name": "里瓦尔多",
+      "rating": 98,
+      "nationality": "巴西",
+      "positions": [
+        "LW",
+        "LM",
+        "CAM"
+      ],
+      "teams": [
+        "红蓝",
+        "红黑"
+      ]
+    },
+    {
+      "id": "7affa1f8-2c73-49d2-9a51-a70b307f1cba",
+      "personId": "585c4791-8096-4360-815c-65e7e5ea174b",
+      "name": "M.特尔施特根",
+      "rating": 98,
+      "nationality": "德国",
+      "positions": [
+        "GK"
+      ],
+      "teams": [
+        "红蓝"
+      ]
+    },
+    {
+      "id": "3b639b52-7059-4292-bb60-2a913961d0ea",
+      "personId": "1dc5bd0f-239e-4c51-b42c-d732d623ae78",
+      "name": "C.恩昆库",
+      "rating": 95,
+      "nationality": "法国",
+      "positions": [
+        "ST",
+        "LM",
+        "CAM"
+      ],
+      "teams": [
+        "巴黎",
+        "蓝军",
+        "红黑"
+      ]
+    },
+    {
+      "id": "6303decd-86b4-4ac9-9db1-f91145058ec9",
+      "personId": "6ca93586-f8b7-404f-81f4-7168bcec46b2",
+      "name": "V.范戴克",
+      "rating": 94,
+      "nationality": "荷兰",
+      "positions": [
+        "CB"
+      ],
+      "teams": [
+        "红军"
+      ]
+    },
+    {
+      "id": "a5ac6783-8867-4c40-a40c-a836f79e6aa5",
+      "personId": "b9b10540-dc75-4f4f-ad21-718a3b1b47d6",
+      "name": "J.特里",
+      "rating": 94,
+      "nationality": "英格兰",
+      "positions": [
+        "CB"
+      ],
+      "teams": [
+        "蓝军"
+      ]
+    },
+    {
+      "id": "f21c2cfd-d434-4bd2-886a-9f3ff9e45846",
+      "personId": "0c6fd31c-70ca-4b06-89a0-e13b29404726",
+      "name": "L.莫德里奇",
+      "rating": 97,
+      "nationality": "克罗地亚",
+      "positions": [
+        "CM",
+        "CAM",
+        "CDM"
+      ],
+      "teams": [
+        "百合",
+        "银河",
+        "红黑"
+      ]
+    },
+    {
+      "id": "49354844-7af5-4ac0-965b-2bb9e72a9d5f",
+      "personId": "94c414b7-27a6-49ee-b280-f35500aa57c5",
+      "name": "D.弗拉泰西",
+      "rating": 95,
+      "nationality": "意大利",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "teams": [
+        "蓝黑"
+      ]
+    },
+    {
+      "id": "446c5ba2-0b31-4ad9-8e7f-dd519f9c9bd3",
+      "personId": "075599c6-0cce-46aa-9e52-b1ccfc723265",
+      "name": "M.索莱",
+      "rating": 94,
+      "nationality": "阿根廷",
+      "positions": [
+        "RW",
+        "RM",
+        "CAM"
+      ],
+      "teams": [
+        "斑马",
+        "红狼"
+      ]
+    },
+    {
+      "id": "68ab7175-abe5-4793-ac54-7d1dba3cd726",
+      "personId": "5d71f298-ec57-45fa-9d92-97abc05e9a8a",
+      "name": "I.萨伊瓦里",
+      "rating": 95,
+      "nationality": "摩洛哥",
+      "positions": [
+        "ST",
+        "CM",
+        "CAM"
+      ],
+      "teams": [
+        "南部"
+      ]
+    },
+    {
+      "id": "d9f9a4da-108f-4247-9b3e-60bd3f99fe15",
+      "personId": "2618262c-3726-4411-a00b-8b75fdb3547d",
+      "name": "L.梅西",
+      "rating": 94,
+      "nationality": "阿根廷",
+      "positions": [
+        "ST",
+        "RW",
+        "CAM"
+      ],
+      "teams": [
+        "巴黎",
+        "红蓝"
+      ]
+    },
+    {
+      "id": "2ebfc069-3ae5-41cd-b399-45cf53b09f33",
+      "personId": "2eb828da-13f3-4843-b4c9-a212d59fa6fd",
+      "name": "R.莱奥",
+      "rating": 97,
+      "nationality": "葡萄牙",
+      "positions": [
+        "ST",
+        "LW",
+        "LM"
+      ],
+      "teams": [
+        "红黑"
+      ]
+    },
+    {
+      "id": "372e5f86-48bd-4dad-92a2-f6a6e4175994",
+      "personId": "9a4606ff-af50-43fe-85a5-82eccf7fa922",
+      "name": "Y.索默",
+      "rating": 93,
+      "nationality": "瑞士",
+      "positions": [
+        "GK"
+      ],
+      "teams": [
+        "南部",
+        "蓝黑"
+      ]
+    },
+    {
+      "id": "49912c77-690e-47d4-9a92-9ca9e0167e53",
+      "personId": "5d5ab12d-4b40-4659-8e26-19ca8eeeb6cc",
+      "name": "M.拉什福德",
+      "rating": 92,
+      "nationality": "英格兰",
+      "positions": [
+        "ST",
+        "LW",
+        "LM"
+      ],
+      "teams": [
+        "红魔",
+        "红蓝"
+      ]
+    },
+    {
+      "id": "555d0e09-338d-476b-95ff-ba037887a7f6",
+      "personId": "6ca93586-f8b7-404f-81f4-7168bcec46b2",
+      "name": "V.范戴克",
+      "rating": 96,
+      "nationality": "荷兰",
+      "positions": [
+        "CB"
+      ],
+      "teams": [
+        "红军"
+      ]
+    },
+    {
+      "id": "70f2fce0-5d30-4bdc-bb04-55655f96eb19",
+      "personId": "8b4b93d9-fe92-445c-8953-7508104f630c",
+      "name": "J.哈托",
+      "rating": 94,
+      "nationality": "荷兰",
+      "positions": [
+        "CDM",
+        "CB",
+        "LB"
+      ],
+      "teams": [
+        "蓝军"
+      ]
+    },
+    {
+      "id": "36a0dd5e-fbca-4cff-b48b-41debdea04a2",
+      "personId": "c3cb17de-54bc-4780-b936-af9a9fde6060",
+      "name": "S.阿奎罗",
+      "rating": 94,
+      "nationality": "阿根廷",
+      "positions": [
+        "ST"
+      ],
+      "teams": [
+        "床单",
+        "蓝月亮",
+        "红蓝"
+      ]
+    },
+    {
+      "id": "367876e7-e01d-43d7-b80e-efb999bb99e6",
+      "personId": "2eb828da-13f3-4843-b4c9-a212d59fa6fd",
+      "name": "R.莱奥",
+      "rating": 96,
+      "nationality": "葡萄牙",
+      "positions": [
+        "ST",
+        "LW",
+        "LM"
+      ],
+      "teams": [
+        "红黑"
+      ]
+    },
+    {
+      "id": "9010d12d-a0e0-47bd-ac7c-79f5a1c1ba27",
+      "personId": "8cd4a019-abd5-476d-8fa0-805f6cb17076",
+      "name": "B.巴尔科拉",
+      "rating": 97,
+      "nationality": "法国",
+      "positions": [
+        "ST",
+        "RW",
+        "RM"
+      ],
+      "teams": [
+        "巴黎",
+        "红军"
+      ]
+    },
+    {
+      "id": "9a7766cc-467b-4032-b56b-07c41258b531",
+      "personId": "2e53bdc0-674d-4531-95fa-ae095db06e3f",
+      "name": "L.佩莱格里尼",
+      "rating": 97,
+      "nationality": "意大利",
+      "positions": [
+        "ST",
+        "CM",
+        "CAM"
+      ],
+      "teams": [
+        "红狼"
+      ]
+    },
+    {
+      "id": "bcef1ad8-a53d-4199-b2a2-1d7282926039",
+      "personId": "583fa2c3-3e22-4e65-8b15-bae1b0b09989",
+      "name": "K.耶尔德兹",
+      "rating": 90,
+      "nationality": "土耳其",
+      "positions": [
+        "LM",
+        "CAM"
+      ],
+      "teams": [
+        "斑马"
+      ]
+    },
+    {
+      "id": "93f60d99-e42f-4f30-af53-9287ef955c9a",
+      "personId": "39ef0c18-5d66-46b2-97b3-45c156b5516d",
+      "name": "D.赖斯",
+      "rating": 99,
+      "nationality": "英格兰",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "teams": [
+        "兵工厂"
+      ]
+    },
+    {
+      "id": "2d33f724-6471-4c6f-a44e-3be249b667a2",
+      "personId": "15cdc376-8a3f-4a64-a6a5-28b85a433413",
+      "name": "法比尼奥",
+      "rating": 93,
+      "nationality": "巴西",
+      "positions": [
+        "CDM",
+        "CB"
+      ],
+      "teams": [
+        "银河",
+        "红军"
+      ]
+    },
+    {
+      "id": "9fed1f54-9db5-46ab-9168-56a669770bd4",
+      "personId": "ebb723f7-c0aa-43e6-a115-13c7599f7135",
+      "name": "R.基恩",
+      "rating": 98,
+      "nationality": "爱尔兰",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "teams": [
+        "红魔"
+      ]
+    },
+    {
+      "id": "b015f26e-af96-4b1e-a412-19f761848d92",
+      "personId": "fbbaab69-d787-49fb-a273-1d9b06638520",
+      "name": "N.冈萨雷斯",
+      "rating": 91,
+      "nationality": "西班牙",
+      "positions": [
+        "CM",
+        "CAM",
+        "CDM"
+      ],
+      "teams": [
+        "红蓝",
+        "蓝月亮"
+      ]
+    },
+    {
+      "id": "c02a6499-61a6-479e-8c37-92a66b42572f",
+      "personId": "d1f6ebb3-a403-4239-8660-b462e680fa2a",
+      "name": "T.埃尔南德斯",
+      "rating": 96,
+      "nationality": "法国",
+      "positions": [
+        "LM",
+        "LB"
+      ],
+      "teams": [
+        "银河",
+        "红黑",
+        "床单"
+      ]
+    },
+    {
+      "id": "e073075a-4247-4de7-98d5-02d9dca92e9f",
+      "personId": "775fa1ca-9a98-43af-8e81-0bed61a96dd8",
+      "name": "A.鲁迪格",
+      "rating": 96,
+      "nationality": "德国",
+      "positions": [
+        "CB"
+      ],
+      "teams": [
+        "红狼",
+        "蓝军",
+        "银河"
+      ]
+    },
+    {
+      "id": "5ba3f110-074a-41d2-a708-6499c4612527",
+      "personId": "ed19a846-cc43-4791-b5a2-c3f68d402b52",
+      "name": "D.阿拉巴",
+      "rating": 95,
+      "nationality": "奥地利",
+      "positions": [
+        "CB",
+        "LB"
+      ],
+      "teams": [
+        "银河",
+        "南部"
+      ]
+    },
+    {
+      "id": "da1ae54c-e07c-47f9-a093-8bdac72b525a",
+      "personId": "16fa779d-5304-477a-bdf3-7164c3369b52",
+      "name": "E.阿比达尔",
+      "rating": 93,
+      "nationality": "法国",
+      "positions": [
+        "CB",
+        "LB"
+      ],
+      "teams": [
+        "红蓝"
+      ]
+    },
+    {
+      "id": "9c23ab30-4d57-4d25-a93d-6e39820105bc",
+      "personId": "5d6e640c-b2de-4bf7-968a-3b9e9d258cca",
+      "name": "卡福",
+      "rating": 97,
+      "nationality": "巴西",
+      "positions": [
+        "RM",
+        "RB"
+      ],
+      "teams": [
+        "红黑",
+        "红狼"
+      ]
+    },
+    {
+      "id": "6a5651f7-3850-480a-8bd8-896ebee516fc",
+      "personId": "78a5f641-b6a7-462b-8048-8734a01ff5b9",
+      "name": "巴尔德斯",
+      "rating": 93,
+      "nationality": "西班牙",
+      "positions": [
+        "GK"
+      ],
+      "teams": [
+        "红魔",
+        "红蓝"
+      ]
+    },
+    {
+      "id": "c5a766c1-b0df-4275-91fa-124259cd9db2",
+      "personId": "eb133751-b337-40f8-b73d-cd5edd5d8a13",
+      "name": "S.希门尼斯",
+      "rating": 93,
+      "nationality": "墨西哥",
+      "positions": [
+        "ST",
+        "CAM"
+      ],
+      "teams": [
+        "红黑"
+      ]
+    },
+    {
+      "id": "23afa9b4-e465-4f17-9e1d-6b73d4f0cb57",
+      "personId": "722187e3-98a3-4940-826d-265c6416dc17",
+      "name": "F.迪马尔科",
+      "rating": 97,
+      "nationality": "意大利",
+      "positions": [
+        "LM",
+        "CB",
+        "LB"
+      ],
+      "teams": [
+        "蓝黑"
+      ]
+    },
+    {
+      "id": "30908e58-22dd-41cf-a23a-4a1d8d73f9c2",
+      "personId": "dbc092e1-9ffc-4ba3-a12a-ecc94cfd1497",
+      "name": "G.热苏斯",
+      "rating": 90,
+      "nationality": "巴西",
+      "positions": [
+        "ST",
+        "RW"
+      ],
+      "teams": [
+        "蓝月亮",
+        "兵工厂",
+        "红蓝"
+      ]
+    },
+    {
+      "id": "0284d52d-feee-4779-9f16-fde0892d7e66",
+      "personId": "f0c8d651-d448-4028-b3d7-f023d28c9194",
+      "name": "里沙利松",
+      "rating": 91,
+      "nationality": "巴西",
+      "positions": [
+        "ST",
+        "LW",
+        "LM"
+      ],
+      "teams": [
+        "百合"
+      ]
+    },
+    {
+      "id": "788f6214-249e-4354-acff-1852c4c2ddbc",
+      "personId": "2610b374-a085-4257-ae71-9ace5743c32f",
+      "name": "W.埃梅里",
+      "rating": 90,
+      "nationality": "法国",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "teams": [
+        "巴黎"
+      ]
+    },
+    {
+      "id": "150b765b-7574-42d4-b95c-5a3e9a436d50",
+      "personId": "a772f5b5-163e-453b-b8bb-09a2092f2bda",
+      "name": "E.卡瓦尼",
+      "rating": 94,
+      "nationality": "乌拉圭",
+      "positions": [
+        "ST",
+        "LW",
+        "RW"
+      ],
+      "teams": [
+        "巴黎",
+        "红魔"
+      ]
+    },
+    {
+      "id": "78e5d83e-3727-4280-bd93-acc783a19ec1",
+      "personId": "1400cd89-6086-4e48-9a93-1a8636cb075c",
+      "name": "M.凯塞多",
+      "rating": 96,
+      "nationality": "厄瓜多尔",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "teams": [
+        "蓝军"
+      ]
+    },
+    {
+      "id": "22a44832-42c2-47a6-a82e-79bc33ec983e",
+      "personId": "c22fd834-1177-41b8-b36c-de0e9f402d37",
+      "name": "R.谢尔基",
+      "rating": 96,
+      "nationality": "法国",
+      "positions": [
+        "RW",
+        "RM",
+        "CAM"
+      ],
+      "teams": [
+        "蓝月亮"
+      ]
+    },
+    {
+      "id": "dd4c92d1-291b-42cc-9b6a-55d75fc65d8e",
+      "personId": "47716af9-483f-4bd6-ba9b-86e0fd3d1315",
+      "name": "A.罗伯逊",
+      "rating": 97,
+      "nationality": "苏格兰",
+      "positions": [
+        "LB"
+      ],
+      "teams": [
+        "百合",
+        "红军"
+      ]
+    },
+    {
+      "id": "f958a6a9-b4a1-47a4-bd92-d7aa197d6e95",
+      "personId": "f7c827db-b326-4a64-a7d4-9d5a9b38628a",
+      "name": "A.巴埃纳",
+      "rating": 96,
+      "nationality": "西班牙",
+      "positions": [
+        "ST",
+        "LW",
+        "LM"
+      ],
+      "teams": [
+        "床单"
+      ]
+    },
+    {
+      "id": "3da7631c-f37d-467b-84ae-ffdb71e6dbeb",
+      "personId": "0296618c-9940-4a05-af56-b8ed18bfea39",
+      "name": "T.克罗斯",
+      "rating": 96,
+      "nationality": "德国",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "teams": [
+        "南部",
+        "银河"
+      ]
+    },
+    {
+      "id": "3385cbef-3402-4b20-9ea2-4074f30422f3",
+      "personId": "f6b685a2-6fef-460a-bbd7-98b616a5d4aa",
+      "name": "R.桑切斯",
+      "rating": 91,
+      "nationality": "西班牙",
+      "positions": [
+        "GK"
+      ],
+      "teams": [
+        "蓝军"
+      ]
+    },
+    {
+      "id": "67515df4-ed37-4aa8-8870-01d8b1c48ef9",
+      "personId": "be4dedd0-aa34-40b4-954a-ee262a69dd95",
+      "name": "D.索博斯洛伊",
+      "rating": 97,
+      "nationality": "匈牙利",
+      "positions": [
+        "CM",
+        "LM",
+        "CAM"
+      ],
+      "teams": [
+        "红军"
+      ]
+    },
+    {
+      "id": "fa2b7836-a10e-4e02-93cd-5842f3d29063",
+      "personId": "f42d07e9-73eb-4349-ab23-43322072b5e5",
+      "name": "A.舍甫琴科",
+      "rating": 95,
+      "nationality": "乌克兰",
+      "positions": [
+        "ST"
+      ],
+      "teams": [
+        "红黑",
+        "蓝军"
+      ]
+    },
+    {
+      "id": "705a97f8-6dcb-456f-90df-6e61e0256d3b",
+      "personId": "552e21aa-bbd4-460e-aa81-401904654f4f",
+      "name": "A.萨勒马尔科斯",
+      "rating": 94,
+      "nationality": "比利时",
+      "positions": [
+        "RW",
+        "LM",
+        "RM"
+      ],
+      "teams": [
+        "红黑",
+        "红狼"
+      ]
+    },
+    {
+      "id": "15459cb7-ff33-40e5-b2c1-b3a9dbe6c246",
+      "personId": "583fa2c3-3e22-4e65-8b15-bae1b0b09989",
+      "name": "K.耶尔德兹",
+      "rating": 93,
+      "nationality": "土耳其",
+      "positions": [
+        "LM",
+        "CAM"
+      ],
+      "teams": [
+        "斑马"
+      ]
+    },
+    {
+      "id": "a201ba64-6886-499b-934b-57da7758c699",
+      "personId": "8cd4a019-abd5-476d-8fa0-805f6cb17076",
+      "name": "B.巴尔科拉",
+      "rating": 91,
+      "nationality": "法国",
+      "positions": [
+        "ST",
+        "RW",
+        "RM"
+      ],
+      "teams": [
+        "巴黎",
+        "红军"
+      ]
+    },
+    {
+      "id": "8c35dcef-10de-4ce4-a62a-097b4a6346ab",
+      "personId": "4cca7125-1ab4-4fe2-b209-a6f7bd114ba7",
+      "name": "法比安",
+      "rating": 92,
+      "nationality": "西班牙",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "teams": [
+        "巴黎"
+      ]
+    },
+    {
+      "id": "42e847d7-5d53-4ea8-8d0c-bd5382619fa2",
+      "personId": "e250df61-d69b-4aeb-8035-4a0bc3c052cd",
+      "name": "L.马丁内斯",
+      "rating": 93,
+      "nationality": "阿根廷",
+      "positions": [
+        "CB",
+        "LB"
+      ],
+      "teams": [
+        "红魔"
+      ]
+    },
+    {
+      "id": "98ee3df7-c807-4a9d-99a2-0168dfe70117",
+      "personId": "ec2e4cd2-74d2-450a-a604-c71d25765493",
+      "name": "B.约翰逊",
+      "rating": 90,
+      "nationality": "威尔士",
+      "positions": [
+        "ST",
+        "RW"
+      ],
+      "teams": [
+        "百合"
+      ]
+    },
+    {
+      "id": "849733d3-2595-4c7e-a39c-9537d1ed0c08",
+      "personId": "3c834034-0d76-42ec-bb5c-97b24cc231b0",
+      "name": "恩德里克",
+      "rating": 93,
+      "nationality": "巴西",
+      "positions": [
+        "ST",
+        "RW"
+      ],
+      "teams": [
+        "银河"
+      ]
+    },
+    {
+      "id": "ef2fdad4-3824-4989-8223-721cc7630938",
+      "personId": "5bcebbd5-06b4-4efa-913b-847845e686de",
+      "name": "L.苏亚雷斯",
+      "rating": 99,
+      "nationality": "乌拉圭",
+      "positions": [
+        "ST"
+      ],
+      "teams": [
+        "红军",
+        "红蓝",
+        "床单"
+      ]
+    },
+    {
+      "id": "9f9bfdeb-48e7-41ba-ab79-20ef757a7b54",
+      "personId": "8efcb1e3-e6bf-40e4-9084-50e6ab52f0a2",
+      "name": "M.曼朱基奇",
+      "rating": 92,
+      "nationality": "克罗地亚",
+      "positions": [
+        "ST",
+        "LW"
+      ],
+      "teams": [
+        "床单",
+        "斑马",
+        "红黑",
+        "南部"
+      ]
+    },
+    {
+      "id": "32ca6d3b-7463-49a0-bed1-321d6344bc17",
+      "personId": "ac4650f3-ec1b-4136-a9dd-bbd51d031f21",
+      "name": "N.马杜埃凯",
+      "rating": 96,
+      "nationality": "英格兰",
+      "positions": [
+        "RW",
+        "RM"
+      ],
+      "teams": [
+        "兵工厂",
+        "蓝军"
+      ]
+    },
+    {
+      "id": "0647ffc1-6589-44bd-8b50-54e580ea1fe8",
+      "personId": "f6f449a6-5feb-4a51-bcce-b23680492f77",
+      "name": "F.科斯蒂奇",
+      "rating": 95,
+      "nationality": "塞尔维亚",
+      "positions": [
+        "LW",
+        "LM",
+        "LB"
+      ],
+      "teams": [
+        "斑马"
+      ]
+    },
+    {
+      "id": "929b54e0-d827-4157-b3b5-1df0c6afb94a",
+      "personId": "a5627885-8718-4aaa-a4a6-981964900dc2",
+      "name": "R.吉格斯",
+      "rating": 99,
+      "nationality": "威尔士",
+      "positions": [
+        "LW",
+        "LM",
+        "CAM"
+      ],
+      "teams": [
+        "红魔"
+      ]
+    },
+    {
+      "id": "ae66c700-2f37-4ad0-9a5b-af7dc0c2e2ce",
+      "personId": "eedfb8a7-a322-4e18-8ecf-d2eb7123ebf8",
+      "name": "C.埃里克森",
+      "rating": 91,
+      "nationality": "丹麦",
+      "positions": [
+        "CM",
+        "CAM",
+        "CDM"
+      ],
+      "teams": [
+        "百合",
+        "蓝黑",
+        "红魔"
+      ]
+    },
+    {
+      "id": "1d43729d-e7ee-464a-822d-1c7e6d53b3cc",
+      "personId": "7ad1b856-345c-4c89-9755-e1a5acf53940",
+      "name": "F.德容",
+      "rating": 94,
+      "nationality": "荷兰",
+      "positions": [
+        "CM",
+        "RM",
+        "CDM"
+      ],
+      "teams": [
+        "红蓝"
+      ]
+    },
+    {
+      "id": "2ce05b20-8c94-467e-904f-b6182e757f23",
+      "personId": "9cfa0aaf-7d20-41e0-b4f4-12b468841201",
+      "name": "G.西蒙尼",
+      "rating": 95,
+      "nationality": "阿根廷",
+      "positions": [
+        "ST",
+        "LM",
+        "RM"
+      ],
+      "teams": [
+        "床单"
+      ]
+    },
+    {
+      "id": "eb1c89c2-18bc-4d6e-a9d8-82f3045ddcf5",
+      "personId": "b454c6e4-1a9e-400c-8238-6897ae9dbec3",
+      "name": "E.马丁内斯",
+      "rating": 97,
+      "nationality": "阿根廷",
+      "positions": [
+        "GK"
+      ],
+      "teams": [
+        "兵工厂",
+        "蓝军"
+      ]
+    },
+    {
+      "id": "9f3cb42e-6511-42f5-9e44-29a10a4fec18",
+      "personId": "c2c07f5f-ced4-4198-9605-2403690fd74b",
+      "name": "F.基耶萨",
+      "rating": 92,
+      "nationality": "意大利",
+      "positions": [
+        "ST",
+        "LM",
+        "RM"
+      ],
+      "teams": [
+        "斑马",
+        "红军"
+      ]
+    },
+    {
+      "id": "1a69b6cc-0591-44df-8f2a-52ffcdaad82d",
+      "personId": "15723d05-14b0-4103-841e-7e9479a7daac",
+      "name": "J.阿尔巴",
+      "rating": 94,
+      "nationality": "西班牙",
+      "positions": [
+        "LM",
+        "LB"
+      ],
+      "teams": [
+        "红蓝"
+      ]
+    },
+    {
+      "id": "7ebd1088-b81c-43d3-b72f-caeb8b283618",
+      "personId": "2635c11d-8209-43de-b42e-222731e786f7",
+      "name": "S.丘库埃泽",
+      "rating": 93,
+      "nationality": "尼日利亚",
+      "positions": [
+        "RW",
+        "RM"
+      ],
+      "teams": [
+        "红黑"
+      ]
+    },
+    {
+      "id": "ba6c2753-a953-40e1-9040-7f0aa9cfda2a",
+      "personId": "775fa1ca-9a98-43af-8e81-0bed61a96dd8",
+      "name": "A.鲁迪格",
+      "rating": 95,
+      "nationality": "德国",
+      "positions": [
+        "CB"
+      ],
+      "teams": [
+        "红狼",
+        "蓝军",
+        "银河"
+      ]
+    },
+    {
+      "id": "6127c79c-a1ef-444a-afdd-21c681ecd88c",
+      "personId": "bb54c63c-aed0-4945-b935-368dd9962b1d",
+      "name": "E.卡马文加",
+      "rating": 94,
+      "nationality": "法国",
+      "positions": [
+        "CM",
+        "CDM",
+        "LB"
+      ],
+      "teams": [
+        "银河"
+      ]
+    },
+    {
+      "id": "6cef693e-e51d-45c9-b8c8-2a74576c9d38",
+      "personId": "8ecb6de6-8be3-4188-b994-5be790c98640",
+      "name": "卜拉欣",
+      "rating": 93,
+      "nationality": "摩洛哥",
+      "positions": [
+        "LW",
+        "LM",
+        "CAM"
+      ],
+      "teams": [
+        "银河",
+        "蓝月亮",
+        "红黑"
+      ]
+    },
+    {
+      "id": "40e20d7d-64b7-46e4-b728-04e5ec066d0d",
+      "personId": "d2cae913-fb89-49bd-a2c2-5d41031f5dcf",
+      "name": "E.米利唐",
+      "rating": 92,
+      "nationality": "巴西",
+      "positions": [
+        "CB"
+      ],
+      "teams": [
+        "银河"
+      ]
+    },
+    {
+      "id": "6d7a2b1a-99d5-4620-a55c-093877dc9215",
+      "personId": "919f288e-b4a5-4ffe-89bc-630d19a7e60b",
+      "name": "P.卡卢卢",
+      "rating": 96,
+      "nationality": "法国",
+      "positions": [
+        "CB",
+        "RB"
+      ],
+      "teams": [
+        "红黑",
+        "斑马"
+      ]
+    },
+    {
+      "id": "2d7137bd-7a23-4dff-92c8-09d10f710639",
+      "personId": "bdae51d7-8ea8-43fd-9577-081f9f0a0595",
+      "name": "R.皮雷斯",
+      "rating": 98,
+      "nationality": "法国",
+      "positions": [
+        "LW",
+        "LM",
+        "CAM"
+      ],
+      "teams": [
+        "兵工厂"
+      ]
+    },
+    {
+      "id": "622002b9-daf5-44af-82da-b6c542771d6c",
+      "personId": "b2e5746a-fedc-4aad-9c3f-01b6e731cdc4",
+      "name": "B.利扎拉祖",
+      "rating": 98,
+      "nationality": "法国",
+      "positions": [
+        "CB",
+        "LB"
+      ],
+      "teams": [
+        "南部"
+      ]
+    },
+    {
+      "id": "8477b294-efe8-441b-a700-936ccdd30dff",
+      "personId": "4f5b9d0d-9500-432f-9663-01f4e168e7cb",
+      "name": "F.巴尔韦德",
+      "rating": 93,
+      "nationality": "乌拉圭",
+      "positions": [
+        "RW",
+        "CM",
+        "RM"
+      ],
+      "teams": [
+        "银河"
+      ]
+    },
+    {
+      "id": "a607d6c9-e443-4916-b935-2c7b873f784a",
+      "personId": "87ca341f-48fe-4b80-913f-6142ce6ef4f3",
+      "name": "达尼洛",
+      "rating": 95,
+      "nationality": "巴西",
+      "positions": [
+        "CB",
+        "LB",
+        "RB"
+      ],
+      "teams": [
+        "斑马",
+        "贝尔米罗",
+        "银河"
+      ]
+    },
+    {
+      "id": "aa3463d8-ec65-4460-b9ed-c62972cba423",
+      "personId": "4a2019ca-901f-40d0-8b04-00ba321cae12",
+      "name": "罗德里戈",
+      "rating": 92,
+      "nationality": "巴西",
+      "positions": [
+        "ST",
+        "LW",
+        "RW"
+      ],
+      "teams": [
+        "银河",
+        "贝尔米罗"
+      ]
+    },
+    {
+      "id": "debecde9-a719-4005-90be-a1b68443325a",
+      "personId": "c846cf73-7dae-43e2-81f6-df2cc862cb1c",
+      "name": "D.邓弗里斯",
+      "rating": 97,
+      "nationality": "荷兰",
+      "positions": [
+        "RM",
+        "LB",
+        "RB"
+      ],
+      "teams": [
+        "蓝黑",
+        "银河"
+      ]
+    },
+    {
+      "id": "9a6b6859-1426-41ff-acc4-d92c00d6705e",
+      "personId": "2245baab-55b3-4f7b-b9ed-15f1b405663f",
+      "name": "B.马图伊迪",
+      "rating": 93,
+      "nationality": "法国",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "teams": [
+        "巴黎",
+        "斑马"
+      ]
+    },
+    {
+      "id": "0cd15b37-1d6c-4eec-8405-67b02cd3f334",
+      "personId": "652bab5a-771e-418a-85dd-0e0ea6fe765b",
+      "name": "H.凯恩",
+      "rating": 99,
+      "nationality": "英格兰",
+      "positions": [
+        "ST"
+      ],
+      "teams": [
+        "百合",
+        "南部"
+      ]
+    },
+    {
+      "id": "107095d7-7deb-413d-8c76-e0d922b98f39",
+      "personId": "91c61173-419f-4616-a1cf-35d92567d4fa",
+      "name": "L.马特乌斯",
+      "rating": 99,
+      "nationality": "德国",
+      "positions": [
+        "CM",
+        "CAM",
+        "CDM"
+      ],
+      "teams": [
+        "南部",
+        "蓝黑"
+      ]
+    },
+    {
+      "id": "0034f181-9f96-400a-ae76-e514d69fde92",
+      "personId": "21af176c-ad31-4b4a-b335-48ac19edeee3",
+      "name": "L.马丁内斯中锋",
+      "rating": 98,
+      "nationality": "阿根廷",
+      "positions": [
+        "ST"
+      ],
+      "teams": [
+        "蓝黑"
+      ]
     }
   ],
   "combos": [
@@ -13965,7 +16139,7 @@ window.PitchDefaultData = {
       "members": [
         "加维",
         "拉菲尼亚",
-        "F.托雷斯"
+        "F.托雷斯右边锋"
       ]
     },
     {
@@ -14585,7 +16759,7 @@ window.PitchDefaultData = {
       "name": "lhqh",
       "members": [
         "N.巴雷拉",
-        "劳塔罗",
+        "L.马丁内斯中锋",
         "M.图拉姆"
       ]
     },
@@ -14602,7 +16776,7 @@ window.PitchDefaultData = {
       "id": "f43828cc-0ac1-480e-859d-ae87344757b3",
       "name": "hmbl",
       "members": [
-        "P.费迪南德",
+        "R.费迪南德",
         "N.维迪奇",
         "E.范德萨"
       ]
@@ -14611,7 +16785,7 @@ window.PitchDefaultData = {
       "id": "300ca806-6cc2-4cd3-8e3e-e372250048f2",
       "name": "dtns",
       "members": [
-        "P.费迪南德",
+        "R.费迪南德",
         "G.内维尔",
         "A.科尔"
       ]
@@ -14721,7 +16895,7 @@ window.PitchDefaultData = {
       "members": [
         "M.塔雷米",
         "H.恰尔汗奥卢",
-        "劳塔罗"
+        "L.马丁内斯中锋"
       ]
     },
     {
@@ -14738,7 +16912,7 @@ window.PitchDefaultData = {
       "name": "lhfx",
       "members": [
         "M.阿瑙托维奇",
-        "劳塔罗",
+        "L.马丁内斯中锋",
         "H.姆希塔良"
       ]
     },
@@ -14929,6 +17103,15 @@ window.PitchDefaultData = {
         "M.阿坎吉",
         "J.格瓦迪奥尔",
         "K.沃克"
+      ]
+    },
+    {
+      "id": "7cf7d927-4aac-495a-a5a4-ce75e2cb5c5d",
+      "name": "qdjj",
+      "members": [
+        "J.卡多索",
+        "T.阿尔马达",
+        "G.西蒙尼"
       ]
     }
   ],
@@ -15251,10 +17434,10 @@ window.PitchDefaultData = {
   "scoreModelVersion": 2,
   "algorithm": "guided",
   "searchSettings": {
-    "durationSeconds": 10,
+    "durationSeconds": 120,
     "exploration": 1,
     "restartEvery": 7000,
     "targetLimit": 60
   },
-  "builtInRevision": "2026-11-10"
+  "builtInRevision": "2026-11-14"
 };

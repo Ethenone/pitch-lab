@@ -4,9 +4,10 @@
   const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const uid=()=>crypto.randomUUID?.()||'id-'+Date.now()+'-'+Math.random().toString(36).slice(2);
   const norm=s=>String(s||'').trim().toLocaleLowerCase();
+  const searchNorm=s=>norm(s).replace(/。/g,'.');
   const personKey=p=>p.personId||norm(p.name)||p.id;
   const key='pitch-lab-data-v1';
-  const defaultSearchSettings={durationSeconds:5,exploration:1,restartEvery:7000,targetLimit:24};
+  const defaultSearchSettings={durationSeconds:120,exploration:1,restartEvery:7000,targetLimit:24};
   function normalizeSearchSettings(raw){
     const source=raw&&typeof raw==='object'?raw:{};
     const number=value=>value===null||value===undefined||value===''?NaN:Number(value);
@@ -28,12 +29,12 @@
       byPerson.set(p.personId,p);byName.set(norm(p.name),p);return p;
     });
   }
-  function hydrate(d){return {...d,players:normalizePlayers(d.players),combos:(d.combos||[]).map(c=>({...c,members:[...(c.members||[])]})),pool:[...(d.pool||[])],groups:normalizeGroups(d.groups,d.formation),formation:d.formation||'4-3-3',priority:d.scoreModelVersion===2&&['final','chemistry','rating'].includes(d.priority)?d.priority:'final',scoreModelVersion:2,algorithm:d.algorithm==='guided'?'guided':'annealing',searchSettings:normalizeSearchSettings(d.searchSettings)};}
+  function hydrate(d){return {...d,players:normalizePlayers(d.players),combos:(d.combos||[]).map(c=>({...c,members:[...(c.members||[])]})),pool:[...(d.pool||[])],groups:normalizeGroups(d.groups,d.formation),formation:d.formation||'4-3-3',priority:d.scoreModelVersion===2&&['final','chemistry','rating'].includes(d.priority)?d.priority:'final',scoreModelVersion:2,algorithm:d.algorithm==='annealing'?'annealing':'guided',searchSettings:normalizeSearchSettings(d.searchSettings)};}
   function load(){
     try{const saved=JSON.parse(localStorage.getItem(key));if(saved&&Array.isArray(saved.players))return hydrate(saved);}catch(e){}
     const defaults=window.PitchDefaultData;
     if(defaults&&Array.isArray(defaults.players))return hydrate(defaults);
-    return {players:[],combos:[],pool:[],groups:defaultGroups(),formation:'4-3-3',priority:'final',scoreModelVersion:2,algorithm:'annealing',searchSettings:{...defaultSearchSettings}};
+    return {players:[],combos:[],pool:[],groups:defaultGroups(),formation:'4-3-3',priority:'final',scoreModelVersion:2,algorithm:'guided',searchSettings:{...defaultSearchSettings}};
   }
   let data=load(),view='normal',result=null,running=false,editingPlayer=null,variantSourceId=null,editingCombo=null,pendingSlotGroup=null,pendingPlayerCombos=[],editingTeams=[],pendingImport=null,search='',librarySearch='',libraryComposing=false;
   const analyticsState={minShared:1,networkTeam:null,teamPair:null,teamShareLimit:12,teamShareA:null,teamShareB:null,sourcePosition:null,positionPair:null,nationMetric:'count',country:null,club:null,clusterKind:'players',clusterFocus:'balanced',clusterCount:4,clusterSelected:null,clusterEntity:null,teamMatrixLimit:20,teamMatrixA:null,teamMatrixB:null};
@@ -114,7 +115,7 @@ $('#viewContent').innerHTML=`<div class="workspace"><div class="work-left"><div 
   function renderLibraryRows(){
     const grouped=new Map();
     for(const p of data.players){const key=personKey(p);if(!grouped.has(key))grouped.set(key,{base:p,variants:[]});grouped.get(key).variants.push(p);}
-    const list=[...grouped.values()].filter(({base})=>norm(base.name).includes(norm(librarySearch))||norm(base.nationality).includes(norm(librarySearch))).sort((a,b)=>a.base.name.localeCompare(b.base.name,'zh-CN'));
+    const list=[...grouped.values()].filter(({base})=>searchNorm(base.name).includes(searchNorm(librarySearch))||norm(base.nationality).includes(norm(librarySearch))).sort((a,b)=>a.base.name.localeCompare(b.base.name,'zh-CN'));
     const rows=list.map(({base,variants})=>`<div class="library-row person-row"><div class="avatar">${esc(base.name.slice(0,1))}</div><div class="player-info"><b>${esc(base.name)}</b><small>${esc(base.nationality)} · ${base.positions.map(x=>POS[x]).join(' / ')}<br>${esc(base.teams.join(' · ')||'暂无球队资料')}${comboSummary(base.name)}</small></div><div class="rating-versions">${variants.sort((a,b)=>b.rating-a.rating).map(p=>`<div class="rating-version"><strong>${p.rating}</strong><button class="mini-btn" data-action="editPlayer" data-id="${p.id}" aria-label="编辑 ${p.rating} 分版本">编辑</button><button class="icon-btn" data-action="deletePlayer" data-id="${p.id}" aria-label="删除 ${p.rating} 分版本">×</button></div>`).join('')}</div><button class="mini-btn" data-action="addVariant" data-id="${base.id}">+ 评分版本</button></div>`).join('');
     $('#libraryList').innerHTML=rows||'<div class="empty">没有找到球员。点击右上角添加第一位球员。</div>';
   }
@@ -162,7 +163,7 @@ $('#viewContent').innerHTML=`<div class="workspace"><div class="work-left"><div 
     const algorithmLabel=r.algorithm==='guided'?'目标引导分层搜索 · 固定 18 人后精确分配':'模拟退火';
 return `<div class="result-card"><div class="result-top"><div><h3>当前找到的最佳方案</h3><small>已评估约 ${r.iterations.toLocaleString()} 次调整 · ${algorithmLabel} ${r.searchSettings.duration/1000} 秒 · 尚未证明全局最优</small></div><span class="bonus">${data.priority==='rating'?'评分优先':data.priority==='chemistry'?'化学优先':'最终分数'}</span></div><div class="result-grid final-result-grid"><div class="result-metric final-result-metric"><strong>${r.score.finalScore.toLocaleString('zh-CN',{maximumFractionDigits:2})}</strong><span>最终分数</span></div><div class="result-metric"><strong>${r.score.rating}</strong><span>首发总评分</span></div><div class="result-metric"><strong>${r.score.chemistry}</strong><span>化学反应${r.score.rawChemistry>100?' · 已达上限':''}</span></div></div><p class="hint score-formula">${r.score.rating} + ${r.score.chemistry} × (1 + ${r.score.ratingTier.percent}%) = ${r.score.finalScore.toLocaleString('zh-CN',{maximumFractionDigits:2})}；首发评分 ${r.score.ratingTier.from===null?'低于 990 分':`${r.score.ratingTier.from}–${r.score.ratingTier.to} 档`}</p><div class="result-section"><h4>首发 11 人 · ${r.state.picked?'自选位置':data.formation}</h4><div class="lineup-grid">${lineup}</div></div><div class="result-section"><h4>替补 7 人</h4><div class="lineup-grid">${bench}</div></div><div class="result-section"><h4>化学反应明细</h4>${r.score.rawChemistry>100?`<p class="hint">各项加成原始合计 +${r.score.rawChemistry}；实际计入化学反应 100。</p>`:''}<div class="bonus-list">${bonus||'<span class="hint">尚无加成</span>'}</div></div>${chosen}</div>`;
   }
-  function updateSearchResults(){const input=$('#poolSearch'),el=$('#poolSearchResults');if(!input||!el)return;const q=norm(input.value);if(!q){el.hidden=true;return;}const list=data.players.filter(p=>norm(p.name).includes(q)&&!data.pool.includes(p.id)).slice(0,8),exact=data.players.find(p=>norm(p.name)===q);el.innerHTML=list.map(p=>`<div class="search-result" data-action="addPool" data-id="${p.id}"><span>${esc(p.name)} <small>${p.positions.map(x=>POS[x]).join(' / ')}</small></span><b>+ ${p.rating}</b></div>`).join('')+`<div class="search-result" data-action="createFromSearch"><span>${exact?'添加该球员的评分版本':`没有找到？创建「${esc(input.value.trim())}」`}</span><b>＋</b></div>`;el.hidden=false;}
+  function updateSearchResults(){const input=$('#poolSearch'),el=$('#poolSearchResults');if(!input||!el)return;const q=searchNorm(input.value);if(!q){el.hidden=true;return;}const list=data.players.filter(p=>searchNorm(p.name).includes(q)&&!data.pool.includes(p.id)).slice(0,8),exact=data.players.find(p=>searchNorm(p.name)===q);el.innerHTML=list.map(p=>`<div class="search-result" data-action="addPool" data-id="${p.id}"><span>${esc(p.name)} <small>${p.positions.map(x=>POS[x]).join(' / ')}</small></span><b>+ ${p.rating}</b></div>`).join('')+`<div class="search-result" data-action="createFromSearch"><span>${exact?'添加该球员的评分版本':`没有找到？创建「${esc(input.value.trim())}」`}</span><b>＋</b></div>`;el.hidden=false;}
   function placeSlotSearchResults(input,el){
     el.classList.remove('open-up');
     const dashboard=input.closest('.dashboard')?.getBoundingClientRect(),field=input.getBoundingClientRect(),height=el.getBoundingClientRect().height;
@@ -170,10 +171,10 @@ return `<div class="result-card"><div class="result-top"><div><h3>当前找到�
     if(lowerEdge-field.bottom<height+8&&field.top-upperEdge>lowerEdge-field.bottom)el.classList.add('open-up');
   }
   function updateSlotSearchResults(input){
-    const group=data.groups.find(g=>g.id===input.dataset.slotSearch),el=input.parentElement.querySelector('.slot-search-results'),q=norm(input.value);
+    const group=data.groups.find(g=>g.id===input.dataset.slotSearch),el=input.parentElement.querySelector('.slot-search-results'),q=searchNorm(input.value);
     if(!group||!el)return;
     if(!q){el.hidden=true;return;}
-    const matches=data.players.filter(p=>norm(p.name).includes(q)&&!group.options.includes(p.id)).slice(0,6),exact=data.players.find(p=>norm(p.name)===q),alreadyHere=exact&&group.options.includes(exact.id);
+    const matches=data.players.filter(p=>searchNorm(p.name).includes(q)&&!group.options.includes(p.id)).slice(0,6),exact=data.players.find(p=>searchNorm(p.name)===q),alreadyHere=exact&&group.options.includes(exact.id);
     el.innerHTML=matches.map(p=>`<button type="button" class="search-result slot-search-result" data-action="slotPick" data-group="${group.id}" data-id="${p.id}"><span>${esc(p.name)} <small>${p.positions.map(x=>POS[x]).join(' / ')}</small></span><b>+ ${p.rating}</b></button>`).join('')+(alreadyHere?'<div class="slot-search-note">该球员已有一个评分版本在此位置</div>':'')+(exact?`<button type="button" class="search-result slot-search-result" data-action="slotCreateVariant" data-group="${group.id}"><span>添加该球员的新评分版本</span><b>＋</b></button>`:`<button type="button" class="search-result slot-search-result" data-action="slotCreate" data-group="${group.id}"><span>${matches.length?'创建新球员':'没找到？创建'}「${esc(input.value.trim())}」</span><b>＋</b></button>`);
     el.hidden=false;placeSlotSearchResults(input,el);
   }
@@ -251,7 +252,7 @@ return `<div class="result-card"><div class="result-top"><div><h3>当前找到�
       if(a==='removeTeam'){editingTeams.splice(Number(action.dataset.index),1);renderTeamChips();return;}
       if(a==='addPool'){data.pool.push(id);search='';save();render();return;}
       if(a==='remove'){data.pool=data.pool.filter(x=>x!==id);save();result=null;render();return;}
-      if(a==='createFromSearch'){const name=$('#poolSearch')?.value.trim()||'',existing=data.players.find(p=>norm(p.name)===norm(name));openPlayer(null,name,null,existing?.id||null);return;}
+      if(a==='createFromSearch'){const name=$('#poolSearch')?.value.trim()||'',existing=data.players.find(p=>searchNorm(p.name)===searchNorm(name));openPlayer(null,name,null,existing?.id||null);return;}
       if(a==='editPlayer'){openPlayer(id);return;}
       if(a==='addVariant'){const p=player(id);if(p)openPlayer(null,p.name,null,p.id);return;}
       if(a==='deletePlayer'){const p=player(id),multiple=variantsFor(p).length>1;if(confirm(multiple?`删除「${p.name}」的 ${p.rating} 分版本？`:`删除球员「${p.name}」？`)){data.players=data.players.filter(x=>x.id!==id);data.pool=data.pool.filter(x=>x!==id);data.groups.forEach(g=>g.options=g.options.filter(x=>x!==id));save();result=null;render();}return;}
@@ -259,7 +260,7 @@ return `<div class="result-card"><div class="result-top"><div><h3>当前找到�
       if(a==='deleteCombo'){data.combos=data.combos.filter(x=>x.id!==id);save();result=null;render();return;}
       if(a==='slotPick'){const g=data.groups.find(x=>x.id===group);if(g&&g.options.length<5&&!g.options.includes(id)){g.options.push(id);save();result=null;render();}return;}
       if(a==='slotCreate'){const input=document.querySelector(`[data-slot-search="${group}"]`);openPlayer(null,input?.value.trim()||'',group);return;}
-      if(a==='slotCreateVariant'){const input=document.querySelector(`[data-slot-search="${group}"]`),name=input?.value.trim()||'',existing=data.players.find(p=>norm(p.name)===norm(name));if(existing)openPlayer(null,name,group,existing.id);return;}
+      if(a==='slotCreateVariant'){const input=document.querySelector(`[data-slot-search="${group}"]`),name=input?.value.trim()||'',existing=data.players.find(p=>searchNorm(p.name)===searchNorm(name));if(existing)openPlayer(null,name,group,existing.id);return;}
       if(a==='slotRemove'){const g=data.groups.find(x=>x.id===group);g.options=g.options.filter(x=>x!==id);save();result=null;render();return;}
       if(a==='deleteReserve'){data.groups=data.groups.filter(x=>x.id!==group);data.groups.filter(x=>x.kind==='reserve').forEach((x,i)=>x.index=i);save();result=null;render();return;}
     }

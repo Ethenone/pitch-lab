@@ -23,8 +23,28 @@ app.whenReady().then(async () => {
   assert.equal(await hudWindow.webContents.executeJavaScript('document.body.textContent.trim()'),'正在自动操作，Esc 退出');
   hud.hide();assert.equal(hudWindow.isVisible(),false);hud.show();assert.equal(hudWindow.isVisible(),true);hud.close();
   const run = code => win.webContents.executeJavaScript(code);
-  assert.equal(await run('window.PitchDefaultData.players.length'), 791);
-  assert.equal(await run('window.PitchDefaultData.combos.length'), 372);
+  assert.equal(await run('window.PitchDefaultData.players.length'), 938);
+  assert.equal(await run('window.PitchDefaultData.combos.length'), 373);
+  assert.equal(await run('PitchApp.snapshot().algorithm'), 'guided');
+  assert.equal(await run('PitchApp.snapshot().searchSettings.durationSeconds'), 120);
+  // Compare real search results for both punctuation forms across all three inputs.
+  for (const [view, inputSelector, resultSelector] of [
+    ['players','#librarySearch','#libraryList'],
+    ['normal','#poolSearch','#poolSearchResults'],
+    ['match','[data-slot-search]','.slot-search-results']
+  ]) {
+    const searches=await run(`(()=>{
+      document.querySelector('[data-view="${view}"]').click();
+      if('${view}'==='match') document.querySelector('[data-action=slotRemove]')?.click();
+      const input=document.querySelector('${inputSelector}');
+      const name=PitchApp.snapshot().players.find(p=>p.name.includes('.')).name;
+      const search=q=>{input.value=q;input.dispatchEvent(new Event('input',{bubbles:true}));return document.querySelector('${resultSelector}').textContent;};
+      return {dot:search(name),chinese:search(name.replaceAll('.','。')),name};
+    })()`);
+    assert.ok(searches.dot.includes(searches.name));
+    // Creation prompt may echo the user's punctuation; the matched player remains identical.
+    assert.equal(searches.chinese.replaceAll('。','.'),searches.dot.replaceAll('。','.'));
+  }
   assert.equal(await run('typeof require'), 'undefined');
   assert.equal(await run('typeof window.pitchDesktopOCR.start'), 'function');
   assert.ok(await run("!!document.querySelector('#ocrOpen')"));
@@ -48,13 +68,13 @@ app.whenReady().then(async () => {
   // Existing users opt in to built-in updates; their candidate lists and edits survive.
   await run(`(()=>{const saved=PitchApp.snapshot();saved.players.pop();saved.combos.pop();saved.players[0].rating=123;saved.pool=[saved.players[0].id];localStorage.setItem('pitch-lab-data-v1',JSON.stringify(saved));})()`);
   const updateReload=once(win.webContents,'did-finish-load');win.reload();await updateReload;
-  assert.equal(await run('PitchApp.snapshot().players.length'),790,'Loading the update must not silently replace saved data');
+  assert.equal(await run('PitchApp.snapshot().players.length'),937,'Loading the update must not silently replace saved data');
   const beforeUpdate=await run('PitchApp.snapshot()');
   await run("document.querySelector('#updateDefaultsBtn').click()");
   assert.ok(await run("document.querySelector('#importDialog').open && document.querySelector('#replaceImportBtn').hidden"));
   await run("document.querySelector('#mergeImportBtn').click()");
   const afterUpdate=await run('PitchApp.snapshot()');
-  assert.ok(afterUpdate.players.length>=791);assert.equal(afterUpdate.combos.length,372);
+  assert.ok(afterUpdate.players.length>=938);assert.equal(afterUpdate.combos.length,373);
   assert.equal(afterUpdate.players[0].rating,123);assert.deepEqual(afterUpdate.pool,beforeUpdate.pool);assert.deepEqual(afterUpdate.groups,beforeUpdate.groups);
   const countAfterMerge=afterUpdate.players.length;
   await run("document.querySelector('#updateDefaultsBtn').click();document.querySelector('#mergeImportBtn').click()");
@@ -65,7 +85,7 @@ app.whenReady().then(async () => {
   // Trigger a real UI action that saves, then reload and verify persistence.
   await run(`document.querySelector('[data-view="match"]').click(); document.querySelector('#addReserveBtn').click(); document.querySelector('#randomFillBtn').click();`);
   const saved = await run(`JSON.parse(localStorage.getItem('pitch-lab-data-v1'))`);
-  assert.equal(saved.players.length, 791);
+  assert.equal(saved.players.length, 938);
   assert.ok(saved.groups.every(group => group.options.length === 5));
   const loaded = once(win.webContents, 'did-finish-load');
   win.reload();
@@ -80,7 +100,7 @@ app.whenReady().then(async () => {
   });
   await run(`document.querySelector('#exportBtn').click()`);
   await download;
-  assert.equal(JSON.parse(fs.readFileSync(path.join(profile, 'export.json'), 'utf8')).players.length, 791);
+  assert.equal(JSON.parse(fs.readFileSync(path.join(profile, 'export.json'), 'utf8')).players.length, 938);
   assert.deepEqual(errors, []);
   fs.mkdirSync(path.join(__dirname, '..', 'release'), { recursive: true });
   fs.writeFileSync(path.join(__dirname, '..', 'release', 'desktop-preview.png'), (await win.webContents.capturePage()).toPNG());
