@@ -73,7 +73,7 @@ app.whenReady().then(async () => {
   await run(`window.fetch = async url => {
     if (!url.endsWith('/roster-data.json')) throw Error(url);
     return {ok:true,json:async()=>({...PitchDefaultData,builtInRevision:'2099-01-01'})};
-  };`);
+  }; void 0;`);
   await run("document.querySelector('#updateDefaultsBtn').click()");
   await run("new Promise(resolve => setTimeout(resolve, 50))");
   assert.ok(await run("document.querySelector('#importSummary').textContent.includes('2099-01-01')"));
