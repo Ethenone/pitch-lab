@@ -8,6 +8,7 @@ from playwright.sync_api import sync_playwright, Error
 
 root = Path(__file__).resolve().parents[1]
 version = json.loads((root / 'package.json').read_text(encoding='utf-8'))['version']
+roster = json.loads((root / 'dist' / 'roster-data.json').read_text(encoding='utf-8'))
 exe = root / 'release' / f'PitchLab-{version}-Windows-x64.exe'
 if not exe.exists():
     exe = root / 'release' / f'v{version}' / exe.name
@@ -27,7 +28,8 @@ try:
         page = browser.contexts[0].pages[0]
         page.wait_for_selector('[data-view="match"]')
         page.wait_for_function("document.title.includes('桌面版')")
-        assert page.evaluate('PitchDefaultData.players.length') == page.evaluate('PitchDefaultData.players.length')
+        assert page.evaluate('PitchDefaultData.players.length') == len(roster['players'])
+        assert page.evaluate('PitchDefaultData.builtInRevision') == roster['builtInRevision']
         page.locator('[data-view="match"]').click()
         assert page.locator('#calculateBtn').is_visible()
         page.locator('#ocrOpen').click()
@@ -36,7 +38,7 @@ try:
         page.wait_for_function("document.querySelector('#ocrStatus').textContent.includes('OCR 可用')", timeout=45000)
         assert page.locator('#ocrStart').is_visible()
         page.screenshot(path=str(root / 'release' / 'packaged-preview.png'))
-        print('Portable exe passed: loaded desktop title, 1055 player versions, match UI.')
+        print(f"Portable exe passed: loaded desktop title, {len(roster['players'])} player versions, match UI.")
         session = browser.new_browser_cdp_session()
         try:
             session.send('Browser.close')
