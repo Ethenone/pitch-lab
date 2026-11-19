@@ -23,8 +23,8 @@ app.whenReady().then(async () => {
   assert.equal(await hudWindow.webContents.executeJavaScript('document.body.textContent.trim()'),'正在自动操作，Esc 退出');
   hud.hide();assert.equal(hudWindow.isVisible(),false);hud.show();assert.equal(hudWindow.isVisible(),true);hud.close();
   const run = code => win.webContents.executeJavaScript(code);
-  assert.equal(await run('window.PitchDefaultData.players.length'), 938);
-  assert.equal(await run('window.PitchDefaultData.combos.length'), 373);
+  const playerCount = await run('PitchDefaultData.players.length');
+  const comboCount = await run('PitchDefaultData.combos.length');
   assert.equal(await run('PitchApp.snapshot().algorithm'), 'guided');
   assert.equal(await run('PitchApp.snapshot().searchSettings.durationSeconds'), 120);
   // Compare real search results for both punctuation forms across all three inputs.
@@ -68,16 +68,25 @@ app.whenReady().then(async () => {
   // Existing users opt in to built-in updates; their candidate lists and edits survive.
   await run(`(()=>{const saved=PitchApp.snapshot();saved.players.pop();saved.combos.pop();saved.players[0].rating=123;saved.pool=[saved.players[0].id];localStorage.setItem('pitch-lab-data-v1',JSON.stringify(saved));})()`);
   const updateReload=once(win.webContents,'did-finish-load');win.reload();await updateReload;
-  assert.equal(await run('PitchApp.snapshot().players.length'),937,'Loading the update must not silently replace saved data');
+  assert.equal(await run('PitchApp.snapshot().players.length'),playerCount-1,'Loading the update must not silently replace saved data');
   const beforeUpdate=await run('PitchApp.snapshot()');
+  await run(`window.fetch = async url => {
+    if (!url.endsWith('/roster-data.json')) throw Error(url);
+    return {ok:true,json:async()=>({...PitchDefaultData,builtInRevision:'2099-01-01'})};
+  };`);
   await run("document.querySelector('#updateDefaultsBtn').click()");
+  await run("new Promise(resolve => setTimeout(resolve, 50))");
+  assert.ok(await run("document.querySelector('#importSummary').textContent.includes('2099-01-01')"));
   assert.ok(await run("document.querySelector('#importDialog').open && document.querySelector('#replaceImportBtn').hidden"));
   await run("document.querySelector('#mergeImportBtn').click()");
   const afterUpdate=await run('PitchApp.snapshot()');
-  assert.ok(afterUpdate.players.length>=938);assert.equal(afterUpdate.combos.length,373);
+  assert.ok(afterUpdate.players.length>=playerCount);assert.equal(afterUpdate.combos.length,comboCount);
   assert.equal(afterUpdate.players[0].rating,123);assert.deepEqual(afterUpdate.pool,beforeUpdate.pool);assert.deepEqual(afterUpdate.groups,beforeUpdate.groups);
   const countAfterMerge=afterUpdate.players.length;
-  await run("document.querySelector('#updateDefaultsBtn').click();document.querySelector('#mergeImportBtn').click()");
+  await run("window.fetch=async()=>{throw Error('offline');};document.querySelector('#updateDefaultsBtn').click()");
+  await run("new Promise(resolve => setTimeout(resolve, 50))");
+  assert.ok(await run("document.querySelector('#importSummary').textContent.includes(PitchDefaultData.builtInRevision)"));
+  await run("document.querySelector('#mergeImportBtn').click()");
   assert.equal(await run('PitchApp.snapshot().players.length'),countAfterMerge,'Repeated built-in updates must not duplicate versions');
   // Restore defaults in the isolated test profile for the existing export checks.
   await run("localStorage.setItem('pitch-lab-data-v1',JSON.stringify(PitchDefaultData))");
@@ -85,7 +94,7 @@ app.whenReady().then(async () => {
   // Trigger a real UI action that saves, then reload and verify persistence.
   await run(`document.querySelector('[data-view="match"]').click(); document.querySelector('#addReserveBtn').click(); document.querySelector('#randomFillBtn').click();`);
   const saved = await run(`JSON.parse(localStorage.getItem('pitch-lab-data-v1'))`);
-  assert.equal(saved.players.length, 938);
+  assert.equal(saved.players.length, playerCount);
   assert.ok(saved.groups.every(group => group.options.length === 5));
   const loaded = once(win.webContents, 'did-finish-load');
   win.reload();
@@ -100,7 +109,7 @@ app.whenReady().then(async () => {
   });
   await run(`document.querySelector('#exportBtn').click()`);
   await download;
-  assert.equal(JSON.parse(fs.readFileSync(path.join(profile, 'export.json'), 'utf8')).players.length, 938);
+  assert.equal(JSON.parse(fs.readFileSync(path.join(profile, 'export.json'), 'utf8')).players.length, playerCount);
   assert.deepEqual(errors, []);
   fs.mkdirSync(path.join(__dirname, '..', 'release'), { recursive: true });
   fs.writeFileSync(path.join(__dirname, '..', 'release', 'desktop-preview.png'), (await win.webContents.capturePage()).toPNG());

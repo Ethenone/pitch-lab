@@ -5,10 +5,14 @@ const vm = require('node:vm');
 const context = { window: {} };
 vm.runInNewContext(fs.readFileSync(require.resolve('../dist/default-data.js'), 'utf8'), context);
 const data = context.window.PitchDefaultData;
-assert.equal(data.players.length, 938);
-assert.equal(new Set(data.players.map(p=>p.personId||p.id)).size,619);
-assert.equal(data.combos.length, 373);
-assert.equal(data.builtInRevision,'2026-11-14');
+const online = require('../dist/roster-data.json');
+assert.deepEqual(online, JSON.parse(JSON.stringify({
+  builtInRevision: data.builtInRevision,
+  players: data.players,
+  combos: data.combos
+})));
+assert.match(data.builtInRevision, /^\d{4}-\d{2}-\d{2}$/);
+assert.ok(data.players.length > 0);
 assert.equal(data.groups.length, 25);
 assert.equal(data.algorithm,'guided');
 assert.equal(data.searchSettings.durationSeconds,120);

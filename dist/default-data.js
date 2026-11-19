@@ -3,16 +3,16 @@ window.PitchDefaultData = {
   "players": [
     {
       "id": "07ff0640-3bc6-4c39-bc22-a928902efad7",
+      "personId": "07ff0640-3bc6-4c39-bc22-a928902efad7",
       "name": "A.拉卡泽特",
       "rating": 92,
       "nationality": "法国",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "兵工厂"
       ],
-      "personId": "07ff0640-3bc6-4c39-bc22-a928902efad7"
+      "positions": [
+        "ST"
+      ]
     },
     {
       "id": "821f4e1c-88d0-41d5-81b9-511c6109e95c",
@@ -20,12 +20,12 @@ window.PitchDefaultData = {
       "name": "R.范尼斯特鲁伊",
       "rating": 98,
       "nationality": "荷兰",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "红魔",
         "银河"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -34,12 +34,12 @@ window.PitchDefaultData = {
       "name": "贝利",
       "rating": 99,
       "nationality": "巴西",
+      "teams": [
+        "贝尔米罗"
+      ],
       "positions": [
         "ST",
         "CAM"
-      ],
-      "teams": [
-        "贝尔米罗"
       ]
     },
     {
@@ -48,11 +48,11 @@ window.PitchDefaultData = {
       "name": "M.克洛泽",
       "rating": 98,
       "nationality": "德国",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "南部"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -61,12 +61,12 @@ window.PitchDefaultData = {
       "name": "F.托雷斯",
       "rating": 98,
       "nationality": "西班牙",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝军",
         "红黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -75,12 +75,12 @@ window.PitchDefaultData = {
       "name": "J.多库",
       "rating": 95,
       "nationality": "比利时",
+      "teams": [
+        "蓝月亮"
+      ],
       "positions": [
         "LW",
         "RW"
-      ],
-      "teams": [
-        "蓝月亮"
       ]
     },
     {
@@ -89,13 +89,13 @@ window.PitchDefaultData = {
       "name": "H.科威尔",
       "rating": 98,
       "nationality": "澳大利亚",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "ST",
         "LW",
         "CAM"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -104,16 +104,16 @@ window.PitchDefaultData = {
       "name": "A.桑切斯",
       "rating": 94,
       "nationality": "智利",
-      "positions": [
-        "ST",
-        "LW",
-        "LM"
-      ],
       "teams": [
         "红蓝",
         "兵工厂",
         "红魔",
         "蓝黑"
+      ],
+      "positions": [
+        "ST",
+        "LW",
+        "LM"
       ]
     },
     {
@@ -122,13 +122,13 @@ window.PitchDefaultData = {
       "name": "D.杜埃",
       "rating": 95,
       "nationality": "法国",
+      "teams": [
+        "巴黎"
+      ],
       "positions": [
         "LW",
         "RW",
         "CM"
-      ],
-      "teams": [
-        "巴黎"
       ]
     },
     {
@@ -137,12 +137,12 @@ window.PitchDefaultData = {
       "name": "维尼修斯",
       "rating": 99,
       "nationality": "巴西",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "ST",
         "LW"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
@@ -151,14 +151,14 @@ window.PitchDefaultData = {
       "name": "L.萨内",
       "rating": 93,
       "nationality": "德国",
+      "teams": [
+        "蓝月亮",
+        "南部"
+      ],
       "positions": [
         "RW",
         "LM",
         "RM"
-      ],
-      "teams": [
-        "蓝月亮",
-        "南部"
       ]
     },
     {
@@ -167,13 +167,13 @@ window.PitchDefaultData = {
       "name": "L.亚马尔",
       "rating": 99,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "ST",
         "RW",
         "CAM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -182,14 +182,14 @@ window.PitchDefaultData = {
       "name": "卢卡斯",
       "rating": 92,
       "nationality": "巴西",
+      "teams": [
+        "巴黎",
+        "百合"
+      ],
       "positions": [
         "LW",
         "RW",
         "RM"
-      ],
-      "teams": [
-        "巴黎",
-        "百合"
       ]
     },
     {
@@ -198,14 +198,14 @@ window.PitchDefaultData = {
       "name": "M.芒特",
       "rating": 95,
       "nationality": "英格兰",
+      "teams": [
+        "蓝军",
+        "红魔"
+      ],
       "positions": [
         "RW",
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "蓝军",
-        "红魔"
       ]
     },
     {
@@ -214,12 +214,12 @@ window.PitchDefaultData = {
       "name": "F.托雷斯",
       "rating": 94,
       "nationality": "西班牙",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝军",
         "红黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -228,13 +228,13 @@ window.PitchDefaultData = {
       "name": "A.巴埃纳",
       "rating": 97,
       "nationality": "西班牙",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "ST",
         "LW",
         "LM"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
@@ -243,14 +243,14 @@ window.PitchDefaultData = {
       "name": "A.穆德里克",
       "rating": 90,
       "nationality": "乌克兰",
+      "teams": [
+        "蓝军",
+        "百合"
+      ],
       "positions": [
         "LW",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "蓝军",
-        "百合"
       ]
     },
     {
@@ -259,13 +259,13 @@ window.PitchDefaultData = {
       "name": "P.内德维德",
       "rating": 95,
       "nationality": "捷克",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "CM",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -274,14 +274,14 @@ window.PitchDefaultData = {
       "name": "A.萨勒马尔科斯",
       "rating": 95,
       "nationality": "比利时",
+      "teams": [
+        "红黑",
+        "红狼"
+      ],
       "positions": [
         "RW",
         "LM",
         "RM"
-      ],
-      "teams": [
-        "红黑",
-        "红狼"
       ]
     },
     {
@@ -290,13 +290,13 @@ window.PitchDefaultData = {
       "name": "R.皮雷斯",
       "rating": 95,
       "nationality": "法国",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "LW",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -305,12 +305,12 @@ window.PitchDefaultData = {
       "name": "M.梅里诺",
       "rating": 95,
       "nationality": "西班牙",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -319,13 +319,13 @@ window.PitchDefaultData = {
       "name": "P.萨尔",
       "rating": 90,
       "nationality": "塞内加尔",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "斑马",
         "百合"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -334,13 +334,13 @@ window.PitchDefaultData = {
       "name": "T.比朔夫",
       "rating": 95,
       "nationality": "德国",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "CM",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -349,12 +349,12 @@ window.PitchDefaultData = {
       "name": "B.吉马良斯",
       "rating": 97,
       "nationality": "巴西",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -363,12 +363,12 @@ window.PitchDefaultData = {
       "name": "K.梅努",
       "rating": 90,
       "nationality": "英格兰",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
@@ -377,14 +377,14 @@ window.PitchDefaultData = {
       "name": "D.库卢塞夫斯基",
       "rating": 96,
       "nationality": "瑞典",
+      "teams": [
+        "斑马",
+        "百合"
+      ],
       "positions": [
         "RW",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "斑马",
-        "百合"
       ]
     },
     {
@@ -393,14 +393,14 @@ window.PitchDefaultData = {
       "name": "M.略伦特",
       "rating": 96,
       "nationality": "西班牙",
+      "teams": [
+        "银河",
+        "床单"
+      ],
       "positions": [
         "CM",
         "RM",
         "RB"
-      ],
-      "teams": [
-        "银河",
-        "床单"
       ]
     },
     {
@@ -409,13 +409,13 @@ window.PitchDefaultData = {
       "name": "M.卡莫拉内西",
       "rating": 98,
       "nationality": "意大利",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "CM",
         "LM",
         "RM"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -424,14 +424,14 @@ window.PitchDefaultData = {
       "name": "S.格纳布里",
       "rating": 91,
       "nationality": "德国",
+      "teams": [
+        "兵工厂",
+        "南部"
+      ],
       "positions": [
         "ST",
         "LM",
         "RM"
-      ],
-      "teams": [
-        "兵工厂",
-        "南部"
       ]
     },
     {
@@ -440,14 +440,14 @@ window.PitchDefaultData = {
       "name": "T.维阿",
       "rating": 93,
       "nationality": "美国",
+      "teams": [
+        "巴黎",
+        "斑马"
+      ],
       "positions": [
         "RM",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "巴黎",
-        "斑马"
       ]
     },
     {
@@ -456,11 +456,11 @@ window.PitchDefaultData = {
       "name": "F.门迪",
       "rating": 91,
       "nationality": "法国",
-      "positions": [
-        "LB"
-      ],
       "teams": [
         "银河"
+      ],
+      "positions": [
+        "LB"
       ]
     },
     {
@@ -469,12 +469,12 @@ window.PitchDefaultData = {
       "name": "L.肖",
       "rating": 95,
       "nationality": "英格兰",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "CB",
         "LB"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
@@ -483,13 +483,13 @@ window.PitchDefaultData = {
       "name": "H.奥赖利",
       "rating": 95,
       "nationality": "英格兰",
+      "teams": [
+        "蓝月亮"
+      ],
       "positions": [
         "CB",
         "CAM",
         "LB"
-      ],
-      "teams": [
-        "蓝月亮"
       ]
     },
     {
@@ -498,12 +498,12 @@ window.PitchDefaultData = {
       "name": "D.埃尔文",
       "rating": 98,
       "nationality": "爱尔兰",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "LB",
         "RB"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
@@ -512,13 +512,13 @@ window.PitchDefaultData = {
       "name": "A.巴尔德",
       "rating": 96,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "LM",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -527,11 +527,11 @@ window.PitchDefaultData = {
       "name": "M.佳夫",
       "rating": 95,
       "nationality": "德国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -540,11 +540,11 @@ window.PitchDefaultData = {
       "name": "W.萨利巴",
       "rating": 96,
       "nationality": "法国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "兵工厂"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -553,12 +553,12 @@ window.PitchDefaultData = {
       "name": "L.马丁内斯",
       "rating": 95,
       "nationality": "阿根廷",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "CB",
         "LB"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
@@ -567,12 +567,12 @@ window.PitchDefaultData = {
       "name": "M.希拉",
       "rating": 96,
       "nationality": "西班牙",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红黑",
         "银河"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -581,12 +581,12 @@ window.PitchDefaultData = {
       "name": "A.罗马尼奥利",
       "rating": 92,
       "nationality": "意大利",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红狼",
         "红黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -595,11 +595,11 @@ window.PitchDefaultData = {
       "name": "W.福法纳",
       "rating": 94,
       "nationality": "法国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝军"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -608,11 +608,11 @@ window.PitchDefaultData = {
       "name": "W.帕乔",
       "rating": 96,
       "nationality": "厄瓜多尔",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "巴黎"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -621,12 +621,12 @@ window.PitchDefaultData = {
       "name": "R.卡瓦略",
       "rating": 98,
       "nationality": "葡萄牙",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝军",
         "银河"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -635,14 +635,14 @@ window.PitchDefaultData = {
       "name": "J.斯通斯",
       "rating": 94,
       "nationality": "英格兰",
+      "teams": [
+        "蓝月亮",
+        "蓝黑"
+      ],
       "positions": [
         "CB",
         "CDM",
         "RB"
-      ],
-      "teams": [
-        "蓝月亮",
-        "蓝黑"
       ]
     },
     {
@@ -651,13 +651,13 @@ window.PitchDefaultData = {
       "name": "A.海文",
       "rating": 93,
       "nationality": "英格兰",
-      "positions": [
-        "CB",
-        "LB"
-      ],
       "teams": [
         "红魔",
         "兵工厂"
+      ],
+      "positions": [
+        "CB",
+        "LB"
       ]
     },
     {
@@ -666,12 +666,12 @@ window.PitchDefaultData = {
       "name": "T.穆尼耶",
       "rating": 93,
       "nationality": "比利时",
+      "teams": [
+        "巴黎"
+      ],
       "positions": [
         "RM",
         "RB"
-      ],
-      "teams": [
-        "巴黎"
       ]
     },
     {
@@ -680,12 +680,12 @@ window.PitchDefaultData = {
       "name": "J.孔德",
       "rating": 97,
       "nationality": "法国",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "CB",
         "RB"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -694,14 +694,14 @@ window.PitchDefaultData = {
       "name": "N.马兹拉维",
       "rating": 94,
       "nationality": "摩洛哥",
+      "teams": [
+        "红魔",
+        "南部"
+      ],
       "positions": [
         "RM",
         "CB",
         "RB"
-      ],
-      "teams": [
-        "红魔",
-        "南部"
       ]
     },
     {
@@ -710,15 +710,15 @@ window.PitchDefaultData = {
       "name": "A.哈基米",
       "rating": 93,
       "nationality": "摩洛哥",
-      "positions": [
-        "RM",
-        "LB",
-        "RB"
-      ],
       "teams": [
         "银河",
         "蓝黑",
         "巴黎"
+      ],
+      "positions": [
+        "RM",
+        "LB",
+        "RB"
       ]
     },
     {
@@ -727,12 +727,12 @@ window.PitchDefaultData = {
       "name": "G.贝尔戈米",
       "rating": 99,
       "nationality": "意大利",
+      "teams": [
+        "蓝黑"
+      ],
       "positions": [
         "CB",
         "RB"
-      ],
-      "teams": [
-        "蓝黑"
       ]
     },
     {
@@ -741,11 +741,11 @@ window.PitchDefaultData = {
       "name": "F.巴特斯",
       "rating": 98,
       "nationality": "法国",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "红魔"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -754,11 +754,11 @@ window.PitchDefaultData = {
       "name": "迪达",
       "rating": 98,
       "nationality": "巴西",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "红黑"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -767,11 +767,11 @@ window.PitchDefaultData = {
       "name": "卡西利亚斯",
       "rating": 99,
       "nationality": "西班牙",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "银河"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -780,11 +780,11 @@ window.PitchDefaultData = {
       "name": "L.舍瓦利耶",
       "rating": 95,
       "nationality": "法国",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "巴黎"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -793,13 +793,13 @@ window.PitchDefaultData = {
       "name": "T.库尔图瓦",
       "rating": 99,
       "nationality": "比利时",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "蓝军",
         "床单",
         "银河"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -808,12 +808,12 @@ window.PitchDefaultData = {
       "name": "A.亚沙里",
       "rating": 94,
       "nationality": "瑞士",
+      "teams": [
+        "红黑"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红黑"
       ]
     },
     {
@@ -822,11 +822,11 @@ window.PitchDefaultData = {
       "name": "D.吉拉尔迪",
       "rating": 93,
       "nationality": "意大利",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红狼"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -835,13 +835,13 @@ window.PitchDefaultData = {
       "name": "W.萨穆埃尔",
       "rating": 94,
       "nationality": "阿根廷",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红狼",
         "银河",
         "蓝黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -850,14 +850,14 @@ window.PitchDefaultData = {
       "name": "B.巴尔科拉",
       "rating": 95,
       "nationality": "法国",
+      "teams": [
+        "巴黎",
+        "红军"
+      ],
       "positions": [
         "ST",
         "RW",
         "RM"
-      ],
-      "teams": [
-        "巴黎",
-        "红军"
       ]
     },
     {
@@ -866,13 +866,13 @@ window.PitchDefaultData = {
       "name": "Z.切利克",
       "rating": 90,
       "nationality": "土耳其",
-      "positions": [
-        "RM",
-        "RB"
-      ],
       "teams": [
         "红狼",
         "斑马"
+      ],
+      "positions": [
+        "RM",
+        "RB"
       ]
     },
     {
@@ -881,12 +881,12 @@ window.PitchDefaultData = {
       "name": "K.纳瓦斯",
       "rating": 94,
       "nationality": "哥斯达黎加",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "巴黎",
         "银河"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -895,14 +895,14 @@ window.PitchDefaultData = {
       "name": "R.卢卡库",
       "rating": 93,
       "nationality": "比利时",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝军",
         "红魔",
         "蓝黑",
         "红狼"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -911,12 +911,12 @@ window.PitchDefaultData = {
       "name": "A.科雷亚",
       "rating": 91,
       "nationality": "阿根廷",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "ST",
         "RM"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
@@ -925,13 +925,13 @@ window.PitchDefaultData = {
       "name": "S.阿奎罗",
       "rating": 98,
       "nationality": "阿根廷",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "床单",
         "蓝月亮",
         "红蓝"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -940,13 +940,13 @@ window.PitchDefaultData = {
       "name": "C.阿斯皮利奎塔",
       "rating": 93,
       "nationality": "西班牙",
-      "positions": [
-        "CB",
-        "RB"
-      ],
       "teams": [
         "蓝军",
         "床单"
+      ],
+      "positions": [
+        "CB",
+        "RB"
       ]
     },
     {
@@ -955,14 +955,14 @@ window.PitchDefaultData = {
       "name": "M.库尼亚",
       "rating": 97,
       "nationality": "巴西",
+      "teams": [
+        "床单",
+        "红魔"
+      ],
       "positions": [
         "ST",
         "LW",
         "CAM"
-      ],
-      "teams": [
-        "床单",
-        "红魔"
       ]
     },
     {
@@ -971,15 +971,15 @@ window.PitchDefaultData = {
       "name": "M.达米安",
       "rating": 94,
       "nationality": "意大利",
-      "positions": [
-        "RM",
-        "CB",
-        "RB"
-      ],
       "teams": [
         "红黑",
         "蓝黑",
         "红魔"
+      ],
+      "positions": [
+        "RM",
+        "CB",
+        "RB"
       ]
     },
     {
@@ -988,11 +988,11 @@ window.PitchDefaultData = {
       "name": "Y.比塞克",
       "rating": 90,
       "nationality": "德国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -1001,13 +1001,13 @@ window.PitchDefaultData = {
       "name": "L.图拉姆",
       "rating": 98,
       "nationality": "法国",
-      "positions": [
-        "CB",
-        "RB"
-      ],
       "teams": [
         "斑马",
         "红蓝"
+      ],
+      "positions": [
+        "CB",
+        "RB"
       ]
     },
     {
@@ -1016,13 +1016,13 @@ window.PitchDefaultData = {
       "name": "D.马拉多纳",
       "rating": 99,
       "nationality": "阿根廷",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "ST",
         "LW",
         "CAM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -1031,12 +1031,12 @@ window.PitchDefaultData = {
       "name": "R.巴尔德吉",
       "rating": 93,
       "nationality": "瑞典",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "RW",
         "RM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -1045,15 +1045,15 @@ window.PitchDefaultData = {
       "name": "A.莫拉塔",
       "rating": 93,
       "nationality": "西班牙",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "床单",
         "银河",
         "斑马",
         "蓝军",
         "红黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -1062,12 +1062,12 @@ window.PitchDefaultData = {
       "name": "S.坎贝尔",
       "rating": 93,
       "nationality": "英格兰",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "百合",
         "兵工厂"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -1076,12 +1076,12 @@ window.PitchDefaultData = {
       "name": "O.鲍伯",
       "rating": 93,
       "nationality": "挪威",
+      "teams": [
+        "蓝月亮"
+      ],
       "positions": [
         "ST",
         "RW"
-      ],
-      "teams": [
-        "蓝月亮"
       ]
     },
     {
@@ -1090,12 +1090,12 @@ window.PitchDefaultData = {
       "name": "P.斯科尔斯",
       "rating": 95,
       "nationality": "英格兰",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
@@ -1104,14 +1104,14 @@ window.PitchDefaultData = {
       "name": "M.埃辛",
       "rating": 98,
       "nationality": "加纳",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "蓝军",
         "银河",
         "红黑"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -1120,13 +1120,13 @@ window.PitchDefaultData = {
       "name": "T.亚伯拉罕",
       "rating": 91,
       "nationality": "英格兰",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝军",
         "红黑",
         "红狼"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -1135,11 +1135,11 @@ window.PitchDefaultData = {
       "name": "D.特雷泽盖",
       "rating": 98,
       "nationality": "法国",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "斑马"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -1148,11 +1148,11 @@ window.PitchDefaultData = {
       "name": "J.范赫克",
       "rating": 95,
       "nationality": "荷兰",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "百合"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -1161,14 +1161,14 @@ window.PitchDefaultData = {
       "name": "L.梅西",
       "rating": 99,
       "nationality": "阿根廷",
+      "teams": [
+        "巴黎",
+        "红蓝"
+      ],
       "positions": [
         "ST",
         "RW",
         "CAM"
-      ],
-      "teams": [
-        "巴黎",
-        "红蓝"
       ]
     },
     {
@@ -1177,14 +1177,14 @@ window.PitchDefaultData = {
       "name": "C.法布雷加斯",
       "rating": 98,
       "nationality": "西班牙",
-      "positions": [
-        "CM",
-        "CAM"
-      ],
       "teams": [
         "红蓝",
         "兵工厂",
         "蓝军"
+      ],
+      "positions": [
+        "CM",
+        "CAM"
       ]
     },
     {
@@ -1193,13 +1193,13 @@ window.PitchDefaultData = {
       "name": "F.巴尔韦德",
       "rating": 97,
       "nationality": "乌拉圭",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "RW",
         "CM",
         "RM"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
@@ -1208,12 +1208,12 @@ window.PitchDefaultData = {
       "name": "A.戴维斯",
       "rating": 95,
       "nationality": "加拿大",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "LM",
         "LB"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -1222,13 +1222,13 @@ window.PitchDefaultData = {
       "name": "H.克雷斯波",
       "rating": 98,
       "nationality": "阿根廷",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝黑",
         "蓝军",
         "红黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -1237,14 +1237,14 @@ window.PitchDefaultData = {
       "name": "C.罗纳尔多",
       "rating": 97,
       "nationality": "葡萄牙",
-      "positions": [
-        "ST",
-        "LW"
-      ],
       "teams": [
         "红魔",
         "银河",
         "斑马"
+      ],
+      "positions": [
+        "ST",
+        "LW"
       ]
     },
     {
@@ -1253,13 +1253,13 @@ window.PitchDefaultData = {
       "name": "T.皮塔奇",
       "rating": 93,
       "nationality": "西班牙",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "CM",
         "CAM",
         "CDM"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
@@ -1268,14 +1268,14 @@ window.PitchDefaultData = {
       "name": "I.本纳塞尔",
       "rating": 92,
       "nationality": "阿尔及利亚",
+      "teams": [
+        "红黑",
+        "兵工厂"
+      ],
       "positions": [
         "CM",
         "CAM",
         "CDM"
-      ],
-      "teams": [
-        "红黑",
-        "兵工厂"
       ]
     },
     {
@@ -1284,12 +1284,12 @@ window.PitchDefaultData = {
       "name": "恩德里克",
       "rating": 90,
       "nationality": "巴西",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "ST",
         "RW"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
@@ -1298,12 +1298,12 @@ window.PitchDefaultData = {
       "name": "雷尼尔多",
       "rating": 92,
       "nationality": "莫桑比克",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "CB",
         "LB"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
@@ -1312,11 +1312,11 @@ window.PitchDefaultData = {
       "name": "马塞洛",
       "rating": 98,
       "nationality": "巴西",
-      "positions": [
-        "LB"
-      ],
       "teams": [
         "银河"
+      ],
+      "positions": [
+        "LB"
       ]
     },
     {
@@ -1325,11 +1325,11 @@ window.PitchDefaultData = {
       "name": "G.布雷默",
       "rating": 97,
       "nationality": "巴西",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "斑马"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -1338,13 +1338,13 @@ window.PitchDefaultData = {
       "name": "J.戈麦斯",
       "rating": 94,
       "nationality": "英格兰",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "CB",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -1353,13 +1353,13 @@ window.PitchDefaultData = {
       "name": "F.迪马尔科",
       "rating": 92,
       "nationality": "意大利",
+      "teams": [
+        "蓝黑"
+      ],
       "positions": [
         "LM",
         "CB",
         "LB"
-      ],
-      "teams": [
-        "蓝黑"
       ]
     },
     {
@@ -1368,11 +1368,11 @@ window.PitchDefaultData = {
       "name": "P.埃斯图皮尼安",
       "rating": 94,
       "nationality": "厄瓜多尔",
-      "positions": [
-        "LB"
-      ],
       "teams": [
         "红黑"
+      ],
+      "positions": [
+        "LB"
       ]
     },
     {
@@ -1381,12 +1381,12 @@ window.PitchDefaultData = {
       "name": "F.里贝里",
       "rating": 99,
       "nationality": "法国",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "LW",
         "LM"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -1395,12 +1395,12 @@ window.PitchDefaultData = {
       "name": "J.格瓦迪奥尔",
       "rating": 97,
       "nationality": "克罗地亚",
+      "teams": [
+        "蓝月亮"
+      ],
       "positions": [
         "CB",
         "LB"
-      ],
-      "teams": [
-        "蓝月亮"
       ]
     },
     {
@@ -1409,13 +1409,13 @@ window.PitchDefaultData = {
       "name": "J.贝林厄姆",
       "rating": 99,
       "nationality": "英格兰",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "CM",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
@@ -1424,9 +1424,6 @@ window.PitchDefaultData = {
       "name": "Z.伊布拉希莫维奇",
       "rating": 99,
       "nationality": "瑞典",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝黑",
         "红黑",
@@ -1434,6 +1431,9 @@ window.PitchDefaultData = {
         "巴黎",
         "红魔",
         "斑马"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -1442,13 +1442,13 @@ window.PitchDefaultData = {
       "name": "M.洛卡特利",
       "rating": 96,
       "nationality": "意大利",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "斑马",
         "红黑"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -1457,13 +1457,13 @@ window.PitchDefaultData = {
       "name": "F.米雷蒂",
       "rating": 93,
       "nationality": "意大利",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "CM",
         "LM",
         "CDM"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -1472,13 +1472,13 @@ window.PitchDefaultData = {
       "name": "D.奥尔莫",
       "rating": 97,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "CM",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -1487,11 +1487,11 @@ window.PitchDefaultData = {
       "name": "劳尔",
       "rating": 99,
       "nationality": "西班牙",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "银河"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -1500,13 +1500,13 @@ window.PitchDefaultData = {
       "name": "J.桑乔",
       "rating": 93,
       "nationality": "英格兰",
-      "positions": [
-        "LM",
-        "RM"
-      ],
       "teams": [
         "红魔",
         "蓝军"
+      ],
+      "positions": [
+        "LM",
+        "RM"
       ]
     },
     {
@@ -1515,13 +1515,13 @@ window.PitchDefaultData = {
       "name": "W.萨穆埃尔",
       "rating": 98,
       "nationality": "阿根廷",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红狼",
         "银河",
         "蓝黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -1530,12 +1530,12 @@ window.PitchDefaultData = {
       "name": "F.托雷斯",
       "rating": 96,
       "nationality": "西班牙",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝军",
         "红黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -1544,13 +1544,13 @@ window.PitchDefaultData = {
       "name": "Y.穆萨",
       "rating": 90,
       "nationality": "美国",
+      "teams": [
+        "红黑"
+      ],
       "positions": [
         "CM",
         "RM",
         "CDM"
-      ],
-      "teams": [
-        "红黑"
       ]
     },
     {
@@ -1559,12 +1559,12 @@ window.PitchDefaultData = {
       "name": "F.托莫里",
       "rating": 95,
       "nationality": "英格兰",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝军",
         "红黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -1573,13 +1573,13 @@ window.PitchDefaultData = {
       "name": "D.索博斯洛伊",
       "rating": 90,
       "nationality": "匈牙利",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "CM",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -1588,11 +1588,11 @@ window.PitchDefaultData = {
       "name": "R.迪亚斯",
       "rating": 93,
       "nationality": "葡萄牙",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝月亮"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -1601,13 +1601,13 @@ window.PitchDefaultData = {
       "name": "卢西奥",
       "rating": 96,
       "nationality": "巴西",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "南部",
         "斑马",
         "蓝黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -1616,14 +1616,14 @@ window.PitchDefaultData = {
       "name": "S.埃托奥",
       "rating": 99,
       "nationality": "喀麦隆",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "银河",
         "红蓝",
         "蓝黑",
         "蓝军"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -1632,13 +1632,13 @@ window.PitchDefaultData = {
       "name": "S.佩罗塔",
       "rating": 98,
       "nationality": "意大利",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "斑马",
         "红狼"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -1647,13 +1647,13 @@ window.PitchDefaultData = {
       "name": "埃斯特旺",
       "rating": 93,
       "nationality": "巴西",
+      "teams": [
+        "蓝军"
+      ],
       "positions": [
         "RW",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "蓝军"
       ]
     },
     {
@@ -1662,12 +1662,12 @@ window.PitchDefaultData = {
       "name": "D.赖斯",
       "rating": 96,
       "nationality": "英格兰",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -1676,14 +1676,14 @@ window.PitchDefaultData = {
       "name": "B.席尔瓦",
       "rating": 97,
       "nationality": "葡萄牙",
+      "teams": [
+        "蓝月亮",
+        "银河"
+      ],
       "positions": [
         "RW",
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "蓝月亮",
-        "银河"
       ]
     },
     {
@@ -1692,12 +1692,12 @@ window.PitchDefaultData = {
       "name": "J.博阿滕",
       "rating": 93,
       "nationality": "德国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝月亮",
         "南部"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -1706,15 +1706,15 @@ window.PitchDefaultData = {
       "name": "K.图雷",
       "rating": 93,
       "nationality": "科特迪瓦",
-      "positions": [
-        "CB",
-        "CDM",
-        "RB"
-      ],
       "teams": [
         "兵工厂",
         "蓝月亮",
         "红军"
+      ],
+      "positions": [
+        "CB",
+        "CDM",
+        "RB"
       ]
     },
     {
@@ -1723,27 +1723,27 @@ window.PitchDefaultData = {
       "name": "D.斯彭斯",
       "rating": 93,
       "nationality": "英格兰",
+      "teams": [
+        "百合",
+        "蓝黑"
+      ],
       "positions": [
         "LM",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "百合",
-        "蓝黑"
       ]
     },
     {
       "id": "65252087-4ae3-4c3a-a59a-eb09692470cb",
       "personId": "64267bbf-1ab9-4065-a90c-638c26e025ed",
       "name": "金玟哉",
-      "rating": 93,
+      "rating": 95,
       "nationality": "韩国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "南部"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -1752,14 +1752,14 @@ window.PitchDefaultData = {
       "name": "S.艾尔沙拉维",
       "rating": 92,
       "nationality": "意大利",
+      "teams": [
+        "红狼",
+        "红黑"
+      ],
       "positions": [
         "LW",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "红狼",
-        "红黑"
       ]
     },
     {
@@ -1768,12 +1768,12 @@ window.PitchDefaultData = {
       "name": "G.莱茵克尔",
       "rating": 98,
       "nationality": "英格兰",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "百合",
         "红蓝"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -1782,14 +1782,14 @@ window.PitchDefaultData = {
       "name": "A.格里兹曼",
       "rating": 98,
       "nationality": "法国",
+      "teams": [
+        "床单",
+        "红蓝"
+      ],
       "positions": [
         "ST",
         "LW",
         "LM"
-      ],
-      "teams": [
-        "床单",
-        "红蓝"
       ]
     },
     {
@@ -1798,11 +1798,11 @@ window.PitchDefaultData = {
       "name": "W.萨利巴",
       "rating": 93,
       "nationality": "法国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "兵工厂"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -1811,11 +1811,11 @@ window.PitchDefaultData = {
       "name": "P.库巴西",
       "rating": 97,
       "nationality": "西班牙",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红蓝"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -1824,13 +1824,13 @@ window.PitchDefaultData = {
       "name": "C.帕尔默",
       "rating": 98,
       "nationality": "英格兰",
-      "positions": [
-        "ST",
-        "CAM"
-      ],
       "teams": [
         "蓝月亮",
         "蓝军"
+      ],
+      "positions": [
+        "ST",
+        "CAM"
       ]
     },
     {
@@ -1839,11 +1839,11 @@ window.PitchDefaultData = {
       "name": "J.雅凯",
       "rating": 93,
       "nationality": "法国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红军"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -1852,14 +1852,14 @@ window.PitchDefaultData = {
       "name": "D.莫雷拉",
       "rating": 95,
       "nationality": "比利时",
+      "teams": [
+        "红黑",
+        "蓝军"
+      ],
       "positions": [
         "RM",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "红黑",
-        "蓝军"
       ]
     },
     {
@@ -1868,11 +1868,11 @@ window.PitchDefaultData = {
       "name": "Y.博尼",
       "rating": 93,
       "nationality": "科特迪瓦",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -1881,14 +1881,14 @@ window.PitchDefaultData = {
       "name": "G.伊瓜因",
       "rating": 94,
       "nationality": "阿根廷",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "银河",
         "斑马",
         "红黑",
         "蓝军"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -1897,14 +1897,14 @@ window.PitchDefaultData = {
       "name": "O.马尔穆什",
       "rating": 95,
       "nationality": "埃及",
+      "teams": [
+        "百合",
+        "蓝月亮"
+      ],
       "positions": [
         "ST",
         "LW",
         "LM"
-      ],
-      "teams": [
-        "百合",
-        "蓝月亮"
       ]
     },
     {
@@ -1913,11 +1913,11 @@ window.PitchDefaultData = {
       "name": "G.加西亚",
       "rating": 93,
       "nationality": "西班牙",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "银河"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -1926,13 +1926,13 @@ window.PitchDefaultData = {
       "name": "A.戈登",
       "rating": 95,
       "nationality": "英格兰",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "LW",
         "RW",
         "LM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -1941,12 +1941,12 @@ window.PitchDefaultData = {
       "name": "C.措利斯",
       "rating": 94,
       "nationality": "希腊",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "LW",
         "LM"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -1955,13 +1955,13 @@ window.PitchDefaultData = {
       "name": "K.阿拉伊贝戈维奇",
       "rating": 93,
       "nationality": "波黑",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "LW",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -1970,13 +1970,13 @@ window.PitchDefaultData = {
       "name": "G.马丁内利",
       "rating": 93,
       "nationality": "巴西",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "LW",
         "RW",
         "LM"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -1985,13 +1985,13 @@ window.PitchDefaultData = {
       "name": "J.格雷利什",
       "rating": 91,
       "nationality": "英格兰",
+      "teams": [
+        "蓝月亮"
+      ],
       "positions": [
         "LW",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "蓝月亮"
       ]
     },
     {
@@ -2000,14 +2000,14 @@ window.PitchDefaultData = {
       "name": "李刚仁",
       "rating": 93,
       "nationality": "韩国",
+      "teams": [
+        "床单",
+        "巴黎"
+      ],
       "positions": [
         "RW",
         "CM",
         "RM"
-      ],
-      "teams": [
-        "床单",
-        "巴黎"
       ]
     },
     {
@@ -2016,13 +2016,13 @@ window.PitchDefaultData = {
       "name": "D.马伦",
       "rating": 94,
       "nationality": "荷兰",
+      "teams": [
+        "红狼"
+      ],
       "positions": [
         "ST",
         "RW",
         "RM"
-      ],
-      "teams": [
-        "红狼"
       ]
     },
     {
@@ -2031,13 +2031,13 @@ window.PitchDefaultData = {
       "name": "N.马杜埃凯",
       "rating": 95,
       "nationality": "英格兰",
-      "positions": [
-        "RW",
-        "RM"
-      ],
       "teams": [
         "兵工厂",
         "蓝军"
+      ],
+      "positions": [
+        "RW",
+        "RM"
       ]
     },
     {
@@ -2046,13 +2046,13 @@ window.PitchDefaultData = {
       "name": "G.贝斯特",
       "rating": 99,
       "nationality": "北爱尔兰",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "LW",
         "RW",
         "CAM"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
@@ -2061,13 +2061,13 @@ window.PitchDefaultData = {
       "name": "P.内德维德",
       "rating": 98,
       "nationality": "捷克",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "CM",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -2076,13 +2076,13 @@ window.PitchDefaultData = {
       "name": "D.索博斯洛伊",
       "rating": 96,
       "nationality": "匈牙利",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "CM",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -2091,13 +2091,13 @@ window.PitchDefaultData = {
       "name": "C.奥古斯托",
       "rating": 91,
       "nationality": "巴西",
+      "teams": [
+        "蓝黑"
+      ],
       "positions": [
         "LM",
         "CB",
         "LB"
-      ],
-      "teams": [
-        "蓝黑"
       ]
     },
     {
@@ -2106,12 +2106,12 @@ window.PitchDefaultData = {
       "name": "D.弗拉泰西",
       "rating": 90,
       "nationality": "意大利",
+      "teams": [
+        "蓝黑"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "蓝黑"
       ]
     },
     {
@@ -2120,12 +2120,12 @@ window.PitchDefaultData = {
       "name": "P.泽林斯基",
       "rating": 92,
       "nationality": "波兰",
+      "teams": [
+        "蓝黑"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "蓝黑"
       ]
     },
     {
@@ -2134,12 +2134,12 @@ window.PitchDefaultData = {
       "name": "L.贝里瓦尔",
       "rating": 93,
       "nationality": "瑞典",
+      "teams": [
+        "百合"
+      ],
       "positions": [
         "CM",
         "LM"
-      ],
-      "teams": [
-        "百合"
       ]
     },
     {
@@ -2148,13 +2148,13 @@ window.PitchDefaultData = {
       "name": "I.拉基蒂奇",
       "rating": 90,
       "nationality": "克罗地亚",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "CM",
         "CAM",
         "CDM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -2163,13 +2163,13 @@ window.PitchDefaultData = {
       "name": "I.京多安",
       "rating": 92,
       "nationality": "德国",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "红蓝",
         "蓝月亮"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -2178,13 +2178,13 @@ window.PitchDefaultData = {
       "name": "M.奥利赛",
       "rating": 97,
       "nationality": "法国",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "RW",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -2193,14 +2193,14 @@ window.PitchDefaultData = {
       "name": "M.略伦特",
       "rating": 93,
       "nationality": "西班牙",
+      "teams": [
+        "银河",
+        "床单"
+      ],
       "positions": [
         "CM",
         "RM",
         "RB"
-      ],
-      "teams": [
-        "银河",
-        "床单"
       ]
     },
     {
@@ -2209,13 +2209,13 @@ window.PitchDefaultData = {
       "name": "W.麦肯尼",
       "rating": 93,
       "nationality": "美国",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "CM",
         "RM",
         "CDM"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -2224,13 +2224,13 @@ window.PitchDefaultData = {
       "name": "F.永贝里",
       "rating": 98,
       "nationality": "瑞典",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "LW",
         "RW",
         "RM"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -2239,12 +2239,12 @@ window.PitchDefaultData = {
       "name": "M.凯尔凯兹",
       "rating": 94,
       "nationality": "匈牙利",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "LM",
         "LB"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -2253,13 +2253,13 @@ window.PitchDefaultData = {
       "name": "R.格雷罗",
       "rating": 94,
       "nationality": "葡萄牙",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "CB",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -2268,14 +2268,14 @@ window.PitchDefaultData = {
       "name": "R.卡洛斯",
       "rating": 98,
       "nationality": "巴西",
+      "teams": [
+        "蓝黑",
+        "银河"
+      ],
       "positions": [
         "LM",
         "CDM",
         "LB"
-      ],
-      "teams": [
-        "蓝黑",
-        "银河"
       ]
     },
     {
@@ -2284,14 +2284,14 @@ window.PitchDefaultData = {
       "name": "安赫利尼奥",
       "rating": 94,
       "nationality": "西班牙",
+      "teams": [
+        "蓝月亮",
+        "红狼"
+      ],
       "positions": [
         "LM",
         "CB",
         "LB"
-      ],
-      "teams": [
-        "蓝月亮",
-        "红狼"
       ]
     },
     {
@@ -2300,12 +2300,12 @@ window.PitchDefaultData = {
       "name": "S.坎贝尔",
       "rating": 98,
       "nationality": "英格兰",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "百合",
         "兵工厂"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -2314,11 +2314,11 @@ window.PitchDefaultData = {
       "name": "F.加蒂",
       "rating": 94,
       "nationality": "意大利",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "斑马"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -2327,11 +2327,11 @@ window.PitchDefaultData = {
       "name": "J.塔",
       "rating": 97,
       "nationality": "德国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "南部"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -2340,11 +2340,11 @@ window.PitchDefaultData = {
       "name": "G.基耶利尼",
       "rating": 94,
       "nationality": "意大利",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "斑马"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -2353,13 +2353,13 @@ window.PitchDefaultData = {
       "name": "T.席尔瓦",
       "rating": 96,
       "nationality": "巴西",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "巴黎",
         "红黑",
         "蓝军"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -2368,11 +2368,11 @@ window.PitchDefaultData = {
       "name": "J.马蒂普",
       "rating": 93,
       "nationality": "喀麦隆",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红军"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -2381,11 +2381,11 @@ window.PitchDefaultData = {
       "name": "J.希门尼斯",
       "rating": 96,
       "nationality": "乌拉圭",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "床单"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -2394,11 +2394,11 @@ window.PitchDefaultData = {
       "name": "卡瓦哈尔",
       "rating": 97,
       "nationality": "西班牙",
-      "positions": [
-        "RB"
-      ],
       "teams": [
         "银河"
+      ],
+      "positions": [
+        "RB"
       ]
     },
     {
@@ -2407,13 +2407,13 @@ window.PitchDefaultData = {
       "name": "P.拉姆",
       "rating": 99,
       "nationality": "德国",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "CDM",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -2422,11 +2422,11 @@ window.PitchDefaultData = {
       "name": "S.芬南",
       "rating": 98,
       "nationality": "爱尔兰",
-      "positions": [
-        "RB"
-      ],
       "teams": [
         "红军"
+      ],
+      "positions": [
+        "RB"
       ]
     },
     {
@@ -2435,13 +2435,13 @@ window.PitchDefaultData = {
       "name": "Z.阿泰卡梅",
       "rating": 93,
       "nationality": "瑞士",
+      "teams": [
+        "红黑"
+      ],
       "positions": [
         "CB",
         "RB",
         "CM"
-      ],
-      "teams": [
-        "红黑"
       ]
     },
     {
@@ -2450,11 +2450,11 @@ window.PitchDefaultData = {
       "name": "M.诺伊尔",
       "rating": 97,
       "nationality": "德国",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "南部"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -2463,11 +2463,11 @@ window.PitchDefaultData = {
       "name": "J.加西亚",
       "rating": 97,
       "nationality": "西班牙",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "红蓝"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -2476,12 +2476,12 @@ window.PitchDefaultData = {
       "name": "P.舒梅切尔",
       "rating": 99,
       "nationality": "丹麦",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "红魔",
         "蓝月亮"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -2490,11 +2490,11 @@ window.PitchDefaultData = {
       "name": "S.汉达诺维奇",
       "rating": 94,
       "nationality": "斯洛文尼亚",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "蓝黑"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -2503,14 +2503,14 @@ window.PitchDefaultData = {
       "name": "S.格纳布里",
       "rating": 95,
       "nationality": "德国",
+      "teams": [
+        "兵工厂",
+        "南部"
+      ],
       "positions": [
         "ST",
         "LM",
         "RM"
-      ],
-      "teams": [
-        "兵工厂",
-        "南部"
       ]
     },
     {
@@ -2519,14 +2519,14 @@ window.PitchDefaultData = {
       "name": "M.罗杰斯",
       "rating": 97,
       "nationality": "英格兰",
+      "teams": [
+        "蓝军",
+        "蓝月亮"
+      ],
       "positions": [
         "CM",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "蓝军",
-        "蓝月亮"
       ]
     },
     {
@@ -2535,12 +2535,12 @@ window.PitchDefaultData = {
       "name": "J.博阿滕",
       "rating": 96,
       "nationality": "德国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝月亮",
         "南部"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -2549,12 +2549,12 @@ window.PitchDefaultData = {
       "name": "K.马诺拉斯",
       "rating": 92,
       "nationality": "希腊",
+      "teams": [
+        "红狼"
+      ],
       "positions": [
         "CB",
         "RB"
-      ],
-      "teams": [
-        "红狼"
       ]
     },
     {
@@ -2563,12 +2563,12 @@ window.PitchDefaultData = {
       "name": "P.切赫",
       "rating": 99,
       "nationality": "捷克",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "蓝军",
         "兵工厂"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -2577,12 +2577,12 @@ window.PitchDefaultData = {
       "name": "P.斯科尔斯",
       "rating": 98,
       "nationality": "英格兰",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
@@ -2591,13 +2591,13 @@ window.PitchDefaultData = {
       "name": "佩德里",
       "rating": 96,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "LW",
         "CM",
         "LM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -2606,12 +2606,12 @@ window.PitchDefaultData = {
       "name": "D.努涅斯",
       "rating": 91,
       "nationality": "乌拉圭",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "ST",
         "LW"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -2620,12 +2620,12 @@ window.PitchDefaultData = {
       "name": "N.门德斯",
       "rating": 92,
       "nationality": "葡萄牙",
+      "teams": [
+        "巴黎"
+      ],
       "positions": [
         "LM",
         "LB"
-      ],
-      "teams": [
-        "巴黎"
       ]
     },
     {
@@ -2634,13 +2634,13 @@ window.PitchDefaultData = {
       "name": "M.斯凯利",
       "rating": 90,
       "nationality": "英格兰",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "CM",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -2649,12 +2649,12 @@ window.PitchDefaultData = {
       "name": "A.舍甫琴科",
       "rating": 98,
       "nationality": "乌克兰",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "红黑",
         "蓝军"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -2663,12 +2663,12 @@ window.PitchDefaultData = {
       "name": "J.吉腾斯",
       "rating": 95,
       "nationality": "英格兰",
+      "teams": [
+        "蓝军"
+      ],
       "positions": [
         "LW",
         "LM"
-      ],
-      "teams": [
-        "蓝军"
       ]
     },
     {
@@ -2677,13 +2677,13 @@ window.PitchDefaultData = {
       "name": "D.库伊特",
       "rating": 98,
       "nationality": "荷兰",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "ST",
         "RW",
         "RM"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -2692,11 +2692,11 @@ window.PitchDefaultData = {
       "name": "A.索尔洛特",
       "rating": 97,
       "nationality": "挪威",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "床单"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -2705,14 +2705,14 @@ window.PitchDefaultData = {
       "name": "J.里瑟",
       "rating": 98,
       "nationality": "挪威",
+      "teams": [
+        "红军",
+        "红狼"
+      ],
       "positions": [
         "CM",
         "CAM",
         "LB"
-      ],
-      "teams": [
-        "红军",
-        "红狼"
       ]
     },
     {
@@ -2721,12 +2721,12 @@ window.PitchDefaultData = {
       "name": "G.内维尔",
       "rating": 98,
       "nationality": "英格兰",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "CB",
         "RB"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
@@ -2735,12 +2735,12 @@ window.PitchDefaultData = {
       "name": "G.巴蒂斯图塔",
       "rating": 95,
       "nationality": "阿根廷",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "红狼",
         "蓝黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -2749,15 +2749,15 @@ window.PitchDefaultData = {
       "name": "C.西多夫",
       "rating": 98,
       "nationality": "荷兰",
-      "positions": [
-        "LM",
-        "RM",
-        "CAM"
-      ],
       "teams": [
         "银河",
         "蓝黑",
         "红黑"
+      ],
+      "positions": [
+        "LM",
+        "RM",
+        "CAM"
       ]
     },
     {
@@ -2766,12 +2766,12 @@ window.PitchDefaultData = {
       "name": "S.杰拉德",
       "rating": 99,
       "nationality": "英格兰",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -2780,15 +2780,15 @@ window.PitchDefaultData = {
       "name": "M.德佩",
       "rating": 96,
       "nationality": "荷兰",
-      "positions": [
-        "ST",
-        "LW",
-        "CAM"
-      ],
       "teams": [
         "床单",
         "红蓝",
         "红魔"
+      ],
+      "positions": [
+        "ST",
+        "LW",
+        "CAM"
       ]
     },
     {
@@ -2797,11 +2797,11 @@ window.PitchDefaultData = {
       "name": "B.谢什科",
       "rating": 97,
       "nationality": "斯洛文尼亚",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "红魔"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -2810,14 +2810,14 @@ window.PitchDefaultData = {
       "name": "S.马内",
       "rating": 95,
       "nationality": "塞内加尔",
+      "teams": [
+        "红军",
+        "南部"
+      ],
       "positions": [
         "LW",
         "RW",
         "LM"
-      ],
-      "teams": [
-        "红军",
-        "南部"
       ]
     },
     {
@@ -2826,12 +2826,12 @@ window.PitchDefaultData = {
       "name": "A.戴维斯",
       "rating": 91,
       "nationality": "加拿大",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "LM",
         "LB"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -2840,16 +2840,16 @@ window.PitchDefaultData = {
       "name": "P.维埃拉",
       "rating": 99,
       "nationality": "法国",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "红黑",
         "兵工厂",
         "斑马",
         "蓝黑",
         "蓝月亮"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -2858,12 +2858,12 @@ window.PitchDefaultData = {
       "name": "F.里贝里",
       "rating": 95,
       "nationality": "法国",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "LW",
         "LM"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -2872,12 +2872,12 @@ window.PitchDefaultData = {
       "name": "A.卡雷拉斯",
       "rating": 95,
       "nationality": "西班牙",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "LM",
         "LB"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
@@ -2886,12 +2886,12 @@ window.PitchDefaultData = {
       "name": "T.库普梅纳斯",
       "rating": 93,
       "nationality": "荷兰",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -2900,13 +2900,13 @@ window.PitchDefaultData = {
       "name": "E.阿扎尔",
       "rating": 98,
       "nationality": "比利时",
-      "positions": [
-        "ST",
-        "LW"
-      ],
       "teams": [
         "蓝军",
         "银河"
+      ],
+      "positions": [
+        "ST",
+        "LW"
       ]
     },
     {
@@ -2915,14 +2915,14 @@ window.PitchDefaultData = {
       "name": "A.格里兹曼",
       "rating": 94,
       "nationality": "法国",
+      "teams": [
+        "床单",
+        "红蓝"
+      ],
       "positions": [
         "ST",
         "LW",
         "LM"
-      ],
-      "teams": [
-        "床单",
-        "红蓝"
       ]
     },
     {
@@ -2931,12 +2931,12 @@ window.PitchDefaultData = {
       "name": "M.迈尼昂",
       "rating": 97,
       "nationality": "法国",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "巴黎",
         "红黑"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -2945,11 +2945,11 @@ window.PitchDefaultData = {
       "name": "E.恩迪卡",
       "rating": 96,
       "nationality": "科特迪瓦",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红狼"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -2958,13 +2958,13 @@ window.PitchDefaultData = {
       "name": "A.居莱尔",
       "rating": 90,
       "nationality": "土耳其",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "CM",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
@@ -2973,13 +2973,13 @@ window.PitchDefaultData = {
       "name": "K.沃克",
       "rating": 93,
       "nationality": "英格兰",
-      "positions": [
-        "RB"
-      ],
       "teams": [
         "百合",
         "红黑",
         "蓝月亮"
+      ],
+      "positions": [
+        "RB"
       ]
     },
     {
@@ -2988,11 +2988,11 @@ window.PitchDefaultData = {
       "name": "K.本泽马",
       "rating": 99,
       "nationality": "法国",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "银河"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -3001,13 +3001,13 @@ window.PitchDefaultData = {
       "name": "R.卡卢卢",
       "rating": 96,
       "nationality": "法国",
-      "positions": [
-        "CB",
-        "RB"
-      ],
       "teams": [
         "红黑",
         "斑马"
+      ],
+      "positions": [
+        "CB",
+        "RB"
       ]
     },
     {
@@ -3016,14 +3016,14 @@ window.PitchDefaultData = {
       "name": "A.布雷默",
       "rating": 99,
       "nationality": "德国",
+      "teams": [
+        "南部",
+        "蓝黑"
+      ],
       "positions": [
         "LM",
         "CB",
         "LB"
-      ],
-      "teams": [
-        "南部",
-        "蓝黑"
       ]
     },
     {
@@ -3032,13 +3032,13 @@ window.PitchDefaultData = {
       "name": "卢西奥",
       "rating": 94,
       "nationality": "巴西",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "南部",
         "斑马",
         "蓝黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -3047,12 +3047,12 @@ window.PitchDefaultData = {
       "name": "G.维卡里奥",
       "rating": 95,
       "nationality": "意大利",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "百合",
         "斑马"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -3061,12 +3061,12 @@ window.PitchDefaultData = {
       "name": "R.詹姆斯",
       "rating": 92,
       "nationality": "英格兰",
+      "teams": [
+        "蓝军"
+      ],
       "positions": [
         "CDM",
         "RB"
-      ],
-      "teams": [
-        "蓝军"
       ]
     },
     {
@@ -3075,11 +3075,11 @@ window.PitchDefaultData = {
       "name": "V.范戴克",
       "rating": 98,
       "nationality": "荷兰",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红军"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -3088,14 +3088,14 @@ window.PitchDefaultData = {
       "name": "D.若塔",
       "rating": 93,
       "nationality": "葡萄牙",
+      "teams": [
+        "床单",
+        "红军"
+      ],
       "positions": [
         "ST",
         "LW",
         "CAM"
-      ],
-      "teams": [
-        "床单",
-        "红军"
       ]
     },
     {
@@ -3104,13 +3104,13 @@ window.PitchDefaultData = {
       "name": "G.多纳鲁马",
       "rating": 94,
       "nationality": "意大利",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "红黑",
         "巴黎",
         "蓝月亮"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -3119,14 +3119,14 @@ window.PitchDefaultData = {
       "name": "D.塞瓦略斯",
       "rating": 94,
       "nationality": "西班牙",
+      "teams": [
+        "银河",
+        "兵工厂"
+      ],
       "positions": [
         "LW",
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "银河",
-        "兵工厂"
       ]
     },
     {
@@ -3135,13 +3135,13 @@ window.PitchDefaultData = {
       "name": "J.穆西亚拉",
       "rating": 93,
       "nationality": "德国",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "CM",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -3150,13 +3150,13 @@ window.PitchDefaultData = {
       "name": "里沙利松",
       "rating": 94,
       "nationality": "巴西",
+      "teams": [
+        "百合"
+      ],
       "positions": [
         "ST",
         "LW",
         "LM"
-      ],
-      "teams": [
-        "百合"
       ]
     },
     {
@@ -3165,12 +3165,12 @@ window.PitchDefaultData = {
       "name": "F.维尔茨",
       "rating": 97,
       "nationality": "德国",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "ST",
         "CAM"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -3179,13 +3179,13 @@ window.PitchDefaultData = {
       "name": "L.布兰科",
       "rating": 98,
       "nationality": "法国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红蓝",
         "蓝黑",
         "红魔"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -3194,12 +3194,12 @@ window.PitchDefaultData = {
       "name": "M.贝尔纳尔",
       "rating": 93,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -3208,12 +3208,12 @@ window.PitchDefaultData = {
       "name": "G.曼奇尼",
       "rating": 93,
       "nationality": "意大利",
+      "teams": [
+        "红狼"
+      ],
       "positions": [
         "CDM",
         "CB"
-      ],
-      "teams": [
-        "红狼"
       ]
     },
     {
@@ -3222,13 +3222,13 @@ window.PitchDefaultData = {
       "name": "O.吉鲁",
       "rating": 94,
       "nationality": "法国",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝军",
         "红黑",
         "兵工厂"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -3237,11 +3237,11 @@ window.PitchDefaultData = {
       "name": "E.哈兰德",
       "rating": 97,
       "nationality": "挪威",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝月亮"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -3250,12 +3250,12 @@ window.PitchDefaultData = {
       "name": "L.凯利",
       "rating": 94,
       "nationality": "英格兰",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "CB",
         "LB"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -3264,12 +3264,12 @@ window.PitchDefaultData = {
       "name": "L.凯利",
       "rating": 95,
       "nationality": "英格兰",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "CB",
         "LB"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -3278,13 +3278,13 @@ window.PitchDefaultData = {
       "name": "D.奥尔莫",
       "rating": 92,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "CM",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -3293,13 +3293,13 @@ window.PitchDefaultData = {
       "name": "A.格雷",
       "rating": 93,
       "nationality": "英格兰",
+      "teams": [
+        "百合"
+      ],
       "positions": [
         "CM",
         "CDM",
         "CB"
-      ],
-      "teams": [
-        "百合"
       ]
     },
     {
@@ -3308,12 +3308,12 @@ window.PitchDefaultData = {
       "name": "H.凯恩",
       "rating": 98,
       "nationality": "英格兰",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "百合",
         "南部"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -3322,13 +3322,13 @@ window.PitchDefaultData = {
       "name": "P.内托",
       "rating": 95,
       "nationality": "葡萄牙",
+      "teams": [
+        "蓝军"
+      ],
       "positions": [
         "ST",
         "LM",
         "RM"
-      ],
-      "teams": [
-        "蓝军"
       ]
     },
     {
@@ -3337,14 +3337,14 @@ window.PitchDefaultData = {
       "name": "M.特尔",
       "rating": 91,
       "nationality": "法国",
+      "teams": [
+        "百合",
+        "南部"
+      ],
       "positions": [
         "ST",
         "LM",
         "RM"
-      ],
-      "teams": [
-        "百合",
-        "南部"
       ]
     },
     {
@@ -3353,13 +3353,13 @@ window.PitchDefaultData = {
       "name": "P.巴里奥斯",
       "rating": 94,
       "nationality": "西班牙",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "CM",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
@@ -3368,11 +3368,11 @@ window.PitchDefaultData = {
       "name": "R.桑切斯",
       "rating": 94,
       "nationality": "西班牙",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "蓝军"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -3381,12 +3381,12 @@ window.PitchDefaultData = {
       "name": "J.阿尔巴",
       "rating": 98,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "LM",
         "LB"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -3395,11 +3395,11 @@ window.PitchDefaultData = {
       "name": "M.斯维拉尔",
       "rating": 95,
       "nationality": "塞尔维亚",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "红狼"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -3408,15 +3408,15 @@ window.PitchDefaultData = {
       "name": "R.穆阿尼",
       "rating": 94,
       "nationality": "法国",
-      "positions": [
-        "ST",
-        "RW",
-        "RM"
-      ],
       "teams": [
         "巴黎",
         "百合",
         "斑马"
+      ],
+      "positions": [
+        "ST",
+        "RW",
+        "RM"
       ]
     },
     {
@@ -3425,14 +3425,14 @@ window.PitchDefaultData = {
       "name": "G.热苏斯",
       "rating": 93,
       "nationality": "巴西",
-      "positions": [
-        "ST",
-        "RW"
-      ],
       "teams": [
         "蓝月亮",
         "兵工厂",
         "红蓝"
+      ],
+      "positions": [
+        "ST",
+        "RW"
       ]
     },
     {
@@ -3441,14 +3441,14 @@ window.PitchDefaultData = {
       "name": "R.卢卡库",
       "rating": 94,
       "nationality": "比利时",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝军",
         "红魔",
         "蓝黑",
         "红狼"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -3457,11 +3457,11 @@ window.PitchDefaultData = {
       "name": "C.埃斯皮",
       "rating": 93,
       "nationality": "西班牙",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "银河"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -3470,11 +3470,11 @@ window.PitchDefaultData = {
       "name": "K.本泽马",
       "rating": 94,
       "nationality": "法国",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "银河"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -3483,14 +3483,14 @@ window.PitchDefaultData = {
       "name": "M.库尼亚",
       "rating": 96,
       "nationality": "巴西",
+      "teams": [
+        "床单",
+        "红魔"
+      ],
       "positions": [
         "ST",
         "LW",
         "CAM"
-      ],
-      "teams": [
-        "床单",
-        "红魔"
       ]
     },
     {
@@ -3499,14 +3499,14 @@ window.PitchDefaultData = {
       "name": "S.马内",
       "rating": 94,
       "nationality": "塞内加尔",
+      "teams": [
+        "红军",
+        "南部"
+      ],
       "positions": [
         "LW",
         "RW",
         "LM"
-      ],
-      "teams": [
-        "红军",
-        "南部"
       ]
     },
     {
@@ -3515,14 +3515,14 @@ window.PitchDefaultData = {
       "name": "内马尔",
       "rating": 97,
       "nationality": "巴西",
-      "positions": [
-        "LW",
-        "CAM"
-      ],
       "teams": [
         "红蓝",
         "巴黎",
         "贝尔米罗"
+      ],
+      "positions": [
+        "LW",
+        "CAM"
       ]
     },
     {
@@ -3531,12 +3531,12 @@ window.PitchDefaultData = {
       "name": "R.恩古莫哈",
       "rating": 93,
       "nationality": "英格兰",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "LW",
         "LM"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -3545,13 +3545,13 @@ window.PitchDefaultData = {
       "name": "萨维尼奥",
       "rating": 94,
       "nationality": "巴西",
-      "positions": [
-        "LW",
-        "RW"
-      ],
       "teams": [
         "百合",
         "蓝月亮"
+      ],
+      "positions": [
+        "LW",
+        "RW"
       ]
     },
     {
@@ -3560,12 +3560,12 @@ window.PitchDefaultData = {
       "name": "R.马赫雷斯",
       "rating": 93,
       "nationality": "阿尔及利亚",
+      "teams": [
+        "蓝月亮"
+      ],
       "positions": [
         "RW",
         "RM"
-      ],
-      "teams": [
-        "蓝月亮"
       ]
     },
     {
@@ -3574,13 +3574,13 @@ window.PitchDefaultData = {
       "name": "B.姆贝乌莫",
       "rating": 96,
       "nationality": "喀麦隆",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "ST",
         "RW",
         "RM"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
@@ -3589,13 +3589,13 @@ window.PitchDefaultData = {
       "name": "T.巴尔丹兹",
       "rating": 91,
       "nationality": "意大利",
+      "teams": [
+        "红狼"
+      ],
       "positions": [
         "ST",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "红狼"
       ]
     },
     {
@@ -3604,12 +3604,12 @@ window.PitchDefaultData = {
       "name": "F.维尔茨",
       "rating": 98,
       "nationality": "德国",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "ST",
         "CAM"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -3618,14 +3618,14 @@ window.PitchDefaultData = {
       "name": "P.迪巴拉",
       "rating": 97,
       "nationality": "阿根廷",
+      "teams": [
+        "斑马",
+        "红狼"
+      ],
       "positions": [
         "ST",
         "RW",
         "CAM"
-      ],
-      "teams": [
-        "斑马",
-        "红狼"
       ]
     },
     {
@@ -3634,12 +3634,12 @@ window.PitchDefaultData = {
       "name": "F.托蒂",
       "rating": 99,
       "nationality": "意大利",
+      "teams": [
+        "红狼"
+      ],
       "positions": [
         "ST",
         "CAM"
-      ],
-      "teams": [
-        "红狼"
       ]
     },
     {
@@ -3648,29 +3648,29 @@ window.PitchDefaultData = {
       "name": "M.皮亚尼奇",
       "rating": 93,
       "nationality": "波黑",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "斑马",
         "红狼",
         "红蓝"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
       "id": "32e7ed2b-167b-4281-8c46-1a00073fd7dd",
       "personId": "fb625417-70dc-4f23-a9c9-67285ca2d046",
       "name": "J.亨德森",
-      "rating": 95,
+      "rating": 93,
       "nationality": "英格兰",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "红军",
         "蓝军"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -3679,13 +3679,13 @@ window.PitchDefaultData = {
       "name": "加维",
       "rating": 92,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "LW",
         "RW",
         "CM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -3694,13 +3694,13 @@ window.PitchDefaultData = {
       "name": "A.麦卡利斯特",
       "rating": 96,
       "nationality": "阿根廷",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "CM",
         "CAM",
         "CDM"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -3709,13 +3709,13 @@ window.PitchDefaultData = {
       "name": "P.巴里奥斯",
       "rating": 95,
       "nationality": "西班牙",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "CM",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
@@ -3724,13 +3724,13 @@ window.PitchDefaultData = {
       "name": "B.施魏因施泰格",
       "rating": 95,
       "nationality": "德国",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "南部",
         "红魔"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -3739,14 +3739,14 @@ window.PitchDefaultData = {
       "name": "X.阿隆索",
       "rating": 94,
       "nationality": "西班牙",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "红军",
         "银河",
         "南部"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -3755,14 +3755,14 @@ window.PitchDefaultData = {
       "name": "L.帕雷德斯",
       "rating": 94,
       "nationality": "阿根廷",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "巴黎",
         "斑马",
         "红狼"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -3771,12 +3771,12 @@ window.PitchDefaultData = {
       "name": "M.苏比门迪",
       "rating": 97,
       "nationality": "西班牙",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -3785,14 +3785,14 @@ window.PitchDefaultData = {
       "name": "P.博格巴",
       "rating": 93,
       "nationality": "法国",
+      "teams": [
+        "红魔",
+        "斑马"
+      ],
       "positions": [
         "CM",
         "LM",
         "CDM"
-      ],
-      "teams": [
-        "红魔",
-        "斑马"
       ]
     },
     {
@@ -3801,13 +3801,13 @@ window.PitchDefaultData = {
       "name": "R.卡拉菲奥里",
       "rating": 96,
       "nationality": "意大利",
-      "positions": [
-        "CB",
-        "LB"
-      ],
       "teams": [
         "红狼",
         "兵工厂"
+      ],
+      "positions": [
+        "CB",
+        "LB"
       ]
     },
     {
@@ -3816,16 +3816,16 @@ window.PitchDefaultData = {
       "name": "J.坎塞洛",
       "rating": 95,
       "nationality": "葡萄牙",
-      "positions": [
-        "RM",
-        "LB",
-        "RB"
-      ],
       "teams": [
         "蓝月亮",
         "南部",
         "斑马",
         "蓝黑"
+      ],
+      "positions": [
+        "RM",
+        "LB",
+        "RB"
       ]
     },
     {
@@ -3834,13 +3834,13 @@ window.PitchDefaultData = {
       "name": "C.奥古斯托",
       "rating": 95,
       "nationality": "巴西",
+      "teams": [
+        "蓝黑"
+      ],
       "positions": [
         "LM",
         "CB",
         "LB"
-      ],
-      "teams": [
-        "蓝黑"
       ]
     },
     {
@@ -3849,11 +3849,11 @@ window.PitchDefaultData = {
       "name": "G.基耶利尼",
       "rating": 99,
       "nationality": "意大利",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "斑马"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -3862,13 +3862,13 @@ window.PitchDefaultData = {
       "name": "C.罗梅罗",
       "rating": 94,
       "nationality": "阿根廷",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "斑马",
         "百合",
         "床单"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -3877,13 +3877,13 @@ window.PitchDefaultData = {
       "name": "S.拉莫斯",
       "rating": 99,
       "nationality": "西班牙",
-      "positions": [
-        "CB",
-        "RB"
-      ],
       "teams": [
         "巴黎",
         "银河"
+      ],
+      "positions": [
+        "CB",
+        "RB"
       ]
     },
     {
@@ -3892,12 +3892,12 @@ window.PitchDefaultData = {
       "name": "A.巴尔扎利",
       "rating": 93,
       "nationality": "意大利",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "CB",
         "RB"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -3906,13 +3906,13 @@ window.PitchDefaultData = {
       "name": "S.克亚尔",
       "rating": 93,
       "nationality": "丹麦",
-      "positions": [
-        "CB",
-        "RB"
-      ],
       "teams": [
         "红狼",
         "红黑"
+      ],
+      "positions": [
+        "CB",
+        "RB"
       ]
     },
     {
@@ -3921,11 +3921,11 @@ window.PitchDefaultData = {
       "name": "F.巴雷西",
       "rating": 99,
       "nationality": "意大利",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -3934,11 +3934,11 @@ window.PitchDefaultData = {
       "name": "E.孔萨",
       "rating": 95,
       "nationality": "英格兰",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "兵工厂"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -3947,11 +3947,11 @@ window.PitchDefaultData = {
       "name": "L.贝拉尔多",
       "rating": 94,
       "nationality": "巴西",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "巴黎"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -3960,11 +3960,11 @@ window.PitchDefaultData = {
       "name": "丹特",
       "rating": 92,
       "nationality": "巴西",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "南部"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -3973,15 +3973,15 @@ window.PitchDefaultData = {
       "name": "A.哈基米",
       "rating": 97,
       "nationality": "摩洛哥",
-      "positions": [
-        "RM",
-        "LB",
-        "RB"
-      ],
       "teams": [
         "银河",
         "蓝黑",
         "巴黎"
+      ],
+      "positions": [
+        "RM",
+        "LB",
+        "RB"
       ]
     },
     {
@@ -3990,14 +3990,14 @@ window.PitchDefaultData = {
       "name": "D.斯彭斯",
       "rating": 95,
       "nationality": "英格兰",
+      "teams": [
+        "百合",
+        "蓝黑"
+      ],
       "positions": [
         "LM",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "百合",
-        "蓝黑"
       ]
     },
     {
@@ -4006,14 +4006,14 @@ window.PitchDefaultData = {
       "name": "N.马兹拉维",
       "rating": 92,
       "nationality": "摩洛哥",
+      "teams": [
+        "红魔",
+        "南部"
+      ],
       "positions": [
         "RM",
         "CB",
         "RB"
-      ],
-      "teams": [
-        "红魔",
-        "南部"
       ]
     },
     {
@@ -4022,11 +4022,11 @@ window.PitchDefaultData = {
       "name": "E.门迪",
       "rating": 93,
       "nationality": "塞内加尔",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "蓝军"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -4035,12 +4035,12 @@ window.PitchDefaultData = {
       "name": "阿利松",
       "rating": 94,
       "nationality": "巴西",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "红狼",
         "红军"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -4049,12 +4049,12 @@ window.PitchDefaultData = {
       "name": "D.希曼",
       "rating": 99,
       "nationality": "英格兰",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "兵工厂",
         "蓝月亮"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -4063,13 +4063,13 @@ window.PitchDefaultData = {
       "name": "G.多纳鲁马",
       "rating": 96,
       "nationality": "意大利",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "红黑",
         "巴黎",
         "蓝月亮"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -4078,13 +4078,13 @@ window.PitchDefaultData = {
       "name": "R.菲尔米诺",
       "rating": 99,
       "nationality": "巴西",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "ST",
         "LW",
         "CAM"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -4093,12 +4093,12 @@ window.PitchDefaultData = {
       "name": "R.瓦拉内",
       "rating": 98,
       "nationality": "法国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "银河",
         "红魔"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -4107,12 +4107,12 @@ window.PitchDefaultData = {
       "name": "F.贝肯鲍尔",
       "rating": 99,
       "nationality": "德国",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "CDM",
         "CB"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -4121,14 +4121,14 @@ window.PitchDefaultData = {
       "name": "M.穆德里克",
       "rating": 90,
       "nationality": "乌克兰",
+      "teams": [
+        "百合",
+        "蓝军"
+      ],
       "positions": [
         "LW",
         "RW",
         "CAM"
-      ],
-      "teams": [
-        "百合",
-        "蓝军"
       ]
     },
     {
@@ -4137,11 +4137,11 @@ window.PitchDefaultData = {
       "name": "Y.博尼",
       "rating": 94,
       "nationality": "科特迪瓦",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -4150,12 +4150,12 @@ window.PitchDefaultData = {
       "name": "M.尤尔曼德",
       "rating": 95,
       "nationality": "丹麦",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
@@ -4164,12 +4164,12 @@ window.PitchDefaultData = {
       "name": "Y.福法纳",
       "rating": 92,
       "nationality": "法国",
+      "teams": [
+        "红黑"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红黑"
       ]
     },
     {
@@ -4178,12 +4178,12 @@ window.PitchDefaultData = {
       "name": "哈维",
       "rating": 97,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -4192,11 +4192,11 @@ window.PitchDefaultData = {
       "name": "M.范巴斯滕",
       "rating": 99,
       "nationality": "荷兰",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "红黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -4205,13 +4205,13 @@ window.PitchDefaultData = {
       "name": "F.卡纳瓦罗",
       "rating": 99,
       "nationality": "意大利",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝黑",
         "斑马",
         "银河"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -4220,11 +4220,11 @@ window.PitchDefaultData = {
       "name": "S.德弗赖",
       "rating": 92,
       "nationality": "荷兰",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -4233,13 +4233,13 @@ window.PitchDefaultData = {
       "name": "M.普拉蒂尼",
       "rating": 99,
       "nationality": "法国",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "ST",
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -4248,13 +4248,13 @@ window.PitchDefaultData = {
       "name": "M.费尔南德斯",
       "rating": 95,
       "nationality": "葡萄牙",
+      "teams": [
+        "百合"
+      ],
       "positions": [
         "CM",
         "CAM",
         "CDM"
-      ],
-      "teams": [
-        "百合"
       ]
     },
     {
@@ -4263,14 +4263,14 @@ window.PitchDefaultData = {
       "name": "R.古利特",
       "rating": 99,
       "nationality": "荷兰",
+      "teams": [
+        "红黑",
+        "蓝军"
+      ],
       "positions": [
         "RW",
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "红黑",
-        "蓝军"
       ]
     },
     {
@@ -4279,12 +4279,12 @@ window.PitchDefaultData = {
       "name": "D.戈丁",
       "rating": 93,
       "nationality": "乌拉圭",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "床单",
         "蓝黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -4293,13 +4293,13 @@ window.PitchDefaultData = {
       "name": "W.鲁尼",
       "rating": 99,
       "nationality": "英格兰",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "ST",
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
@@ -4308,14 +4308,14 @@ window.PitchDefaultData = {
       "name": "D.邓弗里斯",
       "rating": 96,
       "nationality": "荷兰",
+      "teams": [
+        "蓝黑",
+        "银河"
+      ],
       "positions": [
         "RM",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "蓝黑",
-        "银河"
       ]
     },
     {
@@ -4324,11 +4324,11 @@ window.PitchDefaultData = {
       "name": "C.普约尔",
       "rating": 99,
       "nationality": "西班牙",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红蓝"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -4337,14 +4337,14 @@ window.PitchDefaultData = {
       "name": "A.加纳乔",
       "rating": 90,
       "nationality": "阿根廷",
+      "teams": [
+        "红魔",
+        "蓝军"
+      ],
       "positions": [
         "LW",
         "LM",
         "RM"
-      ],
-      "teams": [
-        "红魔",
-        "蓝军"
       ]
     },
     {
@@ -4353,14 +4353,14 @@ window.PitchDefaultData = {
       "name": "K.哈弗茨",
       "rating": 95,
       "nationality": "德国",
+      "teams": [
+        "兵工厂",
+        "蓝军"
+      ],
       "positions": [
         "ST",
         "RW",
         "CAM"
-      ],
-      "teams": [
-        "兵工厂",
-        "蓝军"
       ]
     },
     {
@@ -4369,16 +4369,16 @@ window.PitchDefaultData = {
       "name": "J.菲利克斯",
       "rating": 94,
       "nationality": "葡萄牙",
-      "positions": [
-        "ST",
-        "LM",
-        "CAM"
-      ],
       "teams": [
         "床单",
         "蓝军",
         "红蓝",
         "红黑"
+      ],
+      "positions": [
+        "ST",
+        "LM",
+        "CAM"
       ]
     },
     {
@@ -4387,13 +4387,13 @@ window.PitchDefaultData = {
       "name": "S.利诺",
       "rating": 90,
       "nationality": "巴西",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "LM",
         "RM",
         "LB"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
@@ -4402,13 +4402,13 @@ window.PitchDefaultData = {
       "name": "M.库杜斯",
       "rating": 94,
       "nationality": "加纳",
+      "teams": [
+        "百合"
+      ],
       "positions": [
         "ST",
         "LM",
         "RM"
-      ],
-      "teams": [
-        "百合"
       ]
     },
     {
@@ -4417,13 +4417,13 @@ window.PitchDefaultData = {
       "name": "马尔基尼奥斯",
       "rating": 95,
       "nationality": "巴西",
-      "positions": [
-        "CDM",
-        "CB"
-      ],
       "teams": [
         "巴黎",
         "红狼"
+      ],
+      "positions": [
+        "CDM",
+        "CB"
       ]
     },
     {
@@ -4432,11 +4432,11 @@ window.PitchDefaultData = {
       "name": "J.奥布拉克",
       "rating": 94,
       "nationality": "斯洛文尼亚",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "床单"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -4445,13 +4445,13 @@ window.PitchDefaultData = {
       "name": "G.马丁",
       "rating": 94,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "LM",
         "CB",
         "LB"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -4460,12 +4460,12 @@ window.PitchDefaultData = {
       "name": "N.艾纳维",
       "rating": 93,
       "nationality": "摩洛哥",
+      "teams": [
+        "红狼"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红狼"
       ]
     },
     {
@@ -4474,12 +4474,12 @@ window.PitchDefaultData = {
       "name": "J.孔德",
       "rating": 93,
       "nationality": "法国",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "CB",
         "RB"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -4488,13 +4488,13 @@ window.PitchDefaultData = {
       "name": "P.福登",
       "rating": 96,
       "nationality": "英格兰",
+      "teams": [
+        "蓝月亮"
+      ],
       "positions": [
         "LW",
         "RW",
         "CAM"
-      ],
-      "teams": [
-        "蓝月亮"
       ]
     },
     {
@@ -4503,13 +4503,13 @@ window.PitchDefaultData = {
       "name": "D.巴尔泰萨吉",
       "rating": 93,
       "nationality": "意大利",
+      "teams": [
+        "红黑"
+      ],
       "positions": [
         "LM",
         "CB",
         "LB"
-      ],
-      "teams": [
-        "红黑"
       ]
     },
     {
@@ -4518,16 +4518,16 @@ window.PitchDefaultData = {
       "name": "埃莫森",
       "rating": 98,
       "nationality": "巴西",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "红狼",
         "斑马",
         "银河",
         "红黑",
         "贝尔米罗"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -4536,14 +4536,14 @@ window.PitchDefaultData = {
       "name": "D.库卢塞夫斯基",
       "rating": 93,
       "nationality": "瑞典",
+      "teams": [
+        "斑马",
+        "百合"
+      ],
       "positions": [
         "RW",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "斑马",
-        "百合"
       ]
     },
     {
@@ -4552,11 +4552,11 @@ window.PitchDefaultData = {
       "name": "P.库巴西",
       "rating": 90,
       "nationality": "西班牙",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红蓝"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -4565,14 +4565,14 @@ window.PitchDefaultData = {
       "name": "罗德里",
       "rating": 94,
       "nationality": "西班牙",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "床单",
         "蓝月亮",
         "红蓝"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -4581,11 +4581,11 @@ window.PitchDefaultData = {
       "name": "D.拉亚",
       "rating": 92,
       "nationality": "西班牙",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "兵工厂"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -4594,14 +4594,14 @@ window.PitchDefaultData = {
       "name": "C.普利希奇",
       "rating": 96,
       "nationality": "美国",
+      "teams": [
+        "红黑",
+        "蓝军"
+      ],
       "positions": [
         "LW",
         "RW",
         "LM"
-      ],
-      "teams": [
-        "红黑",
-        "蓝军"
       ]
     },
     {
@@ -4610,13 +4610,13 @@ window.PitchDefaultData = {
       "name": "F.洛佩斯",
       "rating": 94,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "LW",
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -4625,12 +4625,12 @@ window.PitchDefaultData = {
       "name": "N.门德斯",
       "rating": 95,
       "nationality": "葡萄牙",
+      "teams": [
+        "巴黎"
+      ],
       "positions": [
         "LM",
         "LB"
-      ],
-      "teams": [
-        "巴黎"
       ]
     },
     {
@@ -4639,13 +4639,13 @@ window.PitchDefaultData = {
       "name": "A.桑托斯",
       "rating": 93,
       "nationality": "巴西",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "蓝军",
         "红魔"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -4654,13 +4654,13 @@ window.PitchDefaultData = {
       "name": "G.加图索",
       "rating": 98,
       "nationality": "意大利",
+      "teams": [
+        "红黑"
+      ],
       "positions": [
         "CM",
         "RM",
         "CDM"
-      ],
-      "teams": [
-        "红黑"
       ]
     },
     {
@@ -4669,12 +4669,12 @@ window.PitchDefaultData = {
       "name": "N.艾纳维",
       "rating": 95,
       "nationality": "摩洛哥",
+      "teams": [
+        "红狼"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红狼"
       ]
     },
     {
@@ -4683,13 +4683,13 @@ window.PitchDefaultData = {
       "name": "孙兴慜",
       "rating": 97,
       "nationality": "韩国",
+      "teams": [
+        "百合"
+      ],
       "positions": [
         "ST",
         "LW",
         "LM"
-      ],
-      "teams": [
-        "百合"
       ]
     },
     {
@@ -4698,13 +4698,13 @@ window.PitchDefaultData = {
       "name": "M.埃尔莫索",
       "rating": 93,
       "nationality": "西班牙",
-      "positions": [
-        "CB",
-        "LB"
-      ],
       "teams": [
         "床单",
         "红狼"
+      ],
+      "positions": [
+        "CB",
+        "LB"
       ]
     },
     {
@@ -4713,14 +4713,14 @@ window.PitchDefaultData = {
       "name": "C.琼斯",
       "rating": 95,
       "nationality": "英格兰",
+      "teams": [
+        "蓝黑",
+        "红军"
+      ],
       "positions": [
         "CM",
         "CAM",
         "CDM"
-      ],
-      "teams": [
-        "蓝黑",
-        "红军"
       ]
     },
     {
@@ -4729,12 +4729,12 @@ window.PitchDefaultData = {
       "name": "P.因卡皮耶",
       "rating": 95,
       "nationality": "厄瓜多尔",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "CB",
         "LB"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -4743,15 +4743,15 @@ window.PitchDefaultData = {
       "name": "A.莫拉塔",
       "rating": 94,
       "nationality": "西班牙",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "床单",
         "银河",
         "斑马",
         "蓝军",
         "红黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -4760,13 +4760,13 @@ window.PitchDefaultData = {
       "name": "T.席尔瓦",
       "rating": 94,
       "nationality": "巴西",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "巴黎",
         "红黑",
         "蓝军"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -4775,12 +4775,12 @@ window.PitchDefaultData = {
       "name": "J.马丁内斯",
       "rating": 92,
       "nationality": "西班牙",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "CDM",
         "CB"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -4789,11 +4789,11 @@ window.PitchDefaultData = {
       "name": "R.迪亚斯",
       "rating": 96,
       "nationality": "葡萄牙",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝月亮"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -4802,14 +4802,14 @@ window.PitchDefaultData = {
       "name": "M.巴拉克",
       "rating": 98,
       "nationality": "德国",
+      "teams": [
+        "蓝军",
+        "南部"
+      ],
       "positions": [
         "CM",
         "RM",
         "CDM"
-      ],
-      "teams": [
-        "蓝军",
-        "南部"
       ]
     },
     {
@@ -4818,12 +4818,12 @@ window.PitchDefaultData = {
       "name": "M.塔索蒂",
       "rating": 98,
       "nationality": "意大利",
+      "teams": [
+        "红黑"
+      ],
       "positions": [
         "CB",
         "RB"
-      ],
-      "teams": [
-        "红黑"
       ]
     },
     {
@@ -4832,13 +4832,13 @@ window.PitchDefaultData = {
       "name": "卡卡",
       "rating": 97,
       "nationality": "巴西",
-      "positions": [
-        "ST",
-        "CAM"
-      ],
       "teams": [
         "红黑",
         "银河"
+      ],
+      "positions": [
+        "ST",
+        "CAM"
       ]
     },
     {
@@ -4847,12 +4847,12 @@ window.PitchDefaultData = {
       "name": "D.德罗西",
       "rating": 98,
       "nationality": "意大利",
+      "teams": [
+        "红狼"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红狼"
       ]
     },
     {
@@ -4861,14 +4861,14 @@ window.PitchDefaultData = {
       "name": "T.亨利",
       "rating": 99,
       "nationality": "法国",
-      "positions": [
-        "ST",
-        "LW"
-      ],
       "teams": [
         "斑马",
         "兵工厂",
         "红蓝"
+      ],
+      "positions": [
+        "ST",
+        "LW"
       ]
     },
     {
@@ -4877,11 +4877,11 @@ window.PitchDefaultData = {
       "name": "F.埃斯波西托",
       "rating": 94,
       "nationality": "意大利",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -4890,12 +4890,12 @@ window.PitchDefaultData = {
       "name": "L.德拉普",
       "rating": 94,
       "nationality": "英格兰",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝月亮",
         "蓝军"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -4904,13 +4904,13 @@ window.PitchDefaultData = {
       "name": "J.佩德罗",
       "rating": 95,
       "nationality": "巴西",
+      "teams": [
+        "蓝军"
+      ],
       "positions": [
         "ST",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "蓝军"
       ]
     },
     {
@@ -4919,14 +4919,14 @@ window.PitchDefaultData = {
       "name": "O.马尔穆什",
       "rating": 92,
       "nationality": "埃及",
+      "teams": [
+        "百合",
+        "蓝月亮"
+      ],
       "positions": [
         "ST",
         "LW",
         "LM"
-      ],
-      "teams": [
-        "百合",
-        "蓝月亮"
       ]
     },
     {
@@ -4935,14 +4935,14 @@ window.PitchDefaultData = {
       "name": "S.埃托奥",
       "rating": 97,
       "nationality": "喀麦隆",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "银河",
         "红蓝",
         "蓝黑",
         "蓝军"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -4951,11 +4951,11 @@ window.PitchDefaultData = {
       "name": "A.伊萨克",
       "rating": 97,
       "nationality": "瑞典",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "红军"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -4964,14 +4964,14 @@ window.PitchDefaultData = {
       "name": "C.维埃里",
       "rating": 98,
       "nationality": "意大利",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "斑马",
         "床单",
         "蓝黑",
         "红黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -4980,14 +4980,14 @@ window.PitchDefaultData = {
       "name": "E.卡瓦尼",
       "rating": 93,
       "nationality": "乌拉圭",
+      "teams": [
+        "巴黎",
+        "红魔"
+      ],
       "positions": [
         "ST",
         "LW",
         "RW"
-      ],
-      "teams": [
-        "巴黎",
-        "红魔"
       ]
     },
     {
@@ -4996,14 +4996,14 @@ window.PitchDefaultData = {
       "name": "D.费尔南德斯",
       "rating": 93,
       "nationality": "西班牙",
+      "teams": [
+        "巴黎",
+        "红蓝"
+      ],
       "positions": [
         "CM",
         "CAM",
         "CDM"
-      ],
-      "teams": [
-        "巴黎",
-        "红蓝"
       ]
     },
     {
@@ -5012,16 +5012,16 @@ window.PitchDefaultData = {
       "name": "J.菲利克斯",
       "rating": 92,
       "nationality": "葡萄牙",
-      "positions": [
-        "ST",
-        "LM",
-        "CAM"
-      ],
       "teams": [
         "床单",
         "蓝军",
         "红蓝",
         "红黑"
+      ],
+      "positions": [
+        "ST",
+        "LM",
+        "CAM"
       ]
     },
     {
@@ -5030,13 +5030,13 @@ window.PitchDefaultData = {
       "name": "卡卡",
       "rating": 99,
       "nationality": "巴西",
-      "positions": [
-        "ST",
-        "CAM"
-      ],
       "teams": [
         "红黑",
         "银河"
+      ],
+      "positions": [
+        "ST",
+        "CAM"
       ]
     },
     {
@@ -5045,14 +5045,14 @@ window.PitchDefaultData = {
       "name": "J.罗德里格斯",
       "rating": 94,
       "nationality": "哥伦比亚",
+      "teams": [
+        "南部",
+        "银河"
+      ],
       "positions": [
         "LW",
         "RW",
         "CAM"
-      ],
-      "teams": [
-        "南部",
-        "银河"
       ]
     },
     {
@@ -5061,16 +5061,16 @@ window.PitchDefaultData = {
       "name": "D.贝克汉姆",
       "rating": 97,
       "nationality": "英格兰",
-      "positions": [
-        "CM",
-        "RM",
-        "CDM"
-      ],
       "teams": [
         "巴黎",
         "银河",
         "红魔",
         "红黑"
+      ],
+      "positions": [
+        "CM",
+        "RM",
+        "CDM"
       ]
     },
     {
@@ -5079,13 +5079,13 @@ window.PitchDefaultData = {
       "name": "Z.齐达内",
       "rating": 99,
       "nationality": "法国",
-      "positions": [
-        "CM",
-        "CAM"
-      ],
       "teams": [
         "斑马",
         "银河"
+      ],
+      "positions": [
+        "CM",
+        "CAM"
       ]
     },
     {
@@ -5094,13 +5094,13 @@ window.PitchDefaultData = {
       "name": "R.赫拉芬贝赫",
       "rating": 96,
       "nationality": "荷兰",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "南部",
         "红军"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -5109,12 +5109,12 @@ window.PitchDefaultData = {
       "name": "K.图拉姆",
       "rating": 91,
       "nationality": "法国",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -5123,13 +5123,13 @@ window.PitchDefaultData = {
       "name": "加维",
       "rating": 94,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "LW",
         "RW",
         "CM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -5138,13 +5138,13 @@ window.PitchDefaultData = {
       "name": "K.德布劳内",
       "rating": 94,
       "nationality": "比利时",
-      "positions": [
-        "CM",
-        "CAM"
-      ],
       "teams": [
         "蓝军",
         "蓝月亮"
+      ],
+      "positions": [
+        "CM",
+        "CAM"
       ]
     },
     {
@@ -5153,14 +5153,14 @@ window.PitchDefaultData = {
       "name": "A.拉比奥特",
       "rating": 96,
       "nationality": "法国",
-      "positions": [
-        "CM",
-        "CAM"
-      ],
       "teams": [
         "巴黎",
         "斑马",
         "红黑"
+      ],
+      "positions": [
+        "CM",
+        "CAM"
       ]
     },
     {
@@ -5169,14 +5169,14 @@ window.PitchDefaultData = {
       "name": "E.坎比亚索",
       "rating": 98,
       "nationality": "阿根廷",
+      "teams": [
+        "银河",
+        "蓝黑"
+      ],
       "positions": [
         "CM",
         "CAM",
         "CDM"
-      ],
-      "teams": [
-        "银河",
-        "蓝黑"
       ]
     },
     {
@@ -5185,12 +5185,12 @@ window.PitchDefaultData = {
       "name": "A.帕夫洛维奇",
       "rating": 95,
       "nationality": "德国",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -5199,12 +5199,12 @@ window.PitchDefaultData = {
       "name": "Y.比索马",
       "rating": 94,
       "nationality": "马里",
+      "teams": [
+        "百合"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "百合"
       ]
     },
     {
@@ -5213,13 +5213,13 @@ window.PitchDefaultData = {
       "name": "F.里杰卡尔德",
       "rating": 99,
       "nationality": "荷兰",
+      "teams": [
+        "红黑"
+      ],
       "positions": [
         "CDM",
         "CB",
         "LB"
-      ],
-      "teams": [
-        "红黑"
       ]
     },
     {
@@ -5228,12 +5228,12 @@ window.PitchDefaultData = {
       "name": "J.加兰",
       "rating": 90,
       "nationality": "西班牙",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "LM",
         "LB"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
@@ -5242,11 +5242,11 @@ window.PitchDefaultData = {
       "name": "F.门迪",
       "rating": 94,
       "nationality": "法国",
-      "positions": [
-        "LB"
-      ],
       "teams": [
         "银河"
+      ],
+      "positions": [
+        "LB"
       ]
     },
     {
@@ -5255,12 +5255,12 @@ window.PitchDefaultData = {
       "name": "M.凯尔凯兹",
       "rating": 96,
       "nationality": "匈牙利",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "LM",
         "LB"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -5269,11 +5269,11 @@ window.PitchDefaultData = {
       "name": "W.萨利巴",
       "rating": 98,
       "nationality": "法国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "兵工厂"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -5282,12 +5282,12 @@ window.PitchDefaultData = {
       "name": "I.科纳特",
       "rating": 96,
       "nationality": "法国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "银河",
         "红军"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -5296,11 +5296,11 @@ window.PitchDefaultData = {
       "name": "L.约罗",
       "rating": 91,
       "nationality": "法国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红狼"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -5309,12 +5309,12 @@ window.PitchDefaultData = {
       "name": "R.德勒古欣",
       "rating": 93,
       "nationality": "罗马尼亚",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "百合",
         "斑马"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -5323,13 +5323,13 @@ window.PitchDefaultData = {
       "name": "S.博埃",
       "rating": 92,
       "nationality": "法国",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "RM",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -5338,13 +5338,13 @@ window.PitchDefaultData = {
       "name": "J.萨内蒂",
       "rating": 99,
       "nationality": "阿根廷",
+      "teams": [
+        "蓝黑"
+      ],
       "positions": [
         "CDM",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "蓝黑"
       ]
     },
     {
@@ -5353,13 +5353,13 @@ window.PitchDefaultData = {
       "name": "P.波罗",
       "rating": 97,
       "nationality": "西班牙",
-      "positions": [
-        "RM",
-        "RB"
-      ],
       "teams": [
         "百合",
         "蓝月亮"
+      ],
+      "positions": [
+        "RM",
+        "RB"
       ]
     },
     {
@@ -5368,12 +5368,12 @@ window.PitchDefaultData = {
       "name": "M.萨尔加多",
       "rating": 98,
       "nationality": "西班牙",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "LB",
         "RB"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
@@ -5382,11 +5382,11 @@ window.PitchDefaultData = {
       "name": "埃德森",
       "rating": 92,
       "nationality": "巴西",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "蓝月亮"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -5395,11 +5395,11 @@ window.PitchDefaultData = {
       "name": "O.卡恩",
       "rating": 99,
       "nationality": "德国",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "南部"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -5408,12 +5408,12 @@ window.PitchDefaultData = {
       "name": "G.布冯",
       "rating": 99,
       "nationality": "意大利",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "斑马",
         "巴黎"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -5422,14 +5422,14 @@ window.PitchDefaultData = {
       "name": "L.埃尔南德斯",
       "rating": 93,
       "nationality": "法国",
-      "positions": [
-        "CB",
-        "LB"
-      ],
       "teams": [
         "床单",
         "巴黎",
         "南部"
+      ],
+      "positions": [
+        "CB",
+        "LB"
       ]
     },
     {
@@ -5438,13 +5438,13 @@ window.PitchDefaultData = {
       "name": "S.马尤鲁",
       "rating": 93,
       "nationality": "法国",
+      "teams": [
+        "巴黎"
+      ],
       "positions": [
         "ST",
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "巴黎"
       ]
     },
     {
@@ -5453,12 +5453,12 @@ window.PitchDefaultData = {
       "name": "K.斯特罗曼",
       "rating": 92,
       "nationality": "荷兰",
+      "teams": [
+        "红狼"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红狼"
       ]
     },
     {
@@ -5467,11 +5467,11 @@ window.PitchDefaultData = {
       "name": "H.洛里斯",
       "rating": 93,
       "nationality": "法国",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "百合"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -5480,14 +5480,14 @@ window.PitchDefaultData = {
       "name": "X.西蒙斯",
       "rating": 97,
       "nationality": "荷兰",
+      "teams": [
+        "巴黎",
+        "百合"
+      ],
       "positions": [
         "LW",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "巴黎",
-        "百合"
       ]
     },
     {
@@ -5496,15 +5496,15 @@ window.PitchDefaultData = {
       "name": "罗纳尔迪尼奥",
       "rating": 98,
       "nationality": "巴西",
-      "positions": [
-        "LW",
-        "RW",
-        "CAM"
-      ],
       "teams": [
         "巴黎",
         "红蓝",
         "红黑"
+      ],
+      "positions": [
+        "LW",
+        "RW",
+        "CAM"
       ]
     },
     {
@@ -5513,14 +5513,14 @@ window.PitchDefaultData = {
       "name": "M.特尔",
       "rating": 93,
       "nationality": "法国",
+      "teams": [
+        "百合",
+        "南部"
+      ],
       "positions": [
         "ST",
         "LM",
         "RM"
-      ],
-      "teams": [
-        "百合",
-        "南部"
       ]
     },
     {
@@ -5529,13 +5529,13 @@ window.PitchDefaultData = {
       "name": "D.伦施",
       "rating": 90,
       "nationality": "荷兰",
+      "teams": [
+        "红狼"
+      ],
       "positions": [
         "CB",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "红狼"
       ]
     },
     {
@@ -5544,13 +5544,13 @@ window.PitchDefaultData = {
       "name": "A.德尔皮耶罗",
       "rating": 96,
       "nationality": "意大利",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "ST",
         "LW",
         "CAM"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -5559,11 +5559,11 @@ window.PitchDefaultData = {
       "name": "S.海皮亚",
       "rating": 98,
       "nationality": "芬兰",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红军"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -5572,14 +5572,14 @@ window.PitchDefaultData = {
       "name": "C.罗纳尔多",
       "rating": 94,
       "nationality": "葡萄牙",
-      "positions": [
-        "ST",
-        "LW"
-      ],
       "teams": [
         "红魔",
         "银河",
         "斑马"
+      ],
+      "positions": [
+        "ST",
+        "LW"
       ]
     },
     {
@@ -5588,13 +5588,13 @@ window.PitchDefaultData = {
       "name": "A.坎比亚索",
       "rating": 95,
       "nationality": "意大利",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "RM",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -5603,11 +5603,11 @@ window.PitchDefaultData = {
       "name": "K.本泽马",
       "rating": 98,
       "nationality": "法国",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "银河"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -5616,12 +5616,12 @@ window.PitchDefaultData = {
       "name": "J.马丁内斯",
       "rating": 98,
       "nationality": "西班牙",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "CDM",
         "CB"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -5630,13 +5630,13 @@ window.PitchDefaultData = {
       "name": "B.马图伊迪",
       "rating": 98,
       "nationality": "法国",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "巴黎",
         "斑马"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -5645,11 +5645,11 @@ window.PitchDefaultData = {
       "name": "G.卡希尔",
       "rating": 92,
       "nationality": "英格兰",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝军"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -5658,13 +5658,13 @@ window.PitchDefaultData = {
       "name": "N.布朗",
       "rating": 94,
       "nationality": "德国",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "LM",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -5673,16 +5673,16 @@ window.PitchDefaultData = {
       "name": "A.迪马利亚",
       "rating": 94,
       "nationality": "阿根廷",
-      "positions": [
-        "LW",
-        "RW",
-        "RM"
-      ],
       "teams": [
         "巴黎",
         "斑马",
         "银河",
         "红魔"
+      ],
+      "positions": [
+        "LW",
+        "RW",
+        "RM"
       ]
     },
     {
@@ -5691,13 +5691,13 @@ window.PitchDefaultData = {
       "name": "E.恩瓦内里",
       "rating": 94,
       "nationality": "英格兰",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "RW",
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -5706,13 +5706,13 @@ window.PitchDefaultData = {
       "name": "T.阿达拉比奥尤",
       "rating": 91,
       "nationality": "英格兰",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "百合",
         "蓝军",
         "蓝月亮"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -5721,12 +5721,12 @@ window.PitchDefaultData = {
       "name": "K.梅努",
       "rating": 95,
       "nationality": "英格兰",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
@@ -5735,13 +5735,13 @@ window.PitchDefaultData = {
       "name": "G.多纳鲁马",
       "rating": 99,
       "nationality": "意大利",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "红黑",
         "巴黎",
         "蓝月亮"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -5750,12 +5750,12 @@ window.PitchDefaultData = {
       "name": "T.阿诺德",
       "rating": 96,
       "nationality": "英格兰",
-      "positions": [
-        "RB"
-      ],
       "teams": [
         "红军",
         "银河"
+      ],
+      "positions": [
+        "RB"
       ]
     },
     {
@@ -5764,13 +5764,13 @@ window.PitchDefaultData = {
       "name": "J.穆西亚拉",
       "rating": 97,
       "nationality": "德国",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "CM",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -5779,13 +5779,13 @@ window.PitchDefaultData = {
       "name": "J.戴维",
       "rating": 96,
       "nationality": "加拿大",
-      "positions": [
-        "ST",
-        "CAM"
-      ],
       "teams": [
         "斑马",
         "床单"
+      ],
+      "positions": [
+        "ST",
+        "CAM"
       ]
     },
     {
@@ -5794,12 +5794,12 @@ window.PitchDefaultData = {
       "name": "F.阿切尔比",
       "rating": 92,
       "nationality": "意大利",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红黑",
         "蓝黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -5808,12 +5808,12 @@ window.PitchDefaultData = {
       "name": "阿利松",
       "rating": 97,
       "nationality": "巴西",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "红狼",
         "红军"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -5822,13 +5822,13 @@ window.PitchDefaultData = {
       "name": "T.穆勒",
       "rating": 96,
       "nationality": "德国",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "ST",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -5837,13 +5837,13 @@ window.PitchDefaultData = {
       "name": "C.罗梅罗",
       "rating": 97,
       "nationality": "阿根廷",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "斑马",
         "百合",
         "床单"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -5852,13 +5852,13 @@ window.PitchDefaultData = {
       "name": "F.迪马尔科",
       "rating": 96,
       "nationality": "意大利",
+      "teams": [
+        "蓝黑"
+      ],
       "positions": [
         "LM",
         "CB",
         "LB"
-      ],
-      "teams": [
-        "蓝黑"
       ]
     },
     {
@@ -5867,12 +5867,12 @@ window.PitchDefaultData = {
       "name": "F.耶罗",
       "rating": 99,
       "nationality": "西班牙",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "CDM",
         "CB"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
@@ -5881,13 +5881,13 @@ window.PitchDefaultData = {
       "name": "A.楚阿梅尼",
       "rating": 96,
       "nationality": "法国",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "CM",
         "CDM",
         "CB"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
@@ -5896,14 +5896,14 @@ window.PitchDefaultData = {
       "name": "B.克里斯坦特",
       "rating": 95,
       "nationality": "意大利",
+      "teams": [
+        "红黑",
+        "红狼"
+      ],
       "positions": [
         "CM",
         "CDM",
         "CB"
-      ],
-      "teams": [
-        "红黑",
-        "红狼"
       ]
     },
     {
@@ -5912,12 +5912,12 @@ window.PitchDefaultData = {
       "name": "L.马丁内斯",
       "rating": 97,
       "nationality": "阿根廷",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "CB",
         "LB"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
@@ -5926,13 +5926,13 @@ window.PitchDefaultData = {
       "name": "J.哈托",
       "rating": 93,
       "nationality": "荷兰",
+      "teams": [
+        "蓝军"
+      ],
       "positions": [
         "CDM",
         "CB",
         "LB"
-      ],
-      "teams": [
-        "蓝军"
       ]
     },
     {
@@ -5941,15 +5941,15 @@ window.PitchDefaultData = {
       "name": "L.莫德里奇",
       "rating": 94,
       "nationality": "克罗地亚",
-      "positions": [
-        "CM",
-        "CAM",
-        "CDM"
-      ],
       "teams": [
         "百合",
         "银河",
         "红黑"
+      ],
+      "positions": [
+        "CM",
+        "CAM",
+        "CDM"
       ]
     },
     {
@@ -5958,13 +5958,13 @@ window.PitchDefaultData = {
       "name": "K.霍尔",
       "rating": 90,
       "nationality": "英格兰",
+      "teams": [
+        "蓝军"
+      ],
       "positions": [
         "CM",
         "CAM",
         "CDM"
-      ],
-      "teams": [
-        "蓝军"
       ]
     },
     {
@@ -5973,11 +5973,11 @@ window.PitchDefaultData = {
       "name": "V.蒙特拉",
       "rating": 93,
       "nationality": "意大利",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "红狼"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -5986,14 +5986,14 @@ window.PitchDefaultData = {
       "name": "G.维纳尔杜姆",
       "rating": 92,
       "nationality": "荷兰",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "红军",
         "巴黎",
         "红狼"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -6002,12 +6002,12 @@ window.PitchDefaultData = {
       "name": "Y.福法纳",
       "rating": 95,
       "nationality": "法国",
+      "teams": [
+        "红黑"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红黑"
       ]
     },
     {
@@ -6016,12 +6016,12 @@ window.PitchDefaultData = {
       "name": "I.埃尔格拉",
       "rating": 93,
       "nationality": "西班牙",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红狼",
         "银河"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -6030,11 +6030,11 @@ window.PitchDefaultData = {
       "name": "A.米利克",
       "rating": 92,
       "nationality": "波兰",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "斑马"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -6043,12 +6043,12 @@ window.PitchDefaultData = {
       "name": "R.莱万多夫斯基",
       "rating": 97,
       "nationality": "波兰",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "南部",
         "红蓝"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -6057,13 +6057,13 @@ window.PitchDefaultData = {
       "name": "费尔南迪尼奥",
       "rating": 93,
       "nationality": "巴西",
+      "teams": [
+        "蓝月亮"
+      ],
       "positions": [
         "CM",
         "CDM",
         "CB"
-      ],
-      "teams": [
-        "蓝月亮"
       ]
     },
     {
@@ -6072,13 +6072,13 @@ window.PitchDefaultData = {
       "name": "S.托纳利",
       "rating": 92,
       "nationality": "意大利",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "百合",
         "红黑"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -6087,12 +6087,12 @@ window.PitchDefaultData = {
       "name": "N.沃尔特马德",
       "rating": 95,
       "nationality": "德国",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "ST",
         "CAM"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -6101,11 +6101,11 @@ window.PitchDefaultData = {
       "name": "G.穆勒",
       "rating": 99,
       "nationality": "德国",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "南部"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -6114,12 +6114,12 @@ window.PitchDefaultData = {
       "name": "G.拉莫斯",
       "rating": 95,
       "nationality": "葡萄牙",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "巴黎",
         "红黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -6128,13 +6128,13 @@ window.PitchDefaultData = {
       "name": "D.索兰克",
       "rating": 92,
       "nationality": "英格兰",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝军",
         "红军",
         "百合"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -6143,13 +6143,13 @@ window.PitchDefaultData = {
       "name": "H.埃基蒂克",
       "rating": 95,
       "nationality": "法国",
-      "positions": [
-        "ST",
-        "LM"
-      ],
       "teams": [
         "巴黎",
         "红军"
+      ],
+      "positions": [
+        "ST",
+        "LM"
       ]
     },
     {
@@ -6158,11 +6158,11 @@ window.PitchDefaultData = {
       "name": "D.米利托",
       "rating": 98,
       "nationality": "阿根廷",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -6171,13 +6171,13 @@ window.PitchDefaultData = {
       "name": "J.克林斯曼",
       "rating": 99,
       "nationality": "德国",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "百合",
         "蓝黑",
         "南部"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -6186,11 +6186,11 @@ window.PitchDefaultData = {
       "name": "B.谢什科",
       "rating": 96,
       "nationality": "斯洛文尼亚",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "红魔"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -6199,12 +6199,12 @@ window.PitchDefaultData = {
       "name": "M.登贝莱",
       "rating": 92,
       "nationality": "比利时",
+      "teams": [
+        "百合"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "百合"
       ]
     },
     {
@@ -6213,13 +6213,13 @@ window.PitchDefaultData = {
       "name": "P.巴里奥斯",
       "rating": 91,
       "nationality": "西班牙",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "CM",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
@@ -6228,13 +6228,13 @@ window.PitchDefaultData = {
       "name": "K.德布劳内",
       "rating": 98,
       "nationality": "比利时",
-      "positions": [
-        "CM",
-        "CAM"
-      ],
       "teams": [
         "蓝军",
         "蓝月亮"
+      ],
+      "positions": [
+        "CM",
+        "CAM"
       ]
     },
     {
@@ -6243,14 +6243,14 @@ window.PitchDefaultData = {
       "name": "A.拉姆塞",
       "rating": 92,
       "nationality": "威尔士",
+      "teams": [
+        "斑马",
+        "兵工厂"
+      ],
       "positions": [
         "CM",
         "CAM",
         "CDM"
-      ],
-      "teams": [
-        "斑马",
-        "兵工厂"
       ]
     },
     {
@@ -6259,12 +6259,12 @@ window.PitchDefaultData = {
       "name": "科克",
       "rating": 93,
       "nationality": "西班牙",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
@@ -6273,13 +6273,13 @@ window.PitchDefaultData = {
       "name": "A.伊涅斯塔",
       "rating": 97,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "LW",
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -6288,12 +6288,12 @@ window.PitchDefaultData = {
       "name": "G.扎卡",
       "rating": 92,
       "nationality": "瑞士",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -6302,12 +6302,12 @@ window.PitchDefaultData = {
       "name": "N.巴雷拉",
       "rating": 97,
       "nationality": "意大利",
+      "teams": [
+        "蓝黑"
+      ],
       "positions": [
         "CM",
         "RM"
-      ],
-      "teams": [
-        "蓝黑"
       ]
     },
     {
@@ -6316,13 +6316,13 @@ window.PitchDefaultData = {
       "name": "A.维特塞尔",
       "rating": 90,
       "nationality": "比利时",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "CM",
         "CDM",
         "CB"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
@@ -6331,12 +6331,12 @@ window.PitchDefaultData = {
       "name": "M.布罗佐维奇",
       "rating": 93,
       "nationality": "克罗地亚",
+      "teams": [
+        "蓝黑"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "蓝黑"
       ]
     },
     {
@@ -6345,14 +6345,14 @@ window.PitchDefaultData = {
       "name": "罗德里",
       "rating": 97,
       "nationality": "西班牙",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "床单",
         "蓝月亮",
         "红蓝"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -6361,12 +6361,12 @@ window.PitchDefaultData = {
       "name": "Y.比索马",
       "rating": 91,
       "nationality": "马里",
+      "teams": [
+        "百合"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "百合"
       ]
     },
     {
@@ -6375,12 +6375,12 @@ window.PitchDefaultData = {
       "name": "P.多古",
       "rating": 94,
       "nationality": "丹麦",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "LM",
         "LB"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
@@ -6389,13 +6389,13 @@ window.PitchDefaultData = {
       "name": "P.埃弗拉",
       "rating": 98,
       "nationality": "法国",
-      "positions": [
-        "LM",
-        "LB"
-      ],
       "teams": [
         "斑马",
         "红魔"
+      ],
+      "positions": [
+        "LM",
+        "LB"
       ]
     },
     {
@@ -6404,14 +6404,14 @@ window.PitchDefaultData = {
       "name": "A.桑德罗",
       "rating": 96,
       "nationality": "巴西",
+      "teams": [
+        "斑马",
+        "贝尔米罗"
+      ],
       "positions": [
         "LM",
         "CB",
         "LB"
-      ],
-      "teams": [
-        "斑马",
-        "贝尔米罗"
       ]
     },
     {
@@ -6420,26 +6420,26 @@ window.PitchDefaultData = {
       "name": "M.格伊",
       "rating": 97,
       "nationality": "英格兰",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝军",
         "蓝月亮"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
       "id": "e517be5f-b7cd-4d5a-b0cd-784423e56f0a",
       "personId": "311048db-9c3a-4539-96b4-85e609654dfc",
-      "name": "R.费迪南德",
+      "name": "P.费迪南德",
       "rating": 97,
       "nationality": "英格兰",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "CB",
         "LB"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
@@ -6448,11 +6448,11 @@ window.PitchDefaultData = {
       "name": "D.于帕梅卡诺",
       "rating": 95,
       "nationality": "法国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "南部"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -6461,12 +6461,12 @@ window.PitchDefaultData = {
       "name": "P.马尔蒂尼",
       "rating": 98,
       "nationality": "意大利",
+      "teams": [
+        "红黑"
+      ],
       "positions": [
         "CB",
         "LB"
-      ],
-      "teams": [
-        "红黑"
       ]
     },
     {
@@ -6475,12 +6475,12 @@ window.PitchDefaultData = {
       "name": "J.廷贝尔",
       "rating": 97,
       "nationality": "荷兰",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "CB",
         "RB"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -6489,14 +6489,14 @@ window.PitchDefaultData = {
       "name": "E.加西亚",
       "rating": 95,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝",
+        "蓝月亮"
+      ],
       "positions": [
         "CDM",
         "CB",
         "RB"
-      ],
-      "teams": [
-        "红蓝",
-        "蓝月亮"
       ]
     },
     {
@@ -6505,12 +6505,12 @@ window.PitchDefaultData = {
       "name": "R.伊巴涅斯",
       "rating": 97,
       "nationality": "巴西",
+      "teams": [
+        "红狼"
+      ],
       "positions": [
         "CB",
         "RB"
-      ],
-      "teams": [
-        "红狼"
       ]
     },
     {
@@ -6519,12 +6519,12 @@ window.PitchDefaultData = {
       "name": "F.托莫里",
       "rating": 93,
       "nationality": "英格兰",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝军",
         "红黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -6533,13 +6533,13 @@ window.PitchDefaultData = {
       "name": "R.阿劳霍",
       "rating": 95,
       "nationality": "乌拉圭",
-      "positions": [
-        "CB",
-        "RB"
-      ],
       "teams": [
         "红蓝",
         "红军"
+      ],
+      "positions": [
+        "CB",
+        "RB"
       ]
     },
     {
@@ -6548,13 +6548,13 @@ window.PitchDefaultData = {
       "name": "B.帕瓦尔",
       "rating": 96,
       "nationality": "法国",
-      "positions": [
-        "CB",
-        "RB"
-      ],
       "teams": [
         "南部",
         "蓝黑"
+      ],
+      "positions": [
+        "CB",
+        "RB"
       ]
     },
     {
@@ -6563,12 +6563,12 @@ window.PitchDefaultData = {
       "name": "B.怀特",
       "rating": 91,
       "nationality": "英格兰",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "CB",
         "RB"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -6577,13 +6577,13 @@ window.PitchDefaultData = {
       "name": "麦孔",
       "rating": 98,
       "nationality": "巴西",
-      "positions": [
-        "RB"
-      ],
       "teams": [
         "蓝黑",
         "蓝月亮",
         "红狼"
+      ],
+      "positions": [
+        "RB"
       ]
     },
     {
@@ -6592,12 +6592,12 @@ window.PitchDefaultData = {
       "name": "G.维卡里奥",
       "rating": 93,
       "nationality": "意大利",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "百合",
         "斑马"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -6606,11 +6606,11 @@ window.PitchDefaultData = {
       "name": "S.拉门斯",
       "rating": 95,
       "nationality": "比利时",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "红魔"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -6619,12 +6619,12 @@ window.PitchDefaultData = {
       "name": "F.阿切尔比",
       "rating": 96,
       "nationality": "意大利",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红黑",
         "蓝黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -6633,14 +6633,14 @@ window.PitchDefaultData = {
       "name": "J.科尔",
       "rating": 98,
       "nationality": "英格兰",
+      "teams": [
+        "蓝军",
+        "红军"
+      ],
       "positions": [
         "LW",
         "RW",
         "CAM"
-      ],
-      "teams": [
-        "蓝军",
-        "红军"
       ]
     },
     {
@@ -6649,14 +6649,14 @@ window.PitchDefaultData = {
       "name": "J.博加",
       "rating": 93,
       "nationality": "科特迪瓦",
+      "teams": [
+        "斑马",
+        "蓝军"
+      ],
       "positions": [
         "ST",
         "LW",
         "LM"
-      ],
-      "teams": [
-        "斑马",
-        "蓝军"
       ]
     },
     {
@@ -6665,11 +6665,11 @@ window.PitchDefaultData = {
       "name": "J.特里",
       "rating": 99,
       "nationality": "英格兰",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝军"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -6678,11 +6678,11 @@ window.PitchDefaultData = {
       "name": "R.勒诺尔芒",
       "rating": 95,
       "nationality": "西班牙",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "床单"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -6691,12 +6691,12 @@ window.PitchDefaultData = {
       "name": "A.迪乌夫",
       "rating": 93,
       "nationality": "法国",
+      "teams": [
+        "蓝黑"
+      ],
       "positions": [
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "蓝黑"
       ]
     },
     {
@@ -6705,11 +6705,11 @@ window.PitchDefaultData = {
       "name": "罗马里奥",
       "rating": 90,
       "nationality": "巴西",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "红蓝"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -6718,15 +6718,15 @@ window.PitchDefaultData = {
       "name": "A.比达尔",
       "rating": 93,
       "nationality": "智利",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "斑马",
         "南部",
         "红蓝",
         "蓝黑"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -6735,13 +6735,13 @@ window.PitchDefaultData = {
       "name": "P.福登",
       "rating": 93,
       "nationality": "英格兰",
+      "teams": [
+        "蓝月亮"
+      ],
       "positions": [
         "LW",
         "RW",
         "CAM"
-      ],
-      "teams": [
-        "蓝月亮"
       ]
     },
     {
@@ -6750,14 +6750,14 @@ window.PitchDefaultData = {
       "name": "P.迪巴拉",
       "rating": 94,
       "nationality": "阿根廷",
+      "teams": [
+        "斑马",
+        "红狼"
+      ],
       "positions": [
         "ST",
         "RW",
         "CAM"
-      ],
-      "teams": [
-        "斑马",
-        "红狼"
       ]
     },
     {
@@ -6766,14 +6766,14 @@ window.PitchDefaultData = {
       "name": "C.马克莱莱",
       "rating": 98,
       "nationality": "法国",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "巴黎",
         "蓝军",
         "银河"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -6782,13 +6782,13 @@ window.PitchDefaultData = {
       "name": "R.莱奥",
       "rating": 94,
       "nationality": "葡萄牙",
+      "teams": [
+        "红黑"
+      ],
       "positions": [
         "ST",
         "LW",
         "LM"
-      ],
-      "teams": [
-        "红黑"
       ]
     },
     {
@@ -6797,11 +6797,11 @@ window.PitchDefaultData = {
       "name": "J.奥布拉克",
       "rating": 96,
       "nationality": "斯洛文尼亚",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "床单"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -6810,13 +6810,13 @@ window.PitchDefaultData = {
       "name": "M.奥利赛",
       "rating": 99,
       "nationality": "法国",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "RW",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -6825,13 +6825,13 @@ window.PitchDefaultData = {
       "name": "I.姆巴耶",
       "rating": 93,
       "nationality": "塞内加尔",
+      "teams": [
+        "巴黎"
+      ],
       "positions": [
         "LW",
         "RW",
         "RM"
-      ],
-      "teams": [
-        "巴黎"
       ]
     },
     {
@@ -6840,12 +6840,12 @@ window.PitchDefaultData = {
       "name": "M.科内",
       "rating": 90,
       "nationality": "法国",
+      "teams": [
+        "红狼"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红狼"
       ]
     },
     {
@@ -6854,12 +6854,12 @@ window.PitchDefaultData = {
       "name": "伊藤洋辉",
       "rating": 93,
       "nationality": "日本",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "CB",
         "LB"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -6868,11 +6868,11 @@ window.PitchDefaultData = {
       "name": "D.德罗巴",
       "rating": 99,
       "nationality": "科特迪瓦",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝军"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -6881,13 +6881,13 @@ window.PitchDefaultData = {
       "name": "M.洛卡特利",
       "rating": 97,
       "nationality": "意大利",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "斑马",
         "红黑"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -6896,13 +6896,13 @@ window.PitchDefaultData = {
       "name": "M.厄德高",
       "rating": 97,
       "nationality": "挪威",
-      "positions": [
-        "CM",
-        "CAM"
-      ],
       "teams": [
         "兵工厂",
         "银河"
+      ],
+      "positions": [
+        "CM",
+        "CAM"
       ]
     },
     {
@@ -6911,13 +6911,13 @@ window.PitchDefaultData = {
       "name": "I.拉基蒂奇",
       "rating": 93,
       "nationality": "克罗地亚",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "CM",
         "CAM",
         "CDM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -6926,13 +6926,13 @@ window.PitchDefaultData = {
       "name": "R.奇克",
       "rating": 91,
       "nationality": "英格兰",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "红黑",
         "蓝军"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -6941,13 +6941,13 @@ window.PitchDefaultData = {
       "name": "R.阿森西奥",
       "rating": 93,
       "nationality": "西班牙",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "CDM",
         "CB",
         "RB"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
@@ -6956,12 +6956,12 @@ window.PitchDefaultData = {
       "name": "A.帕夫洛维奇",
       "rating": 94,
       "nationality": "德国",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -6970,14 +6970,14 @@ window.PitchDefaultData = {
       "name": "C.琼斯",
       "rating": 90,
       "nationality": "英格兰",
+      "teams": [
+        "蓝黑",
+        "红军"
+      ],
       "positions": [
         "CM",
         "CAM",
         "CDM"
-      ],
-      "teams": [
-        "蓝黑",
-        "红军"
       ]
     },
     {
@@ -6986,15 +6986,15 @@ window.PitchDefaultData = {
       "name": "M.萨拉赫",
       "rating": 98,
       "nationality": "埃及",
-      "positions": [
-        "ST",
-        "RW",
-        "RM"
-      ],
       "teams": [
         "蓝军",
         "红狼",
         "红军"
+      ],
+      "positions": [
+        "ST",
+        "RW",
+        "RM"
       ]
     },
     {
@@ -7003,12 +7003,12 @@ window.PitchDefaultData = {
       "name": "Y.索默",
       "rating": 95,
       "nationality": "瑞士",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "南部",
         "蓝黑"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -7017,13 +7017,13 @@ window.PitchDefaultData = {
       "name": "R.菲尔米诺",
       "rating": 94,
       "nationality": "巴西",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "ST",
         "LW",
         "CAM"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -7032,11 +7032,11 @@ window.PitchDefaultData = {
       "name": "S.帕夫洛维奇",
       "rating": 93,
       "nationality": "塞尔维亚",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -7045,13 +7045,13 @@ window.PitchDefaultData = {
       "name": "R.卡拉菲奥里",
       "rating": 95,
       "nationality": "意大利",
-      "positions": [
-        "CB",
-        "LB"
-      ],
       "teams": [
         "红狼",
         "兵工厂"
+      ],
+      "positions": [
+        "CB",
+        "LB"
       ]
     },
     {
@@ -7060,11 +7060,11 @@ window.PitchDefaultData = {
       "name": "M.塔雷米",
       "rating": 90,
       "nationality": "伊朗",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -7073,12 +7073,12 @@ window.PitchDefaultData = {
       "name": "M.科内",
       "rating": 96,
       "nationality": "法国",
+      "teams": [
+        "红狼"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红狼"
       ]
     },
     {
@@ -7087,13 +7087,13 @@ window.PitchDefaultData = {
       "name": "F.兰帕德",
       "rating": 95,
       "nationality": "英格兰",
-      "positions": [
-        "CM",
-        "CAM"
-      ],
       "teams": [
         "蓝军",
         "蓝月亮"
+      ],
+      "positions": [
+        "CM",
+        "CAM"
       ]
     },
     {
@@ -7102,14 +7102,14 @@ window.PitchDefaultData = {
       "name": "L.迪涅",
       "rating": 93,
       "nationality": "法国",
-      "positions": [
-        "LM",
-        "LB"
-      ],
       "teams": [
         "巴黎",
         "红狼",
         "红蓝"
+      ],
+      "positions": [
+        "LM",
+        "LB"
       ]
     },
     {
@@ -7118,13 +7118,13 @@ window.PitchDefaultData = {
       "name": "B.查尔顿",
       "rating": 99,
       "nationality": "英格兰",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "ST",
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
@@ -7133,11 +7133,11 @@ window.PitchDefaultData = {
       "name": "I.马丁内斯",
       "rating": 96,
       "nationality": "西班牙",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红蓝"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -7146,14 +7146,14 @@ window.PitchDefaultData = {
       "name": "F.基耶萨",
       "rating": 94,
       "nationality": "意大利",
+      "teams": [
+        "斑马",
+        "红军"
+      ],
       "positions": [
         "ST",
         "LM",
         "RM"
-      ],
-      "teams": [
-        "斑马",
-        "红军"
       ]
     },
     {
@@ -7162,11 +7162,11 @@ window.PitchDefaultData = {
       "name": "K.丹索",
       "rating": 92,
       "nationality": "奥地利",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "百合"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -7175,12 +7175,12 @@ window.PitchDefaultData = {
       "name": "卡塞米罗",
       "rating": 97,
       "nationality": "巴西",
-      "positions": [
-        "CDM"
-      ],
       "teams": [
         "银河",
         "红魔"
+      ],
+      "positions": [
+        "CDM"
       ]
     },
     {
@@ -7189,11 +7189,11 @@ window.PitchDefaultData = {
       "name": "M.塞内西",
       "rating": 94,
       "nationality": "阿根廷",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "百合"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -7202,11 +7202,11 @@ window.PitchDefaultData = {
       "name": "D.于帕梅卡诺",
       "rating": 97,
       "nationality": "法国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "南部"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -7215,14 +7215,14 @@ window.PitchDefaultData = {
       "name": "G.贝尔",
       "rating": 94,
       "nationality": "威尔士",
+      "teams": [
+        "百合",
+        "银河"
+      ],
       "positions": [
         "ST",
         "LW",
         "RW"
-      ],
-      "teams": [
-        "百合",
-        "银河"
       ]
     },
     {
@@ -7231,13 +7231,13 @@ window.PitchDefaultData = {
       "name": "J.穆西亚拉",
       "rating": 95,
       "nationality": "德国",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "CM",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -7246,13 +7246,13 @@ window.PitchDefaultData = {
       "name": "马尔基尼奥斯",
       "rating": 96,
       "nationality": "巴西",
-      "positions": [
-        "CDM",
-        "CB"
-      ],
       "teams": [
         "巴黎",
         "红狼"
+      ],
+      "positions": [
+        "CDM",
+        "CB"
       ]
     },
     {
@@ -7261,11 +7261,11 @@ window.PitchDefaultData = {
       "name": "H.马奎尔",
       "rating": 95,
       "nationality": "英格兰",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红魔"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -7274,11 +7274,11 @@ window.PitchDefaultData = {
       "name": "M.特尔施特根",
       "rating": 94,
       "nationality": "德国",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "红蓝"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -7287,14 +7287,14 @@ window.PitchDefaultData = {
       "name": "P.迪巴拉",
       "rating": 96,
       "nationality": "阿根廷",
+      "teams": [
+        "斑马",
+        "红狼"
+      ],
       "positions": [
         "ST",
         "RW",
         "CAM"
-      ],
-      "teams": [
-        "斑马",
-        "红狼"
       ]
     },
     {
@@ -7303,14 +7303,14 @@ window.PitchDefaultData = {
       "name": "C.琼斯",
       "rating": 94,
       "nationality": "英格兰",
+      "teams": [
+        "蓝黑",
+        "红军"
+      ],
       "positions": [
         "CM",
         "CAM",
         "CDM"
-      ],
-      "teams": [
-        "蓝黑",
-        "红军"
       ]
     },
     {
@@ -7319,14 +7319,14 @@ window.PitchDefaultData = {
       "name": "C.普利希奇",
       "rating": 95,
       "nationality": "美国",
+      "teams": [
+        "红黑",
+        "蓝军"
+      ],
       "positions": [
         "LW",
         "RW",
         "LM"
-      ],
-      "teams": [
-        "红黑",
-        "蓝军"
       ]
     },
     {
@@ -7335,12 +7335,12 @@ window.PitchDefaultData = {
       "name": "D.德赫亚",
       "rating": 95,
       "nationality": "西班牙",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "床单",
         "红魔"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -7349,12 +7349,12 @@ window.PitchDefaultData = {
       "name": "P.因卡皮耶",
       "rating": 96,
       "nationality": "厄瓜多尔",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "CB",
         "LB"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -7363,16 +7363,16 @@ window.PitchDefaultData = {
       "name": "J.坎塞洛",
       "rating": 96,
       "nationality": "葡萄牙",
-      "positions": [
-        "RM",
-        "LB",
-        "RB"
-      ],
       "teams": [
         "蓝月亮",
         "南部",
         "斑马",
         "蓝黑"
+      ],
+      "positions": [
+        "RM",
+        "LB",
+        "RB"
       ]
     },
     {
@@ -7381,12 +7381,12 @@ window.PitchDefaultData = {
       "name": "M.维拉蒂",
       "rating": 93,
       "nationality": "意大利",
+      "teams": [
+        "巴黎"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "巴黎"
       ]
     },
     {
@@ -7395,13 +7395,13 @@ window.PitchDefaultData = {
       "name": "若日尼奥",
       "rating": 90,
       "nationality": "意大利",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "蓝军",
         "兵工厂"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -7410,11 +7410,11 @@ window.PitchDefaultData = {
       "name": "F.埃斯波西托",
       "rating": 93,
       "nationality": "意大利",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -7423,14 +7423,14 @@ window.PitchDefaultData = {
       "name": "C.罗纳尔多",
       "rating": 99,
       "nationality": "葡萄牙",
-      "positions": [
-        "ST",
-        "LW"
-      ],
       "teams": [
         "红魔",
         "银河",
         "斑马"
+      ],
+      "positions": [
+        "ST",
+        "LW"
       ]
     },
     {
@@ -7439,11 +7439,11 @@ window.PitchDefaultData = {
       "name": "M.阿瑙托维奇",
       "rating": 94,
       "nationality": "奥地利",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -7452,13 +7452,13 @@ window.PitchDefaultData = {
       "name": "J.齐尔克泽",
       "rating": 93,
       "nationality": "荷兰",
-      "positions": [
-        "ST",
-        "CAM"
-      ],
       "teams": [
         "南部",
         "红魔"
+      ],
+      "positions": [
+        "ST",
+        "CAM"
       ]
     },
     {
@@ -7467,12 +7467,12 @@ window.PitchDefaultData = {
       "name": "J.吉滕斯",
       "rating": 95,
       "nationality": "英格兰",
+      "teams": [
+        "蓝军"
+      ],
       "positions": [
         "LW",
         "LM"
-      ],
-      "teams": [
-        "蓝军"
       ]
     },
     {
@@ -7481,14 +7481,14 @@ window.PitchDefaultData = {
       "name": "内马尔",
       "rating": 94,
       "nationality": "巴西",
-      "positions": [
-        "LW",
-        "CAM"
-      ],
       "teams": [
         "红蓝",
         "巴黎",
         "贝尔米罗"
+      ],
+      "positions": [
+        "LW",
+        "CAM"
       ]
     },
     {
@@ -7497,13 +7497,13 @@ window.PitchDefaultData = {
       "name": "K.阿德耶米",
       "rating": 95,
       "nationality": "德国",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "LW",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -7512,13 +7512,13 @@ window.PitchDefaultData = {
       "name": "A.塞梅尼奥",
       "rating": 97,
       "nationality": "加纳",
+      "teams": [
+        "蓝月亮"
+      ],
       "positions": [
         "RW",
         "LM",
         "RM"
-      ],
-      "teams": [
-        "蓝月亮"
       ]
     },
     {
@@ -7527,12 +7527,12 @@ window.PitchDefaultData = {
       "name": "E.热格罗瓦",
       "rating": 94,
       "nationality": "科索沃",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "RW",
         "RM"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -7541,13 +7541,13 @@ window.PitchDefaultData = {
       "name": "鲁伊科斯塔",
       "rating": 94,
       "nationality": "葡萄牙",
+      "teams": [
+        "红黑"
+      ],
       "positions": [
         "CM",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "红黑"
       ]
     },
     {
@@ -7556,13 +7556,13 @@ window.PitchDefaultData = {
       "name": "M.阿克利乌什",
       "rating": 94,
       "nationality": "法国",
+      "teams": [
+        "巴黎"
+      ],
       "positions": [
         "ST",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "巴黎"
       ]
     },
     {
@@ -7571,12 +7571,12 @@ window.PitchDefaultData = {
       "name": "J.克鲁伊夫",
       "rating": 99,
       "nationality": "荷兰",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "ST",
         "CAM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -7585,12 +7585,12 @@ window.PitchDefaultData = {
       "name": "W.埃梅里",
       "rating": 96,
       "nationality": "法国",
+      "teams": [
+        "巴黎"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "巴黎"
       ]
     },
     {
@@ -7599,12 +7599,12 @@ window.PitchDefaultData = {
       "name": "G.扎卡",
       "rating": 97,
       "nationality": "瑞士",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -7613,12 +7613,12 @@ window.PitchDefaultData = {
       "name": "S.杰拉德",
       "rating": 95,
       "nationality": "英格兰",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -7627,12 +7627,12 @@ window.PitchDefaultData = {
       "name": "法比安",
       "rating": 95,
       "nationality": "西班牙",
+      "teams": [
+        "巴黎"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "巴黎"
       ]
     },
     {
@@ -7641,12 +7641,12 @@ window.PitchDefaultData = {
       "name": "B.怀特",
       "rating": 94,
       "nationality": "英格兰",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "CB",
         "RB"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -7655,11 +7655,11 @@ window.PitchDefaultData = {
       "name": "A.胡桑诺夫",
       "rating": 90,
       "nationality": "乌兹别克斯坦",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝月亮"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -7668,14 +7668,14 @@ window.PitchDefaultData = {
       "name": "E.加西亚",
       "rating": 94,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝",
+        "蓝月亮"
+      ],
       "positions": [
         "CDM",
         "CB",
         "RB"
-      ],
-      "teams": [
-        "红蓝",
-        "蓝月亮"
       ]
     },
     {
@@ -7684,11 +7684,11 @@ window.PitchDefaultData = {
       "name": "V.孔帕尼",
       "rating": 99,
       "nationality": "比利时",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝月亮"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -7697,11 +7697,11 @@ window.PitchDefaultData = {
       "name": "E.米利唐",
       "rating": 95,
       "nationality": "巴西",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "银河"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -7710,12 +7710,12 @@ window.PitchDefaultData = {
       "name": "M.加比亚",
       "rating": 95,
       "nationality": "意大利",
+      "teams": [
+        "红黑"
+      ],
       "positions": [
         "CB",
         "RB"
-      ],
-      "teams": [
-        "红黑"
       ]
     },
     {
@@ -7724,12 +7724,12 @@ window.PitchDefaultData = {
       "name": "N.维迪奇",
       "rating": 98,
       "nationality": "塞尔维亚",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红魔",
         "蓝黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -7738,11 +7738,11 @@ window.PitchDefaultData = {
       "name": "G.布雷默",
       "rating": 94,
       "nationality": "巴西",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "斑马"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -7751,11 +7751,11 @@ window.PitchDefaultData = {
       "name": "G.马马尔达什维利",
       "rating": 94,
       "nationality": "格鲁吉亚",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "红军"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -7764,12 +7764,12 @@ window.PitchDefaultData = {
       "name": "巴尔德斯",
       "rating": 98,
       "nationality": "西班牙",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "红魔",
         "红蓝"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -7778,12 +7778,12 @@ window.PitchDefaultData = {
       "name": "A.奥纳纳",
       "rating": 94,
       "nationality": "喀麦隆",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "蓝黑",
         "红魔"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -7792,14 +7792,14 @@ window.PitchDefaultData = {
       "name": "V.穆尼奥斯",
       "rating": 94,
       "nationality": "西班牙",
+      "teams": [
+        "红军",
+        "银河"
+      ],
       "positions": [
         "LW",
         "RW",
         "LM"
-      ],
-      "teams": [
-        "红军",
-        "银河"
       ]
     },
     {
@@ -7808,12 +7808,12 @@ window.PitchDefaultData = {
       "name": "E.埃泽",
       "rating": 97,
       "nationality": "英格兰",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "LW",
         "CAM"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -7822,15 +7822,15 @@ window.PitchDefaultData = {
       "name": "C.加拉格尔",
       "rating": 97,
       "nationality": "英格兰",
-      "positions": [
-        "CM",
-        "CAM",
-        "CDM"
-      ],
       "teams": [
         "百合",
         "床单",
         "蓝军"
+      ],
+      "positions": [
+        "CM",
+        "CAM",
+        "CDM"
       ]
     },
     {
@@ -7839,14 +7839,14 @@ window.PitchDefaultData = {
       "name": "D.邓弗里斯",
       "rating": 91,
       "nationality": "荷兰",
+      "teams": [
+        "蓝黑",
+        "银河"
+      ],
       "positions": [
         "RM",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "蓝黑",
-        "银河"
       ]
     },
     {
@@ -7855,14 +7855,14 @@ window.PitchDefaultData = {
       "name": "A.皮尔洛",
       "rating": 99,
       "nationality": "意大利",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "斑马",
         "红黑",
         "蓝黑"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -7871,11 +7871,11 @@ window.PitchDefaultData = {
       "name": "E.哈兰德",
       "rating": 99,
       "nationality": "挪威",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝月亮"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -7884,11 +7884,11 @@ window.PitchDefaultData = {
       "name": "L.奥蓬达",
       "rating": 95,
       "nationality": "比利时",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "斑马"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -7897,13 +7897,13 @@ window.PitchDefaultData = {
       "name": "L.巴斯克斯",
       "rating": 90,
       "nationality": "西班牙",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "RW",
         "RM",
         "RB"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
@@ -7912,13 +7912,13 @@ window.PitchDefaultData = {
       "name": "A.德尔皮耶罗",
       "rating": 99,
       "nationality": "意大利",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "ST",
         "LW",
         "CAM"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -7927,12 +7927,12 @@ window.PitchDefaultData = {
       "name": "T.库普梅纳斯",
       "rating": 96,
       "nationality": "荷兰",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -7941,13 +7941,13 @@ window.PitchDefaultData = {
       "name": "D.阿里",
       "rating": 92,
       "nationality": "英格兰",
+      "teams": [
+        "百合"
+      ],
       "positions": [
         "CM",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "百合"
       ]
     },
     {
@@ -7956,11 +7956,11 @@ window.PitchDefaultData = {
       "name": "K.丹索",
       "rating": 95,
       "nationality": "奥地利",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "百合"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -7969,11 +7969,11 @@ window.PitchDefaultData = {
       "name": "D.拉亚",
       "rating": 96,
       "nationality": "西班牙",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "兵工厂"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -7982,15 +7982,15 @@ window.PitchDefaultData = {
       "name": "达尼洛",
       "rating": 93,
       "nationality": "巴西",
-      "positions": [
-        "CB",
-        "LB",
-        "RB"
-      ],
       "teams": [
         "斑马",
         "贝尔米罗",
         "银河"
+      ],
+      "positions": [
+        "CB",
+        "LB",
+        "RB"
       ]
     },
     {
@@ -7999,13 +7999,13 @@ window.PitchDefaultData = {
       "name": "L.卡尔",
       "rating": 93,
       "nationality": "德国",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "CM",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -8014,15 +8014,15 @@ window.PitchDefaultData = {
       "name": "L.菲戈",
       "rating": 99,
       "nationality": "葡萄牙",
-      "positions": [
-        "RW",
-        "RM",
-        "CAM"
-      ],
       "teams": [
         "红蓝",
         "银河",
         "蓝黑"
+      ],
+      "positions": [
+        "RW",
+        "RM",
+        "CAM"
       ]
     },
     {
@@ -8031,12 +8031,12 @@ window.PitchDefaultData = {
       "name": "A.罗伯逊",
       "rating": 96,
       "nationality": "苏格兰",
-      "positions": [
-        "LB"
-      ],
       "teams": [
         "百合",
         "红军"
+      ],
+      "positions": [
+        "LB"
       ]
     },
     {
@@ -8045,12 +8045,12 @@ window.PitchDefaultData = {
       "name": "L.贝里瓦尔",
       "rating": 90,
       "nationality": "瑞典",
+      "teams": [
+        "百合"
+      ],
       "positions": [
         "CM",
         "LM"
-      ],
-      "teams": [
-        "百合"
       ]
     },
     {
@@ -8059,11 +8059,11 @@ window.PitchDefaultData = {
       "name": "W.帕乔",
       "rating": 95,
       "nationality": "厄瓜多尔",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "巴黎"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -8072,15 +8072,15 @@ window.PitchDefaultData = {
       "name": "L.莫德里奇",
       "rating": 98,
       "nationality": "克罗地亚",
-      "positions": [
-        "CM",
-        "CAM",
-        "CDM"
-      ],
       "teams": [
         "百合",
         "银河",
         "红黑"
+      ],
+      "positions": [
+        "CM",
+        "CAM",
+        "CDM"
       ]
     },
     {
@@ -8089,11 +8089,11 @@ window.PitchDefaultData = {
       "name": "加布里埃尔",
       "rating": 99,
       "nationality": "巴西",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "兵工厂"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -8102,12 +8102,12 @@ window.PitchDefaultData = {
       "name": "米兰达",
       "rating": 93,
       "nationality": "巴西",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "床单",
         "蓝黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -8116,13 +8116,13 @@ window.PitchDefaultData = {
       "name": "Y.图雷",
       "rating": 98,
       "nationality": "科特迪瓦",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "红蓝",
         "蓝月亮"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -8131,13 +8131,13 @@ window.PitchDefaultData = {
       "name": "M.洛卡特利",
       "rating": 94,
       "nationality": "意大利",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "斑马",
         "红黑"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -8146,14 +8146,14 @@ window.PitchDefaultData = {
       "name": "A.萨勒马尔科斯",
       "rating": 96,
       "nationality": "比利时",
+      "teams": [
+        "红黑",
+        "红狼"
+      ],
       "positions": [
         "RW",
         "LM",
         "RM"
-      ],
-      "teams": [
-        "红黑",
-        "红狼"
       ]
     },
     {
@@ -8162,13 +8162,13 @@ window.PitchDefaultData = {
       "name": "D.杜埃",
       "rating": 91,
       "nationality": "法国",
+      "teams": [
+        "巴黎"
+      ],
       "positions": [
         "LW",
         "RW",
         "CM"
-      ],
-      "teams": [
-        "巴黎"
       ]
     },
     {
@@ -8177,14 +8177,14 @@ window.PitchDefaultData = {
       "name": "萨乌尔",
       "rating": 92,
       "nationality": "西班牙",
+      "teams": [
+        "床单",
+        "蓝军"
+      ],
       "positions": [
         "CM",
         "LM",
         "RM"
-      ],
-      "teams": [
-        "床单",
-        "蓝军"
       ]
     },
     {
@@ -8193,11 +8193,11 @@ window.PitchDefaultData = {
       "name": "A.内斯塔",
       "rating": 96,
       "nationality": "意大利",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -8206,13 +8206,13 @@ window.PitchDefaultData = {
       "name": "F.巴尔韦德",
       "rating": 95,
       "nationality": "乌拉圭",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "RW",
         "CM",
         "RM"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
@@ -8221,13 +8221,13 @@ window.PitchDefaultData = {
       "name": "古蒂",
       "rating": 98,
       "nationality": "西班牙",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "CM",
         "CAM",
         "CDM"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
@@ -8236,13 +8236,13 @@ window.PitchDefaultData = {
       "name": "M.德利赫特",
       "rating": 93,
       "nationality": "荷兰",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "斑马",
         "南部",
         "红魔"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -8251,12 +8251,12 @@ window.PitchDefaultData = {
       "name": "K.耶尔德兹",
       "rating": 96,
       "nationality": "土耳其",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -8265,12 +8265,12 @@ window.PitchDefaultData = {
       "name": "卡塞米罗",
       "rating": 94,
       "nationality": "巴西",
-      "positions": [
-        "CDM"
-      ],
       "teams": [
         "银河",
         "红魔"
+      ],
+      "positions": [
+        "CDM"
       ]
     },
     {
@@ -8279,11 +8279,11 @@ window.PitchDefaultData = {
       "name": "S.帕夫洛维奇",
       "rating": 90,
       "nationality": "塞尔维亚",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -8292,11 +8292,11 @@ window.PitchDefaultData = {
       "name": "J.塞萨尔",
       "rating": 98,
       "nationality": "巴西",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "蓝黑"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -8305,14 +8305,14 @@ window.PitchDefaultData = {
       "name": "T.埃尔南德斯",
       "rating": 94,
       "nationality": "法国",
-      "positions": [
-        "LM",
-        "LB"
-      ],
       "teams": [
         "银河",
         "红黑",
         "床单"
+      ],
+      "positions": [
+        "LM",
+        "LB"
       ]
     },
     {
@@ -8321,14 +8321,14 @@ window.PitchDefaultData = {
       "name": "M.索莱",
       "rating": 91,
       "nationality": "阿根廷",
+      "teams": [
+        "斑马",
+        "红狼"
+      ],
       "positions": [
         "RW",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "斑马",
-        "红狼"
       ]
     },
     {
@@ -8337,12 +8337,12 @@ window.PitchDefaultData = {
       "name": "S.布斯克茨",
       "rating": 97,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -8351,12 +8351,12 @@ window.PitchDefaultData = {
       "name": "T.阿诺德",
       "rating": 93,
       "nationality": "英格兰",
-      "positions": [
-        "RB"
-      ],
       "teams": [
         "红军",
         "银河"
+      ],
+      "positions": [
+        "RB"
       ]
     },
     {
@@ -8365,13 +8365,13 @@ window.PitchDefaultData = {
       "name": "L.佩莱格里尼",
       "rating": 93,
       "nationality": "意大利",
+      "teams": [
+        "红狼"
+      ],
       "positions": [
         "ST",
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "红狼"
       ]
     },
     {
@@ -8380,11 +8380,11 @@ window.PitchDefaultData = {
       "name": "L.贝拉尔多",
       "rating": 95,
       "nationality": "巴西",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "巴黎"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -8393,12 +8393,12 @@ window.PitchDefaultData = {
       "name": "M.范德芬",
       "rating": 96,
       "nationality": "荷兰",
+      "teams": [
+        "百合"
+      ],
       "positions": [
         "CB",
         "LB"
-      ],
-      "teams": [
-        "百合"
       ]
     },
     {
@@ -8407,14 +8407,14 @@ window.PitchDefaultData = {
       "name": "T.赖恩德斯",
       "rating": 96,
       "nationality": "荷兰",
+      "teams": [
+        "红黑",
+        "蓝月亮"
+      ],
       "positions": [
         "CM",
         "CAM",
         "CDM"
-      ],
-      "teams": [
-        "红黑",
-        "蓝月亮"
       ]
     },
     {
@@ -8423,13 +8423,13 @@ window.PitchDefaultData = {
       "name": "M.库杜斯",
       "rating": 95,
       "nationality": "加纳",
+      "teams": [
+        "百合"
+      ],
       "positions": [
         "ST",
         "LM",
         "RM"
-      ],
-      "teams": [
-        "百合"
       ]
     },
     {
@@ -8438,14 +8438,14 @@ window.PitchDefaultData = {
       "name": "O.登贝莱",
       "rating": 99,
       "nationality": "法国",
+      "teams": [
+        "巴黎",
+        "红蓝"
+      ],
       "positions": [
         "LW",
         "RW",
         "CAM"
-      ],
-      "teams": [
-        "巴黎",
-        "红蓝"
       ]
     },
     {
@@ -8454,15 +8454,15 @@ window.PitchDefaultData = {
       "name": "I.佩里西奇",
       "rating": 92,
       "nationality": "克罗地亚",
-      "positions": [
-        "LM",
-        "RM",
-        "CAM"
-      ],
       "teams": [
         "蓝黑",
         "南部",
         "百合"
+      ],
+      "positions": [
+        "LM",
+        "RM",
+        "CAM"
       ]
     },
     {
@@ -8471,11 +8471,52 @@ window.PitchDefaultData = {
       "name": "D.卡拉布里亚",
       "rating": 90,
       "nationality": "意大利",
-      "positions": [
-        "RB"
-      ],
       "teams": [
         "红黑"
+      ],
+      "positions": [
+        "RB"
+      ]
+    },
+    {
+      "id": "a66ee441-a76f-43b1-a0fc-78495abc0f99",
+      "personId": "cb36329d-8511-41ba-8995-216527e10d51",
+      "name": "阿德里亚诺",
+      "rating": 99,
+      "nationality": "巴西",
+      "teams": [
+        "蓝黑",
+        "红狼"
+      ],
+      "positions": [
+        "ST"
+      ]
+    },
+    {
+      "id": "9e9ebab5-72c7-4a78-8e72-9bbf1e431edb",
+      "personId": "64267bbf-1ab9-4065-a90c-638c26e025ed",
+      "name": "金玟哉",
+      "rating": 93,
+      "nationality": "韩国",
+      "teams": [
+        "南部"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "c88c97dc-ed8c-480c-a67e-4b3e6c199229",
+      "personId": "c88c97dc-ed8c-480c-a67e-4b3e6c199229",
+      "name": "R.费迪南德",
+      "rating": 97,
+      "nationality": "英格兰",
+      "teams": [
+        "红魔"
+      ],
+      "positions": [
+        "CB",
+        "LB"
       ]
     },
     {
@@ -8484,13 +8525,13 @@ window.PitchDefaultData = {
       "name": "D.弗兰",
       "rating": 98,
       "nationality": "乌拉圭",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "红魔",
         "床单",
         "蓝黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -8499,12 +8540,12 @@ window.PitchDefaultData = {
       "name": "D.苏克",
       "rating": 98,
       "nationality": "克罗地亚",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "银河",
         "兵工厂"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -8513,14 +8554,14 @@ window.PitchDefaultData = {
       "name": "O.马尔穆什",
       "rating": 96,
       "nationality": "埃及",
+      "teams": [
+        "百合",
+        "蓝月亮"
+      ],
       "positions": [
         "ST",
         "LW",
         "LM"
-      ],
-      "teams": [
-        "百合",
-        "蓝月亮"
       ]
     },
     {
@@ -8529,13 +8570,13 @@ window.PitchDefaultData = {
       "name": "R.谢尔基",
       "rating": 94,
       "nationality": "法国",
+      "teams": [
+        "蓝月亮"
+      ],
       "positions": [
         "RW",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "蓝月亮"
       ]
     },
     {
@@ -8544,14 +8585,14 @@ window.PitchDefaultData = {
       "name": "T.赖恩德斯",
       "rating": 95,
       "nationality": "荷兰",
+      "teams": [
+        "红黑",
+        "蓝月亮"
+      ],
       "positions": [
         "CM",
         "CAM",
         "CDM"
-      ],
-      "teams": [
-        "红黑",
-        "蓝月亮"
       ]
     },
     {
@@ -8560,12 +8601,12 @@ window.PitchDefaultData = {
       "name": "P.苏契奇",
       "rating": 95,
       "nationality": "克罗地亚",
+      "teams": [
+        "蓝黑"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "蓝黑"
       ]
     },
     {
@@ -8574,12 +8615,12 @@ window.PitchDefaultData = {
       "name": "科克",
       "rating": 92,
       "nationality": "西班牙",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
@@ -8588,12 +8629,12 @@ window.PitchDefaultData = {
       "name": "P.泽林斯基",
       "rating": 95,
       "nationality": "波兰",
+      "teams": [
+        "蓝黑"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "蓝黑"
       ]
     },
     {
@@ -8602,14 +8643,14 @@ window.PitchDefaultData = {
       "name": "C.马克莱莱",
       "rating": 99,
       "nationality": "法国",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "巴黎",
         "蓝军",
         "银河"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -8618,12 +8659,12 @@ window.PitchDefaultData = {
       "name": "Y.福法纳",
       "rating": 96,
       "nationality": "法国",
+      "teams": [
+        "红黑"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红黑"
       ]
     },
     {
@@ -8632,13 +8673,13 @@ window.PitchDefaultData = {
       "name": "J.基米希",
       "rating": 97,
       "nationality": "德国",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "CM",
         "CDM",
         "RB"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -8647,11 +8688,11 @@ window.PitchDefaultData = {
       "name": "P.埃斯图皮尼安",
       "rating": 95,
       "nationality": "厄瓜多尔",
-      "positions": [
-        "LB"
-      ],
       "teams": [
         "红黑"
+      ],
+      "positions": [
+        "LB"
       ]
     },
     {
@@ -8660,14 +8701,14 @@ window.PitchDefaultData = {
       "name": "A.科尔",
       "rating": 98,
       "nationality": "英格兰",
-      "positions": [
-        "LM",
-        "LB"
-      ],
       "teams": [
         "兵工厂",
         "蓝军",
         "红狼"
+      ],
+      "positions": [
+        "LM",
+        "LB"
       ]
     },
     {
@@ -8676,12 +8717,12 @@ window.PitchDefaultData = {
       "name": "J.维尔通亨",
       "rating": 92,
       "nationality": "比利时",
+      "teams": [
+        "百合"
+      ],
       "positions": [
         "CB",
         "LB"
-      ],
-      "teams": [
-        "百合"
       ]
     },
     {
@@ -8690,11 +8731,11 @@ window.PitchDefaultData = {
       "name": "J.塔",
       "rating": 96,
       "nationality": "德国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "南部"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -8703,11 +8744,11 @@ window.PitchDefaultData = {
       "name": "F.加蒂",
       "rating": 92,
       "nationality": "意大利",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "斑马"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -8716,11 +8757,11 @@ window.PitchDefaultData = {
       "name": "J.卢库米",
       "rating": 94,
       "nationality": "哥伦比亚",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "斑马"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -8729,13 +8770,13 @@ window.PitchDefaultData = {
       "name": "D.达洛特",
       "rating": 93,
       "nationality": "葡萄牙",
-      "positions": [
-        "LB",
-        "RB"
-      ],
       "teams": [
         "红魔",
         "红黑"
+      ],
+      "positions": [
+        "LB",
+        "RB"
       ]
     },
     {
@@ -8744,12 +8785,12 @@ window.PitchDefaultData = {
       "name": "C.布拉德利",
       "rating": 93,
       "nationality": "北爱尔兰",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "RM",
         "RB"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -8758,12 +8799,12 @@ window.PitchDefaultData = {
       "name": "M.迪格雷戈里奥",
       "rating": 92,
       "nationality": "意大利",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "蓝黑",
         "斑马"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -8772,13 +8813,13 @@ window.PitchDefaultData = {
       "name": "R.阿劳霍",
       "rating": 96,
       "nationality": "乌拉圭",
-      "positions": [
-        "CB",
-        "RB"
-      ],
       "teams": [
         "红蓝",
         "红军"
+      ],
+      "positions": [
+        "CB",
+        "RB"
       ]
     },
     {
@@ -8787,14 +8828,14 @@ window.PitchDefaultData = {
       "name": "L.梅西",
       "rating": 97,
       "nationality": "阿根廷",
+      "teams": [
+        "巴黎",
+        "红蓝"
+      ],
       "positions": [
         "ST",
         "RW",
         "CAM"
-      ],
-      "teams": [
-        "巴黎",
-        "红蓝"
       ]
     },
     {
@@ -8803,12 +8844,12 @@ window.PitchDefaultData = {
       "name": "R.艾特努里",
       "rating": 95,
       "nationality": "阿尔及利亚",
+      "teams": [
+        "蓝月亮"
+      ],
       "positions": [
         "LM",
         "LB"
-      ],
-      "teams": [
-        "蓝月亮"
       ]
     },
     {
@@ -8817,12 +8858,12 @@ window.PitchDefaultData = {
       "name": "卡塞米罗",
       "rating": 96,
       "nationality": "巴西",
-      "positions": [
-        "CDM"
-      ],
       "teams": [
         "银河",
         "红魔"
+      ],
+      "positions": [
+        "CDM"
       ]
     },
     {
@@ -8831,13 +8872,13 @@ window.PitchDefaultData = {
       "name": "E.卡马文加",
       "rating": 90,
       "nationality": "法国",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "CM",
         "CDM",
         "LB"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
@@ -8846,15 +8887,15 @@ window.PitchDefaultData = {
       "name": "罗纳尔迪尼奥",
       "rating": 99,
       "nationality": "巴西",
-      "positions": [
-        "LW",
-        "RW",
-        "CAM"
-      ],
       "teams": [
         "巴黎",
         "红蓝",
         "红黑"
+      ],
+      "positions": [
+        "LW",
+        "RW",
+        "CAM"
       ]
     },
     {
@@ -8863,13 +8904,13 @@ window.PitchDefaultData = {
       "name": "A.格里马尔多",
       "rating": 97,
       "nationality": "西班牙",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "LM",
         "CAM",
         "LB"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
@@ -8878,11 +8919,11 @@ window.PitchDefaultData = {
       "name": "R.勒诺尔芒",
       "rating": 93,
       "nationality": "西班牙",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "床单"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -8891,13 +8932,13 @@ window.PitchDefaultData = {
       "name": "A.麦卡利斯特",
       "rating": 92,
       "nationality": "阿根廷",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "CM",
         "CAM",
         "CDM"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -8906,11 +8947,11 @@ window.PitchDefaultData = {
       "name": "A.金斯基",
       "rating": 93,
       "nationality": "捷克",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "百合"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -8919,11 +8960,11 @@ window.PitchDefaultData = {
       "name": "罗马里奥",
       "rating": 99,
       "nationality": "巴西",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "红蓝"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -8932,12 +8973,12 @@ window.PitchDefaultData = {
       "name": "G.巴蒂斯图塔",
       "rating": 96,
       "nationality": "阿根廷",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "红狼",
         "蓝黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -8946,12 +8987,12 @@ window.PitchDefaultData = {
       "name": "K.莱默尔",
       "rating": 96,
       "nationality": "奥地利",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -8960,11 +9001,11 @@ window.PitchDefaultData = {
       "name": "L.约罗",
       "rating": 95,
       "nationality": "法国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红狼"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -8973,12 +9014,12 @@ window.PitchDefaultData = {
       "name": "J.廷贝尔",
       "rating": 96,
       "nationality": "荷兰",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "CB",
         "RB"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -8987,14 +9028,14 @@ window.PitchDefaultData = {
       "name": "N.雅克松",
       "rating": 95,
       "nationality": "塞内加尔",
+      "teams": [
+        "南部",
+        "蓝军"
+      ],
       "positions": [
         "ST",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "南部",
-        "蓝军"
       ]
     },
     {
@@ -9003,13 +9044,13 @@ window.PitchDefaultData = {
       "name": "I.姆巴耶",
       "rating": 94,
       "nationality": "塞内加尔",
+      "teams": [
+        "巴黎"
+      ],
       "positions": [
         "LW",
         "RW",
         "RM"
-      ],
-      "teams": [
-        "巴黎"
       ]
     },
     {
@@ -9018,14 +9059,14 @@ window.PitchDefaultData = {
       "name": "B.克里斯坦特",
       "rating": 94,
       "nationality": "意大利",
+      "teams": [
+        "红黑",
+        "红狼"
+      ],
       "positions": [
         "CM",
         "CDM",
         "CB"
-      ],
-      "teams": [
-        "红黑",
-        "红狼"
       ]
     },
     {
@@ -9034,15 +9075,15 @@ window.PitchDefaultData = {
       "name": "M.萨拉赫",
       "rating": 94,
       "nationality": "埃及",
-      "positions": [
-        "ST",
-        "RW",
-        "RM"
-      ],
       "teams": [
         "蓝军",
         "红狼",
         "红军"
+      ],
+      "positions": [
+        "ST",
+        "RW",
+        "RM"
       ]
     },
     {
@@ -9051,12 +9092,12 @@ window.PitchDefaultData = {
       "name": "K.图拉姆",
       "rating": 95,
       "nationality": "法国",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -9065,15 +9106,15 @@ window.PitchDefaultData = {
       "name": "M.曼珠基奇",
       "rating": 92,
       "nationality": "克罗地亚",
-      "positions": [
-        "ST",
-        "LW"
-      ],
       "teams": [
         "南部",
         "床单",
         "斑马",
         "红黑"
+      ],
+      "positions": [
+        "ST",
+        "LW"
       ]
     },
     {
@@ -9082,13 +9123,13 @@ window.PitchDefaultData = {
       "name": "F.洛佩斯",
       "rating": 91,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "LW",
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -9097,12 +9138,12 @@ window.PitchDefaultData = {
       "name": "J.莱曼",
       "rating": 94,
       "nationality": "德国",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "红黑",
         "兵工厂"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -9111,11 +9152,11 @@ window.PitchDefaultData = {
       "name": "M.拉克鲁瓦",
       "rating": 96,
       "nationality": "法国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝军"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -9124,11 +9165,11 @@ window.PitchDefaultData = {
       "name": "R.迪亚斯",
       "rating": 97,
       "nationality": "葡萄牙",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝月亮"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -9137,14 +9178,14 @@ window.PitchDefaultData = {
       "name": "罗纳尔多",
       "rating": 99,
       "nationality": "巴西",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "红蓝",
         "蓝黑",
         "银河",
         "红黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -9153,16 +9194,16 @@ window.PitchDefaultData = {
       "name": "P.奥巴梅扬",
       "rating": 93,
       "nationality": "加蓬",
-      "positions": [
-        "ST",
-        "LW",
-        "LM"
-      ],
       "teams": [
         "兵工厂",
         "红蓝",
         "蓝军",
         "红黑"
+      ],
+      "positions": [
+        "ST",
+        "LW",
+        "LM"
       ]
     },
     {
@@ -9171,13 +9212,13 @@ window.PitchDefaultData = {
       "name": "F.洛佩斯",
       "rating": 95,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "LW",
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -9186,12 +9227,12 @@ window.PitchDefaultData = {
       "name": "N.皮西里",
       "rating": 93,
       "nationality": "意大利",
+      "teams": [
+        "红狼"
+      ],
       "positions": [
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "红狼"
       ]
     },
     {
@@ -9200,13 +9241,13 @@ window.PitchDefaultData = {
       "name": "A.伊涅斯塔",
       "rating": 99,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "LW",
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -9215,12 +9256,12 @@ window.PitchDefaultData = {
       "name": "N.艾纳维",
       "rating": 94,
       "nationality": "摩洛哥",
+      "teams": [
+        "红狼"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红狼"
       ]
     },
     {
@@ -9229,15 +9270,15 @@ window.PitchDefaultData = {
       "name": "M.科瓦契奇",
       "rating": 95,
       "nationality": "克罗地亚",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "蓝黑",
         "银河",
         "蓝军",
         "蓝月亮"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -9246,13 +9287,13 @@ window.PitchDefaultData = {
       "name": "R.赫拉芬贝赫",
       "rating": 91,
       "nationality": "荷兰",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "南部",
         "红军"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -9261,12 +9302,12 @@ window.PitchDefaultData = {
       "name": "加比",
       "rating": 92,
       "nationality": "西班牙",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
@@ -9275,13 +9316,13 @@ window.PitchDefaultData = {
       "name": "R.德保罗",
       "rating": 97,
       "nationality": "阿根廷",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "CM",
         "RM",
         "CDM"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
@@ -9290,12 +9331,12 @@ window.PitchDefaultData = {
       "name": "N.门德斯",
       "rating": 96,
       "nationality": "葡萄牙",
+      "teams": [
+        "巴黎"
+      ],
       "positions": [
         "LM",
         "LB"
-      ],
-      "teams": [
-        "巴黎"
       ]
     },
     {
@@ -9304,12 +9345,12 @@ window.PitchDefaultData = {
       "name": "P.多古",
       "rating": 90,
       "nationality": "丹麦",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "LM",
         "LB"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
@@ -9318,13 +9359,13 @@ window.PitchDefaultData = {
       "name": "A.坎比亚索",
       "rating": 96,
       "nationality": "意大利",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "RM",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -9333,13 +9374,13 @@ window.PitchDefaultData = {
       "name": "F.迪马尔科",
       "rating": 95,
       "nationality": "意大利",
+      "teams": [
+        "蓝黑"
+      ],
       "positions": [
         "LM",
         "CB",
         "LB"
-      ],
-      "teams": [
-        "蓝黑"
       ]
     },
     {
@@ -9348,11 +9389,11 @@ window.PitchDefaultData = {
       "name": "L.约罗",
       "rating": 96,
       "nationality": "法国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红狼"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -9361,13 +9402,13 @@ window.PitchDefaultData = {
       "name": "D.赫伊森",
       "rating": 95,
       "nationality": "西班牙",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "斑马",
         "红狼",
         "银河"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -9376,11 +9417,11 @@ window.PitchDefaultData = {
       "name": "A.巴斯托尼",
       "rating": 94,
       "nationality": "意大利",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -9389,13 +9430,13 @@ window.PitchDefaultData = {
       "name": "J.卡拉格",
       "rating": 98,
       "nationality": "英格兰",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "CB",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -9404,13 +9445,13 @@ window.PitchDefaultData = {
       "name": "N.阿克",
       "rating": 92,
       "nationality": "荷兰",
-      "positions": [
-        "CB",
-        "LB"
-      ],
       "teams": [
         "蓝军",
         "蓝月亮"
+      ],
+      "positions": [
+        "CB",
+        "LB"
       ]
     },
     {
@@ -9419,11 +9460,11 @@ window.PitchDefaultData = {
       "name": "G.布雷默",
       "rating": 96,
       "nationality": "巴西",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "斑马"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -9432,12 +9473,12 @@ window.PitchDefaultData = {
       "name": "J.斯塔姆",
       "rating": 98,
       "nationality": "荷兰",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红魔",
         "红黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -9446,11 +9487,11 @@ window.PitchDefaultData = {
       "name": "C.莫斯克拉",
       "rating": 93,
       "nationality": "西班牙",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "兵工厂"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -9459,12 +9500,12 @@ window.PitchDefaultData = {
       "name": "T.阿尔德韦雷尔德",
       "rating": 93,
       "nationality": "比利时",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "床单",
         "百合"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -9473,12 +9514,12 @@ window.PitchDefaultData = {
       "name": "J.卡巴尔",
       "rating": 93,
       "nationality": "哥伦比亚",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "CB",
         "LB"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -9487,12 +9528,12 @@ window.PitchDefaultData = {
       "name": "F.阿切尔比",
       "rating": 95,
       "nationality": "意大利",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红黑",
         "蓝黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -9501,11 +9542,11 @@ window.PitchDefaultData = {
       "name": "J.希门尼斯",
       "rating": 95,
       "nationality": "乌拉圭",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "床单"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -9514,14 +9555,14 @@ window.PitchDefaultData = {
       "name": "S.德斯特",
       "rating": 93,
       "nationality": "美国",
+      "teams": [
+        "红蓝",
+        "红黑"
+      ],
       "positions": [
         "RM",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "红蓝",
-        "红黑"
       ]
     },
     {
@@ -9530,12 +9571,12 @@ window.PitchDefaultData = {
       "name": "J.弗林蓬",
       "rating": 95,
       "nationality": "荷兰",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "RM",
         "RB"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -9544,12 +9585,12 @@ window.PitchDefaultData = {
       "name": "J.斯塔尼希奇",
       "rating": 94,
       "nationality": "克罗地亚",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "CB",
         "RB"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -9558,11 +9599,11 @@ window.PitchDefaultData = {
       "name": "S.拉门斯",
       "rating": 94,
       "nationality": "比利时",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "红魔"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -9571,12 +9612,12 @@ window.PitchDefaultData = {
       "name": "S.里奇",
       "rating": 94,
       "nationality": "意大利",
+      "teams": [
+        "红黑"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红黑"
       ]
     },
     {
@@ -9585,13 +9626,13 @@ window.PitchDefaultData = {
       "name": "C.朗格莱",
       "rating": 94,
       "nationality": "法国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "百合",
         "床单",
         "红蓝"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -9600,14 +9641,14 @@ window.PitchDefaultData = {
       "name": "S.马内",
       "rating": 98,
       "nationality": "塞内加尔",
+      "teams": [
+        "红军",
+        "南部"
+      ],
       "positions": [
         "LW",
         "RW",
         "LM"
-      ],
-      "teams": [
-        "红军",
-        "南部"
       ]
     },
     {
@@ -9616,12 +9657,12 @@ window.PitchDefaultData = {
       "name": "A.迪萨西",
       "rating": 90,
       "nationality": "法国",
+      "teams": [
+        "蓝军"
+      ],
       "positions": [
         "CB",
         "RB"
-      ],
-      "teams": [
-        "蓝军"
       ]
     },
     {
@@ -9630,11 +9671,11 @@ window.PitchDefaultData = {
       "name": "D.弗拉霍维奇",
       "rating": 97,
       "nationality": "塞尔维亚",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "斑马"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -9643,13 +9684,13 @@ window.PitchDefaultData = {
       "name": "拉菲尼亚",
       "rating": 97,
       "nationality": "巴西",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "LW",
         "RW",
         "RM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -9658,12 +9699,12 @@ window.PitchDefaultData = {
       "name": "R.莱万多夫斯基",
       "rating": 98,
       "nationality": "波兰",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "南部",
         "红蓝"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -9672,14 +9713,14 @@ window.PitchDefaultData = {
       "name": "L.迪亚兹",
       "rating": 91,
       "nationality": "哥伦比亚",
+      "teams": [
+        "南部",
+        "红军"
+      ],
       "positions": [
         "LW",
         "RW",
         "RM"
-      ],
-      "teams": [
-        "南部",
-        "红军"
       ]
     },
     {
@@ -9688,13 +9729,13 @@ window.PitchDefaultData = {
       "name": "L.亚马尔",
       "rating": 96,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "ST",
         "RW",
         "CAM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -9703,12 +9744,12 @@ window.PitchDefaultData = {
       "name": "S.麦克托米奈",
       "rating": 97,
       "nationality": "苏格兰",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
@@ -9717,12 +9758,12 @@ window.PitchDefaultData = {
       "name": "L.格雷茨卡",
       "rating": 97,
       "nationality": "德国",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -9731,12 +9772,12 @@ window.PitchDefaultData = {
       "name": "M.鲁杰里",
       "rating": 93,
       "nationality": "意大利",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "LM",
         "LB"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
@@ -9745,12 +9786,12 @@ window.PitchDefaultData = {
       "name": "M.胡梅尔斯",
       "rating": 94,
       "nationality": "德国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "南部",
         "红狼"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -9759,13 +9800,13 @@ window.PitchDefaultData = {
       "name": "G.马丁内利",
       "rating": 95,
       "nationality": "巴西",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "LW",
         "RW",
         "LM"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -9774,13 +9815,13 @@ window.PitchDefaultData = {
       "name": "L.林加德",
       "rating": 92,
       "nationality": "英格兰",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "RW",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
@@ -9789,13 +9830,13 @@ window.PitchDefaultData = {
       "name": "R.本坦库尔",
       "rating": 94,
       "nationality": "乌拉圭",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "斑马",
         "百合"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -9804,12 +9845,12 @@ window.PitchDefaultData = {
       "name": "N.坎特",
       "rating": 96,
       "nationality": "法国",
+      "teams": [
+        "蓝军"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "蓝军"
       ]
     },
     {
@@ -9818,11 +9859,11 @@ window.PitchDefaultData = {
       "name": "E.恩迪卡",
       "rating": 91,
       "nationality": "科特迪瓦",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红狼"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -9831,11 +9872,11 @@ window.PitchDefaultData = {
       "name": "A.伊萨克",
       "rating": 96,
       "nationality": "瑞典",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "红军"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -9844,13 +9885,13 @@ window.PitchDefaultData = {
       "name": "A.巴尔德",
       "rating": 91,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "LM",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -9859,12 +9900,12 @@ window.PitchDefaultData = {
       "name": "D.比利亚",
       "rating": 96,
       "nationality": "西班牙",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "红蓝",
         "床单"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -9873,12 +9914,12 @@ window.PitchDefaultData = {
       "name": "D.博格坎普",
       "rating": 97,
       "nationality": "荷兰",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "兵工厂",
         "蓝黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -9887,14 +9928,14 @@ window.PitchDefaultData = {
       "name": "K.科曼",
       "rating": 92,
       "nationality": "法国",
-      "positions": [
-        "LM",
-        "RM"
-      ],
       "teams": [
         "巴黎",
         "斑马",
         "南部"
+      ],
+      "positions": [
+        "LM",
+        "RM"
       ]
     },
     {
@@ -9903,14 +9944,14 @@ window.PitchDefaultData = {
       "name": "M.拉什福德",
       "rating": 93,
       "nationality": "英格兰",
+      "teams": [
+        "红魔",
+        "红蓝"
+      ],
       "positions": [
         "ST",
         "LW",
         "LM"
-      ],
-      "teams": [
-        "红魔",
-        "红蓝"
       ]
     },
     {
@@ -9919,13 +9960,13 @@ window.PitchDefaultData = {
       "name": "M.普比尔",
       "rating": 93,
       "nationality": "西班牙",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "RM",
         "CB",
         "RB"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
@@ -9934,13 +9975,13 @@ window.PitchDefaultData = {
       "name": "M.图拉姆",
       "rating": 96,
       "nationality": "法国",
+      "teams": [
+        "蓝黑"
+      ],
       "positions": [
         "ST",
         "LW",
         "LM"
-      ],
-      "teams": [
-        "蓝黑"
       ]
     },
     {
@@ -9949,13 +9990,13 @@ window.PitchDefaultData = {
       "name": "A.居莱尔",
       "rating": 96,
       "nationality": "土耳其",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "CM",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
@@ -9964,15 +10005,15 @@ window.PitchDefaultData = {
       "name": "C.加拉格尔",
       "rating": 91,
       "nationality": "英格兰",
-      "positions": [
-        "CM",
-        "CAM",
-        "CDM"
-      ],
       "teams": [
         "百合",
         "床单",
         "蓝军"
+      ],
+      "positions": [
+        "CM",
+        "CAM",
+        "CDM"
       ]
     },
     {
@@ -9981,14 +10022,14 @@ window.PitchDefaultData = {
       "name": "M.索莱",
       "rating": 95,
       "nationality": "阿根廷",
+      "teams": [
+        "斑马",
+        "红狼"
+      ],
       "positions": [
         "RW",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "斑马",
-        "红狼"
       ]
     },
     {
@@ -9997,13 +10038,13 @@ window.PitchDefaultData = {
       "name": "J.戴维",
       "rating": 97,
       "nationality": "加拿大",
-      "positions": [
-        "ST",
-        "CAM"
-      ],
       "teams": [
         "斑马",
         "床单"
+      ],
+      "positions": [
+        "ST",
+        "CAM"
       ]
     },
     {
@@ -10012,13 +10053,13 @@ window.PitchDefaultData = {
       "name": "P.萨尔",
       "rating": 93,
       "nationality": "塞内加尔",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "斑马",
         "百合"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -10027,15 +10068,15 @@ window.PitchDefaultData = {
       "name": "K.图雷",
       "rating": 98,
       "nationality": "科特迪瓦",
-      "positions": [
-        "CB",
-        "CDM",
-        "RB"
-      ],
       "teams": [
         "兵工厂",
         "蓝月亮",
         "红军"
+      ],
+      "positions": [
+        "CB",
+        "CDM",
+        "RB"
       ]
     },
     {
@@ -10044,13 +10085,13 @@ window.PitchDefaultData = {
       "name": "吉尔伯托",
       "rating": 98,
       "nationality": "巴西",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "CM",
         "CDM",
         "CB"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -10059,12 +10100,12 @@ window.PitchDefaultData = {
       "name": "远藤航",
       "rating": 91,
       "nationality": "日本",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -10073,15 +10114,15 @@ window.PitchDefaultData = {
       "name": "M.库库雷利亚",
       "rating": 97,
       "nationality": "西班牙",
-      "positions": [
-        "LM",
-        "CB",
-        "LB"
-      ],
       "teams": [
         "红蓝",
         "蓝军",
         "银河"
+      ],
+      "positions": [
+        "LM",
+        "CB",
+        "LB"
       ]
     },
     {
@@ -10090,84 +10131,84 @@ window.PitchDefaultData = {
       "name": "W.麦肯尼",
       "rating": 91,
       "nationality": "美国",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "CM",
         "RM",
         "CDM"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
       "id": "68a8bcb3-db81-4e98-adfe-3ef750c03258",
-      "personId": "62eebeb7-bfb2-45a0-9f61-b5e0a7ecf04f",
+      "personId": "68a8bcb3-db81-4e98-adfe-3ef750c03258",
       "name": "E.哲科",
       "rating": 94,
       "nationality": "波黑",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝月亮",
         "红狼",
         "蓝黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
       "id": "3a1f60c3-2d14-4310-a210-df7e43730ed5",
-      "personId": "fbd2bae3-3d2c-4518-abd7-eac7e10f135c",
+      "personId": "3a1f60c3-2d14-4310-a210-df7e43730ed5",
       "name": "尤西比奥",
       "rating": 99,
       "nationality": "葡萄牙",
+      "teams": [],
       "positions": [
         "ST",
         "CAM"
-      ],
-      "teams": []
+      ]
     },
     {
       "id": "b86fea9a-6b38-4d6a-abfa-c64018ce1c78",
-      "personId": "7eea0a3f-cd95-4651-97bf-9cb72eaa619c",
+      "personId": "b86fea9a-6b38-4d6a-abfa-c64018ce1c78",
       "name": "D.科斯塔",
       "rating": 93,
       "nationality": "西班牙",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "床单",
         "蓝军"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
       "id": "b51712e5-754f-4bba-a4fb-a46852fd36ba",
-      "personId": "d0fbcc92-fc79-48c4-bc53-96a0917368c0",
+      "personId": "b51712e5-754f-4bba-a4fb-a46852fd36ba",
       "name": "K.鲁梅尼格",
       "rating": 99,
       "nationality": "德国",
+      "teams": [
+        "南部",
+        "蓝黑"
+      ],
       "positions": [
         "ST",
         "LW",
         "RW"
-      ],
-      "teams": [
-        "南部",
-        "蓝黑"
       ]
     },
     {
       "id": "a4607f9b-9bd9-452f-8697-552f39f6ae78",
-      "personId": "f132bc94-a43b-4a41-a3c6-91268189cf86",
+      "personId": "a4607f9b-9bd9-452f-8697-552f39f6ae78",
       "name": "K.达格利什",
       "rating": 99,
       "nationality": "苏格兰",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "ST",
         "CAM"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -10176,26 +10217,26 @@ window.PitchDefaultData = {
       "name": "G.巴蒂斯图塔",
       "rating": 98,
       "nationality": "阿根廷",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "红狼",
         "蓝黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
       "id": "f062728f-c35f-4e60-951f-4a2862083238",
-      "personId": "c81f2517-07c2-4874-9f27-1487600185e9",
+      "personId": "f062728f-c35f-4e60-951f-4a2862083238",
       "name": "F.因扎吉",
       "rating": 94,
       "nationality": "意大利",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "斑马",
         "红黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -10204,13 +10245,13 @@ window.PitchDefaultData = {
       "name": "F.兰帕德",
       "rating": 99,
       "nationality": "英格兰",
-      "positions": [
-        "CM",
-        "CAM"
-      ],
       "teams": [
         "蓝军",
         "蓝月亮"
+      ],
+      "positions": [
+        "CM",
+        "CAM"
       ]
     },
     {
@@ -10219,43 +10260,43 @@ window.PitchDefaultData = {
       "name": "P.泽林斯基",
       "rating": 96,
       "nationality": "波兰",
+      "teams": [
+        "蓝黑"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "蓝黑"
       ]
     },
     {
       "id": "02ad19df-9887-4d64-b2aa-1b1cabd34753",
-      "personId": "7ad1b856-345c-4c89-9755-e1a5acf53940",
+      "personId": "02ad19df-9887-4d64-b2aa-1b1cabd34753",
       "name": "F.德容",
       "rating": 91,
       "nationality": "荷兰",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "CM",
         "RM",
         "CDM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
       "id": "95e3893e-1bbf-4f57-801a-397e2cf5c70d",
-      "personId": "d7197273-bc1c-4a9e-8ae4-20e84ab95e15",
+      "personId": "95e3893e-1bbf-4f57-801a-397e2cf5c70d",
       "name": "蒂亚戈",
       "rating": 94,
       "nationality": "西班牙",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "红蓝",
         "南部",
         "红军"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -10264,13 +10305,13 @@ window.PitchDefaultData = {
       "name": "马尔基尼奥斯",
       "rating": 97,
       "nationality": "巴西",
-      "positions": [
-        "CDM",
-        "CB"
-      ],
       "teams": [
         "巴黎",
         "红狼"
+      ],
+      "positions": [
+        "CDM",
+        "CB"
       ]
     },
     {
@@ -10279,28 +10320,28 @@ window.PitchDefaultData = {
       "name": "M.埃尔莫索",
       "rating": 96,
       "nationality": "西班牙",
-      "positions": [
-        "CB",
-        "LB"
-      ],
       "teams": [
         "床单",
         "红狼"
+      ],
+      "positions": [
+        "CB",
+        "LB"
       ]
     },
     {
       "id": "9febf867-59b5-46b6-a445-b5e0657ddbae",
-      "personId": "919f288e-b4a5-4ffe-89bc-630d19a7e60b",
+      "personId": "9febf867-59b5-46b6-a445-b5e0657ddbae",
       "name": "P.卡卢卢",
       "rating": 94,
       "nationality": "法国",
-      "positions": [
-        "CB",
-        "RB"
-      ],
       "teams": [
         "红黑",
         "斑马"
+      ],
+      "positions": [
+        "CB",
+        "RB"
       ]
     },
     {
@@ -10309,26 +10350,26 @@ window.PitchDefaultData = {
       "name": "A.巴斯托尼",
       "rating": 97,
       "nationality": "意大利",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
       "id": "9d479b35-8a49-4277-9783-2acdd7783330",
-      "personId": "f29b9420-f676-494e-a64b-2c7f5a3411bd",
+      "personId": "9d479b35-8a49-4277-9783-2acdd7783330",
       "name": "L.博努奇",
       "rating": 94,
       "nationality": "意大利",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红黑",
         "斑马",
         "蓝黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -10337,11 +10378,11 @@ window.PitchDefaultData = {
       "name": "M.斯维拉尔",
       "rating": 96,
       "nationality": "塞尔维亚",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "红狼"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -10350,69 +10391,69 @@ window.PitchDefaultData = {
       "name": "Y.索默",
       "rating": 96,
       "nationality": "瑞士",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "南部",
         "蓝黑"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
       "id": "17ab61c4-3583-43ae-af08-519a632ddcbc",
-      "personId": "cb2edc4d-de5d-4a05-959e-53b64815d5fb",
+      "personId": "17ab61c4-3583-43ae-af08-519a632ddcbc",
       "name": "M.萨福诺夫",
       "rating": 93,
       "nationality": "俄罗斯",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "巴黎"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
       "id": "8e1d1248-1c9b-43da-a606-6795fbfcc38c",
-      "personId": "775fa1ca-9a98-43af-8e81-0bed61a96dd8",
+      "personId": "8e1d1248-1c9b-43da-a606-6795fbfcc38c",
       "name": "A.鲁迪格",
       "rating": 93,
       "nationality": "德国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红狼",
         "蓝军",
         "银河"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
       "id": "01926f6c-0234-4342-9a19-9861b501627e",
-      "personId": "5ad59374-48db-4b92-8e04-58ab13572da2",
+      "personId": "01926f6c-0234-4342-9a19-9861b501627e",
       "name": "F.马斯坦托诺",
       "rating": 94,
       "nationality": "阿根廷",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "RW",
         "CAM"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
       "id": "b76a7f91-5559-4e5a-83f0-fe5556bba5fc",
-      "personId": "b3b38cbc-2f8b-4072-a903-08abd5be9eb1",
+      "personId": "b76a7f91-5559-4e5a-83f0-fe5556bba5fc",
       "name": "N.奥赖利",
       "rating": 94,
       "nationality": "英格兰",
+      "teams": [
+        "蓝月亮"
+      ],
       "positions": [
         "CM",
         "CAM",
         "LB"
-      ],
-      "teams": [
-        "蓝月亮"
       ]
     },
     {
@@ -10421,13 +10462,13 @@ window.PitchDefaultData = {
       "name": "K.沃克",
       "rating": 90,
       "nationality": "英格兰",
-      "positions": [
-        "RB"
-      ],
       "teams": [
         "百合",
         "红黑",
         "蓝月亮"
+      ],
+      "positions": [
+        "RB"
       ]
     },
     {
@@ -10436,12 +10477,12 @@ window.PitchDefaultData = {
       "name": "M.科内",
       "rating": 94,
       "nationality": "法国",
+      "teams": [
+        "红狼"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红狼"
       ]
     },
     {
@@ -10450,30 +10491,30 @@ window.PitchDefaultData = {
       "name": "M.迪格雷戈里奥",
       "rating": 95,
       "nationality": "意大利",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "蓝黑",
         "斑马"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
       "id": "62442d4d-b466-40cf-afb1-916e7a901aec",
-      "personId": "a9d5e274-30ff-4af8-9250-cfa04ffc9b7b",
+      "personId": "62442d4d-b466-40cf-afb1-916e7a901aec",
       "name": "E.戴维斯",
       "rating": 98,
       "nationality": "荷兰",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "斑马",
         "红黑",
         "红蓝",
         "百合",
         "蓝黑"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -10482,12 +10523,12 @@ window.PitchDefaultData = {
       "name": "D.赖斯",
       "rating": 97,
       "nationality": "英格兰",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -10496,13 +10537,13 @@ window.PitchDefaultData = {
       "name": "E.阿扎尔",
       "rating": 94,
       "nationality": "比利时",
-      "positions": [
-        "ST",
-        "LW"
-      ],
       "teams": [
         "蓝军",
         "银河"
+      ],
+      "positions": [
+        "ST",
+        "LW"
       ]
     },
     {
@@ -10511,40 +10552,40 @@ window.PitchDefaultData = {
       "name": "E.埃泽",
       "rating": 96,
       "nationality": "英格兰",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "LW",
         "CAM"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
       "id": "4684c8bb-f649-4028-838c-544daa8899e5",
-      "personId": "6cf32a4a-a6da-4ae3-9e02-0ba486192616",
+      "personId": "4684c8bb-f649-4028-838c-544daa8899e5",
       "name": "L.特罗萨德",
       "rating": 93,
       "nationality": "英格兰",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "LW",
         "CAM"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
       "id": "a67e4836-94dd-4f17-a50e-f22303e67d4c",
-      "personId": "a0e3c5ae-8767-499c-ad6d-d6e87b41e01b",
+      "personId": "a67e4836-94dd-4f17-a50e-f22303e67d4c",
       "name": "Y.卡拉斯科",
       "rating": 95,
       "nationality": "比利时",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "LW",
         "LM"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
@@ -10553,14 +10594,14 @@ window.PitchDefaultData = {
       "name": "K.哈弗茨",
       "rating": 92,
       "nationality": "德国",
+      "teams": [
+        "兵工厂",
+        "蓝军"
+      ],
       "positions": [
         "ST",
         "RW",
         "CAM"
-      ],
-      "teams": [
-        "兵工厂",
-        "蓝军"
       ]
     },
     {
@@ -10569,14 +10610,14 @@ window.PitchDefaultData = {
       "name": "内马尔",
       "rating": 98,
       "nationality": "巴西",
-      "positions": [
-        "LW",
-        "CAM"
-      ],
       "teams": [
         "红蓝",
         "巴黎",
         "贝尔米罗"
+      ],
+      "positions": [
+        "LW",
+        "CAM"
       ]
     },
     {
@@ -10585,31 +10626,31 @@ window.PitchDefaultData = {
       "name": "M.科瓦契奇",
       "rating": 92,
       "nationality": "克罗地亚",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "蓝黑",
         "银河",
         "蓝军",
         "蓝月亮"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
       "id": "117e4aaf-0bde-4231-a43f-f57977bb1cfe",
-      "personId": "4363767b-c72a-4b70-ac8b-351a01187064",
+      "personId": "117e4aaf-0bde-4231-a43f-f57977bb1cfe",
       "name": "J.阿尔瓦雷斯",
       "rating": 96,
       "nationality": "阿根廷",
+      "teams": [
+        "蓝月亮",
+        "床单"
+      ],
       "positions": [
         "ST",
         "LW",
         "RW"
-      ],
-      "teams": [
-        "蓝月亮",
-        "床单"
       ]
     },
     {
@@ -10618,11 +10659,11 @@ window.PitchDefaultData = {
       "name": "J.塞萨尔",
       "rating": 93,
       "nationality": "巴西",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "蓝黑"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -10631,13 +10672,13 @@ window.PitchDefaultData = {
       "name": "C.帕尔默",
       "rating": 97,
       "nationality": "英格兰",
-      "positions": [
-        "ST",
-        "CAM"
-      ],
       "teams": [
         "蓝月亮",
         "蓝军"
+      ],
+      "positions": [
+        "ST",
+        "CAM"
       ]
     },
     {
@@ -10646,13 +10687,13 @@ window.PitchDefaultData = {
       "name": "佩德里",
       "rating": 97,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "LW",
         "CM",
         "LM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -10661,13 +10702,13 @@ window.PitchDefaultData = {
       "name": "C.罗梅罗",
       "rating": 95,
       "nationality": "阿根廷",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "斑马",
         "百合",
         "床单"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -10676,28 +10717,28 @@ window.PitchDefaultData = {
       "name": "M.加比亚",
       "rating": 94,
       "nationality": "意大利",
+      "teams": [
+        "红黑"
+      ],
       "positions": [
         "CB",
         "RB"
-      ],
-      "teams": [
-        "红黑"
       ]
     },
     {
       "id": "4207e7fb-a6f0-4182-8405-375913c0207a",
-      "personId": "fbbaab69-d787-49fb-a273-1d9b06638520",
+      "personId": "4207e7fb-a6f0-4182-8405-375913c0207a",
       "name": "N.冈萨雷斯",
       "rating": 94,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝",
+        "蓝月亮"
+      ],
       "positions": [
         "CM",
         "CAM",
         "CDM"
-      ],
-      "teams": [
-        "红蓝",
-        "蓝月亮"
       ]
     },
     {
@@ -10706,12 +10747,12 @@ window.PitchDefaultData = {
       "name": "J.孔德",
       "rating": 96,
       "nationality": "法国",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "CB",
         "RB"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -10720,42 +10761,42 @@ window.PitchDefaultData = {
       "name": "M.德利赫特",
       "rating": 96,
       "nationality": "荷兰",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "斑马",
         "南部",
         "红魔"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
       "id": "9b8e96f0-377e-4e21-a790-4ca5ce26390b",
-      "personId": "79f4c89d-07ec-4bde-ae23-78a4240d6475",
+      "personId": "9b8e96f0-377e-4e21-a790-4ca5ce26390b",
       "name": "M.卡萨多",
       "rating": 90,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
       "id": "1b64d247-203c-4c97-9138-216d2cdcf2ed",
-      "personId": "a5627885-8718-4aaa-a4a6-981964900dc2",
+      "personId": "1b64d247-203c-4c97-9138-216d2cdcf2ed",
       "name": "R.吉格斯",
       "rating": 96,
       "nationality": "威尔士",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "LW",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
@@ -10764,13 +10805,13 @@ window.PitchDefaultData = {
       "name": "A.居莱尔",
       "rating": 97,
       "nationality": "土耳其",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "CM",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
@@ -10779,25 +10820,25 @@ window.PitchDefaultData = {
       "name": "H.凯恩",
       "rating": 94,
       "nationality": "英格兰",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "百合",
         "南部"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
       "id": "8b537ce4-79e0-47d5-a567-e6a9dd5d83e7",
-      "personId": "3005f788-68bb-447a-bcc1-80016f1440ee",
+      "personId": "8b537ce4-79e0-47d5-a567-e6a9dd5d83e7",
       "name": "E.弗格森",
       "rating": 93,
       "nationality": "爱尔兰",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "红狼"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -10806,69 +10847,69 @@ window.PitchDefaultData = {
       "name": "E.哈兰德",
       "rating": 94,
       "nationality": "挪威",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝月亮"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
       "id": "7ab90267-b41c-4c8b-9fe3-a60641a6bf4e",
-      "personId": "77c94e40-bb6e-4178-8095-35d79824535c",
+      "personId": "7ab90267-b41c-4c8b-9fe3-a60641a6bf4e",
       "name": "A.卢克曼",
       "rating": 95,
       "nationality": "尼日利亚",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "ST",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
       "id": "df159e9c-eb71-4b67-957d-d6e568a50e09",
-      "personId": "3ecc573e-99f8-4394-afd9-39df02efa885",
+      "personId": "df159e9c-eb71-4b67-957d-d6e568a50e09",
       "name": "K.克瓦拉茨赫利亚",
       "rating": 96,
       "nationality": "格鲁吉亚",
+      "teams": [
+        "巴黎"
+      ],
       "positions": [
         "LW",
         "LM"
-      ],
-      "teams": [
-        "巴黎"
       ]
     },
     {
       "id": "15d540b3-bf39-4006-b1f8-9300697f719b",
-      "personId": "088a547b-d03b-4119-9085-e9a74ec92874",
+      "personId": "15d540b3-bf39-4006-b1f8-9300697f719b",
       "name": "J.克鲁伊维特",
       "rating": 93,
       "nationality": "荷兰",
+      "teams": [
+        "红狼"
+      ],
       "positions": [
         "LW",
         "RW",
         "LM"
-      ],
-      "teams": [
-        "红狼"
       ]
     },
     {
       "id": "c7759a79-89f0-4924-bbf3-eed2b0ebecee",
-      "personId": "32006da7-1f40-4565-af4e-d634124f3d27",
+      "personId": "c7759a79-89f0-4924-bbf3-eed2b0ebecee",
       "name": "S.姆班古拉",
       "rating": 90,
       "nationality": "比利时",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "LW",
         "LM"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -10877,14 +10918,14 @@ window.PitchDefaultData = {
       "name": "M.拉什福德",
       "rating": 96,
       "nationality": "英格兰",
+      "teams": [
+        "红魔",
+        "红蓝"
+      ],
       "positions": [
         "ST",
         "LW",
         "LM"
-      ],
-      "teams": [
-        "红魔",
-        "红蓝"
       ]
     },
     {
@@ -10893,135 +10934,135 @@ window.PitchDefaultData = {
       "name": "L.萨内",
       "rating": 94,
       "nationality": "德国",
+      "teams": [
+        "蓝月亮",
+        "南部"
+      ],
       "positions": [
         "RW",
         "LM",
         "RM"
-      ],
-      "teams": [
-        "蓝月亮",
-        "南部"
       ]
     },
     {
       "id": "ceebbed9-ba86-4c0f-a362-8ce48f59646e",
-      "personId": "b38e8967-5897-4d36-86d0-279da038ee15",
+      "personId": "ceebbed9-ba86-4c0f-a362-8ce48f59646e",
       "name": "T.莫塔",
       "rating": 98,
       "nationality": "意大利",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "红蓝",
         "床单",
         "蓝黑",
         "巴黎"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
       "id": "1eba5339-1115-4ba0-baa6-f1a467b14a93",
-      "personId": "ca00d2f2-6429-4ab7-b15f-d29bc12a093f",
+      "personId": "1eba5339-1115-4ba0-baa6-f1a467b14a93",
       "name": "J.帕利尼亚",
       "rating": 93,
       "nationality": "葡萄牙",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "南部",
         "百合"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
       "id": "9a40974c-1a98-4de7-a9d6-f1bf2cab6b94",
-      "personId": "d0cb1a92-b805-4863-904f-69db367130ca",
+      "personId": "9a40974c-1a98-4de7-a9d6-f1bf2cab6b94",
       "name": "德尚",
       "rating": 99,
       "nationality": "法国",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "斑马",
         "蓝军"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
       "id": "ef6a4d8c-2bad-48e5-8a59-d806bc67912e",
-      "personId": "1400cd89-6086-4e48-9a93-1a8636cb075c",
+      "personId": "ef6a4d8c-2bad-48e5-8a59-d806bc67912e",
       "name": "M.凯塞多",
       "rating": 98,
       "nationality": "厄瓜多尔",
+      "teams": [
+        "蓝军"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "蓝军"
       ]
     },
     {
       "id": "8c9c34d4-0508-4410-a25e-c755a7cc2e81",
-      "personId": "6f2fc7bc-25ba-4cff-be07-065d258c620c",
+      "personId": "8c9c34d4-0508-4410-a25e-c755a7cc2e81",
       "name": "M.乌加特",
       "rating": 93,
       "nationality": "乌拉圭",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "巴黎",
         "红魔"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
       "id": "6288f08e-2f9a-4ec1-896a-0643b4779028",
-      "personId": "2e89a937-e11a-4b65-909c-7f657761d67c",
+      "personId": "6288f08e-2f9a-4ec1-896a-0643b4779028",
       "name": "J.马斯切拉诺",
       "rating": 93,
       "nationality": "阿根廷",
+      "teams": [
+        "红军",
+        "红蓝"
+      ],
       "positions": [
         "CM",
         "CDM",
         "CB"
-      ],
-      "teams": [
-        "红军",
-        "红蓝"
       ]
     },
     {
       "id": "9d937e90-0e11-43a2-8fac-38528b0e75e1",
-      "personId": "d3ae51f5-120c-4cba-b6c3-59fe30cc78da",
+      "personId": "9d937e90-0e11-43a2-8fac-38528b0e75e1",
       "name": "R.拉维亚",
       "rating": 93,
       "nationality": "比利时",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "蓝月亮",
         "蓝军"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
       "id": "30d6d0d4-5e8d-4a6c-a34b-2870ba785a83",
-      "personId": "37336848-d2d7-4aaa-8588-283e2ae14571",
+      "personId": "30d6d0d4-5e8d-4a6c-a34b-2870ba785a83",
       "name": "E.安德森",
       "rating": 96,
       "nationality": "英格兰",
+      "teams": [
+        "蓝月亮"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "蓝月亮"
       ]
     },
     {
@@ -11030,26 +11071,26 @@ window.PitchDefaultData = {
       "name": "N.坎特",
       "rating": 97,
       "nationality": "法国",
+      "teams": [
+        "蓝军"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "蓝军"
       ]
     },
     {
       "id": "f8ad4fcd-2c1d-4604-bfbc-37ca3596cf69",
-      "personId": "bbc06a26-6d48-47c2-8735-9136ff423e81",
+      "personId": "f8ad4fcd-2c1d-4604-bfbc-37ca3596cf69",
       "name": "F.加西亚",
       "rating": 91,
       "nationality": "西班牙",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "LM",
         "LB"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
@@ -11058,15 +11099,15 @@ window.PitchDefaultData = {
       "name": "M.库库雷利亚",
       "rating": 95,
       "nationality": "西班牙",
-      "positions": [
-        "LM",
-        "CB",
-        "LB"
-      ],
       "teams": [
         "红蓝",
         "蓝军",
         "银河"
+      ],
+      "positions": [
+        "LM",
+        "CB",
+        "LB"
       ]
     },
     {
@@ -11075,26 +11116,26 @@ window.PitchDefaultData = {
       "name": "A.戴维斯",
       "rating": 96,
       "nationality": "加拿大",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "LM",
         "LB"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
       "id": "0a521ca6-9401-4e0e-a7f0-0d249abb3995",
-      "personId": "e5f53a1a-ca79-48bf-bf11-3c88c3c95610",
+      "personId": "0a521ca6-9401-4e0e-a7f0-0d249abb3995",
       "name": "D.汉茨科",
       "rating": 96,
       "nationality": "斯洛伐克",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "CB",
         "LB"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
@@ -11103,27 +11144,27 @@ window.PitchDefaultData = {
       "name": "J.廷贝尔",
       "rating": 95,
       "nationality": "荷兰",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "CB",
         "RB"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
       "id": "f44a7706-7358-4093-8138-fdea9184f827",
-      "personId": "02de85d2-421a-40f2-a921-4f80188afcad",
+      "personId": "f44a7706-7358-4093-8138-fdea9184f827",
       "name": "M.德塞利",
       "rating": 99,
       "nationality": "法国",
-      "positions": [
-        "CDM",
-        "CB"
-      ],
       "teams": [
         "红黑",
         "蓝军"
+      ],
+      "positions": [
+        "CDM",
+        "CB"
       ]
     },
     {
@@ -11132,59 +11173,59 @@ window.PitchDefaultData = {
       "name": "J.萨内蒂",
       "rating": 96,
       "nationality": "阿根廷",
+      "teams": [
+        "蓝黑"
+      ],
       "positions": [
         "CDM",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "蓝黑"
       ]
     },
     {
       "id": "b4fffe0f-385c-4409-b90e-05fbf1c87d13",
-      "personId": "b13d3c94-e6d6-4490-ab0e-143e8a168f6c",
+      "personId": "b4fffe0f-385c-4409-b90e-05fbf1c87d13",
       "name": "胡安弗兰",
       "rating": 92,
       "nationality": "西班牙",
-      "positions": [
-        "CB",
-        "RB"
-      ],
       "teams": [
         "床单",
         "银河"
+      ],
+      "positions": [
+        "CB",
+        "RB"
       ]
     },
     {
       "id": "0ad024ca-f27f-4c20-a030-f8fe7dc9999d",
-      "personId": "49825c36-a9ec-491c-abbd-d4b08e845376",
+      "personId": "0ad024ca-f27f-4c20-a030-f8fe7dc9999d",
       "name": "E.范德萨",
       "rating": 98,
       "nationality": "荷兰",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "斑马",
         "红魔"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
       "id": "cef59cd3-ca98-4ec8-aa6f-fb7fcdec1878",
-      "personId": "8efcb1e3-e6bf-40e4-9084-50e6ab52f0a2",
+      "personId": "cef59cd3-ca98-4ec8-aa6f-fb7fcdec1878",
       "name": "M.曼朱基奇",
       "rating": 98,
       "nationality": "克罗地亚",
-      "positions": [
-        "ST",
-        "LW"
-      ],
       "teams": [
         "床单",
         "斑马",
         "红黑",
         "南部"
+      ],
+      "positions": [
+        "ST",
+        "LW"
       ]
     },
     {
@@ -11193,14 +11234,14 @@ window.PitchDefaultData = {
       "name": "C.普利希奇",
       "rating": 97,
       "nationality": "美国",
+      "teams": [
+        "红黑",
+        "蓝军"
+      ],
       "positions": [
         "LW",
         "RW",
         "LM"
-      ],
-      "teams": [
-        "红黑",
-        "蓝军"
       ]
     },
     {
@@ -11209,27 +11250,27 @@ window.PitchDefaultData = {
       "name": "F.托雷斯",
       "rating": 95,
       "nationality": "西班牙",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝军",
         "红黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
       "id": "e51ef662-5ebf-41f3-b373-97e584ceb61d",
-      "personId": "ea487d8b-e5d6-4438-b96b-ec79019ab786",
+      "personId": "e51ef662-5ebf-41f3-b373-97e584ceb61d",
       "name": "D.路易斯",
       "rating": 93,
       "nationality": "巴西",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "巴黎",
         "兵工厂",
         "蓝军"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -11238,27 +11279,27 @@ window.PitchDefaultData = {
       "name": "D.马伦",
       "rating": 95,
       "nationality": "荷兰",
+      "teams": [
+        "红狼"
+      ],
       "positions": [
         "ST",
         "RW",
         "RM"
-      ],
-      "teams": [
-        "红狼"
       ]
     },
     {
       "id": "f82fd563-821e-4138-ad8c-619d92ac2b26",
-      "personId": "b5c8d0da-c168-48c0-b38f-fefa32018b68",
+      "personId": "f82fd563-821e-4138-ad8c-619d92ac2b26",
       "name": "T.查洛巴",
       "rating": 95,
       "nationality": "英格兰",
+      "teams": [
+        "蓝军"
+      ],
       "positions": [
         "CB",
         "RB"
-      ],
-      "teams": [
-        "蓝军"
       ]
     },
     {
@@ -11267,14 +11308,14 @@ window.PitchDefaultData = {
       "name": "K.哈弗茨",
       "rating": 94,
       "nationality": "德国",
+      "teams": [
+        "兵工厂",
+        "蓝军"
+      ],
       "positions": [
         "ST",
         "RW",
         "CAM"
-      ],
-      "teams": [
-        "兵工厂",
-        "蓝军"
       ]
     },
     {
@@ -11283,11 +11324,11 @@ window.PitchDefaultData = {
       "name": "H.马奎尔",
       "rating": 92,
       "nationality": "英格兰",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红魔"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -11296,12 +11337,12 @@ window.PitchDefaultData = {
       "name": "J.多库",
       "rating": 94,
       "nationality": "比利时",
+      "teams": [
+        "蓝月亮"
+      ],
       "positions": [
         "LW",
         "RW"
-      ],
-      "teams": [
-        "蓝月亮"
       ]
     },
     {
@@ -11310,27 +11351,27 @@ window.PitchDefaultData = {
       "name": "L.亚马尔",
       "rating": 91,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "ST",
         "RW",
         "CAM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
       "id": "5ea0c4c4-9bab-493f-af90-67706be9ce5b",
-      "personId": "b88193e6-8f2d-451b-bb22-195188fe62ef",
+      "personId": "5ea0c4c4-9bab-493f-af90-67706be9ce5b",
       "name": "J.内维斯",
       "rating": 96,
       "nationality": "葡萄牙",
+      "teams": [
+        "巴黎"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "巴黎"
       ]
     },
     {
@@ -11339,11 +11380,11 @@ window.PitchDefaultData = {
       "name": "D.拉亚",
       "rating": 95,
       "nationality": "西班牙",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "兵工厂"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -11352,74 +11393,74 @@ window.PitchDefaultData = {
       "name": "M.科内",
       "rating": 95,
       "nationality": "法国",
+      "teams": [
+        "红狼"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红狼"
       ]
     },
     {
       "id": "35181c93-54d6-4ef7-a419-4bfe2f2b6687",
-      "personId": "4fb6f428-6a55-4ac1-833d-a9dd2e5c403e",
+      "personId": "35181c93-54d6-4ef7-a419-4bfe2f2b6687",
       "name": "R.斯特林",
       "rating": 94,
       "nationality": "英格兰",
-      "positions": [
-        "ST",
-        "LW",
-        "RW"
-      ],
       "teams": [
         "兵工厂",
         "红军",
         "蓝月亮",
         "蓝军"
+      ],
+      "positions": [
+        "ST",
+        "LW",
+        "RW"
       ]
     },
     {
       "id": "88b37f81-589f-4ab4-ab20-1e47648230eb",
-      "personId": "e0879d98-d791-40d9-b85f-79ab834606d6",
+      "personId": "88b37f81-589f-4ab4-ab20-1e47648230eb",
       "name": "W.奥多贝尔",
       "rating": 94,
       "nationality": "法国",
+      "teams": [
+        "百合"
+      ],
       "positions": [
         "LW",
         "LM"
-      ],
-      "teams": [
-        "百合"
       ]
     },
     {
       "id": "104f67c0-f0e9-4ef6-9d3f-ffce925f8bad",
-      "personId": "7bcbb9f7-21ac-49fb-8f9f-a6b395d65655",
+      "personId": "104f67c0-f0e9-4ef6-9d3f-ffce925f8bad",
       "name": "M.阿森西奥",
       "rating": 91,
       "nationality": "西班牙",
+      "teams": [
+        "银河",
+        "巴黎"
+      ],
       "positions": [
         "ST",
         "RW",
         "CM"
-      ],
-      "teams": [
-        "银河",
-        "巴黎"
       ]
     },
     {
       "id": "3a8eab6f-d97c-49f5-9dc6-a8f43f64ec51",
-      "personId": "94c4aafd-c5f7-443a-a4c4-64c1e166969a",
+      "personId": "3a8eab6f-d97c-49f5-9dc6-a8f43f64ec51",
       "name": "D.席尔瓦",
       "rating": 93,
       "nationality": "西班牙",
+      "teams": [
+        "蓝月亮"
+      ],
       "positions": [
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "蓝月亮"
       ]
     },
     {
@@ -11428,29 +11469,29 @@ window.PitchDefaultData = {
       "name": "A.巴尔德",
       "rating": 95,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "LM",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
       "id": "55eccc2f-6733-4416-a4df-57ba265cab07",
-      "personId": "a22073b4-6ca6-4a2d-91fb-c3cba5dff313",
+      "personId": "55eccc2f-6733-4416-a4df-57ba265cab07",
       "name": "A.罗本",
       "rating": 99,
       "nationality": "荷兰",
-      "positions": [
-        "RW",
-        "RM"
-      ],
       "teams": [
         "蓝军",
         "南部",
         "银河"
+      ],
+      "positions": [
+        "RW",
+        "RM"
       ]
     },
     {
@@ -11459,12 +11500,12 @@ window.PitchDefaultData = {
       "name": "M.迈尼昂",
       "rating": 94,
       "nationality": "法国",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "巴黎",
         "红黑"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -11473,12 +11514,12 @@ window.PitchDefaultData = {
       "name": "A.帕夫洛维奇",
       "rating": 91,
       "nationality": "德国",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -11487,14 +11528,14 @@ window.PitchDefaultData = {
       "name": "安赫利尼奥",
       "rating": 91,
       "nationality": "西班牙",
+      "teams": [
+        "蓝月亮",
+        "红狼"
+      ],
       "positions": [
         "LM",
         "CB",
         "LB"
-      ],
-      "teams": [
-        "蓝月亮",
-        "红狼"
       ]
     },
     {
@@ -11503,11 +11544,11 @@ window.PitchDefaultData = {
       "name": "W.帕乔",
       "rating": 90,
       "nationality": "厄瓜多尔",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "巴黎"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -11516,55 +11557,55 @@ window.PitchDefaultData = {
       "name": "M.图拉姆",
       "rating": 97,
       "nationality": "法国",
+      "teams": [
+        "蓝黑"
+      ],
       "positions": [
         "ST",
         "LW",
         "LM"
-      ],
-      "teams": [
-        "蓝黑"
       ]
     },
     {
       "id": "9e4ffa2f-0c6f-4874-ab8d-e8fa84dd19f5",
-      "personId": "b5c8d0da-c168-48c0-b38f-fefa32018b68",
+      "personId": "f82fd563-821e-4138-ad8c-619d92ac2b26",
       "name": "T.查洛巴",
       "rating": 94,
       "nationality": "英格兰",
+      "teams": [
+        "蓝军"
+      ],
       "positions": [
         "CB",
         "RB"
-      ],
-      "teams": [
-        "蓝军"
       ]
     },
     {
       "id": "792734e4-bae1-42eb-9274-33e445253ab2",
-      "personId": "ff6ba221-c514-4247-8684-8d3c0d9e26e9",
+      "personId": "792734e4-bae1-42eb-9274-33e445253ab2",
       "name": "M.阿坎吉",
       "rating": 95,
       "nationality": "瑞士",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝月亮",
         "蓝黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
       "id": "c4589722-2743-48ea-822f-287239a697ae",
-      "personId": "ec2e4cd2-74d2-450a-a604-c71d25765493",
+      "personId": "c4589722-2743-48ea-822f-287239a697ae",
       "name": "B.约翰逊",
       "rating": 95,
       "nationality": "威尔士",
+      "teams": [
+        "百合"
+      ],
       "positions": [
         "ST",
         "RW"
-      ],
-      "teams": [
-        "百合"
       ]
     },
     {
@@ -11573,12 +11614,12 @@ window.PitchDefaultData = {
       "name": "R.德勒古欣",
       "rating": 90,
       "nationality": "罗马尼亚",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "百合",
         "斑马"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -11587,57 +11628,43 @@ window.PitchDefaultData = {
       "name": "T.亨利",
       "rating": 97,
       "nationality": "法国",
-      "positions": [
-        "ST",
-        "LW"
-      ],
       "teams": [
         "斑马",
         "兵工厂",
         "红蓝"
+      ],
+      "positions": [
+        "ST",
+        "LW"
       ]
     },
     {
       "id": "1618c1c8-aa69-4b0a-a566-826658582606",
-      "personId": "62eebeb7-bfb2-45a0-9f61-b5e0a7ecf04f",
+      "personId": "68a8bcb3-db81-4e98-adfe-3ef750c03258",
       "name": "E.哲科",
       "rating": 93,
       "nationality": "波黑",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝月亮",
         "红狼",
         "蓝黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
       "id": "c46e276d-9172-437c-9dbd-30f388a39cd3",
-      "personId": "eb133751-b337-40f8-b73d-cd5edd5d8a13",
+      "personId": "c46e276d-9172-437c-9dbd-30f388a39cd3",
       "name": "S.希门尼斯",
       "rating": 91,
       "nationality": "墨西哥",
+      "teams": [
+        "红黑"
+      ],
       "positions": [
         "ST",
         "CAM"
-      ],
-      "teams": [
-        "红黑"
-      ]
-    },
-    {
-      "id": "f41acfbd-4ecb-4a10-8994-3a422be308da",
-      "personId": "2cefbfa4-f5d2-4617-9983-c49d4a23d453",
-      "name": "阿德里亚诺",
-      "rating": 99,
-      "nationality": "巴西",
-      "positions": [
-        "ST"
-      ],
-      "teams": [
-        "红狼",
-        "蓝黑"
       ]
     },
     {
@@ -11646,55 +11673,55 @@ window.PitchDefaultData = {
       "name": "O.吉鲁",
       "rating": 93,
       "nationality": "法国",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝军",
         "红黑",
         "兵工厂"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
       "id": "32e2ef22-22cd-4dbe-a4af-5e91cf35c5d7",
-      "personId": "f4a25c93-eceb-4a5d-86ce-d5454b0c07f2",
+      "personId": "32e2ef22-22cd-4dbe-a4af-5e91cf35c5d7",
       "name": "D.维尔贝克",
       "rating": 93,
       "nationality": "英格兰",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝军",
         "红魔",
         "兵工厂"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
       "id": "e37fadcb-ffff-4b9d-93d4-3885685ba23f",
-      "personId": "3f97703c-986d-4631-93df-8f7f3de2f32a",
+      "personId": "e37fadcb-ffff-4b9d-93d4-3885685ba23f",
       "name": "N.菲尔克鲁格",
       "rating": 94,
       "nationality": "德国",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "红黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
       "id": "f867537e-3004-430c-9e49-bf893f5acaeb",
-      "personId": "3ecc573e-99f8-4394-afd9-39df02efa885",
+      "personId": "df159e9c-eb71-4b67-957d-d6e568a50e09",
       "name": "K.克瓦拉茨赫利亚",
       "rating": 95,
       "nationality": "格鲁吉亚",
+      "teams": [
+        "巴黎"
+      ],
       "positions": [
         "LW",
         "LM"
-      ],
-      "teams": [
-        "巴黎"
       ]
     },
     {
@@ -11703,14 +11730,14 @@ window.PitchDefaultData = {
       "name": "A.加纳乔",
       "rating": 94,
       "nationality": "阿根廷",
+      "teams": [
+        "红魔",
+        "蓝军"
+      ],
       "positions": [
         "LW",
         "LM",
         "RM"
-      ],
-      "teams": [
-        "红魔",
-        "蓝军"
       ]
     },
     {
@@ -11719,74 +11746,74 @@ window.PitchDefaultData = {
       "name": "维尼修斯",
       "rating": 98,
       "nationality": "巴西",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "ST",
         "LW"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
       "id": "627e6a29-b97c-4762-ba31-e194c57612d4",
-      "personId": "7bb9b886-e521-45fe-ac02-a17a17b80020",
+      "personId": "627e6a29-b97c-4762-ba31-e194c57612d4",
       "name": "Y.迪奥曼德",
       "rating": 95,
       "nationality": "科特迪瓦",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "LW",
         "RW",
         "LM"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
       "id": "51361a56-6f8a-43f6-827a-585bc0d051df",
-      "personId": "2ae81f4b-5489-4433-ae62-7cd044c30878",
+      "personId": "51361a56-6f8a-43f6-827a-585bc0d051df",
       "name": "F.托雷斯右边锋",
-      "rating": 96,
+      "rating": 95,
       "nationality": "西班牙",
-      "positions": [
-        "ST",
-        "LW",
-        "RW"
-      ],
       "teams": [
         "巴黎",
         "红蓝",
         "蓝月亮"
+      ],
+      "positions": [
+        "ST",
+        "LW",
+        "RW"
       ]
     },
     {
       "id": "018b4fe5-c1c1-4543-aad1-1206b9eb45a3",
-      "personId": "9a4ebb84-6311-455f-89b0-ed4c69c80ea7",
+      "personId": "018b4fe5-c1c1-4543-aad1-1206b9eb45a3",
       "name": "J.威尔希尔",
       "rating": 92,
       "nationality": "英格兰",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "CM",
         "CAM",
         "CDM"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
       "id": "0fff9a38-b487-406a-a567-95d58fe4d30e",
-      "personId": "c522e014-430d-491f-b440-81f3859916eb",
+      "personId": "0fff9a38-b487-406a-a567-95d58fe4d30e",
       "name": "H.埃利奥特",
       "rating": 90,
       "nationality": "英格兰",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "RW",
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -11795,13 +11822,13 @@ window.PitchDefaultData = {
       "name": "R.奇克",
       "rating": 96,
       "nationality": "英格兰",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "红黑",
         "蓝军"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -11810,13 +11837,13 @@ window.PitchDefaultData = {
       "name": "P.福登",
       "rating": 95,
       "nationality": "英格兰",
+      "teams": [
+        "蓝月亮"
+      ],
       "positions": [
         "LW",
         "RW",
         "CAM"
-      ],
-      "teams": [
-        "蓝月亮"
       ]
     },
     {
@@ -11825,28 +11852,28 @@ window.PitchDefaultData = {
       "name": "C.帕尔默",
       "rating": 94,
       "nationality": "英格兰",
-      "positions": [
-        "ST",
-        "CAM"
-      ],
       "teams": [
         "蓝月亮",
         "蓝军"
+      ],
+      "positions": [
+        "ST",
+        "CAM"
       ]
     },
     {
       "id": "2c56a613-dd3f-42ab-b9cf-c9cfffb9827d",
-      "personId": "dcdb0e90-d504-4fbc-a3ef-1804ac5f217f",
+      "personId": "2c56a613-dd3f-42ab-b9cf-c9cfffb9827d",
       "name": "J.马塔",
       "rating": 92,
       "nationality": "西班牙",
-      "positions": [
-        "RM",
-        "CAM"
-      ],
       "teams": [
         "红魔",
         "蓝军"
+      ],
+      "positions": [
+        "RM",
+        "CAM"
       ]
     },
     {
@@ -11855,13 +11882,13 @@ window.PitchDefaultData = {
       "name": "M.厄德高",
       "rating": 94,
       "nationality": "挪威",
-      "positions": [
-        "CM",
-        "CAM"
-      ],
       "teams": [
         "兵工厂",
         "银河"
+      ],
+      "positions": [
+        "CM",
+        "CAM"
       ]
     },
     {
@@ -11870,13 +11897,13 @@ window.PitchDefaultData = {
       "name": "P.萨尔",
       "rating": 94,
       "nationality": "塞内加尔",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "斑马",
         "百合"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -11885,14 +11912,14 @@ window.PitchDefaultData = {
       "name": "T.赖恩德斯",
       "rating": 92,
       "nationality": "荷兰",
+      "teams": [
+        "红黑",
+        "蓝月亮"
+      ],
       "positions": [
         "CM",
         "CAM",
         "CDM"
-      ],
-      "teams": [
-        "红黑",
-        "蓝月亮"
       ]
     },
     {
@@ -11901,25 +11928,25 @@ window.PitchDefaultData = {
       "name": "I.科纳特",
       "rating": 97,
       "nationality": "法国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "银河",
         "红军"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
       "id": "23065813-63ff-420c-b0ec-59a26a028d77",
-      "personId": "7226bad8-daef-446d-97d0-63a0df02078f",
+      "personId": "23065813-63ff-420c-b0ec-59a26a028d77",
       "name": "L.科尔威尔",
       "rating": 91,
       "nationality": "英格兰",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝军"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -11928,25 +11955,25 @@ window.PitchDefaultData = {
       "name": "J.博阿滕",
       "rating": 98,
       "nationality": "德国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝月亮",
         "南部"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
       "id": "10afe722-f737-4185-b2ad-8184a6d683e9",
-      "personId": "1b643c48-75c1-4b08-9a4a-aa70c51b0860",
+      "personId": "10afe722-f737-4185-b2ad-8184a6d683e9",
       "name": "A.拉波尔特",
       "rating": 94,
       "nationality": "西班牙",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝月亮"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -11955,12 +11982,12 @@ window.PitchDefaultData = {
       "name": "M.范德芬",
       "rating": 97,
       "nationality": "荷兰",
+      "teams": [
+        "百合"
+      ],
       "positions": [
         "CB",
         "LB"
-      ],
-      "teams": [
-        "百合"
       ]
     },
     {
@@ -11969,25 +11996,25 @@ window.PitchDefaultData = {
       "name": "H.洛里斯",
       "rating": 98,
       "nationality": "法国",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "百合"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
       "id": "ce3e1d6d-60af-43d8-9f5b-6e5ee21bcb61",
-      "personId": "e5f53a1a-ca79-48bf-bf11-3c88c3c95610",
+      "personId": "0a521ca6-9401-4e0e-a7f0-0d249abb3995",
       "name": "D.汉茨科",
       "rating": 95,
       "nationality": "斯洛伐克",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "CB",
         "LB"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
@@ -11996,25 +12023,25 @@ window.PitchDefaultData = {
       "name": "R.勒诺尔芒",
       "rating": 96,
       "nationality": "西班牙",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "床单"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
       "id": "8d21e42d-9f29-4ffd-be3a-9cb7aed9f876",
-      "personId": "93cc51a6-ad02-46ac-9308-ce26bcd38a3e",
+      "personId": "8d21e42d-9f29-4ffd-be3a-9cb7aed9f876",
       "name": "M.道曼",
       "rating": 93,
       "nationality": "英格兰",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "RW",
         "CAM"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -12023,13 +12050,13 @@ window.PitchDefaultData = {
       "name": "P.内托",
       "rating": 92,
       "nationality": "葡萄牙",
+      "teams": [
+        "蓝军"
+      ],
       "positions": [
         "ST",
         "LM",
         "RM"
-      ],
-      "teams": [
-        "蓝军"
       ]
     },
     {
@@ -12038,87 +12065,87 @@ window.PitchDefaultData = {
       "name": "W.埃梅里",
       "rating": 95,
       "nationality": "法国",
+      "teams": [
+        "巴黎"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "巴黎"
       ]
     },
     {
       "id": "bc203bb9-318e-4742-8830-159e7caa8ff4",
-      "personId": "7ad1b856-345c-4c89-9755-e1a5acf53940",
+      "personId": "02ad19df-9887-4d64-b2aa-1b1cabd34753",
       "name": "F.德容",
       "rating": 97,
       "nationality": "荷兰",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "CM",
         "RM",
         "CDM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
       "id": "21605d28-07e8-4e7a-bb7a-03fd82ee3f5a",
-      "personId": "8ecb6de6-8be3-4188-b994-5be790c98640",
+      "personId": "21605d28-07e8-4e7a-bb7a-03fd82ee3f5a",
       "name": "卜拉欣",
       "rating": 91,
       "nationality": "摩洛哥",
-      "positions": [
-        "LW",
-        "LM",
-        "CAM"
-      ],
       "teams": [
         "银河",
         "蓝月亮",
         "红黑"
+      ],
+      "positions": [
+        "LW",
+        "LM",
+        "CAM"
       ]
     },
     {
       "id": "887be76b-cb62-4ee3-8292-54caca70ea45",
-      "personId": "e63b9cf8-4607-47d6-84cc-bdb08ac6b7dc",
+      "personId": "887be76b-cb62-4ee3-8292-54caca70ea45",
       "name": "E.费尔南德斯",
       "rating": 97,
       "nationality": "阿根廷",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "蓝月亮",
         "蓝军"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
       "id": "c696cba3-073d-46ba-9340-d1a412f89b92",
-      "personId": "11f6d80c-9ec7-44e1-9c67-5002b0f2afb4",
+      "personId": "c696cba3-073d-46ba-9340-d1a412f89b92",
       "name": "M.什克里尼亚尔",
       "rating": 93,
       "nationality": "斯洛伐克",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "巴黎",
         "蓝黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
       "id": "c4bd7110-a99e-46ff-8b16-b09d3fc6cc40",
-      "personId": "2635c11d-8209-43de-b42e-222731e786f7",
+      "personId": "c4bd7110-a99e-46ff-8b16-b09d3fc6cc40",
       "name": "S.丘库埃泽",
       "rating": 91,
       "nationality": "尼日利亚",
+      "teams": [
+        "红黑"
+      ],
       "positions": [
         "RW",
         "RM"
-      ],
-      "teams": [
-        "红黑"
       ]
     },
     {
@@ -12127,12 +12154,12 @@ window.PitchDefaultData = {
       "name": "J.孔德",
       "rating": 95,
       "nationality": "法国",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "CB",
         "RB"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
@@ -12141,9 +12168,6 @@ window.PitchDefaultData = {
       "name": "Z.伊布拉希莫维奇",
       "rating": 94,
       "nationality": "瑞典",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝黑",
         "红黑",
@@ -12151,21 +12175,24 @@ window.PitchDefaultData = {
         "巴黎",
         "红魔",
         "斑马"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
       "id": "e831e290-250a-4cf1-9a4e-91aa521961b3",
-      "personId": "729a1bda-30db-40a2-a2fc-d9f0f26a3c1c",
+      "personId": "e831e290-250a-4cf1-9a4e-91aa521961b3",
       "name": "R.范佩西",
       "rating": 98,
       "nationality": "荷兰",
-      "positions": [
-        "ST",
-        "CAM"
-      ],
       "teams": [
         "兵工厂",
         "红魔"
+      ],
+      "positions": [
+        "ST",
+        "CAM"
       ]
     },
     {
@@ -12174,28 +12201,28 @@ window.PitchDefaultData = {
       "name": "D.杜埃",
       "rating": 97,
       "nationality": "法国",
+      "teams": [
+        "巴黎"
+      ],
       "positions": [
         "LW",
         "RW",
         "CM"
-      ],
-      "teams": [
-        "巴黎"
       ]
     },
     {
       "id": "1cf872b7-d11b-4f3d-a681-5125f1c144fe",
-      "personId": "5d6e640c-b2de-4bf7-968a-3b9e9d258cca",
+      "personId": "1cf872b7-d11b-4f3d-a681-5125f1c144fe",
       "name": "卡福",
       "rating": 99,
       "nationality": "巴西",
-      "positions": [
-        "RM",
-        "RB"
-      ],
       "teams": [
         "红黑",
         "红狼"
+      ],
+      "positions": [
+        "RM",
+        "RB"
       ]
     },
     {
@@ -12204,13 +12231,13 @@ window.PitchDefaultData = {
       "name": "R.德保罗",
       "rating": 95,
       "nationality": "阿根廷",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "CM",
         "RM",
         "CDM"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
@@ -12219,11 +12246,11 @@ window.PitchDefaultData = {
       "name": "卡瓦哈尔",
       "rating": 91,
       "nationality": "西班牙",
-      "positions": [
-        "RB"
-      ],
       "teams": [
         "银河"
+      ],
+      "positions": [
+        "RB"
       ]
     },
     {
@@ -12232,13 +12259,13 @@ window.PitchDefaultData = {
       "name": "J.齐尔克泽",
       "rating": 91,
       "nationality": "荷兰",
-      "positions": [
-        "ST",
-        "CAM"
-      ],
       "teams": [
         "南部",
         "红魔"
+      ],
+      "positions": [
+        "ST",
+        "CAM"
       ]
     },
     {
@@ -12247,41 +12274,41 @@ window.PitchDefaultData = {
       "name": "M.图拉姆",
       "rating": 90,
       "nationality": "法国",
+      "teams": [
+        "蓝黑"
+      ],
       "positions": [
         "ST",
         "LW",
         "LM"
-      ],
-      "teams": [
-        "蓝黑"
       ]
     },
     {
       "id": "5adfff1f-cb79-4531-ad25-da29d7632b1e",
-      "personId": "5d59f8a7-7aae-4162-b5d0-37e9ec689000",
+      "personId": "5adfff1f-cb79-4531-ad25-da29d7632b1e",
       "name": "J.杜德克",
       "rating": 98,
       "nationality": "波兰",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "红军",
         "银河"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
       "id": "739a2802-be2a-42bd-a406-1258436ae152",
-      "personId": "b88193e6-8f2d-451b-bb22-195188fe62ef",
+      "personId": "5ea0c4c4-9bab-493f-af90-67706be9ce5b",
       "name": "J.内维斯",
       "rating": 97,
       "nationality": "葡萄牙",
+      "teams": [
+        "巴黎"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "巴黎"
       ]
     },
     {
@@ -12290,12 +12317,12 @@ window.PitchDefaultData = {
       "name": "D.博格坎普",
       "rating": 99,
       "nationality": "荷兰",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "兵工厂",
         "蓝黑"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -12304,16 +12331,16 @@ window.PitchDefaultData = {
       "name": "A.迪马利亚",
       "rating": 98,
       "nationality": "阿根廷",
-      "positions": [
-        "LW",
-        "RW",
-        "RM"
-      ],
       "teams": [
         "巴黎",
         "斑马",
         "银河",
         "红魔"
+      ],
+      "positions": [
+        "LW",
+        "RW",
+        "RM"
       ]
     },
     {
@@ -12322,15 +12349,15 @@ window.PitchDefaultData = {
       "name": "I.佩里西奇",
       "rating": 94,
       "nationality": "克罗地亚",
-      "positions": [
-        "LM",
-        "RM",
-        "CAM"
-      ],
       "teams": [
         "蓝黑",
         "南部",
         "百合"
+      ],
+      "positions": [
+        "LM",
+        "RM",
+        "CAM"
       ]
     },
     {
@@ -12339,29 +12366,29 @@ window.PitchDefaultData = {
       "name": "B.克里斯坦特",
       "rating": 92,
       "nationality": "意大利",
+      "teams": [
+        "红黑",
+        "红狼"
+      ],
       "positions": [
         "CM",
         "CDM",
         "CB"
-      ],
-      "teams": [
-        "红黑",
-        "红狼"
       ]
     },
     {
       "id": "01a9e7f4-2859-4b38-af2b-e8897fa61345",
-      "personId": "a5cc567f-13f8-4e54-968e-86e7c6dd0874",
+      "personId": "01a9e7f4-2859-4b38-af2b-e8897fa61345",
       "name": "M.努内斯",
       "rating": 95,
       "nationality": "葡萄牙",
+      "teams": [
+        "蓝月亮"
+      ],
       "positions": [
         "CM",
         "RM",
         "RB"
-      ],
-      "teams": [
-        "蓝月亮"
       ]
     },
     {
@@ -12370,13 +12397,13 @@ window.PitchDefaultData = {
       "name": "W.麦肯尼",
       "rating": 94,
       "nationality": "美国",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "CM",
         "RM",
         "CDM"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -12385,13 +12412,13 @@ window.PitchDefaultData = {
       "name": "R.格雷罗",
       "rating": 90,
       "nationality": "葡萄牙",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "CB",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -12400,11 +12427,11 @@ window.PitchDefaultData = {
       "name": "V.孔帕尼",
       "rating": 98,
       "nationality": "比利时",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝月亮"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -12413,13 +12440,13 @@ window.PitchDefaultData = {
       "name": "J.戈麦斯",
       "rating": 92,
       "nationality": "英格兰",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "CB",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -12428,11 +12455,11 @@ window.PitchDefaultData = {
       "name": "A.内斯塔",
       "rating": 99,
       "nationality": "意大利",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红黑"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -12441,27 +12468,27 @@ window.PitchDefaultData = {
       "name": "S.博埃",
       "rating": 94,
       "nationality": "法国",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "RM",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
       "id": "0ec6722e-b158-4f57-a7cc-015bd440790e",
-      "personId": "15f85e5e-5868-4cbb-a297-b133c6cd51e0",
+      "personId": "0ec6722e-b158-4f57-a7cc-015bd440790e",
       "name": "P.费雷拉",
       "rating": 98,
       "nationality": "葡萄牙",
+      "teams": [
+        "蓝军"
+      ],
       "positions": [
         "LB",
         "RB"
-      ],
-      "teams": [
-        "蓝军"
       ]
     },
     {
@@ -12470,26 +12497,26 @@ window.PitchDefaultData = {
       "name": "J.奥布拉克",
       "rating": 97,
       "nationality": "斯洛文尼亚",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "床单"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
       "id": "b384d142-404a-4408-bd7f-33a19be0a702",
-      "personId": "d1990959-045d-44f2-ba7a-019c53c01d18",
+      "personId": "b384d142-404a-4408-bd7f-33a19be0a702",
       "name": "F.凯西",
       "rating": 92,
       "nationality": "科特迪瓦",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "红黑",
         "红蓝"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -12498,27 +12525,27 @@ window.PitchDefaultData = {
       "name": "萨维尼奥",
       "rating": 91,
       "nationality": "巴西",
-      "positions": [
-        "LW",
-        "RW"
-      ],
       "teams": [
         "百合",
         "蓝月亮"
+      ],
+      "positions": [
+        "LW",
+        "RW"
       ]
     },
     {
       "id": "13114edc-8138-4ba6-b2d6-1829394951ca",
-      "personId": "e1ebc581-9281-45ee-8c45-54b0a6342cb4",
+      "personId": "13114edc-8138-4ba6-b2d6-1829394951ca",
       "name": "J.卡多索",
       "rating": 95,
       "nationality": "美国",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
@@ -12527,12 +12554,12 @@ window.PitchDefaultData = {
       "name": "M.梅里诺",
       "rating": 94,
       "nationality": "西班牙",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
@@ -12541,12 +12568,12 @@ window.PitchDefaultData = {
       "name": "P.多古",
       "rating": 95,
       "nationality": "丹麦",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "LM",
         "LB"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
@@ -12555,59 +12582,59 @@ window.PitchDefaultData = {
       "name": "罗德里",
       "rating": 98,
       "nationality": "西班牙",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "床单",
         "蓝月亮",
         "红蓝"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
       "id": "b1611498-664c-460c-9729-8e6eae650ded",
-      "personId": "ef0a463c-0024-4cea-b5d2-9f464a56c05b",
+      "personId": "b1611498-664c-460c-9729-8e6eae650ded",
       "name": "R.莫拉",
       "rating": 93,
       "nationality": "葡萄牙",
+      "teams": [
+        "红狼"
+      ],
       "positions": [
         "LW",
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "红狼"
       ]
     },
     {
       "id": "8615bc1a-b86e-4817-af43-ef772b3bc102",
-      "personId": "7caf1a06-8bdc-431c-a949-2a18ace7a8d9",
+      "personId": "8615bc1a-b86e-4817-af43-ef772b3bc102",
       "name": "J.麦迪逊",
       "rating": 94,
       "nationality": "英格兰",
+      "teams": [
+        "百合"
+      ],
       "positions": [
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "百合"
       ]
     },
     {
       "id": "3dafefab-0b79-40d5-b12f-7d8c307e1b27",
-      "personId": "788d2adf-8519-4f13-97f1-5a0945a598c3",
+      "personId": "3dafefab-0b79-40d5-b12f-7d8c307e1b27",
       "name": "里瓦尔多",
       "rating": 98,
       "nationality": "巴西",
+      "teams": [
+        "红蓝",
+        "红黑"
+      ],
       "positions": [
         "LW",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "红蓝",
-        "红黑"
       ]
     },
     {
@@ -12616,28 +12643,28 @@ window.PitchDefaultData = {
       "name": "M.特尔施特根",
       "rating": 98,
       "nationality": "德国",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "红蓝"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
       "id": "3b639b52-7059-4292-bb60-2a913961d0ea",
-      "personId": "1dc5bd0f-239e-4c51-b42c-d732d623ae78",
+      "personId": "3b639b52-7059-4292-bb60-2a913961d0ea",
       "name": "C.恩昆库",
       "rating": 95,
       "nationality": "法国",
-      "positions": [
-        "ST",
-        "LM",
-        "CAM"
-      ],
       "teams": [
         "巴黎",
         "蓝军",
         "红黑"
+      ],
+      "positions": [
+        "ST",
+        "LM",
+        "CAM"
       ]
     },
     {
@@ -12646,11 +12673,11 @@ window.PitchDefaultData = {
       "name": "V.范戴克",
       "rating": 94,
       "nationality": "荷兰",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红军"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -12659,11 +12686,11 @@ window.PitchDefaultData = {
       "name": "J.特里",
       "rating": 94,
       "nationality": "英格兰",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "蓝军"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -12672,15 +12699,15 @@ window.PitchDefaultData = {
       "name": "L.莫德里奇",
       "rating": 97,
       "nationality": "克罗地亚",
-      "positions": [
-        "CM",
-        "CAM",
-        "CDM"
-      ],
       "teams": [
         "百合",
         "银河",
         "红黑"
+      ],
+      "positions": [
+        "CM",
+        "CAM",
+        "CDM"
       ]
     },
     {
@@ -12689,12 +12716,12 @@ window.PitchDefaultData = {
       "name": "D.弗拉泰西",
       "rating": 95,
       "nationality": "意大利",
+      "teams": [
+        "蓝黑"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "蓝黑"
       ]
     },
     {
@@ -12703,29 +12730,29 @@ window.PitchDefaultData = {
       "name": "M.索莱",
       "rating": 94,
       "nationality": "阿根廷",
+      "teams": [
+        "斑马",
+        "红狼"
+      ],
       "positions": [
         "RW",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "斑马",
-        "红狼"
       ]
     },
     {
       "id": "68ab7175-abe5-4793-ac54-7d1dba3cd726",
-      "personId": "5d71f298-ec57-45fa-9d92-97abc05e9a8a",
+      "personId": "68ab7175-abe5-4793-ac54-7d1dba3cd726",
       "name": "I.萨伊瓦里",
       "rating": 95,
       "nationality": "摩洛哥",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "ST",
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -12734,14 +12761,14 @@ window.PitchDefaultData = {
       "name": "L.梅西",
       "rating": 94,
       "nationality": "阿根廷",
+      "teams": [
+        "巴黎",
+        "红蓝"
+      ],
       "positions": [
         "ST",
         "RW",
         "CAM"
-      ],
-      "teams": [
-        "巴黎",
-        "红蓝"
       ]
     },
     {
@@ -12750,13 +12777,13 @@ window.PitchDefaultData = {
       "name": "R.莱奥",
       "rating": 97,
       "nationality": "葡萄牙",
+      "teams": [
+        "红黑"
+      ],
       "positions": [
         "ST",
         "LW",
         "LM"
-      ],
-      "teams": [
-        "红黑"
       ]
     },
     {
@@ -12765,12 +12792,12 @@ window.PitchDefaultData = {
       "name": "Y.索默",
       "rating": 93,
       "nationality": "瑞士",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "南部",
         "蓝黑"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -12779,14 +12806,14 @@ window.PitchDefaultData = {
       "name": "M.拉什福德",
       "rating": 92,
       "nationality": "英格兰",
+      "teams": [
+        "红魔",
+        "红蓝"
+      ],
       "positions": [
         "ST",
         "LW",
         "LM"
-      ],
-      "teams": [
-        "红魔",
-        "红蓝"
       ]
     },
     {
@@ -12795,11 +12822,11 @@ window.PitchDefaultData = {
       "name": "V.范戴克",
       "rating": 96,
       "nationality": "荷兰",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红军"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -12808,13 +12835,13 @@ window.PitchDefaultData = {
       "name": "J.哈托",
       "rating": 94,
       "nationality": "荷兰",
+      "teams": [
+        "蓝军"
+      ],
       "positions": [
         "CDM",
         "CB",
         "LB"
-      ],
-      "teams": [
-        "蓝军"
       ]
     },
     {
@@ -12823,13 +12850,13 @@ window.PitchDefaultData = {
       "name": "S.阿奎罗",
       "rating": 94,
       "nationality": "阿根廷",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "床单",
         "蓝月亮",
         "红蓝"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -12838,13 +12865,13 @@ window.PitchDefaultData = {
       "name": "R.莱奥",
       "rating": 96,
       "nationality": "葡萄牙",
+      "teams": [
+        "红黑"
+      ],
       "positions": [
         "ST",
         "LW",
         "LM"
-      ],
-      "teams": [
-        "红黑"
       ]
     },
     {
@@ -12853,14 +12880,14 @@ window.PitchDefaultData = {
       "name": "B.巴尔科拉",
       "rating": 97,
       "nationality": "法国",
+      "teams": [
+        "巴黎",
+        "红军"
+      ],
       "positions": [
         "ST",
         "RW",
         "RM"
-      ],
-      "teams": [
-        "巴黎",
-        "红军"
       ]
     },
     {
@@ -12869,13 +12896,13 @@ window.PitchDefaultData = {
       "name": "L.佩莱格里尼",
       "rating": 97,
       "nationality": "意大利",
+      "teams": [
+        "红狼"
+      ],
       "positions": [
         "ST",
         "CM",
         "CAM"
-      ],
-      "teams": [
-        "红狼"
       ]
     },
     {
@@ -12884,12 +12911,12 @@ window.PitchDefaultData = {
       "name": "K.耶尔德兹",
       "rating": 90,
       "nationality": "土耳其",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -12898,57 +12925,57 @@ window.PitchDefaultData = {
       "name": "D.赖斯",
       "rating": 99,
       "nationality": "英格兰",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
       "id": "2d33f724-6471-4c6f-a44e-3be249b667a2",
-      "personId": "15cdc376-8a3f-4a64-a6a5-28b85a433413",
+      "personId": "2d33f724-6471-4c6f-a44e-3be249b667a2",
       "name": "法比尼奥",
       "rating": 93,
       "nationality": "巴西",
-      "positions": [
-        "CDM",
-        "CB"
-      ],
       "teams": [
         "银河",
         "红军"
+      ],
+      "positions": [
+        "CDM",
+        "CB"
       ]
     },
     {
       "id": "9fed1f54-9db5-46ab-9168-56a669770bd4",
-      "personId": "ebb723f7-c0aa-43e6-a115-13c7599f7135",
+      "personId": "9fed1f54-9db5-46ab-9168-56a669770bd4",
       "name": "R.基恩",
       "rating": 98,
       "nationality": "爱尔兰",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
       "id": "b015f26e-af96-4b1e-a412-19f761848d92",
-      "personId": "fbbaab69-d787-49fb-a273-1d9b06638520",
+      "personId": "4207e7fb-a6f0-4182-8405-375913c0207a",
       "name": "N.冈萨雷斯",
       "rating": 91,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝",
+        "蓝月亮"
+      ],
       "positions": [
         "CM",
         "CAM",
         "CDM"
-      ],
-      "teams": [
-        "红蓝",
-        "蓝月亮"
       ]
     },
     {
@@ -12957,73 +12984,73 @@ window.PitchDefaultData = {
       "name": "T.埃尔南德斯",
       "rating": 96,
       "nationality": "法国",
-      "positions": [
-        "LM",
-        "LB"
-      ],
       "teams": [
         "银河",
         "红黑",
         "床单"
+      ],
+      "positions": [
+        "LM",
+        "LB"
       ]
     },
     {
       "id": "e073075a-4247-4de7-98d5-02d9dca92e9f",
-      "personId": "775fa1ca-9a98-43af-8e81-0bed61a96dd8",
+      "personId": "8e1d1248-1c9b-43da-a606-6795fbfcc38c",
       "name": "A.鲁迪格",
       "rating": 96,
       "nationality": "德国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红狼",
         "蓝军",
         "银河"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
       "id": "5ba3f110-074a-41d2-a708-6499c4612527",
-      "personId": "ed19a846-cc43-4791-b5a2-c3f68d402b52",
+      "personId": "5ba3f110-074a-41d2-a708-6499c4612527",
       "name": "D.阿拉巴",
       "rating": 95,
       "nationality": "奥地利",
-      "positions": [
-        "CB",
-        "LB"
-      ],
       "teams": [
         "银河",
         "南部"
+      ],
+      "positions": [
+        "CB",
+        "LB"
       ]
     },
     {
       "id": "da1ae54c-e07c-47f9-a093-8bdac72b525a",
-      "personId": "16fa779d-5304-477a-bdf3-7164c3369b52",
+      "personId": "da1ae54c-e07c-47f9-a093-8bdac72b525a",
       "name": "E.阿比达尔",
       "rating": 93,
       "nationality": "法国",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "CB",
         "LB"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
       "id": "9c23ab30-4d57-4d25-a93d-6e39820105bc",
-      "personId": "5d6e640c-b2de-4bf7-968a-3b9e9d258cca",
+      "personId": "1cf872b7-d11b-4f3d-a681-5125f1c144fe",
       "name": "卡福",
       "rating": 97,
       "nationality": "巴西",
-      "positions": [
-        "RM",
-        "RB"
-      ],
       "teams": [
         "红黑",
         "红狼"
+      ],
+      "positions": [
+        "RM",
+        "RB"
       ]
     },
     {
@@ -13032,26 +13059,26 @@ window.PitchDefaultData = {
       "name": "巴尔德斯",
       "rating": 93,
       "nationality": "西班牙",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "红魔",
         "红蓝"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
       "id": "c5a766c1-b0df-4275-91fa-124259cd9db2",
-      "personId": "eb133751-b337-40f8-b73d-cd5edd5d8a13",
+      "personId": "c46e276d-9172-437c-9dbd-30f388a39cd3",
       "name": "S.希门尼斯",
       "rating": 93,
       "nationality": "墨西哥",
+      "teams": [
+        "红黑"
+      ],
       "positions": [
         "ST",
         "CAM"
-      ],
-      "teams": [
-        "红黑"
       ]
     },
     {
@@ -13060,13 +13087,13 @@ window.PitchDefaultData = {
       "name": "F.迪马尔科",
       "rating": 97,
       "nationality": "意大利",
+      "teams": [
+        "蓝黑"
+      ],
       "positions": [
         "LM",
         "CB",
         "LB"
-      ],
-      "teams": [
-        "蓝黑"
       ]
     },
     {
@@ -13075,14 +13102,14 @@ window.PitchDefaultData = {
       "name": "G.热苏斯",
       "rating": 90,
       "nationality": "巴西",
-      "positions": [
-        "ST",
-        "RW"
-      ],
       "teams": [
         "蓝月亮",
         "兵工厂",
         "红蓝"
+      ],
+      "positions": [
+        "ST",
+        "RW"
       ]
     },
     {
@@ -13091,13 +13118,13 @@ window.PitchDefaultData = {
       "name": "里沙利松",
       "rating": 91,
       "nationality": "巴西",
+      "teams": [
+        "百合"
+      ],
       "positions": [
         "ST",
         "LW",
         "LM"
-      ],
-      "teams": [
-        "百合"
       ]
     },
     {
@@ -13106,12 +13133,12 @@ window.PitchDefaultData = {
       "name": "W.埃梅里",
       "rating": 90,
       "nationality": "法国",
+      "teams": [
+        "巴黎"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "巴黎"
       ]
     },
     {
@@ -13120,28 +13147,28 @@ window.PitchDefaultData = {
       "name": "E.卡瓦尼",
       "rating": 94,
       "nationality": "乌拉圭",
+      "teams": [
+        "巴黎",
+        "红魔"
+      ],
       "positions": [
         "ST",
         "LW",
         "RW"
-      ],
-      "teams": [
-        "巴黎",
-        "红魔"
       ]
     },
     {
       "id": "78e5d83e-3727-4280-bd93-acc783a19ec1",
-      "personId": "1400cd89-6086-4e48-9a93-1a8636cb075c",
+      "personId": "ef6a4d8c-2bad-48e5-8a59-d806bc67912e",
       "name": "M.凯塞多",
       "rating": 96,
       "nationality": "厄瓜多尔",
+      "teams": [
+        "蓝军"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "蓝军"
       ]
     },
     {
@@ -13150,13 +13177,13 @@ window.PitchDefaultData = {
       "name": "R.谢尔基",
       "rating": 96,
       "nationality": "法国",
+      "teams": [
+        "蓝月亮"
+      ],
       "positions": [
         "RW",
         "RM",
         "CAM"
-      ],
-      "teams": [
-        "蓝月亮"
       ]
     },
     {
@@ -13165,12 +13192,12 @@ window.PitchDefaultData = {
       "name": "A.罗伯逊",
       "rating": 97,
       "nationality": "苏格兰",
-      "positions": [
-        "LB"
-      ],
       "teams": [
         "百合",
         "红军"
+      ],
+      "positions": [
+        "LB"
       ]
     },
     {
@@ -13179,28 +13206,28 @@ window.PitchDefaultData = {
       "name": "A.巴埃纳",
       "rating": 96,
       "nationality": "西班牙",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "ST",
         "LW",
         "LM"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
       "id": "3da7631c-f37d-467b-84ae-ffdb71e6dbeb",
-      "personId": "0296618c-9940-4a05-af56-b8ed18bfea39",
+      "personId": "3da7631c-f37d-467b-84ae-ffdb71e6dbeb",
       "name": "T.克罗斯",
       "rating": 96,
       "nationality": "德国",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "南部",
         "银河"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -13209,11 +13236,11 @@ window.PitchDefaultData = {
       "name": "R.桑切斯",
       "rating": 91,
       "nationality": "西班牙",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "蓝军"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -13222,13 +13249,13 @@ window.PitchDefaultData = {
       "name": "D.索博斯洛伊",
       "rating": 97,
       "nationality": "匈牙利",
+      "teams": [
+        "红军"
+      ],
       "positions": [
         "CM",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "红军"
       ]
     },
     {
@@ -13237,12 +13264,12 @@ window.PitchDefaultData = {
       "name": "A.舍甫琴科",
       "rating": 95,
       "nationality": "乌克兰",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "红黑",
         "蓝军"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
@@ -13251,14 +13278,14 @@ window.PitchDefaultData = {
       "name": "A.萨勒马尔科斯",
       "rating": 94,
       "nationality": "比利时",
+      "teams": [
+        "红黑",
+        "红狼"
+      ],
       "positions": [
         "RW",
         "LM",
         "RM"
-      ],
-      "teams": [
-        "红黑",
-        "红狼"
       ]
     },
     {
@@ -13267,12 +13294,12 @@ window.PitchDefaultData = {
       "name": "K.耶尔德兹",
       "rating": 93,
       "nationality": "土耳其",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
@@ -13281,14 +13308,14 @@ window.PitchDefaultData = {
       "name": "B.巴尔科拉",
       "rating": 91,
       "nationality": "法国",
+      "teams": [
+        "巴黎",
+        "红军"
+      ],
       "positions": [
         "ST",
         "RW",
         "RM"
-      ],
-      "teams": [
-        "巴黎",
-        "红军"
       ]
     },
     {
@@ -13297,12 +13324,12 @@ window.PitchDefaultData = {
       "name": "法比安",
       "rating": 92,
       "nationality": "西班牙",
+      "teams": [
+        "巴黎"
+      ],
       "positions": [
         "CM",
         "CDM"
-      ],
-      "teams": [
-        "巴黎"
       ]
     },
     {
@@ -13311,26 +13338,26 @@ window.PitchDefaultData = {
       "name": "L.马丁内斯",
       "rating": 93,
       "nationality": "阿根廷",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "CB",
         "LB"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
       "id": "98ee3df7-c807-4a9d-99a2-0168dfe70117",
-      "personId": "ec2e4cd2-74d2-450a-a604-c71d25765493",
+      "personId": "c4589722-2743-48ea-822f-287239a697ae",
       "name": "B.约翰逊",
       "rating": 90,
       "nationality": "威尔士",
+      "teams": [
+        "百合"
+      ],
       "positions": [
         "ST",
         "RW"
-      ],
-      "teams": [
-        "百合"
       ]
     },
     {
@@ -13339,44 +13366,44 @@ window.PitchDefaultData = {
       "name": "恩德里克",
       "rating": 93,
       "nationality": "巴西",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "ST",
         "RW"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
       "id": "ef2fdad4-3824-4989-8223-721cc7630938",
-      "personId": "5bcebbd5-06b4-4efa-913b-847845e686de",
+      "personId": "ef2fdad4-3824-4989-8223-721cc7630938",
       "name": "L.苏亚雷斯",
       "rating": 99,
       "nationality": "乌拉圭",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "红军",
         "红蓝",
         "床单"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
       "id": "9f9bfdeb-48e7-41ba-ab79-20ef757a7b54",
-      "personId": "8efcb1e3-e6bf-40e4-9084-50e6ab52f0a2",
+      "personId": "cef59cd3-ca98-4ec8-aa6f-fb7fcdec1878",
       "name": "M.曼朱基奇",
       "rating": 92,
       "nationality": "克罗地亚",
-      "positions": [
-        "ST",
-        "LW"
-      ],
       "teams": [
         "床单",
         "斑马",
         "红黑",
         "南部"
+      ],
+      "positions": [
+        "ST",
+        "LW"
       ]
     },
     {
@@ -13385,104 +13412,104 @@ window.PitchDefaultData = {
       "name": "N.马杜埃凯",
       "rating": 96,
       "nationality": "英格兰",
-      "positions": [
-        "RW",
-        "RM"
-      ],
       "teams": [
         "兵工厂",
         "蓝军"
+      ],
+      "positions": [
+        "RW",
+        "RM"
       ]
     },
     {
       "id": "0647ffc1-6589-44bd-8b50-54e580ea1fe8",
-      "personId": "f6f449a6-5feb-4a51-bcce-b23680492f77",
+      "personId": "0647ffc1-6589-44bd-8b50-54e580ea1fe8",
       "name": "F.科斯蒂奇",
       "rating": 95,
       "nationality": "塞尔维亚",
+      "teams": [
+        "斑马"
+      ],
       "positions": [
         "LW",
         "LM",
         "LB"
-      ],
-      "teams": [
-        "斑马"
       ]
     },
     {
       "id": "929b54e0-d827-4157-b3b5-1df0c6afb94a",
-      "personId": "a5627885-8718-4aaa-a4a6-981964900dc2",
+      "personId": "1b64d247-203c-4c97-9138-216d2cdcf2ed",
       "name": "R.吉格斯",
       "rating": 99,
       "nationality": "威尔士",
+      "teams": [
+        "红魔"
+      ],
       "positions": [
         "LW",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "红魔"
       ]
     },
     {
       "id": "ae66c700-2f37-4ad0-9a5b-af7dc0c2e2ce",
-      "personId": "eedfb8a7-a322-4e18-8ecf-d2eb7123ebf8",
+      "personId": "ae66c700-2f37-4ad0-9a5b-af7dc0c2e2ce",
       "name": "C.埃里克森",
       "rating": 91,
       "nationality": "丹麦",
-      "positions": [
-        "CM",
-        "CAM",
-        "CDM"
-      ],
       "teams": [
         "百合",
         "蓝黑",
         "红魔"
+      ],
+      "positions": [
+        "CM",
+        "CAM",
+        "CDM"
       ]
     },
     {
       "id": "1d43729d-e7ee-464a-822d-1c7e6d53b3cc",
-      "personId": "7ad1b856-345c-4c89-9755-e1a5acf53940",
+      "personId": "02ad19df-9887-4d64-b2aa-1b1cabd34753",
       "name": "F.德容",
       "rating": 94,
       "nationality": "荷兰",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "CM",
         "RM",
         "CDM"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
       "id": "2ce05b20-8c94-467e-904f-b6182e757f23",
-      "personId": "9cfa0aaf-7d20-41e0-b4f4-12b468841201",
+      "personId": "2ce05b20-8c94-467e-904f-b6182e757f23",
       "name": "G.西蒙尼",
       "rating": 95,
       "nationality": "阿根廷",
+      "teams": [
+        "床单"
+      ],
       "positions": [
         "ST",
         "LM",
         "RM"
-      ],
-      "teams": [
-        "床单"
       ]
     },
     {
       "id": "eb1c89c2-18bc-4d6e-a9d8-82f3045ddcf5",
-      "personId": "b454c6e4-1a9e-400c-8238-6897ae9dbec3",
+      "personId": "eb1c89c2-18bc-4d6e-a9d8-82f3045ddcf5",
       "name": "E.马丁内斯",
       "rating": 97,
       "nationality": "阿根廷",
-      "positions": [
-        "GK"
-      ],
       "teams": [
         "兵工厂",
         "蓝军"
+      ],
+      "positions": [
+        "GK"
       ]
     },
     {
@@ -13491,14 +13518,14 @@ window.PitchDefaultData = {
       "name": "F.基耶萨",
       "rating": 92,
       "nationality": "意大利",
+      "teams": [
+        "斑马",
+        "红军"
+      ],
       "positions": [
         "ST",
         "LM",
         "RM"
-      ],
-      "teams": [
-        "斑马",
-        "红军"
       ]
     },
     {
@@ -13507,41 +13534,41 @@ window.PitchDefaultData = {
       "name": "J.阿尔巴",
       "rating": 94,
       "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
       "positions": [
         "LM",
         "LB"
-      ],
-      "teams": [
-        "红蓝"
       ]
     },
     {
       "id": "7ebd1088-b81c-43d3-b72f-caeb8b283618",
-      "personId": "2635c11d-8209-43de-b42e-222731e786f7",
+      "personId": "c4bd7110-a99e-46ff-8b16-b09d3fc6cc40",
       "name": "S.丘库埃泽",
       "rating": 93,
       "nationality": "尼日利亚",
+      "teams": [
+        "红黑"
+      ],
       "positions": [
         "RW",
         "RM"
-      ],
-      "teams": [
-        "红黑"
       ]
     },
     {
       "id": "ba6c2753-a953-40e1-9040-7f0aa9cfda2a",
-      "personId": "775fa1ca-9a98-43af-8e81-0bed61a96dd8",
+      "personId": "8e1d1248-1c9b-43da-a606-6795fbfcc38c",
       "name": "A.鲁迪格",
       "rating": 95,
       "nationality": "德国",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "红狼",
         "蓝军",
         "银河"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
@@ -13550,30 +13577,30 @@ window.PitchDefaultData = {
       "name": "E.卡马文加",
       "rating": 94,
       "nationality": "法国",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "CM",
         "CDM",
         "LB"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
       "id": "6cef693e-e51d-45c9-b8c8-2a74576c9d38",
-      "personId": "8ecb6de6-8be3-4188-b994-5be790c98640",
+      "personId": "21605d28-07e8-4e7a-bb7a-03fd82ee3f5a",
       "name": "卜拉欣",
       "rating": 93,
       "nationality": "摩洛哥",
-      "positions": [
-        "LW",
-        "LM",
-        "CAM"
-      ],
       "teams": [
         "银河",
         "蓝月亮",
         "红黑"
+      ],
+      "positions": [
+        "LW",
+        "LM",
+        "CAM"
       ]
     },
     {
@@ -13582,26 +13609,26 @@ window.PitchDefaultData = {
       "name": "E.米利唐",
       "rating": 92,
       "nationality": "巴西",
-      "positions": [
-        "CB"
-      ],
       "teams": [
         "银河"
+      ],
+      "positions": [
+        "CB"
       ]
     },
     {
       "id": "6d7a2b1a-99d5-4620-a55c-093877dc9215",
-      "personId": "919f288e-b4a5-4ffe-89bc-630d19a7e60b",
+      "personId": "9febf867-59b5-46b6-a445-b5e0657ddbae",
       "name": "P.卡卢卢",
       "rating": 96,
       "nationality": "法国",
-      "positions": [
-        "CB",
-        "RB"
-      ],
       "teams": [
         "红黑",
         "斑马"
+      ],
+      "positions": [
+        "CB",
+        "RB"
       ]
     },
     {
@@ -13610,27 +13637,27 @@ window.PitchDefaultData = {
       "name": "R.皮雷斯",
       "rating": 98,
       "nationality": "法国",
+      "teams": [
+        "兵工厂"
+      ],
       "positions": [
         "LW",
         "LM",
         "CAM"
-      ],
-      "teams": [
-        "兵工厂"
       ]
     },
     {
       "id": "622002b9-daf5-44af-82da-b6c542771d6c",
-      "personId": "b2e5746a-fedc-4aad-9c3f-01b6e731cdc4",
+      "personId": "622002b9-daf5-44af-82da-b6c542771d6c",
       "name": "B.利扎拉祖",
       "rating": 98,
       "nationality": "法国",
+      "teams": [
+        "南部"
+      ],
       "positions": [
         "CB",
         "LB"
-      ],
-      "teams": [
-        "南部"
       ]
     },
     {
@@ -13639,13 +13666,13 @@ window.PitchDefaultData = {
       "name": "F.巴尔韦德",
       "rating": 93,
       "nationality": "乌拉圭",
+      "teams": [
+        "银河"
+      ],
       "positions": [
         "RW",
         "CM",
         "RM"
-      ],
-      "teams": [
-        "银河"
       ]
     },
     {
@@ -13654,31 +13681,31 @@ window.PitchDefaultData = {
       "name": "达尼洛",
       "rating": 95,
       "nationality": "巴西",
-      "positions": [
-        "CB",
-        "LB",
-        "RB"
-      ],
       "teams": [
         "斑马",
         "贝尔米罗",
         "银河"
+      ],
+      "positions": [
+        "CB",
+        "LB",
+        "RB"
       ]
     },
     {
       "id": "aa3463d8-ec65-4460-b9ed-c62972cba423",
-      "personId": "4a2019ca-901f-40d0-8b04-00ba321cae12",
+      "personId": "aa3463d8-ec65-4460-b9ed-c62972cba423",
       "name": "罗德里戈",
       "rating": 92,
       "nationality": "巴西",
+      "teams": [
+        "银河",
+        "贝尔米罗"
+      ],
       "positions": [
         "ST",
         "LW",
         "RW"
-      ],
-      "teams": [
-        "银河",
-        "贝尔米罗"
       ]
     },
     {
@@ -13687,14 +13714,14 @@ window.PitchDefaultData = {
       "name": "D.邓弗里斯",
       "rating": 97,
       "nationality": "荷兰",
+      "teams": [
+        "蓝黑",
+        "银河"
+      ],
       "positions": [
         "RM",
         "LB",
         "RB"
-      ],
-      "teams": [
-        "蓝黑",
-        "银河"
       ]
     },
     {
@@ -13703,13 +13730,13 @@ window.PitchDefaultData = {
       "name": "B.马图伊迪",
       "rating": 93,
       "nationality": "法国",
-      "positions": [
-        "CM",
-        "CDM"
-      ],
       "teams": [
         "巴黎",
         "斑马"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
       ]
     },
     {
@@ -13718,41 +13745,1726 @@ window.PitchDefaultData = {
       "name": "H.凯恩",
       "rating": 99,
       "nationality": "英格兰",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "百合",
         "南部"
+      ],
+      "positions": [
+        "ST"
       ]
     },
     {
       "id": "107095d7-7deb-413d-8c76-e0d922b98f39",
-      "personId": "91c61173-419f-4616-a1cf-35d92567d4fa",
+      "personId": "107095d7-7deb-413d-8c76-e0d922b98f39",
       "name": "L.马特乌斯",
       "rating": 99,
       "nationality": "德国",
+      "teams": [
+        "南部",
+        "蓝黑"
+      ],
       "positions": [
         "CM",
         "CAM",
         "CDM"
-      ],
-      "teams": [
-        "南部",
-        "蓝黑"
       ]
     },
     {
       "id": "0034f181-9f96-400a-ae76-e514d69fde92",
-      "personId": "21af176c-ad31-4b4a-b335-48ac19edeee3",
+      "personId": "0034f181-9f96-400a-ae76-e514d69fde92",
       "name": "L.马丁内斯中锋",
       "rating": 98,
       "nationality": "阿根廷",
-      "positions": [
-        "ST"
-      ],
       "teams": [
         "蓝黑"
+      ],
+      "positions": [
+        "ST"
+      ]
+    },
+    {
+      "id": "ea0d96ef-67af-4b77-943b-99c02e5b2c7f",
+      "personId": "0034f181-9f96-400a-ae76-e514d69fde92",
+      "name": "L.马丁内斯中锋",
+      "rating": 94,
+      "nationality": "阿根廷",
+      "teams": [
+        "蓝黑"
+      ],
+      "positions": [
+        "ST"
+      ]
+    },
+    {
+      "id": "8c0f59fd-9374-441c-b77d-c32ccac39bae",
+      "personId": "6bcfbe59-20a1-4570-bf2e-0af0bf6c84a6",
+      "name": "A.格里兹曼",
+      "rating": 97,
+      "nationality": "法国",
+      "teams": [
+        "床单",
+        "红蓝"
+      ],
+      "positions": [
+        "ST",
+        "LW",
+        "LM"
+      ]
+    },
+    {
+      "id": "9ea038c4-5d3c-4ff9-badf-f37faf871f2d",
+      "personId": "debe863e-239b-466e-8cdb-17acc3a97caa",
+      "name": "保莱塔",
+      "rating": 98,
+      "nationality": "葡萄牙",
+      "teams": [
+        "巴黎"
+      ],
+      "positions": [
+        "ST"
+      ]
+    },
+    {
+      "id": "4cf37b30-e9dc-46fe-b90a-4edc869ee8ad",
+      "personId": "ad0712b6-c818-4d94-9cc7-f2365d14af2f",
+      "name": "D.努涅斯",
+      "rating": 93,
+      "nationality": "乌拉圭",
+      "teams": [
+        "红军"
+      ],
+      "positions": [
+        "ST",
+        "LW"
+      ]
+    },
+    {
+      "id": "61d6f1f7-ac64-450e-a253-d96d0d78946c",
+      "personId": "1d11da51-89c1-4cf2-8f6a-a2ab2d36bcca",
+      "name": "维尼修斯",
+      "rating": 97,
+      "nationality": "巴西",
+      "teams": [
+        "银河"
+      ],
+      "positions": [
+        "ST",
+        "LW"
+      ]
+    },
+    {
+      "id": "e15252bb-37dd-46f3-9efc-338def6e7476",
+      "personId": "d48ff7df-235c-4cb5-9f32-6af20b99eb24",
+      "name": "O.登贝莱",
+      "rating": 97,
+      "nationality": "法国",
+      "teams": [
+        "巴黎",
+        "红蓝"
+      ],
+      "positions": [
+        "LW",
+        "RW",
+        "CAM"
+      ]
+    },
+    {
+      "id": "0555ca01-5b1e-4017-adc2-882855812438",
+      "personId": "59a0f677-832b-4bce-88fb-47365acf67fd",
+      "name": "M.略伦特",
+      "rating": 97,
+      "nationality": "西班牙",
+      "teams": [
+        "银河",
+        "床单"
+      ],
+      "positions": [
+        "CM",
+        "RM",
+        "RB"
+      ]
+    },
+    {
+      "id": "ae598300-a668-4ff2-8a8e-805e595447b6",
+      "personId": "1ef52d02-7fee-4403-ab5c-847cdc7ccc28",
+      "name": "A.迪亚洛",
+      "rating": 97,
+      "nationality": "科特迪瓦",
+      "teams": [
+        "红魔"
+      ],
+      "positions": [
+        "RM",
+        "CAM"
+      ]
+    },
+    {
+      "id": "7b53ee4c-1005-468a-a485-e6e1357750f7",
+      "personId": "64b38c9e-7452-4299-9a2a-3aa30f40826b",
+      "name": "A.克里斯滕森",
+      "rating": 91,
+      "nationality": "丹麦",
+      "teams": [
+        "蓝军",
+        "红蓝"
+      ],
+      "positions": [
+        "CDM",
+        "CB"
+      ]
+    },
+    {
+      "id": "8f4cb855-6f9d-4f77-b882-36fbeaf6c417",
+      "personId": "344d1a56-ff40-4034-a781-24bcbb2be9f6",
+      "name": "M.范德芬",
+      "rating": 95,
+      "nationality": "荷兰",
+      "teams": [
+        "百合"
+      ],
+      "positions": [
+        "CB",
+        "LB"
+      ]
+    },
+    {
+      "id": "15592f57-3db1-4e0a-aa8d-c750f5b1b08e",
+      "personId": "00e21c30-9387-416b-afb1-45695480e0d8",
+      "name": "C.普约尔",
+      "rating": 96,
+      "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "f248562d-c616-42e0-a124-0c3738c766c5",
+      "personId": "1e302830-9b17-47b8-a7ab-9eb1acdaa6cb",
+      "name": "G.皮克",
+      "rating": 98,
+      "nationality": "西班牙",
+      "teams": [
+        "红魔",
+        "红蓝"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "3681f03e-5b5b-47f6-9611-1a564d09f112",
+      "personId": "90a0767d-8902-4447-a53b-59ea5ad027ee",
+      "name": "M.佳夫",
+      "rating": 92,
+      "nationality": "德国",
+      "teams": [
+        "红黑"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "a327283f-7ab2-43f9-bb43-83b92b429520",
+      "personId": "29c2e73e-879b-4191-a564-b2cbac928f42",
+      "name": "M.凯尔凯兹",
+      "rating": 97,
+      "nationality": "匈牙利",
+      "teams": [
+        "红军"
+      ],
+      "positions": [
+        "LM",
+        "LB"
+      ]
+    },
+    {
+      "id": "93d805b2-70d2-453b-9c58-4b914f9c4992",
+      "personId": "1b2b3e07-0423-4cf4-9591-42444d175d29",
+      "name": "S.卡索拉",
+      "rating": 93,
+      "nationality": "西班牙",
+      "teams": [
+        "兵工厂"
+      ],
+      "positions": [
+        "CM",
+        "CAM",
+        "CDM"
+      ]
+    },
+    {
+      "id": "e74d0d10-a454-4e8d-9f2b-1d3514e03b20",
+      "personId": "1d8278ab-aef5-4c60-ad91-7da0babb3fd8",
+      "name": "T.比朔夫",
+      "rating": 93,
+      "nationality": "德国",
+      "teams": [
+        "南部"
+      ],
+      "positions": [
+        "CM",
+        "RM",
+        "CAM"
+      ]
+    },
+    {
+      "id": "1c57a920-1dd4-431b-b6f2-1947b2eeb20c",
+      "personId": "9b8e96f0-377e-4e21-a790-4ca5ce26390b",
+      "name": "M.卡萨多",
+      "rating": 94,
+      "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
+      ]
+    },
+    {
+      "id": "da2c1300-c74f-4920-acbd-ca9b4ac16ff8",
+      "personId": "21605d28-07e8-4e7a-bb7a-03fd82ee3f5a",
+      "name": "卜拉欣",
+      "rating": 94,
+      "nationality": "摩洛哥",
+      "teams": [
+        "银河",
+        "蓝月亮",
+        "红黑"
+      ],
+      "positions": [
+        "LW",
+        "LM",
+        "CAM"
+      ]
+    },
+    {
+      "id": "ba41c0b9-8815-4505-a4e0-66b9f09b7ffe",
+      "personId": "abff9359-415f-4a0b-9a9f-b091350a7a5a",
+      "name": "H.姆希塔良",
+      "rating": 95,
+      "nationality": "亚美尼亚",
+      "teams": [
+        "红魔",
+        "兵工厂",
+        "红狼",
+        "蓝黑"
+      ],
+      "positions": [
+        "CM",
+        "LM",
+        "CAM"
+      ]
+    },
+    {
+      "id": "d1161ef5-b9d2-4a10-b7ea-c07f7f0a217e",
+      "personId": "e51ef662-5ebf-41f3-b373-97e584ceb61d",
+      "name": "D.路易斯",
+      "rating": 92,
+      "nationality": "巴西",
+      "teams": [
+        "巴黎",
+        "兵工厂",
+        "蓝军"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "64acefcb-591e-4a22-be94-92ba8155f42f",
+      "personId": "731a3362-93c1-48c3-a844-591e3de8a960",
+      "name": "G.赞布罗塔",
+      "rating": 98,
+      "nationality": "意大利",
+      "teams": [
+        "斑马",
+        "红蓝",
+        "红黑"
+      ],
+      "positions": [
+        "RM",
+        "LB",
+        "RB"
+      ]
+    },
+    {
+      "id": "a1961c41-a811-427d-aa26-4fe770c919a3",
+      "personId": "df938fed-d0dd-4e3a-a803-fa787d4357b9",
+      "name": "T.阿诺德",
+      "rating": 97,
+      "nationality": "英格兰",
+      "teams": [
+        "红军",
+        "银河"
+      ],
+      "positions": [
+        "RB"
+      ]
+    },
+    {
+      "id": "e0a6b615-5556-469d-9602-752fc719805c",
+      "personId": "04fff4f2-dbcd-456f-b784-17994a08d0d4",
+      "name": "姆巴佩",
+      "rating": 99,
+      "nationality": "法国",
+      "teams": [
+        "巴黎",
+        "银河"
+      ],
+      "positions": [
+        "ST",
+        "LW",
+        "RW"
+      ]
+    },
+    {
+      "id": "b3d96487-59b6-40ef-8c32-368b51d8cb26",
+      "personId": "4cca7125-1ab4-4fe2-b209-a6f7bd114ba7",
+      "name": "法比安",
+      "rating": 97,
+      "nationality": "西班牙",
+      "teams": [
+        "巴黎"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
+      ]
+    },
+    {
+      "id": "157b318a-00b8-4959-a035-6602a36dae89",
+      "personId": "acfffb9c-52cd-4e82-ae59-5dcda0c91743",
+      "name": "D.索兰克",
+      "rating": 95,
+      "nationality": "英格兰",
+      "teams": [
+        "蓝军",
+        "红军",
+        "百合"
+      ],
+      "positions": [
+        "ST"
+      ]
+    },
+    {
+      "id": "30a65d9e-8cb5-41a4-83f6-7efef4de7743",
+      "personId": "abff9359-415f-4a0b-9a9f-b091350a7a5a",
+      "name": "H.姆希塔良",
+      "rating": 97,
+      "nationality": "亚美尼亚",
+      "teams": [
+        "红魔",
+        "兵工厂",
+        "红狼",
+        "蓝黑"
+      ],
+      "positions": [
+        "CM",
+        "LM",
+        "CAM"
+      ]
+    },
+    {
+      "id": "4de21e53-9864-4722-b4d8-c23c3b909e01",
+      "personId": "1eba5339-1115-4ba0-baa6-f1a467b14a93",
+      "name": "J.帕利尼亚",
+      "rating": 96,
+      "nationality": "葡萄牙",
+      "teams": [
+        "南部",
+        "百合"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
+      ]
+    },
+    {
+      "id": "b1486be8-549f-44ae-a813-b616c17262cf",
+      "personId": "01a9e7f4-2859-4b38-af2b-e8897fa61345",
+      "name": "M.努内斯",
+      "rating": 94,
+      "nationality": "葡萄牙",
+      "teams": [
+        "蓝月亮"
+      ],
+      "positions": [
+        "CM",
+        "RM",
+        "RB"
+      ]
+    },
+    {
+      "id": "36e9390e-6e7e-49a7-a21d-f56f2bd256df",
+      "personId": "04fff4f2-dbcd-456f-b784-17994a08d0d4",
+      "name": "姆巴佩",
+      "rating": 97,
+      "nationality": "法国",
+      "teams": [
+        "巴黎",
+        "银河"
+      ],
+      "positions": [
+        "ST",
+        "LW",
+        "RW"
+      ]
+    },
+    {
+      "id": "79e26d01-6f0e-4fd9-a8c5-0a2a80e13a35",
+      "personId": "ccacd40c-8ae1-44d4-bb4b-ca0b62ed365c",
+      "name": "E.恩瓦内里",
+      "rating": 91,
+      "nationality": "英格兰",
+      "teams": [
+        "兵工厂"
+      ],
+      "positions": [
+        "RW",
+        "CM",
+        "CAM"
+      ]
+    },
+    {
+      "id": "12108c2f-45da-4f33-9407-f17ec1037c54",
+      "personId": "887be76b-cb62-4ee3-8292-54caca70ea45",
+      "name": "E.费尔南德斯",
+      "rating": 98,
+      "nationality": "阿根廷",
+      "teams": [
+        "蓝月亮",
+        "蓝军"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
+      ]
+    },
+    {
+      "id": "83f51b27-74d2-4647-8176-66692cc1d947",
+      "personId": "72ed8544-e416-44c9-aafa-96d8113d0e6e",
+      "name": "R.迪亚斯",
+      "rating": 98,
+      "nationality": "葡萄牙",
+      "teams": [
+        "蓝月亮"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "79313f75-b976-4e44-99a0-a74e1d0959da",
+      "personId": "42334d18-ee66-4709-bfd8-d59534e83980",
+      "name": "I.科纳特",
+      "rating": 95,
+      "nationality": "法国",
+      "teams": [
+        "银河",
+        "红军"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "9a800a24-1b78-424a-88cd-3a6e96fd6813",
+      "personId": "5d65fe7d-1e19-4c3f-ba4a-141dd187f828",
+      "name": "M.埃尔莫索",
+      "rating": 97,
+      "nationality": "西班牙",
+      "teams": [
+        "床单",
+        "红狼"
+      ],
+      "positions": [
+        "CB",
+        "LB"
+      ]
+    },
+    {
+      "id": "449f96fe-b74b-4ea2-8197-edc3b0135066",
+      "personId": "382aa261-d961-496d-be44-b6b1295f0efd",
+      "name": "D.杜埃",
+      "rating": 96,
+      "nationality": "法国",
+      "teams": [
+        "巴黎"
+      ],
+      "positions": [
+        "LW",
+        "RW",
+        "CM"
+      ]
+    },
+    {
+      "id": "20851fe4-f0db-479c-8580-779d1b90e516",
+      "personId": "8b66388c-825d-47d8-a0bc-1914ab45edc2",
+      "name": "I.恩迪亚耶",
+      "rating": 93,
+      "nationality": "塞内加尔",
+      "teams": [
+        "蓝月亮"
+      ],
+      "positions": [
+        "LW",
+        "LM",
+        "RM"
+      ]
+    },
+    {
+      "id": "4e8095b6-bc0c-44b7-a46d-da55eeba3162",
+      "personId": "478dd9e8-d933-42f1-bf4c-14f6733ae4ed",
+      "name": "D.乌多吉",
+      "rating": 95,
+      "nationality": "意大利",
+      "teams": [
+        "百合"
+      ],
+      "positions": [
+        "LM",
+        "LB"
+      ]
+    },
+    {
+      "id": "a7d3eab8-a673-48f9-a3e6-b9215f3aff8d",
+      "personId": "c333b6cc-2ecf-441d-8dad-eacb4e709f73",
+      "name": "佩德里",
+      "rating": 93,
+      "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
+      "positions": [
+        "LW",
+        "CM",
+        "LM"
+      ]
+    },
+    {
+      "id": "ba2827a5-5b54-40de-be81-a0608d3fedce",
+      "personId": "7aeae2f9-08cc-42c3-97d0-60783c124cf5",
+      "name": "F.孔塞桑",
+      "rating": 96,
+      "nationality": "葡萄牙",
+      "teams": [
+        "斑马"
+      ],
+      "positions": [
+        "RW",
+        "RM"
+      ]
+    },
+    {
+      "id": "0198aefa-63fd-4145-b968-8353bce7d28d",
+      "personId": "67f0ecdd-9a10-4d22-bd6a-04bdeeb96ea8",
+      "name": "I.马丁内斯",
+      "rating": 90,
+      "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "49486b50-c75a-4778-8391-ffa701303358",
+      "personId": "076db0a1-213a-4593-8b3f-b346ba13ba1b",
+      "name": "M.迈尼昂",
+      "rating": 96,
+      "nationality": "法国",
+      "teams": [
+        "巴黎",
+        "红黑"
+      ],
+      "positions": [
+        "GK"
+      ]
+    },
+    {
+      "id": "db78137e-b72b-4dde-b69e-d61908167d63",
+      "personId": "a9f29d01-e090-4861-b091-263e67358dca",
+      "name": "N.马蒂奇",
+      "rating": 92,
+      "nationality": "塞尔维亚",
+      "teams": [
+        "蓝军",
+        "红魔",
+        "红狼"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
+      ]
+    },
+    {
+      "id": "baeee025-d875-4e08-b9ca-c87f4cebe0b4",
+      "personId": "bf6dca62-825c-4356-bac1-5f545625fe6e",
+      "name": "R.纳因格兰",
+      "rating": 92,
+      "nationality": "比利时",
+      "teams": [
+        "红狼",
+        "蓝黑"
+      ],
+      "positions": [
+        "CM",
+        "CAM",
+        "CDM"
+      ]
+    },
+    {
+      "id": "02968eea-47c9-439b-aca8-cf2bf4c150d7",
+      "personId": "8ff41228-bb11-4b5b-a141-02397efaa26a",
+      "name": "M.戈茨",
+      "rating": 94,
+      "nationality": "比利时",
+      "teams": [
+        "巴黎"
+      ],
+      "positions": [
+        "LW",
+        "LM"
+      ]
+    },
+    {
+      "id": "d4a49099-986b-4e25-8db3-52baf21161a4",
+      "personId": "a2e4d826-ad33-48d0-afe6-b9bdce85c24d",
+      "name": "B.费尔南德斯",
+      "rating": 97,
+      "nationality": "葡萄牙",
+      "teams": [
+        "红魔"
+      ],
+      "positions": [
+        "CM",
+        "RM",
+        "CAM"
+      ]
+    },
+    {
+      "id": "b4df857d-a771-42c1-9c07-003f7b5e58ce",
+      "personId": "887be76b-cb62-4ee3-8292-54caca70ea45",
+      "name": "E.费尔南德斯",
+      "rating": 93,
+      "nationality": "阿根廷",
+      "teams": [
+        "蓝月亮",
+        "蓝军"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
+      ]
+    },
+    {
+      "id": "c5d54e95-10ce-46c6-a37e-2590f6605cd6",
+      "personId": "ad369f1e-c16b-4c12-a360-0f459e497dfa",
+      "name": "M.达米安",
+      "rating": 91,
+      "nationality": "意大利",
+      "teams": [
+        "红黑",
+        "蓝黑",
+        "红魔"
+      ],
+      "positions": [
+        "RM",
+        "CB",
+        "RB"
+      ]
+    },
+    {
+      "id": "9d96d005-5e0e-4e99-adf3-72be8163af1d",
+      "personId": "b872b5e0-798c-4ecb-8f45-fa50cf26524c",
+      "name": "X.阿隆索",
+      "rating": 98,
+      "nationality": "西班牙",
+      "teams": [
+        "红军",
+        "银河",
+        "南部"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
+      ]
+    },
+    {
+      "id": "a144a809-bee6-460e-8218-ef6b305d51e1",
+      "personId": "792734e4-bae1-42eb-9274-33e445253ab2",
+      "name": "M.阿坎吉",
+      "rating": 91,
+      "nationality": "瑞士",
+      "teams": [
+        "蓝月亮",
+        "蓝黑"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "92836e7f-67b9-4cae-a5ac-5d300d9e7d59",
+      "personId": "0ef01a3c-d598-4d23-9724-165a3728fe8c",
+      "name": "L.帕雷德斯",
+      "rating": 92,
+      "nationality": "阿根廷",
+      "teams": [
+        "巴黎",
+        "斑马",
+        "红狼"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
+      ]
+    },
+    {
+      "id": "9c78849d-281d-4440-89e1-be1457c8434a",
+      "personId": "e51ef662-5ebf-41f3-b373-97e584ceb61d",
+      "name": "D.路易斯",
+      "rating": 95,
+      "nationality": "巴西",
+      "teams": [
+        "巴黎",
+        "兵工厂",
+        "蓝军"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "52d1b7f1-af22-40e5-9ff1-8d1e0264bee7",
+      "personId": "edebf127-bb67-4050-a3c0-43d70f644910",
+      "name": "T.帕蒂",
+      "rating": 93,
+      "nationality": "加纳",
+      "teams": [
+        "兵工厂",
+        "床单"
+      ],
+      "positions": [
+        "CM",
+        "CDM",
+        "RB"
+      ]
+    },
+    {
+      "id": "b6806a9b-e73d-4155-b20a-ef867d0018b4",
+      "personId": "b54fe7a9-581a-42aa-a297-bd90794ba184",
+      "name": "P.内托",
+      "rating": 96,
+      "nationality": "葡萄牙",
+      "teams": [
+        "蓝军"
+      ],
+      "positions": [
+        "ST",
+        "LM",
+        "RM"
+      ]
+    },
+    {
+      "id": "eef91850-4503-4912-92ae-e8753951f9ee",
+      "personId": "aeaaac7b-d805-4552-a36b-2cfc9a4cc2b2",
+      "name": "S.帕夫洛维奇",
+      "rating": 94,
+      "nationality": "塞尔维亚",
+      "teams": [
+        "红黑"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "99593e40-f37d-4992-bd15-dee773aa550a",
+      "personId": "c9214736-9a84-4e0c-ba60-8a6444633499",
+      "name": "L.格雷茨卡",
+      "rating": 96,
+      "nationality": "德国",
+      "teams": [
+        "南部"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
+      ]
+    },
+    {
+      "id": "3b1ba877-a05b-47f6-b317-2b6f1ef4363d",
+      "personId": "c9214736-9a84-4e0c-ba60-8a6444633499",
+      "name": "L.格雷茨卡",
+      "rating": 93,
+      "nationality": "德国",
+      "teams": [
+        "南部"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
+      ]
+    },
+    {
+      "id": "a2fda9ee-c9c0-4e8a-bfd5-f072ff58c529",
+      "personId": "06a9c2c1-1d62-4499-9bab-ea98c68ec830",
+      "name": "D.路易斯中前卫",
+      "rating": 95,
+      "nationality": "巴西",
+      "teams": [
+        "斑马",
+        "蓝月亮"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
+      ]
+    },
+    {
+      "id": "376ef35e-dbd1-4478-a53d-28b3225eba89",
+      "personId": "f7b22706-d821-464b-8ecd-e4188b25b4c8",
+      "name": "D.弗拉霍维奇",
+      "rating": 94,
+      "nationality": "塞尔维亚",
+      "teams": [
+        "斑马"
+      ],
+      "positions": [
+        "ST"
+      ]
+    },
+    {
+      "id": "1a9a80ea-d0e0-4b7a-98fe-9c53c175b24b",
+      "personId": "f7644e12-4cdd-4a3a-953e-1da0a167feed",
+      "name": "R.霍伊伦德",
+      "rating": 91,
+      "nationality": "丹麦",
+      "teams": [
+        "红魔"
+      ],
+      "positions": [
+        "ST"
+      ]
+    },
+    {
+      "id": "9cb67571-7595-4a2d-a928-6fd1ff319421",
+      "personId": "2b96d265-450b-4a31-b2b0-e93a3ff70c15",
+      "name": "C.特维斯",
+      "rating": 98,
+      "nationality": "阿根廷",
+      "teams": [
+        "红魔",
+        "蓝月亮",
+        "斑马"
+      ],
+      "positions": [
+        "ST",
+        "CAM"
+      ]
+    },
+    {
+      "id": "9218027e-cfcd-4978-a5ba-f335a6a381a6",
+      "personId": "06a9c2c1-1d62-4499-9bab-ea98c68ec830",
+      "name": "D.路易斯中前卫",
+      "rating": 93,
+      "nationality": "巴西",
+      "teams": [
+        "斑马",
+        "蓝月亮"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
+      ]
+    },
+    {
+      "id": "b80c61a9-d6a8-4748-9a9f-a041753a5979",
+      "personId": "8e971ec0-488b-434c-8a29-327260492177",
+      "name": "J.基米希",
+      "rating": 96,
+      "nationality": "德国",
+      "teams": [
+        "南部"
+      ],
+      "positions": [
+        "CM",
+        "CDM",
+        "RB"
+      ]
+    },
+    {
+      "id": "843033b6-90bf-499f-811c-03b9ad2042ab",
+      "personId": "47716af9-483f-4bd6-ba9b-86e0fd3d1315",
+      "name": "A.罗伯逊",
+      "rating": 93,
+      "nationality": "苏格兰",
+      "teams": [
+        "百合",
+        "红军"
+      ],
+      "positions": [
+        "LB"
+      ]
+    },
+    {
+      "id": "7c5f2edf-d6f2-4461-a1fc-d2cf3c46e961",
+      "personId": "49db2c2d-888e-4b5e-9690-6dbf53f488c6",
+      "name": "J.希门尼斯",
+      "rating": 92,
+      "nationality": "乌拉圭",
+      "teams": [
+        "床单"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "a0025aa2-2b13-4dde-80cb-0b4997731841",
+      "personId": "eb7d5acd-3785-49b7-97e3-7c8195557112",
+      "name": "E.恩迪卡",
+      "rating": 95,
+      "nationality": "科特迪瓦",
+      "teams": [
+        "红狼"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "312b4655-060e-44b5-a0c0-7fd195b97338",
+      "personId": "9b54b3de-381b-49d5-baae-f1c174c7800d",
+      "name": "K.德温特",
+      "rating": 93,
+      "nationality": "比利时",
+      "teams": [
+        "斑马",
+        "红黑"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "6eb215d7-94dd-4c3f-b82c-8e25f850eb36",
+      "personId": "786ebdf8-628c-4c03-8d81-5ab03d0542a2",
+      "name": "H.马奎尔",
+      "rating": 97,
+      "nationality": "英格兰",
+      "teams": [
+        "红魔"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "9404a2ec-757e-4c5b-8f25-c7c532840200",
+      "personId": "3fd2ae15-e799-4d5f-b50f-e24e3708543c",
+      "name": "D.阿尔维斯",
+      "rating": 98,
+      "nationality": "巴西",
+      "teams": [
+        "巴黎",
+        "红蓝",
+        "斑马"
+      ],
+      "positions": [
+        "CM",
+        "RM",
+        "RB"
+      ]
+    },
+    {
+      "id": "e908fc42-ea93-4b1e-bd28-1ea619c6ed8c",
+      "personId": "a462082f-843b-449b-a1da-35b63c81990d",
+      "name": "A.哈基米",
+      "rating": 98,
+      "nationality": "摩洛哥",
+      "teams": [
+        "银河",
+        "蓝黑",
+        "巴黎"
+      ],
+      "positions": [
+        "RM",
+        "LB",
+        "RB"
+      ]
+    },
+    {
+      "id": "f0395f9a-496c-4974-bfb7-3f885c655a43",
+      "personId": "60531e6b-a9eb-4b50-a703-78d308b93593",
+      "name": "L.亚马尔",
+      "rating": 97,
+      "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
+      "positions": [
+        "ST",
+        "RW",
+        "CAM"
+      ]
+    },
+    {
+      "id": "8045e911-aaa2-4529-a4af-5bcfd7e2be3b",
+      "personId": "b9f938fa-639b-442a-af31-8ed8bca7315a",
+      "name": "H.恰尔汗奥卢",
+      "rating": 97,
+      "nationality": "土耳其",
+      "teams": [
+        "红黑",
+        "蓝黑"
+      ],
+      "positions": [
+        "CM",
+        "CAM",
+        "CDM"
+      ]
+    },
+    {
+      "id": "2f872618-cfaa-425f-9989-491546bc5c71",
+      "personId": "0d5ce1c2-555e-4b02-8c4f-06aaaff9cb46",
+      "name": "A.胡桑诺夫",
+      "rating": 93,
+      "nationality": "乌兹别克斯坦",
+      "teams": [
+        "蓝月亮"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "5e088bf2-9527-46fa-a131-4cc8ffb2ae53",
+      "personId": "42334d18-ee66-4709-bfd8-d59534e83980",
+      "name": "I.科纳特",
+      "rating": 90,
+      "nationality": "法国",
+      "teams": [
+        "银河",
+        "红军"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "50b18d83-3a5f-4cf1-81f6-4a01f9d3669c",
+      "personId": "ac4650f3-ec1b-4136-a9dd-bbd51d031f21",
+      "name": "N.马杜埃凯",
+      "rating": 90,
+      "nationality": "英格兰",
+      "teams": [
+        "兵工厂",
+        "蓝军"
+      ],
+      "positions": [
+        "RW",
+        "RM"
+      ]
+    },
+    {
+      "id": "8ac85bfc-cd1d-4de7-8cc6-f29b5cc59e22",
+      "personId": "d68867d5-9814-4be8-9091-b66e846e91d9",
+      "name": "B.席尔瓦",
+      "rating": 96,
+      "nationality": "葡萄牙",
+      "teams": [
+        "蓝月亮",
+        "银河"
+      ],
+      "positions": [
+        "RW",
+        "CM",
+        "CAM"
+      ]
+    },
+    {
+      "id": "763a7f9c-8b6b-4fa1-bdfb-1967c2be678d",
+      "personId": "a6976bcf-3bff-43dd-a8fd-b036526fc0f9",
+      "name": "R.巴乔",
+      "rating": 99,
+      "nationality": "意大利",
+      "teams": [
+        "斑马",
+        "蓝黑",
+        "红黑"
+      ],
+      "positions": [
+        "ST",
+        "CAM"
+      ]
+    },
+    {
+      "id": "4c698032-5d26-4c6c-a058-88f930128e85",
+      "personId": "ab81c3e6-6102-4a55-8da7-898b7d9a771d",
+      "name": "M.斯维拉尔",
+      "rating": 90,
+      "nationality": "塞尔维亚",
+      "teams": [
+        "红狼"
+      ],
+      "positions": [
+        "GK"
+      ]
+    },
+    {
+      "id": "d29d2a59-eac0-4a46-aa98-1bc294e30f45",
+      "personId": "ae413ab4-ea4c-4dbb-b55b-2e1191edd407",
+      "name": "S.艾尔沙拉维",
+      "rating": 95,
+      "nationality": "意大利",
+      "teams": [
+        "红狼",
+        "红黑"
+      ],
+      "positions": [
+        "LW",
+        "LM",
+        "CAM"
+      ]
+    },
+    {
+      "id": "9875f58d-fee8-4345-bcf6-271e4c3f9142",
+      "personId": "3d2faac4-3b09-4fe6-bf78-675a8d3db91e",
+      "name": "D.达洛特",
+      "rating": 94,
+      "nationality": "葡萄牙",
+      "teams": [
+        "红魔",
+        "红黑"
+      ],
+      "positions": [
+        "LB",
+        "RB"
+      ]
+    },
+    {
+      "id": "96e4e42a-bf4e-4311-bdb5-5c8a45fa284b",
+      "personId": "9031f59f-7e03-47ae-94b4-661f467145b6",
+      "name": "加布里埃尔",
+      "rating": 93,
+      "nationality": "巴西",
+      "teams": [
+        "兵工厂"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "0112bcbd-13ca-4bab-97ef-77791b11fe7b",
+      "personId": "c46e276d-9172-437c-9dbd-30f388a39cd3",
+      "name": "S.希门尼斯",
+      "rating": 95,
+      "nationality": "墨西哥",
+      "teams": [
+        "红黑"
+      ],
+      "positions": [
+        "ST",
+        "CAM"
+      ]
+    },
+    {
+      "id": "aa41dc7e-b388-4003-8a64-364eb0bfa1f3",
+      "personId": "bb9967cc-d52c-4210-9f87-1efa0dbb76fe",
+      "name": "A.多夫贝克",
+      "rating": 97,
+      "nationality": "乌克兰",
+      "teams": [
+        "红狼"
+      ],
+      "positions": [
+        "ST"
+      ]
+    },
+    {
+      "id": "c8d67cda-ef20-4a1c-9172-2a9f94407a8c",
+      "personId": "02ad19df-9887-4d64-b2aa-1b1cabd34753",
+      "name": "F.德容",
+      "rating": 96,
+      "nationality": "荷兰",
+      "teams": [
+        "红蓝"
+      ],
+      "positions": [
+        "CM",
+        "RM",
+        "CDM"
+      ]
+    },
+    {
+      "id": "00ce7cc3-94fa-40ad-ab19-d601879c7e90",
+      "personId": "fae5dccd-ec82-4142-96ae-4e787e07171d",
+      "name": "A.科斯塔库塔",
+      "rating": 98,
+      "nationality": "意大利",
+      "teams": [
+        "红黑"
+      ],
+      "positions": [
+        "CB",
+        "LB",
+        "RB"
+      ]
+    },
+    {
+      "id": "18cd7db1-2343-4e65-b55d-64cbfeebdf62",
+      "personId": "2e6f6bed-04d7-4f29-b001-1621c97bb7ad",
+      "name": "R.阿劳霍",
+      "rating": 93,
+      "nationality": "乌拉圭",
+      "teams": [
+        "红蓝",
+        "红军"
+      ],
+      "positions": [
+        "CB",
+        "RB"
+      ]
+    },
+    {
+      "id": "d3095243-b7b3-4834-a5b9-b05c8afc4cca",
+      "personId": "e46d7754-63e1-41af-b558-bc8643f50383",
+      "name": "N.阿克",
+      "rating": 95,
+      "nationality": "荷兰",
+      "teams": [
+        "蓝军",
+        "蓝月亮"
+      ],
+      "positions": [
+        "CB",
+        "LB"
+      ]
+    },
+    {
+      "id": "0200c900-567f-45f9-a685-c667d363d505",
+      "personId": "6ca93586-f8b7-404f-81f4-7168bcec46b2",
+      "name": "V.范戴克",
+      "rating": 97,
+      "nationality": "荷兰",
+      "teams": [
+        "红军"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "ad3779d6-25ea-4bab-af0d-60d0066a0489",
+      "personId": "58ce9970-14c2-4957-9118-baf9b402e2a0",
+      "name": "M.古斯托",
+      "rating": 95,
+      "nationality": "法国",
+      "teams": [
+        "蓝军"
+      ],
+      "positions": [
+        "RB"
+      ]
+    },
+    {
+      "id": "593ea391-0a6b-4e93-a9e4-99943ded48da",
+      "personId": "88245b73-4634-46a9-bb2a-281cadef0f02",
+      "name": "S.赫迪拉",
+      "rating": 93,
+      "nationality": "德国",
+      "teams": [
+        "斑马",
+        "银河"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
+      ]
+    },
+    {
+      "id": "16a98488-7d53-458d-98a4-df519308bce2",
+      "personId": "2d93d520-ca55-45d0-8ab7-26fd9e882cb4",
+      "name": "G.拉莫斯",
+      "rating": 91,
+      "nationality": "葡萄牙",
+      "teams": [
+        "巴黎",
+        "红黑"
+      ],
+      "positions": [
+        "ST"
+      ]
+    },
+    {
+      "id": "e728fdb7-d31f-463a-8034-6702c2f83bc5",
+      "personId": "8677167d-5102-474d-b3bb-ede4f7d1fc85",
+      "name": "T.亚当斯",
+      "rating": 99,
+      "nationality": "英格兰",
+      "teams": [
+        "兵工厂"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "17235227-f756-4b16-85a7-1e40d7108522",
+      "personId": "08a6c392-fd77-4b3d-a0d6-7150456b0acd",
+      "name": "N.巴雷拉",
+      "rating": 94,
+      "nationality": "意大利",
+      "teams": [
+        "蓝黑"
+      ],
+      "positions": [
+        "CM",
+        "RM"
+      ]
+    },
+    {
+      "id": "4d136fed-d972-4de3-8cce-5ce8c5bbb7ea",
+      "personId": "5ba3f110-074a-41d2-a708-6499c4612527",
+      "name": "D.阿拉巴",
+      "rating": 92,
+      "nationality": "奥地利",
+      "teams": [
+        "银河",
+        "南部"
+      ],
+      "positions": [
+        "CB",
+        "LB"
+      ]
+    },
+    {
+      "id": "07dd07dc-cf19-4949-86d6-f9403b3c3a64",
+      "personId": "9ee3db50-5bad-4b34-a43e-7f6ba5041873",
+      "name": "M.斯凯利",
+      "rating": 95,
+      "nationality": "英格兰",
+      "teams": [
+        "兵工厂"
+      ],
+      "positions": [
+        "CM",
+        "LB",
+        "RB"
+      ]
+    },
+    {
+      "id": "b8ce8516-2049-4691-9dc8-98dedc5ee7d1",
+      "personId": "13fc1286-dd85-44ad-a328-e1ea85e9e0a4",
+      "name": "M.胡梅尔斯",
+      "rating": 98,
+      "nationality": "德国",
+      "teams": [
+        "南部",
+        "红狼"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "d10b3884-124a-4b97-84df-2f4b85c310fe",
+      "personId": "de9d19ad-a5a2-49f9-a76b-85b49d59261c",
+      "name": "R.莱万多夫斯基",
+      "rating": 94,
+      "nationality": "波兰",
+      "teams": [
+        "南部",
+        "红蓝"
+      ],
+      "positions": [
+        "ST"
+      ]
+    },
+    {
+      "id": "73026361-0f55-4ded-982e-a248b12d76c8",
+      "personId": "645b45b0-6339-43dc-8633-f0ca8b949ef2",
+      "name": "A.塞梅尼奥",
+      "rating": 96,
+      "nationality": "加纳",
+      "teams": [
+        "蓝月亮"
+      ],
+      "positions": [
+        "RW",
+        "LM",
+        "RM"
+      ]
+    },
+    {
+      "id": "594fdb67-5ab0-49f1-95c0-8b36dc9e165f",
+      "personId": "30e0273b-cc8c-466f-ac42-32c1fd6131bf",
+      "name": "J.贝林厄姆",
+      "rating": 94,
+      "nationality": "英格兰",
+      "teams": [
+        "银河"
+      ],
+      "positions": [
+        "CM",
+        "LM",
+        "CAM"
+      ]
+    },
+    {
+      "id": "e6c2712f-161a-4339-a920-932f9e6db132",
+      "personId": "48546800-877f-4f39-80b1-34706c570eaa",
+      "name": "B.萨卡",
+      "rating": 94,
+      "nationality": "英格兰",
+      "teams": [
+        "兵工厂"
+      ],
+      "positions": [
+        "RW",
+        "LM",
+        "RM"
+      ]
+    },
+    {
+      "id": "a7230b21-4e34-43a2-8e8d-0677dc43cd86",
+      "personId": "d9864ce0-281d-4b68-99bf-8889640df976",
+      "name": "N.坎特",
+      "rating": 94,
+      "nationality": "法国",
+      "teams": [
+        "蓝军"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
+      ]
+    },
+    {
+      "id": "1d96e9f0-067a-4d78-9689-bdf685d66e09",
+      "personId": "ef2fdad4-3824-4989-8223-721cc7630938",
+      "name": "L.苏亚雷斯",
+      "rating": 94,
+      "nationality": "乌拉圭",
+      "teams": [
+        "红军",
+        "红蓝",
+        "床单"
+      ],
+      "positions": [
+        "ST"
+      ]
+    },
+    {
+      "id": "b8f959f5-8145-4327-8b39-a491a5494355",
+      "personId": "cb547a2e-a139-4292-9f6a-ab3478f1fefc",
+      "name": "哈维",
+      "rating": 99,
+      "nationality": "西班牙",
+      "teams": [
+        "红蓝"
+      ],
+      "positions": [
+        "CM",
+        "CDM"
+      ]
+    },
+    {
+      "id": "dd8150ae-a933-464e-bbef-7b675b753d8e",
+      "personId": "4433991f-feec-4309-aa77-dfa7f37fcb1d",
+      "name": "Y.蒂勒曼斯",
+      "rating": 96,
+      "nationality": "比利时",
+      "teams": [
+        "红魔"
+      ],
+      "positions": [
+        "CM",
+        "CAM",
+        "CDM"
+      ]
+    },
+    {
+      "id": "2a129b46-3912-492c-8ea2-299b052819eb",
+      "personId": "1ef52d02-7fee-4403-ab5c-847cdc7ccc28",
+      "name": "A.迪亚洛",
+      "rating": 90,
+      "nationality": "科特迪瓦",
+      "teams": [
+        "红魔"
+      ],
+      "positions": [
+        "RM",
+        "CAM"
+      ]
+    },
+    {
+      "id": "822e36e0-4735-4988-90e3-688a4d209ddd",
+      "personId": "792734e4-bae1-42eb-9274-33e445253ab2",
+      "name": "M.阿坎吉",
+      "rating": 93,
+      "nationality": "瑞士",
+      "teams": [
+        "蓝月亮",
+        "蓝黑"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "971e3396-d89a-434b-a651-4e3b6deef387",
+      "personId": "e4e0264f-9c49-4020-9d11-93de9e7fc901",
+      "name": "I.扎巴尔尼",
+      "rating": 94,
+      "nationality": "乌克兰",
+      "teams": [
+        "巴黎"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "1e55e6fd-04ed-47e8-86be-9646ae31b919",
+      "personId": "e58368e3-3d83-40ed-99a9-879f471af30e",
+      "name": "Z.切利克",
+      "rating": 94,
+      "nationality": "土耳其",
+      "teams": [
+        "红狼",
+        "斑马"
+      ],
+      "positions": [
+        "RM",
+        "RB"
+      ]
+    },
+    {
+      "id": "240f1567-599a-4b5b-8fb6-1313d47e09f1",
+      "personId": "fb1467d4-aa27-4096-a8d8-7c82f804e889",
+      "name": "阿利松",
+      "rating": 96,
+      "nationality": "巴西",
+      "teams": [
+        "红狼",
+        "红军"
+      ],
+      "positions": [
+        "GK"
+      ]
+    },
+    {
+      "id": "db326037-c6f2-450a-a5b6-bb1741d36d14",
+      "personId": "a2e4d826-ad33-48d0-afe6-b9bdce85c24d",
+      "name": "B.费尔南德斯",
+      "rating": 98,
+      "nationality": "葡萄牙",
+      "teams": [
+        "红魔"
+      ],
+      "positions": [
+        "CM",
+        "RM",
+        "CAM"
+      ]
+    },
+    {
+      "id": "cd311381-f30c-48d9-8425-b06bf1d4648c",
+      "personId": "cc4ba842-70b0-4ba6-8392-b289ca859053",
+      "name": "W.斯内德",
+      "rating": 95,
+      "nationality": "荷兰",
+      "teams": [
+        "银河",
+        "蓝黑"
+      ],
+      "positions": [
+        "LW",
+        "CM",
+        "CAM"
+      ]
+    },
+    {
+      "id": "49b7079c-0862-4907-b9b2-89e2dc8865ce",
+      "personId": "3e9f023c-c745-41c8-82d3-e5328d19cd98",
+      "name": "T.库普梅纳斯",
+      "rating": 95,
+      "nationality": "荷兰",
+      "teams": [
+        "斑马"
+      ],
+      "positions": [
+        "CM",
+        "CAM"
+      ]
+    },
+    {
+      "id": "79b078bc-7031-4d94-a619-4b2132fc4944",
+      "personId": "44560e34-32fa-464a-8c86-24a5f9905552",
+      "name": "K.德布劳内",
+      "rating": 97,
+      "nationality": "比利时",
+      "teams": [
+        "蓝军",
+        "蓝月亮"
+      ],
+      "positions": [
+        "CM",
+        "CAM"
+      ]
+    },
+    {
+      "id": "2f04dbec-a66e-4fb2-9a92-fc3c1c94f799",
+      "personId": "b54fe7a9-581a-42aa-a297-bd90794ba184",
+      "name": "P.内托",
+      "rating": 94,
+      "nationality": "葡萄牙",
+      "teams": [
+        "蓝军"
+      ],
+      "positions": [
+        "ST",
+        "LM",
+        "RM"
+      ]
+    },
+    {
+      "id": "b9f4430b-5c5d-420b-b251-0d45f1d1314d",
+      "personId": "1e302830-9b17-47b8-a7ab-9eb1acdaa6cb",
+      "name": "G.皮克",
+      "rating": 94,
+      "nationality": "西班牙",
+      "teams": [
+        "红魔",
+        "红蓝"
+      ],
+      "positions": [
+        "CB"
+      ]
+    },
+    {
+      "id": "fff07eee-b9b0-4170-9d64-2f16ef446f65",
+      "personId": "db3a02b9-276c-44b3-b474-7f9a83464934",
+      "name": "V.哲凯赖什",
+      "rating": 97,
+      "nationality": "瑞典",
+      "teams": [
+        "兵工厂"
+      ],
+      "positions": [
+        "ST",
+        "LW",
+        "RW"
       ]
     }
   ],
@@ -14178,6 +15890,15 @@ window.PitchDefaultData = {
         "L.肖",
         "L.约罗",
         "S.拉门斯"
+      ]
+    },
+    {
+      "id": "84c8da0f-d711-43cb-97cf-7f56fa1f10f3",
+      "name": "lyzd",
+      "members": [
+        "H.奥赖利",
+        "M.努内斯",
+        "R.迪亚斯"
       ]
     },
     {
@@ -14832,7 +16553,7 @@ window.PitchDefaultData = {
       "id": "68ea14dc-67eb-4e4e-a960-5640da679b83",
       "name": "ptyhhsd",
       "members": [
-        "尤西比奥",
+        "尤溪比奥",
         "L.菲戈",
         "C.罗纳尔多"
       ]
@@ -14943,6 +16664,15 @@ window.PitchDefaultData = {
         "A.罗本",
         "F.里贝里",
         "B.施魏因施泰格"
+      ]
+    },
+    {
+      "id": "9bc64dff-abb6-43db-98eb-94d7043397e5",
+      "name": "fxggj",
+      "members": [
+        "J.格瓦迪奥尔",
+        "K.沃克",
+        "M.阿坎及"
       ]
     },
     {
@@ -15369,6 +17099,15 @@ window.PitchDefaultData = {
       ]
     },
     {
+      "id": "edb9cb73-3762-4e3a-b175-e26d7706f788",
+      "name": "nydjgy",
+      "members": [
+        "G.伊瓜因",
+        "M.曼珠基奇",
+        "P.迪巴拉"
+      ]
+    },
+    {
       "id": "3c4414c0-4a6e-4417-b4d2-39733e4c224f",
       "name": "jbhj",
       "members": [
@@ -15446,7 +17185,7 @@ window.PitchDefaultData = {
       "members": [
         "N.马杜埃凯",
         "E.埃泽",
-        "V.泽凯赖什"
+        "V.哲凯赖什"
       ]
     },
     {
@@ -15903,9 +17642,9 @@ window.PitchDefaultData = {
       "id": "774820c3-b4f9-42be-a071-607d711fdf9b",
       "name": "zxdb",
       "members": [
-        "P.卡卢卢",
+        "R.卡卢卢",
         "达尼洛",
-        "D.路易斯"
+        "D.路易斯中前卫"
       ]
     },
     {
@@ -15921,7 +17660,7 @@ window.PitchDefaultData = {
       "id": "20b159d8-3434-4d78-adac-fe5becb58acb",
       "name": "fktl",
       "members": [
-        "P.卡卢卢",
+        "R.卡卢卢",
         "J.卢库米",
         "G.维卡里奥"
       ]
@@ -16139,7 +17878,7 @@ window.PitchDefaultData = {
       "members": [
         "加维",
         "拉菲尼亚",
-        "F.托雷斯右边锋"
+        "F.托雷斯"
       ]
     },
     {
@@ -16759,7 +18498,7 @@ window.PitchDefaultData = {
       "name": "lhqh",
       "members": [
         "N.巴雷拉",
-        "L.马丁内斯中锋",
+        "劳塔罗",
         "M.图拉姆"
       ]
     },
@@ -16776,7 +18515,7 @@ window.PitchDefaultData = {
       "id": "f43828cc-0ac1-480e-859d-ae87344757b3",
       "name": "hmbl",
       "members": [
-        "R.费迪南德",
+        "P.费迪南德",
         "N.维迪奇",
         "E.范德萨"
       ]
@@ -16785,7 +18524,7 @@ window.PitchDefaultData = {
       "id": "300ca806-6cc2-4cd3-8e3e-e372250048f2",
       "name": "dtns",
       "members": [
-        "R.费迪南德",
+        "P.费迪南德",
         "G.内维尔",
         "A.科尔"
       ]
@@ -16890,15 +18629,6 @@ window.PitchDefaultData = {
       ]
     },
     {
-      "id": "5d3128e2-6aa2-4b18-b072-3fc1fb145bc8",
-      "name": "gxjg",
-      "members": [
-        "M.塔雷米",
-        "H.恰尔汗奥卢",
-        "L.马丁内斯中锋"
-      ]
-    },
-    {
       "id": "1206564d-0f5c-4a1b-bc55-d51885232c29",
       "name": "lfps",
       "members": [
@@ -16912,7 +18642,7 @@ window.PitchDefaultData = {
       "name": "lhfx",
       "members": [
         "M.阿瑙托维奇",
-        "L.马丁内斯中锋",
+        "劳塔罗",
         "H.姆希塔良"
       ]
     },
@@ -17013,6 +18743,78 @@ window.PitchDefaultData = {
         "L.佩莱格里尼",
         "J.克鲁伊维特",
         "E.哲科"
+      ]
+    },
+    {
+      "id": "5c83e680-56e7-45c7-a0fd-c654692dd573",
+      "name": "ptyhhsd",
+      "members": [
+        "尤西比奥",
+        "L.菲戈",
+        "C.罗纳尔多"
+      ]
+    },
+    {
+      "id": "6025c0db-0507-470e-8110-b57d46dd272d",
+      "name": "fktl",
+      "members": [
+        "P.卡卢卢",
+        "J.卢库米",
+        "G.维卡里奥"
+      ]
+    },
+    {
+      "id": "fd37ed28-20c6-4ad9-b0f1-b4e309a7079c",
+      "name": "blcx",
+      "members": [
+        "加维",
+        "拉菲尼亚",
+        "F.托雷斯右边锋"
+      ]
+    },
+    {
+      "id": "170d90ac-4f77-4f9f-be9e-293595f14896",
+      "name": "lhqh",
+      "members": [
+        "N.巴雷拉",
+        "L.马丁内斯中锋",
+        "M.图拉姆"
+      ]
+    },
+    {
+      "id": "3db9dfdc-4a1d-4632-ac3c-06d5d7ce828b",
+      "name": "hmbl",
+      "members": [
+        "R.费迪南德",
+        "N.维迪奇",
+        "E.范德萨"
+      ]
+    },
+    {
+      "id": "2f4d6d85-1eba-40c5-b4ce-13b2969d8c3d",
+      "name": "dtns",
+      "members": [
+        "R.费迪南德",
+        "G.内维尔",
+        "A.科尔"
+      ]
+    },
+    {
+      "id": "a6a21f75-1c61-4dd2-bdf4-5dd8e30500cf",
+      "name": "gxjg",
+      "members": [
+        "M.塔雷米",
+        "H.恰尔汗奥卢",
+        "L.马丁内斯中锋"
+      ]
+    },
+    {
+      "id": "369493f9-63bf-452a-ab90-60a62cdcd8a3",
+      "name": "lhfx",
+      "members": [
+        "M.阿瑙托维奇",
+        "L.马丁内斯中锋",
+        "H.姆希塔良"
       ]
     },
     {
@@ -17439,5 +19241,5 @@ window.PitchDefaultData = {
     "restartEvery": 7000,
     "targetLimit": 60
   },
-  "builtInRevision": "2026-11-14"
+  "builtInRevision": "2026-11-19"
 };

@@ -237,6 +237,43 @@ return `<div class="result-card"><div class="result-top"><div><h3>当前找到�
     catch(e){toast(e.message||'计算失败');}
     finally{running=false;render();}
   }
+  async function checkRosterUpdate(button) {
+    if (running) { toast('请等待计算完成后再更新'); return; }
+    const bundled = window.PitchDefaultData;
+    let roster = bundled;
+    let source = '内置资料';
+    button.disabled = true;
+    button.textContent = '正在检查资料…';
+    try {
+      const url = location.protocol === 'file:'
+        ? 'https://ethenone.github.io/pitch-lab/roster-data.json'
+        : './roster-data.json';
+      const response = await fetch(url, { cache: 'no-store', signal: AbortSignal.timeout(5000) });
+      if (!response.ok) throw Error('资料暂时不可用');
+      const online = await response.json();
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(online.builtInRevision) ||
+          !Array.isArray(online.players) || !online.players.length || !Array.isArray(online.combos)) {
+        throw Error('资料格式不正确');
+      }
+      if (online.builtInRevision >= bundled.builtInRevision) {
+        roster = online;
+        source = '在线资料';
+      }
+    } catch {
+      source = '内置资料（暂时无法获取在线资料）';
+    } finally {
+      button.disabled = false;
+      button.textContent = '更新阵容资料';
+    }
+    if (running) { toast('请等待计算完成后再更新'); return; }
+    if (document.querySelector('dialog[open]')) { toast('关闭当前窗口后可重新检查资料'); return; }
+    pendingImport = { players: roster.players, combos: roster.combos };
+    $('#replaceImportBtn').hidden = true;
+    $('#importSummary').textContent = `${source} ${roster.builtInRevision}：${roster.players.length} 个评分版本、${roster.combos.length} 个组合。`;
+    $('#importHelp').textContent = '合并会补充缺少的球员和组合，保留现有评分、国家、候选名单和搜索设置。已删除的条目可能重新加入。';
+    $('#importDialog').showModal();
+  }
+
   document.addEventListener('click',e=>{
     const tab=e.target.closest('.tab');if(tab){setView(tab.dataset.view);return;}
     const action=e.target.closest('[data-action]');
@@ -286,14 +323,7 @@ return `<div class="result-card"><div class="result-top"><div><h3>当前找到�
     if(e.target.id==='closeComboDialog'||e.target.id==='cancelCombo')$('#comboDialog').close();
     if(e.target.id==='closeAlgorithmDialog'||e.target.id==='cancelAlgorithm')$('#algorithmDialog').close();
     if(e.target.id==='closeImportDialog'||e.target.id==='cancelImport')$('#importDialog').close();
-    if(e.target.id==='updateDefaultsBtn'){
-      if(running){toast('请等待计算完成后再更新');return;}
-      pendingImport={players:window.PitchDefaultData.players,combos:window.PitchDefaultData.combos};
-      $('#replaceImportBtn').hidden=true;
-      $('#importSummary').textContent=`内置资料 ${window.PitchDefaultData.builtInRevision||''}：${pendingImport.players.length} 个评分版本、${pendingImport.combos.length} 个组合。`;
-      $('#importHelp').textContent='合并会添加缺少的球员版本、球队、位置和组合，保留现有球员评分、国家、比赛候选和搜索设置。已删除的内置条目可能重新加入。';
-      $('#importDialog').showModal();
-    }
+    if(e.target.id==='updateDefaultsBtn')checkRosterUpdate(e.target);
     if(e.target.id==='replaceImportBtn'&&pendingImport){
       data=hydrate(pendingImport);save();result=null;$('#importDialog').close();render();toast('已替换为上传的资料');
     }
